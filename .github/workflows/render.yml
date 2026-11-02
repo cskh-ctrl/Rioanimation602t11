@@ -1,0 +1,104 @@
+name: Render Rio Animation videos (bo 2)
+
+on:
+  push:
+    branches: [main]
+    paths: ['pipeline/trigger.txt']
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v5
+      - id: m
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # create the 3 big-folder releases + meta (one per big folder) and skip videos that are already uploaded
+          python3 - <<'EOF' > matrix.json
+          import json, subprocess
+          groups = json.load(open('pipeline/groups.json'))
+          have = set()
+          for tag, name in groups:
+              r = subprocess.run(['gh', 'release', 'view', tag, '--json', 'assets', '-q', '.assets[].name'], capture_output=True, text=True)
+              if r.returncode != 0:
+                  subprocess.run(['gh', 'release', 'create', tag, '--title', name, '--notes', f'Thu muc {name}: cac video MP4 + 1 file 00_THONG_TIN_DANG_YOUTUBE.txt.'], check=True, capture_output=True)
+              else:
+                  have |= set(r.stdout.split())
+          if subprocess.run(['gh', 'release', 'view', 'meta'], capture_output=True).returncode != 0:
+              subprocess.run(['gh', 'release', 'create', 'meta', '--title', 'meta (anh bia, phu de, thong tin tung video)', '--notes', 'File phu tro', '--prerelease'], check=True, capture_output=True)
+          only = open('pipeline/trigger.txt').read().split('ONLY:')[-1].strip() if 'ONLY:' in open('pipeline/trigger.txt').read() else ''
+          only = set(only.split(',')) if only else None
+          trig = open('pipeline/trigger.txt').read()
+          force = set(trig.split('FORCE:')[-1].split()[0].split(',')) if 'FORCE:' in trig else set()
+          if force: only = force
+          jobs = [j for j in json.load(open('pipeline/jobs.json')) if (j['name'] + '.mp4' not in have or f"{j['kind']}_{j['n']}" in force) and (only is None or f"{j['kind']}_{j['n']}" in only)]
+          jobs.sort(key=lambda j: j['kind'] != 'long')
+          print(json.dumps({'include': jobs}))
+          EOF
+          echo "matrix=$(cat matrix.json)" >> "$GITHUB_OUTPUT"
+          echo "Jobs to render: $(python3 -c "import json;print(len(json.load(open('matrix.json'))['include']))")"
+
+  render:
+    needs: plan
+    if: ${{ fromJson(needs.plan.outputs.matrix).include[0] != null }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    name: ${{ matrix.group }} / ${{ matrix.name }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: Kokoro voice model (cached)
+        uses: actions/cache@v4
+        with: { path: models, key: kokoro-v1.0 }
+      - name: Setup + render ${{ matrix.kind }} ${{ matrix.n }}
+        run: |
+          set -o pipefail
+          WORKERS=4 bash pipeline/ci.sh ${{ matrix.kind }} ${{ matrix.n }} 2>&1 | tee render.log
+      - name: Upload to release ${{ matrix.group }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in 1 2 3; do gh release upload ${{ matrix.tag }} "dist/${{ matrix.name }}.mp4" --clobber && break; sleep 20; done
+          for i in 1 2 3; do gh release upload meta dist/info_*.txt dist/thumb_*.jpg dist/srt_*.srt --clobber && break; sleep 20; done
+      - name: Upload log on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view logs > /dev/null 2>&1 || gh release create logs --title "logs" --notes "render logs" --prerelease
+          cp render.log "fail_${{ matrix.kind }}_${{ matrix.n }}.log" || echo "no log" > "fail_${{ matrix.kind }}_${{ matrix.n }}.log"
+          gh release upload logs "fail_${{ matrix.kind }}_${{ matrix.n }}.log" --clobber
+      - name: Keep a preview contact sheet on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-${{ matrix.kind }}-${{ matrix.n }}
+          path: studio/projects/*/build/stills
+          retention-days: 3
+
+  collect:
+    needs: [plan, render]
+    if: ${{ always() }}
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - name: Build 1 YouTube info file per big folder
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p meta_dl
+          gh release download meta -D meta_dl -p 'info_*.txt' --clobber || true
+          python3 pipeline/collect.py --src meta_dl --out collected
+          for tag in $(python3 -c "import json;print(' '.join(t for t,_ in json.load(open('pipeline/groups.json'))))"); do
+            gh release upload $tag collected/$tag/00_THONG_TIN_DANG_YOUTUBE.txt --clobber
+          done
