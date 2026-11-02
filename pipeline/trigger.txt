@@ -1,2 +1,2 @@
-run 2 - sample long 1 (animation upgrade)
-ONLY:long_1
+run 3 - sample short 1
+ONLY:short_1
