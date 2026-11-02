@@ -1,1 +1,2 @@
-run 1 - bo 2: 30 long + 60 shorts
+run 2 - sample long 1 (animation upgrade)
+ONLY:long_1

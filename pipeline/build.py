@@ -8,6 +8,7 @@ then one or more shots per sentence with an automatic template (hero, duo, face,
 compare, question, title, end), sets chosen from the script's keywords, music plan, SFX.
 """
 import argparse, json, os, re, shutil, sys, unicodedata
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import numpy as np
 import soundfile as sf
 
@@ -134,7 +135,7 @@ POSE_RULES = [
     ("point", r"\b(look|see|spot|notice|point|there|watch)"), ("think", r"\b(think|wonder|remember|idea|maybe|wonder|calculate|realize)"),
     ("handsOnHead", r"\b(oh no|panic|can't believe|impossible|disaster)"), ("facepalm", r"\b(embarrass|oops|awkward|forgot)"),
     ("shrug", r"\b(maybe|whatever|who knows|not sure|kind of)"), ("sad", r"\b(sad|alone|tired|exhausted|lonely|miss)"),
-    ("sit", r"\b(sit|sits|sitting|seat|couch|chair|desk)"), ("kneel", r"\b(kneel|kneels|beside|bedside|kneeling)"), ("fall", r"\b(fall|falls|collapse|trip|slip)"),
+    ("sit", r"\b(sit|sits|sitting|seat|couch|chair|desk)"), ("kneel", r"\b(kneel|kneels|beside|bedside|kneeling)"), ("fall", r"\b(fall|falls|collapse|trips over|slip)"),
 ]
 
 
@@ -159,7 +160,7 @@ def detect_cast(script, rel=""):
         role = "friend"
         if re.search(r"\bdr\.?\s*" + nm.lower(), rl.lower()) or re.search(r"doctor|scientist|nurse|surgeon", ctx): role = "doctor"
         elif re.search(r"grand|elder|uncle|aunt|old man|old woman", ctx): role = "elder"
-        elif re.search(r"daughter|\bson\b|kid|little|year-old|child|girl|boy|sister|brother", ctx): role = "kid"
+        elif re.search(r"daughter|\bson\b|\bkid\b|little|child|\bgirl\b|\bboy\b|younger", ctx) or re.search(r"\b(two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)-year-old", ctx): role = "kid"
         elif re.search(r"coach|boss|manager|founder|producer|scout|agent|ceo|teacher", ctx): role = "boss"
         cast.append({"name": nm, "role": role})
     for t, role in (("Grandpa", "elder"), ("Grandma", "elder"), ("Mom", "friend"), ("Dad", "friend")):
@@ -214,16 +215,26 @@ def synth(sentences, cache_dir):
 
 
 # ---------------------------------------------------------------- shot planning
+from visual_vocab import props_in, action_in, LOC2, power_of, POWER_ON  # noqa: E402
+ALL_LOC = LOC2 + LOC
+
+
+def loc_of(low):
+    for nme, rx in ALL_LOC:
+        if re.search(rx, low): return nme
+    return None
+
+
 def plan_shots(item, kind, sents, words, cast):
     title = item["title"]
     vertical = kind == "short"
-    full = item["script"]
-    # base location: most frequent location keyword group in the script
-    score = {n: len(re.findall(rx, full.lower())) for n, rx in LOC}
-    ranked = sorted(score, key=lambda k: -score[k])
-    ROT = ["home", "street", "park", "classroom", "cafe", "lab", "stadium", "hospital"]
-    base = ranked[0] if score[ranked[0]] else ROT[item["stt"] % len(ROT)]
-    second = ranked[1] if score[ranked[1]] else ROT[(item["stt"] + 3) % len(ROT)]
+    full = item["script"].lower()
+    power = power_of(title, item.get("knob", ""))
+    score = {n: len(re.findall(rx, full)) for n, rx in ALL_LOC}
+    ranked = [k for k in sorted(score, key=lambda k: -score[k]) if score[k]]
+    ROT = ["home", "city", "park", "office", "cafe", "street", "kitchen", "rooftop", "lab", "classroom"]
+    base = ranked[0] if ranked else ROT[item["stt"] % len(ROT)]
+    second = ranked[1] if len(ranked) > 1 else ROT[(item["stt"] + 3) % len(ROT)]
     loc = base
     names = [c["name"] for c in cast]
     shots = []
@@ -232,23 +243,28 @@ def plan_shots(item, kind, sents, words, cast):
     cta_start = n
     for i in range(n - 1, max(-1, n - 5), -1):
         if re.search(r"subscribe|hit like|comments?|let us know|tell us|drop your", sents[i]["text"], re.I): cta_start = i
+    recent = []   # recent templates, to keep variety
     for i, s in enumerate(sents):
         txt = s["text"]; low = txt.lower(); wc = len(txt.split())
-        # location switch
-        for nme, rx in LOC:
-            if re.search(rx, low):
-                if nme != loc and i - last_switch >= 4: loc = nme; last_switch = i
-                break
+        nl = loc_of(low)
+        if nl and nl != loc and i - last_switch >= 3: loc = nl; last_switch = i
+        elif not nl and i - last_switch >= 8 and i < cta_start:   # long stretch in one place: cut to the second location
+            loc = second if loc == base else base; last_switch = i
         num = find_number(txt)
         sci = None
         for w in re.findall(r"[a-z']+", low):
             if w in SCIENCE: sci = (w, SCIENCE[w]); break
+        props = props_in(txt, 3)
+        toks = re.findall(r"[a-z0-9'-]+", low) or ["x"]
+        act = action_in(txt)
         names_in = [nm for nm in names if re.search(r"\b" + nm + r"\b", txt)]
         vocative = bool(re.search(r"(^|[,!?]\s*)Rio[!?,]|,\s*Rio\b", txt)) or (bool(re.search(r"\b(I|I'm|I'll|I've|I'd|me|my|we|we're|us)\b", txt)) and not re.search(r"\byou\b", low[:12]))
         expr = first_rule(EXPR_RULES, txt, "neutral")
         if txt.endswith("!") and expr == "neutral": expr = "happy"
         if txt.endswith("?") and expr == "neutral": expr = "thinking"
         pose = first_rule(POSE_RULES, txt, None)
+        power_on = bool(power and (re.search(POWER_ON, low) or i % 3 == 0))
+        if power_on and not act: act = {"fly": "fly", "jumpbig": "jump", "water": "walk", "reflex": "look", "aim": "throw", "pitch": "sing", "voice": "talk", "laugh": "laugh", "digest": "eat"}.get(power)
         # template choice
         if i >= cta_start: tpl = "end"
         elif not vertical and not title_done and (re.search(r"\bwhat if\b", low) or i == min(n - 1, 6)):
@@ -257,15 +273,21 @@ def plan_shots(item, kind, sents, words, cast):
         elif num and last_tpl not in ("number",) and (i % 2 == 0 or sci): tpl = "number"
         elif sci and last_tpl not in ("science", "number") and i % 3 != 1: tpl = "science"
         elif (names_in or vocative) and cast: tpl = "duo" if (i % 3 or not vocative) else "face"
+        elif len(props) >= 2 and last_tpl != "props" and i % 2 == 0: tpl = "props"
+        elif act == "think" and props and last_tpl != "think": tpl = "think"
         elif txt.endswith("?") and wc <= 9 and last_tpl != "question": tpl = "question"
-        elif wc <= 5 and last_tpl not in ("face",): tpl = "face"
-        else: tpl = "hero"
-        if tpl == last_tpl and tpl in ("hero",) and i % 2: tpl = "face" if wc < 12 else "hero"
+        elif props and last_tpl not in ("focus", "props") and wc <= 7: tpl = "focus"
+        elif wc <= 4 and last_tpl not in ("face",) and i % 2 == 0: tpl = "face"
+        else: tpl = "act"
         if names_in: last_name = names_in[0]
         friend = last_name
-        speaker = "friend" if (vocative or (names_in and re.match(r"^[A-Z][a-z]+[,!]", txt) is None and '"' in txt)) else "rio"
-        if vocative: speaker = "friend"
-        p = {"tpl": tpl, "loc": loc, "expr": expr, "pose": pose, "seed": i * 7 + 3, "friend": friend, "speaker": speaker}
+        speaker = "friend" if vocative else "rio"
+        st, en = s["start"], s["end"]
+        nxt = sents[i + 1]["start"] if i + 1 < n else en + 0.8
+        dur = nxt - st
+        pr = [{"k": k, "w": w, "at": round(max(0.0, (en - st) * idx / len(toks) - 0.15), 2)} for k, idx, w in props]
+        p = {"tpl": tpl, "loc": loc, "loc2": second if loc == base else base, "expr": expr, "pose": pose, "act": act, "seed": i * 7 + 3, "friend": friend, "speaker": speaker,
+             "props": pr, "power": power, "powerOn": power_on, "kw": [w for _, _, w in props]}
         if tpl == "number": p["num"], p["unit"] = num
         if num: p["numAny"] = list(num)
         if tpl == "science": p["sci"], p["icon"] = sci[0].upper(), sci[1]
@@ -274,25 +296,23 @@ def plan_shots(item, kind, sents, words, cast):
         if vertical and i == 0: p["hook"] = True
         if tpl == "compare":
             val = (num[0] + ("%" if num[1] == "%" else (" " + num[1] if num[1] else ""))) if num else ""
-            # the number in an "average person" sentence describes the average, not Rio
             p["avg"] = val; p["you"] = ""
-        # split long sentences into 2-3 shots so a cut happens every ~2-4 s
-        st, en = s["start"], s["end"]
-        nxt = sents[i + 1]["start"] if i + 1 < n else en + 0.8
-        dur = nxt - st
-        pieces = 1 if tpl in ("title", "end", "number", "compare", "science") and dur < 7 else max(1, int(round(dur / 3.4)))
+        # long sentences: 2-4 different shots so the picture changes every ~2.5-3.5 s
+        pieces = 1 if tpl in ("title", "end", "number", "compare", "science", "props") and dur < 7 else max(1, int(round(dur / (2.2 if vertical else 3.0))))
         pieces = min(pieces, 4)
+        alts = ["act", "focus" if pr else "act", "duo" if cast else "act", "think" if pr else ("face" if i % 3 == 0 else "act")]
         for k in range(pieces):
             a = st + dur * k / pieces; b = st + dur * (k + 1) / pieces
             q = dict(p)
+            q["t0"] = round(a - st, 3)   # where this piece starts inside the sentence (for prop timing)
             if k > 0:
-                alt = ["face", "hero", "duo" if cast else "hero", "hero"][(i + k) % 4]
-                if tpl in ("science", "number", "compare") and dur >= 7: alt = "hero"
-                q["tpl"] = alt if tpl not in ("end",) else "end"
+                alt = alts[(i + k) % len(alts)]
+                if alt == q["tpl"]: alt = "act" if alt != "act" else ("duo" if cast else "focus" if pr else "act")
+                if tpl in ("science", "number", "compare") and dur >= 7: alt = "act"
+                q["tpl"] = alt if tpl != "end" else "end"
                 q["seed"] = p["seed"] + k * 31
             shots.append({"start": a, "end": b, "line": txt, "params": q})
         last_tpl = tpl
-    # contiguous, start at 0
     shots[0]["start"] = 0.0
     for k in range(1, len(shots)): shots[k]["start"] = shots[k - 1]["end"]
     out = []
@@ -301,13 +321,14 @@ def plan_shots(item, kind, sents, words, cast):
         tr = {"type": "cut"}
         if k and q["tpl"] == "title": tr = {"type": "flash", "dur": 0.35}
         elif k and q["tpl"] == "end" and pr["tpl"] != "end": tr = {"type": "dip", "dur": 0.6}
-        elif k and pr and pr["loc"] != q["loc"]: tr = {"type": "dip", "dur": 0.5}
-        elif k and q["tpl"] in ("number", "science", "compare") and k % 3 == 0: tr = {"type": "whip", "dur": 0.3, "dir": 1 if k % 2 else -1}
+        elif k and pr and pr["loc"] != q["loc"]: tr = {"type": "dip", "dur": 0.45}
+        elif k and q["tpl"] in ("number", "science", "compare", "props") and k % 3 == 0: tr = {"type": "whip", "dur": 0.3, "dir": 1 if k % 2 else -1}
         sfx = []
         if q["tpl"] == "title": sfx.append({"at": 0.0, "name": "impact", "gain": -12})
         elif q["tpl"] == "number": sfx.append({"at": 0.15, "name": "counter", "gain": -18})
         elif q["tpl"] == "science": sfx.append({"at": 0.1, "name": "shimmer", "gain": -22})
         elif q["tpl"] == "compare": sfx.append({"at": 0.2, "name": "swish", "gain": -18})
+        elif q["tpl"] in ("props", "focus") : sfx.append({"at": 0.05, "name": "pop" if False else "swish", "gain": -22})
         elif tr["type"] == "whip": sfx.append({"at": 0.0, "name": "whoosh", "gain": -18})
         elif q["tpl"] == "end" and (not pr or pr["tpl"] != "end"): sfx.append({"at": 0.2, "name": "ding", "gain": -16})
         out.append({"id": f"s{k + 1:03d}", "start": round(sh["start"], 3), "end": round(sh["end"], 3), "line": sh["line"], "scene": q["tpl"], "set": q["loc"], "in": tr, "sfx": sfx, "params": q, **({"captions": False} if q["tpl"] == "end" else {})})
@@ -347,7 +368,7 @@ def main():
     styles = ["dusk", "golden", "midnight", "storybook"]
     style = styles[a.n % len(styles)] if not vertical else ["dusk", "golden", "midnight", "neon", "storybook"][a.n % 5]
     cfg = {"title": item["title"], "lang": "en", "aspect": "9:16" if vertical else "16:9", "resolution": "1080p", "fps": 24, "style": style,
-           "voiceover": "input/voice.wav", "duration": total, "captions": vertical, "captionStyle": {"y": 1480, "size": 70, "max": 3},
+           "voiceover": "input/voice.wav", "duration": total, "captions": True, "captionStyle": ({"y": 1480, "size": 70, "max": 3} if vertical else {"y": 985, "size": 50, "max": 6}),
            "bars": "none" if vertical else None, "fadeIn": 0.4, "fadeOut": 0.8, "music": {"enabled": True, "gainDb": -2, "seed": a.n}, "sfx": {"enabled": True, "gainDb": 0}, "loudness": -14,
            "cast": cast, "kind": a.kind, "n": a.n}
     json.dump(cfg, open(os.path.join(P, "config.json"), "w"), indent=1, ensure_ascii=False)
