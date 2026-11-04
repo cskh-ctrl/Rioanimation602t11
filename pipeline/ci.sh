@@ -11,7 +11,7 @@ if [ ! -s models/kokoro-v1.0.onnx ]; then
   for f in kokoro-v1.0.onnx voices-v1.0.bin; do curl -fsSL --retry 3 -o models/$f https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/$f; done
 fi
 ls -la models
-python3 -m pip install -q --break-system-packages kokoro-onnx soundfile numpy scipy
+python3 -m pip install -q --break-system-packages kokoro-onnx soundfile numpy scipy faster-whisper nltk
 (cd studio && npm install --no-audit --no-fund && npx playwright install --with-deps chromium)
 set +x
 WORKERS=${WORKERS:-4} bash pipeline/run_one.sh "$KIND" "$N"

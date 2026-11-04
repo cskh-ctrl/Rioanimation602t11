@@ -42,7 +42,7 @@ def chapters(shots, sents, total):
     if end: marks.append((end, "Your turn"))
     marks = sorted(set(marks)); clean = []
     for m in marks:
-        if not clean or m[0] - clean[-1][0] >= 15: clean.append(m)
+        if (not clean or m[0] - clean[-1][0] >= 15) and m[1] not in [c[1] for c in clean]: clean.append(m)
     return "\n".join(f"{int(t // 60)}:{int(t % 60):02d} {nm}" for t, nm in clean)
 
 
@@ -58,7 +58,9 @@ def main():
     shutil.copy(os.path.join(P, "out", "final.mp4"), os.path.join(a.dest, f"{name}.mp4"))
     sents = json.load(open(os.path.join(P, "timeline", "sentences.json")))
     story = json.load(open(os.path.join(P, "story", "shots.json")))
-    open(os.path.join(a.dest, f"srt_{key}.srt"), "w", encoding="utf-8").write(srt(sents))
+    from captions import srt_from_words  # noqa: E402
+    wj = json.load(open(os.path.join(P, "timeline", "words.json")))["words"]
+    open(os.path.join(a.dest, f"srt_{key}.srt"), "w", encoding="utf-8").write(srt_from_words(wj, sents))
     thumb = os.path.join(P, "build", "thumb.jpg")
     if os.path.exists(thumb): shutil.copy(thumb, os.path.join(a.dest, f"thumb_{key}.jpg"))
     total = story["duration"]
@@ -71,13 +73,13 @@ def main():
                 f"Chapters:\n{chapters(story['shots'], sents, total)}\n\nWhich power should Rio try next? Tell us in the comments!\nSubscribe to Rio Animation for more fascinating videos.\n\n{HASH_LONG}\n\n"
                 f"TAGS:\n{tags}\n\nHASHTAGS:\n{HASH_LONG}\n\n"
                 f"BINH LUAN GHIM (Pinned comment):\nIf you had Rio's power for one day, what is the first thing you would do? \n\n"
-                f"CAI DAT: Not made for kids | Category: Film & Animation | Language: English | Altered/synthetic content: Yes (AI voice)\n")
+                f"CAI DAT: Not made for kids | Category: Film & Animation | Language: English | Altered/synthetic content: No\n")
     else:
         tags = ", ".join(dict.fromkeys(["what if", "shorts", "rio animation", str(item.get('topic', '')).lower(), "science facts", "animation", "did you know"]))
         info = (f"TIEU DE (Title):\n{item['title']} #shorts\n\n"
                 f"MO TA (Description):\n{first}\n\nLearn: {item.get('topic', '')}.\nSubscribe to Rio Animation for more fascinating videos!\n\n{HASH_SHORT}\n\n"
                 f"TAGS:\n{tags}\n\nHASHTAGS:\n{HASH_SHORT}\n\n"
-                f"CAI DAT: Not made for kids | Category: Film & Animation | Language: English | Altered/synthetic content: Yes (AI voice)\n")
+                f"CAI DAT: Not made for kids | Category: Film & Animation | Language: English | Altered/synthetic content: No\n")
     head = f"===== {a.n:02d}. {name}.mp4  (thoi luong {dur}) =====\n\n"
     foot = f"\nANH BIA: thumb_{key}.jpg\nKIEM TRA SO LIEU TRUOC KHI DANG: {item.get('check') or 'khong co'}\n\n\n"
     open(os.path.join(a.dest, f"info_{key}.txt"), "w", encoding="utf-8").write(head + info + foot)

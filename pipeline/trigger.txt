@@ -1,2 +1,2 @@
-Run 4 - long 2-5
-ONLY:long_2,long_3,long_4,long_5
+Run 5 - subtitle fix, long 1-5
+FORCE:long_1,long_2,long_3,long_4,long_5

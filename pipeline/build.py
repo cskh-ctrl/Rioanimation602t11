@@ -32,7 +32,8 @@ def folder_name(kind, n, title):
 def split_sentences(text):
     t = re.sub(r"\s+", " ", text.strip())
     t = t.replace("...", "…")
-    parts = re.split(r"(?<=[.!?])\s+(?=[A-Z0-9\"'])", t)
+    t = re.sub(r"\b(Mr|Mrs|Ms|Dr|St|Jr|Sr|Prof|Mt)\.\s", r"\1<DOT> ", t)
+    parts = [x.replace("<DOT>", ".") for x in re.split(r"(?<=[.!?])\s+(?=[A-Z0-9\"'])", t)]
     out = []
     for p in parts:
         p = p.replace("…", "...").strip()
@@ -359,6 +360,9 @@ def main():
     audio, words, sinfo = synth([s for s in sents], os.path.join(P, "build", "tts"))
     sf.write(os.path.join(P, "input", "voice.wav"), audio, SR)
     total = round(len(audio) / SR, 3)
+    from captions import refine_words, phrase_groups  # noqa: E402
+    words = refine_words(os.path.join(P, "input", "voice.wav"), words, sinfo)
+    phrase_groups(words, sinfo, *((3, 20) if a.kind == "short" else (6, 34)))
     json.dump({"words": words}, open(os.path.join(P, "timeline", "words.json"), "w"), indent=0)
     json.dump(sinfo, open(os.path.join(P, "timeline", "sentences.json"), "w"), indent=1)
     cast = detect_cast(item["script"], item.get("rel", ""))
