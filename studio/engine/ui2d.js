@@ -81,11 +81,16 @@ export function endScreen(g, t, o = {}) {
 }
 // Word-level captions (great for 9:16). Shows a 3–4 word phrase, current word highlighted.
 export function captions(g, globalT, o = {}) {
+  // Stable captions: fixed size and baseline, no per-word scaling (highlight by colour only),
+  // phrase stays on screen through short pauses so it never flickers.
   const words = E.words; if (!words.length) return; const { y = V(E.H - 150, E.H * 0.79), size = V(58, 74), max = 4, color = '#ffffff', hi = S().ui.gold } = o;
-  let i = -1; for (let k = words.length - 1; k >= 0; k--) if (globalT >= words[k].start - 0.05) { if (globalT <= words[k].end + 0.35) i = k; break; } if (i < 0) return;
-  let st, group; if (words[i].g !== undefined) { const gid = words[i].g; st = i; while (st > 0 && words[st - 1].g === gid) st--; let en = i; while (en + 1 < words.length && words[en + 1].g === gid) en++; group = words.slice(st, en + 1); } else { st = Math.floor(i / max) * max; group = words.slice(st, st + max); } const strs = group.map(w => w.word.trim().toUpperCase());
-  const w0 = strs.map(s => measure(g, s, size)).reduce((a, b) => a + b, 0) + size * 0.3 * (strs.length - 1);
-  const sz = size * Math.min(1, (E.W * 0.88) / w0);   // shrink long phrases to fit the frame
-  const gap = sz * 0.3, widths = strs.map(s => measure(g, s, sz)), total = widths.reduce((a, b) => a + b, 0) + gap * (strs.length - 1);
-  let x = E.W / 2 - total / 2; strs.forEach((s, k) => { const cur = st + k === i; const pop = cur ? 1 + 0.08 * ease.out(prog(globalT, group[k].start, group[k].start + 0.12)) : 1; g.save(); g.translate(x + widths[k] / 2, y); g.scale(pop, pop); text(g, s, 0, 0, { size: sz, color: cur ? hi : color, stroke: sz * 0.16, strokeColor: 'rgba(0,0,0,.85)' }); g.restore(); x += widths[k] + gap; });
+  let i = -1; for (let k = words.length - 1; k >= 0; k--) if (globalT >= words[k].start - 0.05) { const nx = words[k + 1]; const hold = nx ? Math.min(nx.start - 0.02, words[k].end + 0.9) : words[k].end + 0.6; if (globalT <= Math.max(hold, words[k].end + 0.25)) i = k; break; } if (i < 0) return;
+  let st, group; if (words[i].g !== undefined) { const gid = words[i].g; st = i; while (st > 0 && words[st - 1].g === gid) st--; let en = i; while (en + 1 < words.length && words[en + 1].g === gid) en++; group = words.slice(st, en + 1); } else { st = Math.floor(i / max) * max; group = words.slice(st, st + max); }
+  const strs = group.map(w => w.word.trim().toUpperCase());
+  const sp = measure(g, ' ', size) || size * 0.28; const gap = Math.max(sp * 1.4, size * 0.38);
+  let widths = strs.map(s => measure(g, s, size)); let total = widths.reduce((a, b) => a + b, 0) + gap * (strs.length - 1);
+  const sz = total > E.W * 0.9 ? size * (E.W * 0.9) / total : size;   // shrink only if it would not fit
+  if (sz !== size) { widths = strs.map(s => measure(g, s, sz)); total = widths.reduce((a, b) => a + b, 0) + gap * (sz / size) * (strs.length - 1); }
+  const gp = gap * (sz / size);
+  let x = E.W / 2 - total / 2; strs.forEach((s, k) => { const cur = st + k === i && globalT <= group[k].end + 0.25; text(g, s, x + widths[k] / 2, y, { size: sz, color: cur ? hi : color, stroke: sz * 0.16, strokeColor: 'rgba(0,0,0,.85)' }); x += widths[k] + gp; });
 }

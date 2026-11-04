@@ -226,7 +226,7 @@ def srt_from_words(words, sents):
         if not ws: continue
         toks = [w["word"] for w in ws]
         for h0, h1 in _hard_parts(toks):
-            for a, b in _split_sentence(toks[h0:h1], 16, 80):
+            for a, b in _split_sentence(toks[h0:h1], 9, 42):
                 a += h0; b += h0
                 st, en = ws[a]["start"], ws[b - 1]["end"]
                 cues.append([st, max(en, st + 0.7), " ".join(toks[a:b])])
@@ -234,4 +234,4 @@ def srt_from_words(words, sents):
     for k in range(len(cues)):
         nxt = cues[k + 1][0] if k + 1 < len(cues) else 9e9
         cues[k][1] = min(max(cues[k][1] + 0.15, cues[k][0] + 1.0), nxt - 0.04)
-    return "\n".join(f"{k + 1}\n{_ts(a)} --> {_ts(b)}\n{_two_lines(t)}\n" for k, (a, b, t) in enumerate(cues))
+    return "\n".join(f"{k + 1}\n{_ts(a)} --> {_ts(b)}\n{t}\n" for k, (a, b, t) in enumerate(cues))
