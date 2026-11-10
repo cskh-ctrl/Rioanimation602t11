@@ -1,2 +1,2 @@
-Doraemon set - videos 32-34 (hand-directed storyboards)
-ONLY:long_32,long_33,long_34
+Doraemon set - video 35 (hand-directed storyboard)
+ONLY:long_35

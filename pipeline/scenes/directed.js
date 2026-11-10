@@ -222,14 +222,14 @@ function sea(g, x, y, o, p, t) {   // dark sea surface covering the lower screen
   if (o.rip) for (let k = 0; k < 4; k++) { const q = (t * 0.6 + k / 4) % 1, ax = o.rip * E.W, ay = top + 260 - q * 220; seg(g, [[ax, ay + 40], [ax, ay], [ax - 14, ay + 16]], 5, alpha('#ff8a6a', 1 - q)); seg(g, [[ax, ay], [ax + 14, ay + 16]], 5, alpha('#ff8a6a', 1 - q)); }
 }
 function robot(g, x, y, o, p, t) {  // Mini: a 25 cm blue robot (our own design: round head, antenna, one bell)
-  const s = M_(0.25) / 100, hop = o.hop ? Math.abs(Math.sin(t * 8)) * 12 : 0, wave = o.wave ? Math.sin(t * 10) * 0.6 : 0;
+  const s = M_(o.size || 0.3) / 100, hop = o.hop ? Math.abs(Math.sin(t * 8)) * 12 : 0, wave = o.wave ? Math.sin(t * 10) * 0.6 : 0;
   g.save(); g.translate(x, y - M_(o.up || 0) - hop); g.scale(s, s);
   rr(g, -26, -60, 52, 50, 14); g.fillStyle = '#3a8ae0'; g.fill(); seg(g, [[-12, -10], [-14, 0]], 10, '#2a5aa0'); seg(g, [[12, -10], [14, 0]], 10, '#2a5aa0');
   g.save(); g.translate(26, -48); g.rotate(-0.4 + wave); seg(g, [[0, 0], [16, -18]], 8, '#3a8ae0'); g.restore(); seg(g, [[-26, -48], [-40, -30]], 8, '#3a8ae0');
   circle(g, 0, -86, 34, '#3a8ae0'); circle(g, 0, -80, 26, '#f4f4f8'); circle(g, -10, -88, 7, '#1a1a22'); circle(g, 10, -88, 7, '#1a1a22'); g.strokeStyle = '#1a1a22'; g.lineWidth = 3; g.beginPath(); g.arc(0, -76, 8, 0.3, Math.PI - 0.3); g.stroke();
   seg(g, [[0, -120], [0, -136]], 3, '#555'); circle(g, 0, -140, 6, o.alert ? (Math.sin(t * 20) > 0 ? '#ff3a3a' : '#7a1a1a') : '#ffd24a'); circle(g, 0, -56, 6, '#f2c21a');
-  if (o.say) { rr(g, 30, -180, 160, 50, 10); g.fillStyle = '#fff'; g.fill(); text(g, o.say, 110, -155, { size: 22, color: '#1a1a22', font: FONTS.ui, weight: 900 }); }
   g.restore();
+  if (o.say) { const bx = x + 30, by = y - M_(o.up || 0) - hop - M_(0.35) - 70, w = Math.max(160, o.say.length * 17 + 30); rr(g, bx, by, w, 54, 12); g.fillStyle = '#fff'; g.fill(); poly(g, [[bx + 14, by + 54], [bx + 34, by + 54], [bx + 6, by + 78]], '#fff'); text(g, o.say, bx + w / 2, by + 28, { size: 26, color: '#1a1a22', font: FONTS.ui, weight: 900 }); }
 }
 function glassWall(g, x, y) { g.fillStyle = 'rgba(180,220,255,.18)'; g.fillRect(x - 6, y - M_(2.8), 12, M_(2.8)); seg(g, [[x, y - M_(2.8)], [x, y]], 3, 'rgba(220,240,255,.6)'); }
 function stage(g, x, y, o, p, t) { const w = M_(o.w || 8); g.fillStyle = '#2a1a3a'; g.fillRect(x - w / 2, y - M_(0.9), w, M_(0.9)); g.fillStyle = '#4a2a5a'; g.fillRect(x - w / 2, y - M_(0.9) - 10, w, 12); FX.lightCone(g, x, y - M_(6), { angle: Math.PI / 2, spread: 0.18, len: M_(6), color: '#fff3d0', a: 0.18 }); }
@@ -242,7 +242,13 @@ function shopFront(g, x, y, o) { const w = M_(4); g.fillStyle = o.color || '#3a2
 function stairs(g, x, y) { for (let k = 0; k < 8; k++) { g.fillStyle = k % 2 ? '#8a6a5a' : '#7a5a4a'; g.fillRect(x + k * M_(0.28), y - (k + 1) * M_(0.18), M_(2.4) - k * M_(0.28), M_(0.18)); } seg(g, [[x, y - M_(0.9)], [x + 8 * M_(0.28), y - M_(0.9) - 8 * M_(0.18)]], 6, '#3a2a2a'); }
 function ship(g, x, y, o, p, t) { const w = M_(o.len || 20) * (o.sc || 0.25), b = Math.sin(t) * 4; g.save(); g.translate(x, y + b); poly(g, [[-w / 2, -w * 0.08], [w / 2, -w * 0.08], [w * 0.42, w * 0.06], [-w * 0.45, w * 0.06]], '#3a4a6a'); for (let k = 0; k < 7; k++) { g.fillStyle = ['#e0443a', '#3aa876', '#f2c21a', '#3a8ad0'][k % 4]; g.fillRect(-w * 0.4 + k * w * 0.1, -w * 0.18, w * 0.09, w * 0.1); } g.fillStyle = '#f2efe8'; g.fillRect(w * 0.3, -w * 0.28, w * 0.12, w * 0.2); g.restore(); }
 function cards(g, x, y) { for (let k = 0; k < 5; k++) { g.save(); g.translate(x - 60 + k * 30, y - M_(0.78)); g.rotate((k - 2) * 0.15); rr(g, -14, -22, 28, 40, 4); g.fillStyle = '#f4f4f8'; g.fill(); circle(g, 0, -2, 6, k % 2 ? '#e0443a' : '#1a1a22'); g.restore(); } }
-const ITEMS = { jet, puddle, stall, shop: shopFront, stairs, ship, cards, door: pinkDoor, alarm, bed, blanket, sink, counter, desk, sign, prop: propItem, house, chime, water, car, booth, table, dish, kite, float, sea, robot, glass: glassWall, stage, fridge, paper };
+function fence(g, x, y, o, p, t) {   // garden fence 1 m high with a gate that can swing (o.open keyframes)
+  for (let X = x - M_(3); X < x + M_(3); X += 34) if (Math.abs(X - x) > M_(0.5)) { g.fillStyle = '#f2ece0'; g.fillRect(X, y - M_(1.0), 18, M_(1.0)); poly(g, [[X, y - M_(1.0)], [X + 9, y - M_(1.08)], [X + 18, y - M_(1.0)]], '#f2ece0'); }
+  seg(g, [[x - M_(3), y - M_(0.7)], [x + M_(3), y - M_(0.7)]], 6, '#e0d8c8'); const op = track(o.open, p, 0); g.save(); g.translate(x - M_(0.5), 0); g.scale(1 - op * 0.8, 1); for (let k = 0; k < 5; k++) { g.fillStyle = '#d8ccb8'; g.fillRect(k * M_(0.2) + 4, y - M_(1.0), 16, M_(1.0)); } seg(g, [[0, y - M_(0.7)], [M_(1.0), y - M_(0.7)]], 6, '#c8bca8'); g.restore();
+  for (let k = 0; k < 5; k++) { const tx = x + M_(1.2) + k * 60; seg(g, [[tx, y], [tx, y - 60]], 3, '#3a7a3a'); circle(g, tx, y - 66, 10, '#e0443a'); }
+}
+function bankDesk(g, x, y) { FX.counter(g, { x: x - M_(1.2), y, w: M_(2.4), h: M_(1.1), color: '#4a5a6a', top: '#c8d0d8', doors: 3 }); rr(g, x - 90, y - M_(2.6), 180, 50, 8); g.fillStyle = '#2a4a7a'; g.fill(); text(g, 'BANK', x, y - M_(2.6) + 25, { size: 30, color: '#fff', font: FONTS.ui, weight: 900 }); }
+const ITEMS = { fence, bank: bankDesk, jet, puddle, stall, shop: shopFront, stairs, ship, cards, door: pinkDoor, alarm, bed, blanket, sink, counter, desk, sign, prop: propItem, house, chime, water, car, booth, table, dish, kite, float, sea, robot, glass: glassWall, stage, fridge, paper };
 
 // held objects, drawn in pose units (1 m = 134) right at the hand --------------------
 function heldItem(g, k, h, p, o = {}) {

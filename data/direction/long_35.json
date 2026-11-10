@@ -1,0 +1,5205 @@
+[
+{
+"lines": [
+0,
+1,
+2
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.433,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 41
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.42
+},
+{
+"k": "robot",
+"x": 0.36,
+"up": 0.62
+}
+],
+"extra": [
+{
+"k": "blanket",
+"x": 0.42
+}
+],
+"cam": {
+"z": [
+1.7,
+1.75
+],
+"x": [
+-160,
+-160
+],
+"y": [
+150,
+150
+]
+},
+"text": [
+{
+"s": "\"GOOD MORNING, RIO\"",
+"x": 0.4,
+"y": 0.2,
+"at": "@2",
+"size": 50
+}
+],
+"wall": "#b8b0d0",
+"wall2": "#5a5a80",
+"room": {
+"window": 1250,
+"sky": "golden"
+}
+},
+{
+"lines": [
+3,
+4,
+5
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.433,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 41
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.42
+},
+{
+"k": "robot",
+"x": 0.36,
+"up": 0.62,
+"say": ""
+}
+],
+"extra": [
+{
+"k": "blanket",
+"x": 0.42
+}
+],
+"cam": {
+"z": [
+1.7,
+1.75
+],
+"x": [
+-160,
+-160
+],
+"y": [
+150,
+150
+]
+},
+"props": [
+{
+"k": "coffee",
+"x": 0.62,
+"y": 0.3,
+"r": 40,
+"at": 0.05,
+"disc": true
+},
+{
+"k": "shirt",
+"x": 0.72,
+"y": 0.3,
+"r": 40,
+"at": "@1",
+"disc": true
+},
+{
+"k": "contract",
+"x": 0.82,
+"y": 0.3,
+"r": 40,
+"at": "@2",
+"disc": true
+}
+],
+"wall": "#b8b0d0",
+"wall2": "#5a5a80",
+"room": {
+"window": 1250,
+"sky": "golden"
+}
+},
+{
+"lines": [
+6,
+7,
+8,
+9,
+10,
+11
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.433,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+],
+[
+"@0.5",
+"surprised"
+]
+],
+"rot": -1.5708,
+"dy": 41
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.42
+},
+{
+"k": "robot",
+"x": 0.36,
+"up": 0.62,
+"wave": true
+}
+],
+"extra": [
+{
+"k": "blanket",
+"x": 0.42
+}
+],
+"cam": {
+"z": [
+2.2,
+2.4
+],
+"x": [
+-260,
+-270
+],
+"y": [
+220,
+230
+]
+},
+"text": [
+{
+"s": "THE SIZE OF A COFFEE MUG",
+"x": 0.5,
+"y": 0.18,
+"at": "@2",
+"size": 46
+}
+]
+},
+{
+"lines": [
+12,
+13
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.3
+},
+{
+"k": "robot",
+"x": 0.25,
+"up": 0.62
+}
+],
+"text": [
+{
+"s": "WAIT... WHAT TAXES?",
+"x": 0.55,
+"y": 0.18,
+"at": "@1",
+"size": 56
+}
+],
+"wall": "#b8b0d0",
+"wall2": "#5a5a80",
+"room": {
+"window": 1250,
+"sky": "golden"
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+-216,
+-216
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+14,
+15,
+16,
+17,
+18
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"dy": -8
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.66,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.54,
+"w": 1.4,
+"front": true
+},
+{
+"k": "prop",
+"p": "flower",
+"x": 0.8,
+"size": 0.5,
+"up": 0.75
+}
+],
+"card": {
+"big": "RIO, 31",
+"small": "an app company at the kitchen table",
+"at": 0.05,
+"y": 0.14,
+"w": 720
+},
+"text": [
+{
+"s": "3 EMPLOYEES. 1 PLANT. 0 SLEEP.",
+"x": 0.5,
+"y": 0.28,
+"at": "@3",
+"size": 46
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+19,
+20
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.6,
+"w": 0.8
+},
+{
+"k": "robot",
+"x": 0.6,
+"up": 0.75,
+"wave": true,
+"say": "I'M MINI"
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+14,
+14
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+21,
+22,
+23
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.5,
+"up": 0.0,
+"hop": true
+},
+{
+"k": "prop",
+"p": "bike",
+"x": 0.7,
+"size": 1.0,
+"up": 0.0
+}
+],
+"props": [
+{
+"k": "pizza",
+"x": 0.45,
+"y": 0.55,
+"r": 30,
+"at": 0.05,
+"disc": true
+},
+{
+"k": "sparkles",
+"x": 0.55,
+"y": 0.55,
+"r": 30,
+"at": "@0.4",
+"disc": true
+},
+{
+"k": "laptop",
+"x": 0.62,
+"y": 0.55,
+"r": 30,
+"at": "@0.7",
+"disc": true
+},
+{
+"k": "wrench",
+"x": 0.7,
+"y": 0.4,
+"r": 30,
+"at": "@1",
+"disc": true
+},
+{
+"k": "phone",
+"x": 0.5,
+"y": 0.4,
+"r": 30,
+"at": "@2",
+"disc": true
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+-144,
+-144
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+24,
+25,
+26,
+27,
+28,
+29
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.38,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@2",
+"think"
+],
+[
+"@4",
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@2",
+"thinking"
+],
+[
+"@4",
+"smirk"
+]
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.55,
+"up": 0.0
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "NEVER SLEEPS. NEVER COMPLAINS.",
+"x": 0.5,
+"y": 0.15,
+"at": 0.05,
+"size": 48
+},
+{
+"s": "WHERE DID IT COME FROM?",
+"x": 0.5,
+"y": 0.26,
+"at": "@2",
+"size": 44
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+-50,
+-50
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+30,
+31,
+32,
+33
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"pointUp"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.6,
+"up": 0.0
+}
+],
+"card": {
+"big": "ONE RULE",
+"small": "it does exactly what you say... word for word",
+"at": "@1",
+"w": 860
+},
+"text": [
+{
+"s": "NOT WHAT YOU MEAN",
+"x": 0.5,
+"y": 0.42,
+"at": "@3",
+"size": 50
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+0,
+0
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+34
+],
+"set": "room",
+"actors": [],
+"items": [],
+"tpl": "title",
+"params": {
+"title": "What If You Had A Tiny Robot Assistant?"
+}
+},
+{
+"lines": [
+35,
+36,
+37
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.38,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@2",
+1
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.58,
+"up": 0.69
+}
+],
+"card": {
+"big": "DAY ONE",
+"small": null,
+"at": 0.03,
+"x": 0.2,
+"y": 0.14
+},
+"text": [
+{
+"s": "\"MINI, MAKE ME A SANDWICH\"",
+"x": 0.5,
+"y": 0.25,
+"at": "@2",
+"size": 50
+}
+],
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+-29,
+-29
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+38,
+39,
+40,
+41
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.38,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@3",
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.58,
+"up": 0.69,
+"say": "YOU ARE A SANDWICH"
+}
+],
+"props": [
+{
+"k": "burger",
+"x": 0.68,
+"y": 0.45,
+"r": 40,
+"at": "@1",
+"disc": true
+}
+],
+"cam": {
+"z": [
+1.4,
+1.5
+],
+"x": [
+60,
+60
+],
+"y": [
+0,
+0
+]
+}
+},
+{
+"lines": [
+42,
+43,
+44,
+45,
+46
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.38,
+"pose": [
+[
+0,
+"facepalm"
+],
+[
+"@3",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+],
+[
+"@3",
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.58,
+"up": 0.69
+}
+],
+"text": [
+{
+"s": "BAD JOKE",
+"x": 0.5,
+"y": 0.18,
+"at": 0.05
+},
+{
+"s": "BE CAREFUL WITH YOUR WORDS",
+"x": 0.5,
+"y": 0.3,
+"at": "@4",
+"size": 50
+}
+],
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+-29,
+-29
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+47,
+48
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@1",
+1
+],
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.54,
+"w": 1.4,
+"front": true
+},
+{
+"k": "robot",
+"x": 0.6,
+"up": 0.75
+}
+],
+"card": {
+"big": "DAY TWO",
+"small": null,
+"at": 0.03,
+"x": 0.2,
+"y": 0.14
+},
+"text": [
+{
+"s": "\"MINI, CLEAN MY INBOX\"",
+"x": 0.5,
+"y": 0.25,
+"at": "@1",
+"size": 50
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+14,
+14
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+49,
+50,
+51,
+52
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@0.5",
+"shocked"
+]
+],
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.54,
+"w": 1.4,
+"front": true
+},
+{
+"k": "robot",
+"x": 0.6,
+"up": 0.75,
+"say": "INBOX CLEAN!"
+}
+],
+"card": {
+"big": "4,000 EMAILS",
+"small": "gone... including your biggest client",
+"at": 0.1,
+"w": 720,
+"y": 0.14
+},
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+14,
+14
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+53,
+54,
+55
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.54,
+"w": 1.4,
+"front": true
+},
+{
+"k": "robot",
+"x": 0.6,
+"up": 0.75
+}
+],
+"text": [
+{
+"s": "SAY EXACTLY WHAT YOU MEAN",
+"x": 0.5,
+"y": 0.18,
+"at": "@1",
+"size": 50
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+14,
+14
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+56,
+57,
+58
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@1.6",
+"shocked"
+]
+],
+"talk": [
+"@1",
+"@2.5"
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.6,
+"up": 0.0
+}
+],
+"card": {
+"big": "DAY THREE",
+"small": null,
+"at": 0.03,
+"x": 0.2,
+"y": 0.14
+},
+"text": [
+{
+"s": "\"FIVE COFFEES\"... WAIT. NO.",
+"x": 0.5,
+"y": 0.25,
+"at": "@1",
+"size": 46
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+0,
+0
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+59,
+60,
+61,
+62
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.34,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "cup"
+},
+"dy": -8
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.5,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"dy": -8
+},
+{
+"id": "mia",
+"who": "mia",
+"x": 0.66,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1,
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 2.2,
+"front": true
+},
+{
+"k": "robot",
+"x": 0.5,
+"up": 0.75
+}
+],
+"props": [
+{
+"k": "coffee",
+"x": 0.4,
+"y": 0.42,
+"r": 30,
+"at": 0.02,
+"disc": true
+},
+{
+"k": "coffee",
+"x": 0.46,
+"y": 0.4,
+"r": 30,
+"at": 0.08,
+"disc": true
+},
+{
+"k": "coffee",
+"x": 0.52,
+"y": 0.42,
+"r": 30,
+"at": 0.14,
+"disc": true
+},
+{
+"k": "coffee",
+"x": 0.58,
+"y": 0.4,
+"r": 30,
+"at": 0.2,
+"disc": true
+},
+{
+"k": "coffee",
+"x": 0.64,
+"y": 0.42,
+"r": 30,
+"at": 0.26,
+"disc": true
+}
+],
+"text": [
+{
+"s": "PRODUCTIVITY? THROUGH THE ROOF",
+"x": 0.5,
+"y": 0.18,
+"at": "@1",
+"size": 46
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+0,
+0
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+63,
+64,
+65,
+66,
+67,
+68
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"rot": -1.5708,
+"dy": 136,
+"zzz": true
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.68,
+"w": 1.0
+},
+{
+"k": "robot",
+"x": 0.68,
+"up": 0.75,
+"hop": true
+}
+],
+"fx": [
+"night"
+],
+"card": {
+"big": "DAY FIVE",
+"small": "calls, emails, meetings, reports",
+"at": 0.03,
+"y": 0.14,
+"w": 640
+},
+"props": [
+{
+"k": "phone",
+"x": 0.6,
+"y": 0.4,
+"r": 30,
+"at": "@2",
+"disc": true
+},
+{
+"k": "letter",
+"x": 0.68,
+"y": 0.36,
+"r": 30,
+"at": "@3",
+"disc": true
+},
+{
+"k": "calendar",
+"x": 0.76,
+"y": 0.4,
+"r": 30,
+"at": "@4",
+"disc": true
+},
+{
+"k": "chart",
+"x": 0.84,
+"y": 0.36,
+"r": 30,
+"at": "@5",
+"disc": true
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+-14,
+-14
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+69,
+70,
+71,
+72
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.433,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"rot": -1.5708,
+"dy": 41,
+"zzz": true
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.42
+}
+],
+"extra": [
+{
+"k": "blanket",
+"x": 0.42
+}
+],
+"card": {
+"big": "8 HOURS OF SLEEP",
+"small": "adults need at least 7",
+"at": 0.05,
+"y": 0.14,
+"w": 620
+},
+"fx": [
+"night"
+],
+"wall": "#b8b0d0",
+"wall2": "#5a5a80",
+"room": {
+"window": 1250,
+"sky": "golden"
+}
+},
+{
+"lines": [
+73,
+74,
+75,
+76,
+77
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@1",
+"@1.9"
+],
+"dy": -8
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1,
+"talk": [
+"@2",
+"@2.9"
+],
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.4,
+"front": true
+}
+],
+"text": [
+{
+"s": "\"DID YOU GO ON VACATION?\"",
+"x": 0.55,
+"y": 0.18,
+"at": "@2",
+"size": 50
+},
+{
+"s": "YOU JUST SLEPT",
+"x": 0.5,
+"y": 0.3,
+"at": "@4",
+"size": 50
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+78,
+79,
+80
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"dy": -8
+},
+{
+"id": "sam",
+"who": "sam",
+"x": [
+[
+0,
+0.8
+],
+[
+"@2",
+0.64
+]
+],
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.4,
+"front": true
+},
+{
+"k": "robot",
+"x": 0.58,
+"up": 0.0,
+"wave": true,
+"say": "BLOCKED"
+}
+],
+"card": {
+"big": "DAY EIGHT",
+"small": null,
+"at": 0.03,
+"x": 0.2,
+"y": 0.14
+},
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+0,
+0
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+81,
+82,
+83,
+84
+],
+"set": "room",
+"actors": [],
+"items": [],
+"card": {
+"big": "20+ MINUTES",
+"small": "to fully refocus after an interruption (UC Irvine)",
+"at": "@1",
+"w": 880
+},
+"props": [
+{
+"k": "clock",
+"x": 0.5,
+"y": 0.6,
+"r": 80,
+"at": "@1.5",
+"disc": true
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+85,
+86
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.54,
+"w": 1.4,
+"front": true
+},
+{
+"k": "robot",
+"x": 0.62,
+"up": 0.75
+}
+],
+"props": [
+{
+"k": "chart",
+"x": 0.72,
+"y": 0.35,
+"r": 60,
+"at": "@1",
+"disc": true
+}
+],
+"text": [
+{
+"s": "WHOLE HOURS BACK",
+"x": 0.5,
+"y": 0.18,
+"at": 0.05,
+"size": 56
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+29,
+29
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+87,
+88,
+89,
+90
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.6,
+"up": 0.0,
+"hop": true
+}
+],
+"card": {
+"big": "2,000,000 DOWNLOADS",
+"small": "in three days",
+"at": "@1",
+"w": 760,
+"y": 0.14
+},
+"props": [
+{
+"k": "phone",
+"x": 0.75,
+"y": 0.42,
+"r": 50,
+"at": "@3",
+"disc": true
+},
+{
+"k": "bell",
+"x": 0.82,
+"y": 0.32,
+"r": 30,
+"at": "@3.3",
+"disc": true
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+14,
+14
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+91,
+92,
+93,
+94
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "victoria",
+"label": "VICTORIA LANE",
+"talk": true,
+"at": "@1"
+},
+"card": {
+"big": "$10,000,000",
+"small": null,
+"at": "@3",
+"x": 0.35,
+"y": 0.15
+},
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+95,
+96,
+97,
+98,
+99
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "victoria",
+"label": "VICTORIA LANE",
+"talk": true,
+"at": 0
+},
+"card": {
+"big": "FRIDAY, 10 AM",
+"small": "she flies to London at noon",
+"at": 0.05,
+"x": 0.35,
+"y": 0.15,
+"w": 620
+},
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+100,
+101,
+102,
+103
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"handsOnHead"
+],
+[
+"@3",
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"awe"
+],
+[
+"@3",
+"smirk"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "flower",
+"x": 0.68,
+"size": 0.5,
+"up": 0.0
+}
+],
+"text": [
+{
+"s": "TO YOU?",
+"x": 0.5,
+"y": 0.18,
+"at": "@2"
+},
+{
+"s": "THE GUY WITH ONE PLANT?",
+"x": 0.5,
+"y": 0.3,
+"at": "@3",
+"size": 50
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+104,
+105,
+106,
+107
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+0,
+1
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.62,
+"up": 0.0,
+"wave": true
+}
+],
+"props": [
+{
+"k": "hourglass",
+"x": 0.66,
+"y": 0.42,
+"r": 40,
+"at": "@2",
+"disc": true
+}
+],
+"text": [
+{
+"s": "PRACTICE. PRACTICE.",
+"x": 0.5,
+"y": 0.18,
+"at": 0.05,
+"size": 56
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+29,
+29
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+108,
+109,
+110,
+111,
+112
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.6,
+"up": 0.0,
+"say": "I'LL TELL YOU"
+}
+],
+"thought": {
+"props": [
+"phone",
+"house",
+"cake"
+],
+"x": 0.3,
+"y": 0.25,
+"at": "@1",
+"cross": true
+},
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+14,
+14
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+113,
+114,
+115,
+116
+],
+"set": "room",
+"actors": [],
+"items": [],
+"card": {
+"big": "2011",
+"small": "Betsy Sparrow's study: we remember less when a computer saves it",
+"at": 0.05,
+"w": 940,
+"size": 72
+},
+"props": [
+{
+"k": "brain",
+"x": 0.35,
+"y": 0.6,
+"r": 70,
+"at": "@1",
+"disc": true
+},
+{
+"k": "laptop",
+"x": 0.65,
+"y": 0.6,
+"r": 70,
+"at": "@1.3",
+"disc": true
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+117,
+118,
+119
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.58,
+"up": 0.0
+}
+],
+"text": [
+{
+"s": "MINI THINKS FOR YOU",
+"x": 0.5,
+"y": 0.18,
+"at": "@2",
+"size": 56
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+0,
+0
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+120,
+121
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.6,
+"up": 0.0
+}
+],
+"props": [
+{
+"k": "phone",
+"x": 0.65,
+"y": 0.4,
+"r": 50,
+"at": "@1",
+"disc": true
+}
+],
+"text": [
+{
+"s": "IT CALLS YOUR DAD",
+"x": 0.5,
+"y": 0.18,
+"at": "@1",
+"size": 56
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+0,
+0
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+122,
+123,
+124
+],
+"set": "town",
+"actors": [
+{
+"id": "frank",
+"who": "frank",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "fence",
+"x": 0.45
+}
+],
+"card": {
+"big": "FRANK",
+"small": "lives alone, 500 km away",
+"at": 0.05,
+"y": 0.14
+}
+},
+{
+"lines": [
+125,
+126,
+127,
+128,
+129
+],
+"set": "town",
+"actors": [
+{
+"id": "frank",
+"who": "frank",
+"x": 0.55,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"hold": {
+"k": "phone"
+},
+"talk": [
+"@1",
+1
+]
+}
+],
+"items": [
+{
+"k": "fence",
+"x": 0.35
+}
+],
+"inset": {
+"who": "rio",
+"label": "RIO",
+"at": 0,
+"x": 0.2
+},
+"text": [
+{
+"s": "EVERY SUNDAY: TOMATOES",
+"x": 0.6,
+"y": 0.15,
+"at": "@1",
+"size": 46
+},
+{
+"s": "\"LOVE YOU, KIDDO. CODE WORD?\"",
+"x": 0.6,
+"y": 0.26,
+"at": "@3",
+"size": 46
+}
+]
+},
+{
+"lines": [
+130,
+131,
+132,
+133
+],
+"set": "home",
+"actors": [
+{
+"id": "frank",
+"who": "frank",
+"x": 0.4,
+"pose": [
+[
+0,
+"sitBack"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.68,
+"y": 0.42,
+"r": 130,
+"at": 0.05,
+"disc": true
+},
+{
+"k": "phone",
+"x": 0.68,
+"y": 0.42,
+"r": 40,
+"at": "@1",
+"disc": true
+},
+{
+"k": "money",
+"x": 0.76,
+"y": 0.35,
+"r": 30,
+"at": "@3",
+"disc": true
+}
+],
+"text": [
+{
+"s": "PHONE SCAMS",
+"x": 0.68,
+"y": 0.18,
+"at": "@1",
+"size": 52
+}
+]
+},
+{
+"lines": [
+134,
+135,
+136
+],
+"set": "town",
+"actors": [
+{
+"id": "frank",
+"who": "frank",
+"x": 0.55,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "fence",
+"x": 0.35
+},
+{
+"k": "prop",
+"p": "dog",
+"x": 0.72,
+"size": 0.6,
+"up": 0.0
+}
+],
+"card": {
+"big": "BISCUIT",
+"small": "the secret code word",
+"at": "@2",
+"y": 0.14
+}
+},
+{
+"lines": [
+137,
+138,
+139,
+140,
+141
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"happy"
+],
+[
+"@4",
+"smirk"
+]
+],
+"hold": {
+"k": "phone"
+},
+"talk": [
+"@1",
+"@1.9"
+]
+}
+],
+"items": [],
+"inset": {
+"who": "frank",
+"label": "DAD",
+"talk": true,
+"at": 0,
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+"text": [
+{
+"s": "\"HUMOR ME, KIDDO\"",
+"x": 0.4,
+"y": 0.2,
+"at": "@2",
+"size": 50
+},
+{
+"s": "\"FINE... BISCUIT.\"",
+"x": 0.4,
+"y": 0.3,
+"at": "@4",
+"size": 50
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+142,
+143,
+144,
+145,
+146,
+147
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"talk": [
+"@2",
+"@2.9"
+],
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.54,
+"w": 1.4,
+"front": true
+},
+{
+"k": "robot",
+"x": 0.62,
+"up": 0.75
+}
+],
+"text": [
+{
+"s": "\"MINI, HANDLE ALL MY CALLS\"",
+"x": 0.5,
+"y": 0.2,
+"at": "@2",
+"size": 50
+},
+{
+"s": "EVEN DAD'S",
+"x": 0.5,
+"y": 0.32,
+"at": "@5",
+"size": 50
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+29,
+29
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+148,
+149,
+150,
+151
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.42,
+"w": 1.2,
+"front": true
+},
+{
+"k": "robot",
+"x": 0.66,
+"up": 0.0,
+"say": "LOVE YOU TOO"
+}
+],
+"inset": {
+"who": "frank",
+"label": "DAD",
+"talk": true,
+"at": 0,
+"x": 0.82,
+"expr": [
+[
+0,
+"happy"
+]
+]
+},
+"text": [
+{
+"s": "YOUR VOICE. PERFECTLY.",
+"x": 0.5,
+"y": 0.18,
+"at": 0.05,
+"size": 50
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+-29,
+-29
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+152,
+153,
+154
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.54,
+"w": 1.4,
+"front": true
+},
+{
+"k": "robot",
+"x": 0.62,
+"up": 0.75
+}
+],
+"card": {
+"big": "3 SUNDAYS",
+"small": "you didn't even notice",
+"at": "@1",
+"y": 0.14
+},
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+29,
+29
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+155,
+156,
+157,
+158
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.6,
+"up": 0.0
+}
+],
+"text": [
+{
+"s": "A MONTH WITHOUT TALKING TO DAD",
+"x": 0.5,
+"y": 0.18,
+"at": "@1",
+"size": 48
+},
+{
+"s": "OR DID HE KNOW?",
+"x": 0.5,
+"y": 0.3,
+"at": "@3",
+"size": 50
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+14,
+14
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+159,
+160,
+161,
+162,
+163
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.6,
+"up": 0.0,
+"say": "I CHANGED THE SUBJECT"
+}
+],
+"text": [
+{
+"s": "HE ASKED FOR THE CODE WORD",
+"x": 0.5,
+"y": 0.18,
+"at": "@1",
+"size": 48
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+0,
+0
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+164,
+165,
+166,
+167,
+168
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.15
+],
+[
+"@1",
+0.4
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+]
+}
+],
+"items": [
+{
+"k": "glass",
+"x": 0.6
+},
+{
+"k": "table",
+"x": 0.75,
+"w": 1.6
+}
+],
+"card": {
+"big": "FRIDAY 9:55 AM",
+"small": "30th floor",
+"at": 0.03,
+"y": 0.14
+}
+},
+{
+"lines": [
+169,
+170,
+171,
+172,
+173
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"talk": [
+"@1",
+"@2.9"
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.55,
+"up": 0.0
+}
+],
+"text": [
+{
+"s": "\"DO NOT INTERRUPT ME. NO MATTER WHAT.\"",
+"x": 0.5,
+"y": 0.18,
+"at": "@2",
+"size": 46
+}
+],
+"cam": {
+"z": [
+1.3,
+1.4
+],
+"x": [
+40,
+40
+],
+"y": [
+60,
+60
+]
+}
+},
+{
+"lines": [
+174,
+175,
+176,
+177,
+178,
+179
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.36,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@1",
+1
+]
+},
+{
+"id": "victoria",
+"who": "victoria",
+"x": 0.66,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@3",
+"smile"
+],
+[
+"@5",
+"happy"
+]
+],
+"facing": -1,
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.6,
+"w": 1.6,
+"front": true
+}
+],
+"card": {
+"big": "10:00 AM",
+"small": null,
+"at": 0.03,
+"x": 0.2,
+"y": 0.14
+}
+},
+{
+"lines": [
+180,
+181,
+182,
+183,
+184,
+185,
+186
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.36,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@1",
+"surprised"
+]
+],
+"talk": [
+0,
+"@0.9"
+]
+},
+{
+"id": "victoria",
+"who": "victoria",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.56,
+"w": 1.6,
+"front": true
+},
+{
+"k": "glass",
+"x": 0.82
+},
+{
+"k": "robot",
+"x": 0.9,
+"up": 0.9,
+"hop": true,
+"alert": true,
+"wave": true
+}
+],
+"card": {
+"big": "10:15",
+"small": null,
+"at": 0.03,
+"x": 0.2,
+"y": 0.14
+},
+"text": [
+{
+"s": "FLASHING RED",
+"x": 0.88,
+"y": 0.32,
+"at": "@3",
+"size": 40,
+"color": "#ff6a5a"
+}
+],
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+187,
+187
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+187,
+188,
+189,
+190,
+191
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.36,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "victoria",
+"who": "victoria",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"talk": [
+"@3",
+1
+],
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.56,
+"w": 1.6,
+"front": true
+},
+{
+"k": "glass",
+"x": 0.82
+},
+{
+"k": "robot",
+"x": 0.9,
+"up": 0.9,
+"hop": true,
+"alert": true
+}
+],
+"props": [
+{
+"k": "watch",
+"x": 0.68,
+"y": 0.4,
+"r": 30,
+"at": "@2",
+"disc": true
+}
+],
+"text": [
+{
+"s": "\"KEEP GOING, RIO\"",
+"x": 0.62,
+"y": 0.2,
+"at": "@3",
+"size": 50
+}
+],
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+187,
+187
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+192,
+193,
+194
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": [
+[
+0,
+1
+],
+[
+"@1",
+-1
+]
+]
+}
+],
+"items": [
+{
+"k": "glass",
+"x": 0.78
+},
+{
+"k": "robot",
+"x": 0.88,
+"up": 0.9,
+"hop": true,
+"alert": true
+}
+],
+"props": [
+{
+"k": "money",
+"x": 0.2,
+"y": 0.3,
+"r": 50,
+"at": "@2",
+"disc": true
+}
+],
+"text": [
+{
+"s": "$10 MILLION...",
+"x": 0.22,
+"y": 0.18,
+"at": "@2",
+"size": 50
+},
+{
+"s": "OR MINI?",
+"x": 0.85,
+"y": 0.18,
+"at": "@2.5",
+"size": 50
+}
+],
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+238,
+238
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+195,
+196,
+197,
+198
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.4
+],
+[
+"@3",
+0.85
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"talk": [
+"@1",
+"@2.9"
+]
+},
+{
+"id": "victoria",
+"who": "victoria",
+"x": 0.6,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"facing": -1,
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.55,
+"w": 1.6,
+"front": true
+}
+],
+"text": [
+{
+"s": "\"I NEED ONE MINUTE\"",
+"x": 0.45,
+"y": 0.2,
+"at": "@2",
+"size": 50
+}
+]
+},
+{
+"lines": [
+199,
+200,
+201,
+202,
+203,
+204,
+205
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"worried"
+],
+[
+"@6",
+"shocked"
+]
+],
+"talk": [
+0,
+"@1.9"
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.52,
+"up": 0.0,
+"alert": true,
+"say": "IT WAS YOUR VOICE"
+}
+],
+"wall": "#9aa8b8",
+"wall2": "#4a5868",
+"text": [
+{
+"s": "20 MINUTES AGO, DAD GOT A CALL",
+"x": 0.5,
+"y": 0.18,
+"at": "@3",
+"size": 46
+}
+],
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+-58,
+-58
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+206,
+207,
+208,
+209,
+210
+],
+"set": "room",
+"actors": [
+{
+"id": "frank",
+"who": "frank",
+"x": 0.42,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "bank",
+"x": 0.68
+}
+],
+"wall": "#d8d0c0",
+"wall2": "#8a8070",
+"card": {
+"big": "$8,000 BY WIRE",
+"small": "\"I was in a car crash\"",
+"at": "@2",
+"y": 0.14,
+"w": 640
+}
+},
+{
+"lines": [
+211,
+212,
+213,
+214
+],
+"set": "room",
+"actors": [],
+"items": [],
+"card": {
+"big": "A FEW SECONDS",
+"small": "of audio can be enough to clone a voice",
+"at": "@1",
+"w": 820
+},
+"props": [
+{
+"k": "mic",
+"x": 0.3,
+"y": 0.62,
+"r": 60,
+"at": "@2",
+"disc": true
+},
+{
+"k": "phone",
+"x": 0.7,
+"y": 0.62,
+"r": 60,
+"at": "@3",
+"disc": true
+}
+],
+"wall": "#9aa8b8",
+"wall2": "#4a5868"
+},
+{
+"lines": [
+215,
+216
+],
+"set": "room",
+"actors": [],
+"items": [],
+"card": {
+"big": "WIRE TRANSFERS",
+"small": "can be very hard to reverse",
+"at": 0.05,
+"w": 680
+},
+"props": [
+{
+"k": "money",
+"x": 0.5,
+"y": 0.62,
+"r": 70,
+"at": "@1",
+"disc": true
+}
+],
+"wall": "#9aa8b8",
+"wall2": "#4a5868"
+},
+{
+"lines": [
+217
+],
+"set": "room",
+"actors": [],
+"items": [],
+"card": {
+"big": "$10,000,000,000+",
+"small": "reported lost to fraud by Americans in 2023",
+"at": 0.05,
+"w": 900
+},
+"wall": "#9aa8b8",
+"wall2": "#4a5868"
+},
+{
+"lines": [
+218,
+219,
+220,
+221
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"wall": "#9aa8b8",
+"wall2": "#4a5868",
+"text": [
+{
+"s": "RING... RING...",
+"x": 0.5,
+"y": 0.18,
+"at": "@1"
+},
+{
+"s": "COME ON.",
+"x": 0.5,
+"y": 0.3,
+"at": "@2.5"
+}
+]
+},
+{
+"lines": [
+222,
+223,
+224
+],
+"set": "office",
+"actors": [
+{
+"id": "victoria",
+"who": "victoria",
+"x": [
+[
+0,
+0.6
+]
+],
+"pose": [
+[
+0,
+"sitTable"
+],
+[
+"@0.5",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"dy": 0
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.88,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.55,
+"w": 1.6,
+"front": true
+},
+{
+"k": "glass",
+"x": 0.78
+}
+],
+"text": [
+{
+"s": "SHE'S LEAVING",
+"x": 0.5,
+"y": 0.18,
+"at": "@2",
+"size": 52
+}
+]
+},
+{
+"lines": [
+225,
+226,
+227,
+228,
+229,
+230
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"scared"
+],
+[
+"@4",
+"angry"
+]
+],
+"hold": {
+"k": "phone"
+},
+"talk": [
+"@4",
+1
+]
+}
+],
+"items": [],
+"inset": {
+"who": "frank",
+"label": "DAD",
+"talk": true,
+"at": "@1",
+"expr": [
+[
+0,
+"scared"
+]
+],
+"bg": [
+"#c8d0d8",
+"#6a7a8a"
+]
+},
+"wall": "#9aa8b8",
+"wall2": "#4a5868",
+"text": [
+{
+"s": "\"DAD! STOP!\"",
+"x": 0.4,
+"y": 0.2,
+"at": "@4"
+},
+{
+"s": "\"DON'T SEND ANYTHING!\"",
+"x": 0.4,
+"y": 0.3,
+"at": "@5",
+"size": 50
+}
+]
+},
+{
+"lines": [
+231,
+232,
+233,
+234
+],
+"set": "room",
+"actors": [
+{
+"id": "frank",
+"who": "frank",
+"x": 0.42,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "phone"
+},
+"talk": [
+"@2",
+1
+]
+}
+],
+"items": [
+{
+"k": "bank",
+"x": 0.68
+}
+],
+"wall": "#d8d0c0",
+"wall2": "#8a8070",
+"text": [
+{
+"s": "\"PROVE IT'S YOU.\"",
+"x": 0.42,
+"y": 0.2,
+"at": "@2"
+},
+{
+"s": "\"CODE WORD?\"",
+"x": 0.42,
+"y": 0.32,
+"at": "@3"
+}
+]
+},
+{
+"lines": [
+235,
+236
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "phone"
+},
+"talk": [
+"@0.6",
+1
+]
+}
+],
+"items": [],
+"inset": {
+"who": "frank",
+"label": "DAD",
+"at": 0,
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+"wall": "#9aa8b8",
+"wall2": "#4a5868",
+"card": {
+"big": "BISCUIT",
+"small": null,
+"at": "@0.7",
+"x": 0.4,
+"y": 0.15
+}
+},
+{
+"lines": [
+237,
+238,
+239,
+240,
+241
+],
+"set": "room",
+"actors": [
+{
+"id": "frank",
+"who": "frank",
+"x": 0.42,
+"pose": [
+[
+0,
+"phoneEar"
+],
+[
+"@1",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "phone",
+"to": "@1"
+},
+"talk": [
+"@2",
+1
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.66,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "bank",
+"x": 0.68
+}
+],
+"wall": "#d8d0c0",
+"wall2": "#8a8070",
+"text": [
+{
+"s": "\"CANCEL THE TRANSFER\"",
+"x": 0.5,
+"y": 0.18,
+"at": "@2",
+"size": 50
+},
+{
+"s": "\"THAT WASN'T MY SON\"",
+"x": 0.5,
+"y": 0.3,
+"at": "@4",
+"size": 50
+}
+]
+},
+{
+"lines": [
+242,
+243,
+244,
+245,
+246,
+247
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.6,
+"w": 1.6
+},
+{
+"k": "paper",
+"x": 0.78,
+"up": 1.4,
+"s": "SORRY. HAD A FLIGHT."
+}
+],
+"card": {
+"big": "$10,000,000",
+"small": "gone",
+"at": "@3",
+"x": 0.35,
+"y": 0.14
+},
+"text": [
+{
+"s": "WAS IT WORTH IT?",
+"x": 0.5,
+"y": 0.3,
+"at": "@4",
+"size": 50
+}
+]
+},
+{
+"lines": [
+248,
+249,
+250,
+251
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.48,
+"up": 0.32,
+"say": "NO MATTER WHAT"
+}
+],
+"wall": "#9aa8b8",
+"wall2": "#4a5868",
+"cam": {
+"z": [
+1.4,
+1.5
+],
+"y": [
+100,
+100
+]
+}
+},
+{
+"lines": [
+252,
+253,
+254
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@1",
+1
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.48,
+"up": 0.32
+}
+],
+"wall": "#9aa8b8",
+"wall2": "#4a5868",
+"cam": {
+"z": [
+1.5,
+1.55
+],
+"y": [
+110,
+110
+]
+},
+"text": [
+{
+"s": "\"MY FAULT\"",
+"x": 0.45,
+"y": 0.2,
+"at": "@2"
+}
+]
+},
+{
+"lines": [
+255,
+256,
+257,
+258
+],
+"set": "highway",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.46,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"dy": 0,
+"clip": 0.62
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#3a8ad0"
+},
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#3a8ad0",
+"part": "front",
+"front": true
+}
+],
+"fx": [
+"night"
+],
+"card": {
+"big": "500 KM. 5 HOURS.",
+"small": "no Mini, just the radio",
+"at": 0.05,
+"y": 0.14,
+"w": 640
+},
+"props": [
+{
+"k": "note",
+"x": 0.62,
+"y": 0.3,
+"r": 30,
+"at": "@3",
+"disc": true
+}
+]
+},
+{
+"lines": [
+259,
+260,
+261
+],
+"set": "town",
+"actors": [
+{
+"id": "frank",
+"who": "frank",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1",
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.2
+],
+[
+"@1",
+0.42
+]
+],
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [
+{
+"k": "fence",
+"x": 0.7,
+"open": [
+[
+0,
+1
+]
+]
+}
+],
+"smood": "dusk"
+},
+{
+"lines": [
+262,
+263,
+264,
+265
+],
+"set": "town",
+"actors": [
+{
+"id": "frank",
+"who": "frank",
+"x": 0.52,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"talk": [
+0,
+"@1.9"
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@2",
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@2",
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "fence",
+"x": 0.72
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "\"IT NEVER ASKED ABOUT MY TOMATOES\"",
+"x": 0.5,
+"y": 0.18,
+"at": "@1",
+"size": 48
+}
+]
+},
+{
+"lines": [
+266,
+267,
+268
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.36,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "hammer"
+}
+},
+{
+"id": "frank",
+"who": "frank",
+"x": 0.62,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "fence",
+"x": 0.45,
+"open": [
+[
+"@1",
+0
+],
+[
+"@2",
+0.8
+],
+[
+"@2.6",
+0
+]
+]
+}
+],
+"text": [
+{
+"s": "SQUEAK",
+"x": 0.42,
+"y": 0.3,
+"at": "@2.2"
+}
+]
+},
+{
+"lines": [
+269,
+270,
+271,
+272,
+273,
+274
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"pointUp"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"talk": [
+"@1",
+"@4.9"
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.6,
+"up": 0.0,
+"say": "UNDERSTOOD"
+}
+],
+"text": [
+{
+"s": "NEVER ANSWER FOR ME WHEN IT'S DAD",
+"x": 0.5,
+"y": 0.18,
+"at": "@2",
+"size": 46
+},
+{
+"s": "IF MY VOICE CALLS HIM: WAKE ME UP",
+"x": 0.5,
+"y": 0.28,
+"at": "@3",
+"size": 44
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+0,
+0
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+275,
+276,
+277,
+278
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"dy": -8
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.54,
+"w": 1.4,
+"front": true
+},
+{
+"k": "robot",
+"x": 0.62,
+"up": 0.75
+}
+],
+"card": {
+"big": "THE STORY SPREADS",
+"small": "how a silly code word stopped a scam",
+"at": 0.05,
+"w": 780
+},
+"props": [
+{
+"k": "heart",
+"x": 0.75,
+"y": 0.42,
+"r": 40,
+"at": "@3",
+"disc": true
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+29,
+29
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+279,
+280
+],
+"set": "home",
+"actors": [
+{
+"id": "grandma",
+"who": "grandma",
+"x": 0.35,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.65,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"WHAT'S OUR CODE WORD?\"",
+"x": 0.5,
+"y": 0.18,
+"at": "@1",
+"size": 52
+}
+]
+},
+{
+"lines": [
+281,
+282,
+283,
+284,
+285,
+286
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+],
+[
+"@4",
+"joy"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "investor",
+"label": "NEW INVESTOR",
+"talk": true,
+"at": 0
+},
+"text": [
+{
+"s": "\"SOMEONE WHO KNOWS WHAT MATTERS\"",
+"x": 0.42,
+"y": 0.2,
+"at": "@3",
+"size": 46
+},
+{
+"s": "IT'S ENOUGH",
+"x": 0.42,
+"y": 0.32,
+"at": "@5",
+"size": 56
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+287,
+288,
+289,
+290,
+291,
+292,
+293
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"hold": {
+"k": "phone"
+},
+"talk": [
+"@5",
+1
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.62,
+"up": 0.0,
+"alert": false
+}
+],
+"inset": {
+"who": "frank",
+"label": "DAD",
+"talk": true,
+"at": "@1",
+"expr": [
+[
+0,
+"happy"
+]
+]
+},
+"card": {
+"big": "SUNDAY, 6 PM",
+"small": "you answer it yourself",
+"at": 0.03,
+"x": 0.35,
+"y": 0.15,
+"w": 560
+},
+"text": [
+{
+"s": "\"BISCUIT, DAD. ALWAYS BISCUIT.\"",
+"x": 0.42,
+"y": 0.32,
+"at": "@5",
+"size": 48
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+14,
+14
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+294,
+295,
+296
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.32,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@1",
+"surprised"
+]
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.5,
+"up": 0.0,
+"hop": true
+}
+],
+"fx": [
+"night"
+],
+"props": [
+{
+"k": "clock",
+"x": 0.68,
+"y": 0.45,
+"r": 110,
+"at": "@1",
+"disc": true
+}
+],
+"text": [
+{
+"s": "2006",
+"x": 0.68,
+"y": 0.22,
+"at": "@2",
+"size": 90
+}
+],
+"wall": "#c8d0d8",
+"wall2": "#6a7a8a",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"cam": {
+"z": [
+1.35,
+1.42
+],
+"x": [
+-130,
+-130
+],
+"y": [
+90,
+90
+]
+}
+},
+{
+"lines": [
+297,
+298
+],
+"set": "face",
+"actors": [],
+"items": [],
+"who": "rio",
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"lines": [
+299
+],
+"set": "end",
+"actors": [],
+"items": [],
+"tpl": "end"
+}
+]
