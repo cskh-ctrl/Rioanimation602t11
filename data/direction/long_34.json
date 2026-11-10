@@ -1,0 +1,5229 @@
+[
+{
+"lines": [
+0,
+1
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"up": 5.6,
+"hold": {
+"k": "cup"
+},
+"hat": "copter",
+"fly": true
+}
+],
+"items": [
+{
+"k": "house",
+"x": 0.5,
+"chime": false
+}
+],
+"cam": {
+"z": [
+0.55,
+0.6
+],
+"x": [
+0,
+0
+],
+"y": [
+-600,
+-560
+]
+}
+},
+{
+"lines": [
+2,
+3,
+4
+],
+"set": "town",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.4,
+"pose": [
+[
+0,
+"holdFront"
+],
+[
+"@0.6",
+"pointUp"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@0.6",
+"shocked"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"up": 2.6,
+"hold": {
+"k": "cup"
+},
+"hat": "copter",
+"fly": true
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "water",
+"x": 0.47,
+"size": 0.3,
+"up": 0.05
+},
+{
+"k": "prop",
+"p": "tree",
+"x": 0.2,
+"size": 1.4,
+"up": 0.0
+}
+],
+"text": [
+{
+"s": "SPLASH",
+"x": 0.42,
+"y": 0.62,
+"at": "@1.5",
+"size": 46
+}
+]
+},
+{
+"lines": [
+5,
+6
+],
+"set": "town",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.4,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"up": 2.6,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "water",
+"x": 0.47,
+"size": 0.3,
+"up": 0.05
+}
+],
+"text": [
+{
+"s": "...",
+"x": 0.4,
+"y": 0.4,
+"at": "@1"
+}
+]
+},
+{
+"lines": [
+7,
+8,
+9
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.58,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"card": {
+"big": "RIO",
+"small": "a dad... Lily is seven",
+"at": 0.05,
+"y": 0.14
+},
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+10,
+11,
+12
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.55,
+"pose": [
+[
+0,
+"holdFront"
+],
+[
+"@2",
+"reach"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "gift",
+"x": 0.55,
+"y": 0.5,
+"r": 40,
+"at": 0.05,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A TINY YELLOW PROPELLER",
+"x": 0.5,
+"y": 0.15,
+"at": "@1",
+"size": 50
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+13,
+14
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hat": "copter",
+"up": [
+[
+0,
+0
+],
+[
+"@0.6",
+0.25
+]
+],
+"fly": true
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.62,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": [
+{
+"s": "A TOY... OR A MIRACLE?",
+"x": 0.5,
+"y": 0.15,
+"at": "@1",
+"size": 52
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+15,
+16,
+17
+],
+"set": "park",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"jump"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"up": [
+[
+0,
+0
+],
+[
+0.3,
+0.5
+],
+[
+0.6,
+0
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.65,
+"pose": [
+[
+0,
+"pointUp"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"up": [
+[
+0,
+0
+],
+[
+"@2",
+3.0
+]
+],
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"card": {
+"big": "~0.5 M",
+"small": "a good human jump",
+"at": 0.05,
+"x": 0.3,
+"y": 0.14
+}
+},
+{
+"lines": [
+18,
+19,
+20,
+21,
+22,
+23,
+24
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hat": "copter"
+}
+],
+"items": [
+{
+"k": "paper",
+"x": 0.58,
+"up": 1.3,
+"s": "24 HOURS OF FLIGHT"
+}
+],
+"card": {
+"big": "THEN IT STOPS",
+"small": "instantly... wherever you are",
+"at": "@2",
+"y": 0.14,
+"w": 760
+},
+"text": [
+{
+"s": "NO WARNING. NO LANDING.",
+"x": 0.5,
+"y": 0.3,
+"at": "@4",
+"size": 50
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+25
+],
+"set": "sky",
+"actors": [],
+"items": [],
+"tpl": "title",
+"params": {
+"title": "What If You Could Fly Freely For 24 Hours?"
+}
+},
+{
+"lines": [
+26,
+27,
+28,
+29
+],
+"set": "park",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.3
+],
+[
+"@2",
+0.45
+],
+[
+"@3",
+0.6
+]
+],
+"pose": [
+[
+0,
+"flyUp"
+],
+[
+"@1",
+"fall"
+],
+[
+"@3",
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+],
+[
+"@3",
+"shocked"
+]
+],
+"up": [
+[
+0,
+1.0
+],
+[
+"@2",
+2.0
+],
+[
+"@3",
+1.2
+]
+],
+"rot": [
+[
+0,
+0
+],
+[
+"@1",
+0.3
+],
+[
+"@2",
+-6.0
+],
+[
+"@3",
+0
+]
+],
+"hat": "copter",
+"fly": true
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "tree",
+"x": 0.65,
+"size": 3.0,
+"up": 0.0
+}
+],
+"card": {
+"big": "HOUR 1",
+"small": null,
+"at": 0.03,
+"x": 0.2,
+"y": 0.14
+},
+"text": [
+{
+"s": "BONK!",
+"x": 0.65,
+"y": 0.3,
+"at": "@3.4"
+}
+]
+},
+{
+"lines": [
+30,
+31,
+32,
+33,
+34,
+35
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.3
+],
+[
+"@3",
+0.6
+],
+[
+"@4",
+0.55
+]
+],
+"pose": [
+[
+0,
+"flyUp"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+],
+[
+"@2",
+"smile"
+],
+[
+"@5",
+"joy"
+]
+],
+"up": 1.6,
+"rot": [
+[
+0,
+0
+],
+[
+"@3",
+0.35
+],
+[
+"@4",
+-0.25
+],
+[
+"@5",
+0.1
+]
+],
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"text": [
+{
+"s": "LIKE A BIKE MADE OF AIR",
+"x": 0.5,
+"y": 0.15,
+"at": "@1",
+"size": 52
+},
+{
+"s": "LEAN FORWARD = GO",
+"x": 0.5,
+"y": 0.26,
+"at": "@3",
+"size": 44
+},
+{
+"s": "LEAN BACK = SLOW",
+"x": 0.5,
+"y": 0.34,
+"at": "@4",
+"size": 44
+}
+]
+},
+{
+"lines": [
+36,
+37,
+38,
+39
+],
+"set": "town",
+"actors": [
+{
+"id": "lily",
+"who": "lily",
+"x": 0.3,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@1",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@2",
+"joy"
+],
+[
+"@3",
+"nervous"
+]
+],
+"up": [
+[
+0,
+2.5
+],
+[
+"@2.5",
+3.5
+],
+[
+"@3",
+2.5
+]
+],
+"hold": {
+"k": "cup"
+},
+"rot": [
+[
+"@2",
+0
+],
+[
+"@2.9",
+6.28
+]
+],
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"DADDY, DO A LOOP!\"",
+"x": 0.3,
+"y": 0.2,
+"at": "@1",
+"size": 50
+}
+]
+},
+{
+"lines": [
+40,
+41,
+42
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"up": 1.6,
+"hold": {
+"k": "phone"
+},
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"card": {
+"big": "22:00:00",
+"small": "hours left",
+"at": "@1",
+"x": 0.75,
+"y": 0.2
+}
+},
+{
+"lines": [
+43,
+44,
+45,
+46
+],
+"set": "city",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.2
+],
+[
+1,
+0.8
+]
+],
+"pose": [
+[
+0,
+"flyUp"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"up": 3.2,
+"rot": 0.3,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "car",
+"x": 0.3,
+"size": 1.2,
+"up": 0.0
+},
+{
+"k": "prop",
+"p": "car",
+"x": 0.55,
+"size": 1.2,
+"up": 0.0
+},
+{
+"k": "prop",
+"p": "bus",
+"x": 0.8,
+"size": 1.6,
+"up": 0.0
+}
+],
+"cam": {
+"z": [
+0.6,
+0.6
+],
+"y": [
+-500,
+-500
+]
+},
+"text": [
+{
+"s": "NO TRAFFIC. NO TRAIN.",
+"x": 0.5,
+"y": 0.15,
+"at": "@1",
+"size": 54
+}
+]
+},
+{
+"lines": [
+47
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"flyUp"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"up": 1.6,
+"rot": 0.3,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"card": {
+"big": "30 MIN DRIVE = 8 MIN FLIGHT",
+"small": null,
+"at": 0.05,
+"w": 900,
+"size": 56
+}
+},
+{
+"lines": [
+48,
+49,
+50,
+51
+],
+"set": "city",
+"actors": [],
+"items": [
+{
+"k": "prop",
+"p": "helicopter",
+"x": 0.3,
+"size": 2.0,
+"up": 4.0
+},
+{
+"k": "prop",
+"p": "plane",
+"x": 0.75,
+"size": 2.0,
+"up": 7.0
+}
+],
+"cam": {
+"z": [
+0.6,
+0.6
+],
+"y": [
+-450,
+-450
+]
+},
+"card": {
+"big": "DRONES: UNDER ~120 M",
+"small": "in the US... planes need clear air",
+"at": "@1",
+"y": 0.14,
+"w": 760
+}
+},
+{
+"lines": [
+52,
+53,
+54,
+55
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"up": 1.6,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "robot",
+"x": 0.25,
+"size": 0.5,
+"up": 3.0,
+"a": 0
+}
+],
+"props": [
+{
+"k": "satellite",
+"x": 0.22,
+"y": 0.35,
+"r": 40,
+"at": "@1",
+"disc": true
+},
+{
+"k": "bird",
+"x": 0.78,
+"y": 0.35,
+"r": 40,
+"at": "@2",
+"disc": true
+}
+],
+"text": [
+{
+"s": "A DRONE?",
+"x": 0.22,
+"y": 0.2,
+"at": "@1",
+"size": 46
+},
+{
+"s": "A BIRD?",
+"x": 0.78,
+"y": 0.2,
+"at": "@2",
+"size": 46
+},
+{
+"s": "A VERY CONFUSED DAD?",
+"x": 0.5,
+"y": 0.15,
+"at": "@3",
+"size": 50
+}
+]
+},
+{
+"lines": [
+56,
+57,
+58,
+59
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"flyUp"
+],
+[
+"@2",
+"point"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+],
+[
+"@2",
+"smile"
+]
+],
+"up": 1.6,
+"hat": "copter",
+"fly": true
+},
+{
+"id": "pilot",
+"who": "pilot",
+"x": 0.68,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+],
+[
+"@3",
+"angry"
+]
+],
+"facing": -1,
+"fly": true,
+"up": 1.4
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "helicopter",
+"x": 0.7,
+"size": 2.4,
+"up": 1.0
+}
+],
+"text": [
+{
+"s": "THUMBS UP!",
+"x": 0.42,
+"y": 0.2,
+"at": "@2",
+"size": 50
+},
+{
+"s": "*slow head shake*",
+"x": 0.7,
+"y": 0.2,
+"at": "@3",
+"size": 40
+}
+]
+},
+{
+"lines": [
+60,
+61
+],
+"set": "city",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.3
+],
+[
+1,
+0.6
+]
+],
+"pose": [
+[
+0,
+"flyUp"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"up": [
+[
+0,
+6.0
+],
+[
+1,
+3.0
+]
+],
+"rot": 0.2,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"cam": {
+"z": [
+0.7,
+0.7
+],
+"y": [
+-400,
+-400
+]
+},
+"text": [
+{
+"s": "WHAT ELSE CAN YOU DO?",
+"x": 0.5,
+"y": 0.15,
+"at": "@1",
+"size": 50
+}
+]
+},
+{
+"lines": [
+62,
+63,
+64,
+65,
+66
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"pointUp"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"up": [
+[
+0,
+1.2
+],
+[
+1,
+2.0
+]
+],
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"card": {
+"big": "HOUR 4",
+"small": "500 m... 1,000 m... 2,000 m",
+"at": "@2",
+"y": 0.14,
+"w": 640
+},
+"fx": [
+"speed"
+]
+},
+{
+"lines": [
+67,
+68
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"up": 1.6,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"card": {
+"big": "-6.5 C",
+"small": "every 1,000 m you climb",
+"at": 0.05,
+"x": 0.3,
+"y": 0.2
+},
+"props": [
+{
+"k": "thermometer",
+"x": 0.75,
+"y": 0.35,
+"r": 60,
+"at": "@1",
+"disc": true
+}
+]
+},
+{
+"lines": [
+69,
+70,
+71
+],
+"set": "snowy",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"up": 1.6,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"card": {
+"big": "3,000 M = FREEZING",
+"small": "even in summer",
+"at": 0.05,
+"y": 0.14,
+"w": 640
+},
+"props": [
+{
+"k": "snowflake",
+"x": 0.3,
+"y": 0.35,
+"r": 40,
+"at": "@1",
+"disc": true
+},
+{
+"k": "tissue",
+"x": 0.7,
+"y": 0.35,
+"r": 40,
+"at": "@2",
+"disc": true
+}
+],
+"fx": [
+"snow"
+]
+},
+{
+"lines": [
+72,
+73,
+74,
+75
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@2",
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@2",
+"nervous"
+]
+],
+"up": 1.6,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"props": [
+{
+"k": "sun",
+"x": 0.78,
+"y": 0.2,
+"r": 80,
+"at": 0.05,
+"disc": true
+}
+],
+"card": {
+"big": "LESS AIR = MORE UV",
+"small": "sunburn comes faster up high",
+"at": "@1",
+"x": 0.35,
+"y": 0.2,
+"w": 640
+},
+"text": [
+{
+"s": "NO SUNSCREEN.",
+"x": 0.35,
+"y": 0.36,
+"at": "@2",
+"size": 50
+}
+]
+},
+{
+"lines": [
+76,
+77,
+78,
+79
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.3
+],
+[
+"@1.5",
+0.5
+]
+],
+"pose": [
+[
+0,
+"flyUp"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"up": 1.6,
+"rot": 0.25,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"thought": {
+"props": [
+"cloud"
+],
+"s": "FLUFFY COTTON?",
+"x": 0.7,
+"y": 0.25,
+"at": "@2"
+},
+"card": {
+"big": "HOUR 5",
+"small": null,
+"at": 0.03,
+"x": 0.2,
+"y": 0.14
+}
+},
+{
+"lines": [
+80,
+81,
+82
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"crossArms"
+],
+[
+"@2",
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+],
+[
+"@2",
+"sad"
+]
+],
+"up": 1.6,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"fx": [
+"dark"
+],
+"props": [
+{
+"k": "water",
+"x": 0.62,
+"y": 0.35,
+"r": 40,
+"at": "@2",
+"disc": true
+}
+],
+"text": [
+{
+"s": "COLD, WET FOG",
+"x": 0.5,
+"y": 0.15,
+"at": 0.05,
+"size": 56
+},
+{
+"s": "drip... drip",
+"x": 0.5,
+"y": 0.3,
+"at": "@2",
+"size": 46
+}
+]
+},
+{
+"lines": [
+83,
+84,
+85
+],
+"set": "sky",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "cloud",
+"x": 0.5,
+"y": 0.5,
+"r": 220,
+"at": 0,
+"disc": false
+}
+],
+"card": {
+"big": "~500 TONNES",
+"small": "a typical fluffy cloud",
+"at": 0.05,
+"y": 0.14
+},
+"text": [
+{
+"s": "BILLIONS OF TINY DROPLETS",
+"x": 0.5,
+"y": 0.82,
+"at": "@2",
+"size": 46
+}
+]
+},
+{
+"lines": [
+86,
+87,
+88
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"up": 1.6,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"props": [
+{
+"k": "cloud",
+"x": 0.68,
+"y": 0.4,
+"r": 150,
+"at": 0,
+"disc": false
+}
+],
+"text": [
+{
+"s": "500 TONNES... HANGING THERE",
+"x": 0.62,
+"y": 0.15,
+"at": 0.05,
+"size": 46
+}
+]
+},
+{
+"lines": [
+89,
+90,
+91,
+92,
+93
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+],
+[
+"@3",
+"shocked"
+],
+[
+"@4",
+"determined"
+]
+],
+"up": 1.6,
+"rot": 0.25,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"props": [
+{
+"k": "bee",
+"x": 0.55,
+"y": 0.38,
+"r": 20,
+"at": "@2",
+"disc": true
+},
+{
+"k": "bee",
+"x": 0.6,
+"y": 0.42,
+"r": 20,
+"at": "@2.3",
+"disc": true
+},
+{
+"k": "bee",
+"x": 0.66,
+"y": 0.36,
+"r": 20,
+"at": "@2.6",
+"disc": true
+}
+],
+"card": {
+"big": "40 KM/H",
+"small": "a fly feels like a pebble",
+"at": "@3",
+"x": 0.25,
+"y": 0.2
+}
+},
+{
+"lines": [
+94,
+95,
+96,
+97,
+98
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"up": 1.6,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"card": {
+"big": "~5 KG",
+"small": "your head... carrying your whole body",
+"at": "@2",
+"x": 0.75,
+"y": 0.2,
+"w": 640
+},
+"props": [
+{
+"k": "headache",
+"x": 0.5,
+"y": 0.25,
+"r": 40,
+"at": 0.1,
+"disc": true
+}
+]
+},
+{
+"lines": [
+99,
+100,
+101
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hat": "copter"
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.58,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "shirt",
+"x": 0.5,
+"y": 0.48,
+"r": 30,
+"at": 0.1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A SCARF FOR YOUR CHIN",
+"x": 0.5,
+"y": 0.15,
+"at": 0.05,
+"size": 50
+},
+{
+"s": "BETTER? ...A LITTLE.",
+"x": 0.5,
+"y": 0.26,
+"at": "@2",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+102,
+103,
+104
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"flyUp"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"up": 1.6,
+"rot": 0.25,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "bird",
+"x": 0.55,
+"size": 0.4,
+"up": 2.0
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.62,
+"size": 0.4,
+"up": 2.3
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.62,
+"size": 0.4,
+"up": 1.7
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.69,
+"size": 0.4,
+"up": 2.6
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.69,
+"size": 0.4,
+"up": 1.4
+}
+],
+"card": {
+"big": "HOUR 9",
+"small": "something magical",
+"at": 0.03,
+"x": 0.2,
+"y": 0.14
+}
+},
+{
+"lines": [
+105,
+106,
+107,
+108,
+109
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.3
+],
+[
+"@0.8",
+0.48
+]
+],
+"pose": [
+[
+0,
+"flyUp"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"up": 1.5,
+"rot": 0.25,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "bird",
+"x": 0.58,
+"size": 0.4,
+"up": 2.0
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.65,
+"size": 0.4,
+"up": 2.3
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.72,
+"size": 0.4,
+"up": 2.6
+}
+],
+"text": [
+{
+"s": "FLYING BEHIND A BIRD SAVES ENERGY",
+"x": 0.5,
+"y": 0.15,
+"at": "@1",
+"size": 46
+},
+{
+"s": "A GENTLE PUSH",
+"x": 0.5,
+"y": 0.26,
+"at": "@3",
+"size": 46
+}
+]
+},
+{
+"lines": [
+110,
+111,
+112
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.48,
+"pose": [
+[
+0,
+"flyUp"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@1",
+"joy"
+],
+[
+"@2",
+"sad"
+]
+],
+"up": 1.5,
+"rot": 0.25,
+"talk": [
+"@1",
+"@1.8"
+],
+"hat": "copter",
+"fly": true
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "bird",
+"x": 0.58,
+"size": 0.45,
+"up": 2.0
+}
+],
+"text": [
+{
+"s": "HONK!",
+"x": 0.45,
+"y": 0.25,
+"at": "@1"
+},
+{
+"s": "...RUDE",
+"x": 0.6,
+"y": 0.25,
+"at": "@2.5",
+"size": 50
+}
+]
+},
+{
+"lines": [
+113,
+114,
+115,
+116,
+117
+],
+"set": "home",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"hat": "copter",
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"card": {
+"big": "30,000,000 VIEWS",
+"small": "your phone explodes",
+"at": "@3",
+"y": 0.14,
+"w": 700
+},
+"props": [
+{
+"k": "bird",
+"x": 0.45,
+"y": 0.35,
+"r": 40,
+"at": "@1",
+"disc": true
+}
+]
+},
+{
+"lines": [
+118,
+119,
+120,
+121,
+122,
+123
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"hat": "copter",
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "producer",
+"label": "TV NETWORK",
+"talk": true,
+"at": "@1"
+},
+"card": {
+"big": "80,000 FANS",
+"small": "100 million watching at home",
+"at": "@4",
+"x": 0.35,
+"y": 0.15,
+"w": 640
+}
+},
+{
+"lines": [
+124,
+125,
+126
+],
+"set": "stadium",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"up": 3.0,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"card": {
+"big": "$1,000,000",
+"small": "fly in at 11:55 PM, live",
+"at": "@1",
+"y": 0.14,
+"w": 640
+}
+},
+{
+"lines": [
+127,
+128,
+129,
+130
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@3",
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+],
+[
+"@3",
+"joy"
+]
+],
+"hat": "copter"
+}
+],
+"items": [],
+"props": [
+{
+"k": "school",
+"x": 0.7,
+"y": 0.4,
+"r": 60,
+"at": "@1",
+"disc": true
+},
+{
+"k": "school",
+"x": 0.8,
+"y": 0.4,
+"r": 60,
+"at": "@1.4",
+"disc": true
+}
+],
+"text": [
+{
+"s": "COLLEGE FOR LILY... TWICE",
+"x": 0.6,
+"y": 0.18,
+"at": "@1",
+"size": 50
+},
+{
+"s": "YES!",
+"x": 0.42,
+"y": 0.3,
+"at": "@3"
+}
+]
+},
+{
+"lines": [
+131,
+132,
+133,
+134
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.36,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hat": "copter"
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.5,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "kite",
+"x": 0.6,
+"up": 2.0,
+"hx": 0.52,
+"hy": 0.66
+}
+],
+"smood": "dusk",
+"card": {
+"big": "HOUR 14",
+"small": "evening at the beach",
+"at": 0.03,
+"y": 0.14
+}
+},
+{
+"lines": [
+135,
+136,
+137,
+138,
+139
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"talk": [
+"@3",
+1
+]
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.56,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1,
+"talk": [
+"@1",
+"@1.9"
+]
+}
+],
+"items": [],
+"card": {
+"big": "WEEKS AGO",
+"small": null,
+"at": 0.03,
+"y": 0.14
+},
+"text": [
+{
+"s": "\"CAN YOU FLY NEXT TO MY KITE?\"",
+"x": 0.5,
+"y": 0.26,
+"at": "@1",
+"size": 46
+}
+],
+"wall": "#e8c0d0",
+"wall2": "#a07a90",
+"room": {
+"window": 1300,
+"sky": "night",
+"night": true
+}
+},
+{
+"lines": [
+140,
+141,
+142,
+143,
+144,
+145
+],
+"set": "beach",
+"actors": [
+{
+"id": "lily",
+"who": "lily",
+"x": [
+[
+0,
+0.2
+],
+[
+"@2",
+0.45
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+"@2",
+0.55
+],
+[
+"@5",
+0.75
+]
+],
+"pose": [
+[
+0,
+"flyUp"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"up": [
+[
+"@2",
+2.0
+],
+[
+"@3.5",
+3.5
+],
+[
+"@4.5",
+2.4
+],
+[
+"@5.5",
+3.2
+]
+],
+"rot": 0.2,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [
+{
+"k": "kite",
+"x": 0.62,
+"up": 3.0,
+"hx": 0.47,
+"hy": 0.66
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "LIKE TWO RED AND YELLOW BIRDS",
+"x": 0.5,
+"y": 0.14,
+"at": "@4",
+"size": 46
+}
+]
+},
+{
+"lines": [
+146,
+147,
+148
+],
+"set": "beach",
+"actors": [
+{
+"id": "lily",
+"who": "lily",
+"x": 0.4,
+"pose": [
+[
+0,
+"sit"
+],
+[
+"@1",
+"pointUp"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@2",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"flyUp"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"up": 2.4,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [
+{
+"k": "kite",
+"x": 0.72,
+"up": 3.2,
+"hx": 0.42,
+"hy": 0.66
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "\"LOOK UP, DADDY!\"",
+"x": 0.4,
+"y": 0.22,
+"at": "@2"
+}
+]
+},
+{
+"lines": [
+149,
+150,
+151,
+152,
+153,
+154
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@3",
+"@3.9"
+]
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.513,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"rot": -1.5708,
+"dy": 41,
+"s": 1.6
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.5
+}
+],
+"extra": [
+{
+"k": "blanket",
+"x": 0.5
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"text": [
+{
+"s": "YOUR LINE, EVERY BEDTIME",
+"x": 0.5,
+"y": 0.15,
+"at": "@1",
+"size": 50
+},
+{
+"s": "\"LOOK UP, LILY\"",
+"x": 0.5,
+"y": 0.26,
+"at": "@3"
+}
+],
+"wall": "#e8c0d0",
+"wall2": "#a07a90",
+"room": {
+"window": 1300,
+"sky": "night",
+"night": true
+}
+},
+{
+"lines": [
+155,
+156,
+157
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"flyUp"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"up": 2.4,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"smood": "dusk",
+"card": {
+"big": "10 HOURS LEFT",
+"small": "what if you're 300 m up?",
+"at": 0.05,
+"y": 0.14,
+"w": 640
+}
+},
+{
+"lines": [
+158,
+159,
+160
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"pointUp"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"up": 0.8,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"smood": "dusk",
+"card": {
+"big": "YOUR RULE",
+"small": "after 11 PM, stay low",
+"at": 0.05,
+"y": 0.14
+}
+},
+{
+"lines": [
+161,
+162,
+163,
+164,
+165,
+166
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hat": "copter"
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.52,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "kite",
+"x": 0.62,
+"up": 2.6,
+"hx": 0.54,
+"hy": 0.66
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"card": {
+"big": "10 PM",
+"small": "stadium at 11:30... plenty of time",
+"at": 0.05,
+"y": 0.14,
+"w": 700
+}
+},
+{
+"lines": [
+167,
+168,
+169,
+170,
+171
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hat": "copter"
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.52,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"talk": [
+"@0.6",
+"@1.9"
+]
+}
+],
+"items": [
+{
+"k": "kite",
+"x": 0.78,
+"up": 3.2,
+"hx": 0.55,
+"hy": 0.66,
+"dir": -1
+}
+],
+"fx": [
+"night",
+"dark",
+"speed"
+],
+"text": [
+{
+"s": "OFFSHORE WIND",
+"x": 0.7,
+"y": 0.15,
+"at": "@4",
+"size": 56
+}
+]
+},
+{
+"lines": [
+172,
+173,
+174,
+175,
+176
+],
+"set": "ocean",
+"actors": [
+{
+"id": "boy",
+"who": "boy",
+"x": 0.62,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"dy": -40,
+"chair": false
+}
+],
+"items": [
+{
+"k": "float",
+"x": 0.62,
+"y": 0.79
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"text": [
+{
+"s": "HELP!",
+"x": 0.62,
+"y": 0.3,
+"at": 0.05
+},
+{
+"s": "PAST THE BUOYS",
+"x": 0.5,
+"y": 0.15,
+"at": "@2",
+"size": 50
+}
+]
+},
+{
+"lines": [
+177
+],
+"set": "beach",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.5,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"talk": [
+0,
+1
+]
+}
+],
+"items": [],
+"fx": [
+"night",
+"dark"
+]
+},
+{
+"lines": [
+178,
+179
+],
+"set": "ocean",
+"actors": [
+{
+"id": "boy",
+"who": "boy",
+"x": 0.62,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"dy": -40,
+"chair": false
+}
+],
+"items": [
+{
+"k": "float",
+"x": 0.62,
+"y": 0.79
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"card": {
+"big": "OFFSHORE WIND",
+"small": "pushes floats out faster than kids can swim",
+"at": 0.05,
+"w": 860
+}
+},
+{
+"lines": [
+180,
+181,
+182,
+183,
+184
+],
+"set": "ocean",
+"actors": [],
+"items": [
+{
+"k": "sea",
+"level": 330,
+"night": true,
+"rip": 0.5
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"card": {
+"big": "RIP CURRENT",
+"small": "up to 2.5 m/s... faster than an Olympic swimmer",
+"at": "@1",
+"w": 880
+}
+},
+{
+"lines": [
+185
+],
+"set": "ocean",
+"actors": [
+{
+"id": "boy",
+"who": "boy",
+"x": 0.75,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"dy": -40,
+"s": 1.0,
+"chair": false
+}
+],
+"items": [
+{
+"k": "float",
+"x": 0.75,
+"y": 0.79
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"card": {
+"big": "300 M OUT",
+"small": null,
+"at": 0.05,
+"x": 0.35
+}
+},
+{
+"lines": [
+186,
+187,
+188,
+189,
+190,
+191
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hat": "copter",
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"fx": [
+"night",
+"dark"
+],
+"card": {
+"big": "10:52 PM",
+"small": "1 h 08 min of flight left",
+"at": "@1",
+"y": 0.14,
+"w": 600
+},
+"text": [
+{
+"s": "BOTH?",
+"x": 0.5,
+"y": 0.3,
+"at": "@5"
+}
+]
+},
+{
+"lines": [
+192,
+193,
+194,
+195,
+196
+],
+"set": "ocean",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.2
+],
+[
+1,
+0.6
+]
+],
+"pose": [
+[
+0,
+"flyUp"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"up": 1.4,
+"rot": 0.35,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [
+{
+"k": "sea",
+"level": 60,
+"night": true
+}
+],
+"fx": [
+"night",
+"dark",
+"speed"
+],
+"text": [
+{
+"s": "WHERE IS HE?",
+"x": 0.5,
+"y": 0.15,
+"at": "@3"
+}
+]
+},
+{
+"lines": [
+197,
+198,
+199,
+200,
+201,
+202,
+203
+],
+"set": "ocean",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"flyUp"
+],
+[
+"@6",
+"point"
+]
+],
+"expr": [
+[
+0,
+"worried"
+],
+[
+"@1",
+"awe"
+]
+],
+"up": 1.4,
+"facing": [
+[
+0,
+-1
+],
+[
+"@1",
+1
+]
+],
+"hat": "copter",
+"fly": true
+}
+],
+"items": [
+{
+"k": "sea",
+"level": 60,
+"night": true
+},
+{
+"k": "kite",
+"x": 0.7,
+"up": 4.0,
+"dir": -1
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"text": [
+{
+"s": "LIKE A GIANT ARROW",
+"x": 0.62,
+"y": 0.15,
+"at": "@4",
+"size": 50
+}
+]
+},
+{
+"lines": [
+204,
+205
+],
+"set": "ocean",
+"actors": [
+{
+"id": "boy",
+"who": "boy",
+"x": 0.6,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"dy": -40,
+"chair": false
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"up": 1.2,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [
+{
+"k": "sea",
+"level": 60,
+"night": true
+},
+{
+"k": "float",
+"x": 0.6,
+"y": 0.79
+}
+],
+"fx": [
+"night",
+"dark"
+]
+},
+{
+"lines": [
+206,
+207,
+208,
+209,
+210
+],
+"set": "ocean",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"up": 1.0,
+"hat": "copter",
+"fly": true
+},
+{
+"id": "boy",
+"who": "boy",
+"x": 0.53,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"up": 0.85,
+"fly": true,
+"s": 1.3
+}
+],
+"items": [
+{
+"k": "sea",
+"level": 60,
+"night": true
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"card": {
+"big": "25 KG",
+"small": "soaked... heavy",
+"at": "@1",
+"x": 0.25,
+"y": 0.2
+},
+"text": [
+{
+"s": "SLOWER... MUCH SLOWER",
+"x": 0.6,
+"y": 0.15,
+"at": "@3",
+"size": 50
+}
+]
+},
+{
+"lines": [
+211,
+212
+],
+"set": "ocean",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.55
+],
+[
+1,
+0.48
+]
+],
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"up": 1.0,
+"facing": -1,
+"hat": "copter",
+"fly": true
+},
+{
+"id": "boy",
+"who": "boy",
+"x": [
+[
+0,
+0.52
+],
+[
+1,
+0.45
+]
+],
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"up": 0.85,
+"fly": true,
+"s": 1.3,
+"facing": -1
+}
+],
+"items": [
+{
+"k": "sea",
+"level": 60,
+"night": true
+}
+],
+"fx": [
+"night",
+"dark",
+"speed"
+],
+"text": [
+{
+"s": "LIKE FLYING THROUGH SYRUP",
+"x": 0.5,
+"y": 0.15,
+"at": "@1",
+"size": 50
+}
+]
+},
+{
+"lines": [
+213,
+214,
+215,
+216
+],
+"set": "ocean",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"up": 1.0,
+"facing": -1,
+"hat": "copter",
+"fly": true
+},
+{
+"id": "boy",
+"who": "boy",
+"x": 0.47,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"up": 0.85,
+"fly": true,
+"s": 1.3,
+"facing": -1
+}
+],
+"items": [
+{
+"k": "sea",
+"level": 60,
+"night": true
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"inset": {
+"who": "producer",
+"label": "TV PRODUCER",
+"talk": true,
+"at": "@1",
+"x": 0.2
+}
+},
+{
+"lines": [
+217,
+218,
+219,
+220
+],
+"set": "ocean",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"up": 1.0,
+"facing": [
+[
+0,
+1
+],
+[
+"@1",
+-1
+]
+],
+"hat": "copter",
+"fly": true
+},
+{
+"id": "boy",
+"who": "boy",
+"x": 0.47,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"up": 0.85,
+"fly": true,
+"s": 1.3
+}
+],
+"items": [
+{
+"k": "sea",
+"level": 60,
+"night": true
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"props": [
+{
+"k": "crowd",
+"x": 0.85,
+"y": 0.35,
+"r": 50,
+"at": 0.05,
+"disc": true
+},
+{
+"k": "house",
+"x": 0.15,
+"y": 0.35,
+"r": 50,
+"at": "@1",
+"disc": true
+}
+],
+"text": [
+{
+"s": "THE STADIUM...",
+"x": 0.8,
+"y": 0.18,
+"at": "@3",
+"size": 50
+},
+{
+"s": "OR THE SHORE",
+"x": 0.2,
+"y": 0.18,
+"at": "@3.5",
+"size": 50
+}
+]
+},
+{
+"lines": [
+221,
+222,
+223,
+224,
+225
+],
+"set": "ocean",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.6
+],
+[
+1,
+0.45
+]
+],
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"up": 1.0,
+"facing": -1,
+"hat": "copter",
+"fly": true
+},
+{
+"id": "boy",
+"who": "boy",
+"x": [
+[
+0,
+0.57
+],
+[
+1,
+0.42
+]
+],
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"up": 0.85,
+"fly": true,
+"s": 1.3,
+"facing": -1
+}
+],
+"items": [
+{
+"k": "sea",
+"level": 60,
+"night": true
+}
+],
+"fx": [
+"night",
+"dark",
+"speed"
+],
+"text": [
+{
+"s": "INCH BY INCH",
+"x": 0.5,
+"y": 0.15,
+"at": "@2",
+"size": 56
+}
+]
+},
+{
+"lines": [
+226,
+227,
+228,
+229,
+230,
+231,
+232
+],
+"set": "ocean",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"up": 1.0,
+"facing": -1,
+"talk": [
+"@3",
+"@4.9"
+],
+"hat": "copter",
+"fly": true
+},
+{
+"id": "boy",
+"who": "boy",
+"x": 0.47,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"scared"
+],
+[
+"@5",
+"awe"
+]
+],
+"up": 0.85,
+"fly": true,
+"s": 1.3,
+"facing": -1,
+"talk": [
+"@1",
+"@1.9"
+]
+}
+],
+"items": [
+{
+"k": "sea",
+"level": 60,
+"night": true
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"props": [
+{
+"k": "star",
+"x": 0.3,
+"y": 0.15,
+"r": 30,
+"at": "@5",
+"disc": true
+},
+{
+"k": "star",
+"x": 0.6,
+"y": 0.1,
+"r": 25,
+"at": "@5.3",
+"disc": true
+}
+],
+"text": [
+{
+"s": "\"ARE WE GOING TO FALL?\"",
+"x": 0.5,
+"y": 0.2,
+"at": "@1",
+"size": 46
+},
+{
+"s": "\"LOOK UP\"",
+"x": 0.5,
+"y": 0.3,
+"at": "@4"
+}
+]
+},
+{
+"lines": [
+233,
+234,
+235,
+236,
+237
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.85
+],
+[
+1,
+0.55
+]
+],
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"up": [
+[
+0,
+1.0
+],
+[
+1,
+0.3
+]
+],
+"facing": -1,
+"hat": "copter",
+"fly": true
+},
+{
+"id": "boy",
+"who": "boy",
+"x": [
+[
+0,
+0.82
+],
+[
+1,
+0.52
+]
+],
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"up": [
+[
+0,
+0.85
+],
+[
+1,
+0.2
+]
+],
+"fly": true,
+"s": 1.3,
+"facing": -1
+}
+],
+"items": [],
+"fx": [
+"night",
+"dark"
+],
+"card": {
+"big": "11:20... 11:30... 11:40",
+"small": "200 m... 100 m... 50 m",
+"at": 0.05,
+"y": 0.14,
+"w": 760
+}
+},
+{
+"lines": [
+238,
+239,
+240,
+241
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"hat": "copter"
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": [
+[
+0,
+0.3
+],
+[
+"@1.5",
+0.46
+]
+],
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "boy",
+"who": "boy",
+"x": 0.5,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1,
+"s": 1.3
+}
+],
+"items": [],
+"fx": [
+"night",
+"dark"
+]
+},
+{
+"lines": [
+242,
+243,
+244
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 136,
+"hat": null
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.62,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1,
+"talk": [
+"@2",
+1
+]
+}
+],
+"items": [],
+"fx": [
+"night",
+"dark"
+],
+"text": [
+{
+"s": "\"DADDY, YOU DID IT!\"",
+"x": 0.6,
+"y": 0.22,
+"at": "@2"
+}
+]
+},
+{
+"lines": [
+245,
+246
+],
+"set": "stadium",
+"actors": [],
+"items": [],
+"fx": [
+"night",
+"dark"
+],
+"card": {
+"big": "11:55 PM",
+"small": "a stadium waits for a flying man who never comes",
+"at": 0.05,
+"w": 900
+}
+},
+{
+"lines": [
+247,
+248,
+249
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"rot": -1.5708,
+"dy": 136
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.52,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"rot": -1.5708,
+"dy": 130
+}
+],
+"items": [
+{
+"k": "kite",
+"x": 0.55,
+"up": 3.2,
+"hx": 0.5,
+"hy": 0.76
+}
+],
+"fx": [
+"night",
+"dark"
+]
+},
+{
+"lines": [
+250,
+251,
+252,
+253
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"rot": -1.5708,
+"dy": 136
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "battery",
+"x": 0.38,
+"size": 0.15,
+"up": 0.0,
+"a": [
+[
+"@2",
+0
+],
+[
+"@2.2",
+1
+]
+]
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"card": {
+"big": "MIDNIGHT",
+"small": null,
+"at": 0.05,
+"y": 0.14
+},
+"text": [
+{
+"s": "click.",
+"x": 0.38,
+"y": 0.6,
+"at": "@2.5",
+"size": 50
+}
+],
+"cam": {
+"z": [
+1.4,
+1.6
+],
+"y": [
+120,
+140
+]
+}
+},
+{
+"lines": [
+254,
+255,
+256,
+257,
+258,
+259,
+260
+],
+"set": "beach",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"hold": {
+"k": "cup"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "newspaper",
+"x": 0.5,
+"y": 0.35,
+"r": 100,
+"at": "@2",
+"disc": true
+}
+],
+"text": [
+{
+"s": "A MAN FLYING LOW OVER BLACK WATER",
+"x": 0.5,
+"y": 0.14,
+"at": "@5",
+"size": 44
+}
+]
+},
+{
+"lines": [
+261,
+262,
+263
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.4,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.6,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.72,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "balloon",
+"x": 0.5,
+"y": 0.2,
+"r": 40,
+"at": 0.05,
+"disc": true
+},
+{
+"k": "medal",
+"x": 0.3,
+"y": 0.32,
+"r": 40,
+"at": "@1",
+"disc": true
+}
+],
+"text": [
+{
+"s": "HONORARY LIFEGUARD",
+"x": 0.5,
+"y": 0.14,
+"at": "@1",
+"size": 50
+}
+]
+},
+{
+"lines": [
+264,
+265,
+266,
+267
+],
+"set": "ocean",
+"actors": [],
+"items": [
+{
+"k": "sea",
+"level": 330,
+"rip": 0.45
+}
+],
+"card": {
+"big": "CAUGHT IN A RIP?",
+"small": "don't fight it... swim sideways, then back in",
+"at": 0.05,
+"w": 880
+},
+"text": [
+{
+"s": "<<<  SWIM PARALLEL  >>>",
+"x": 0.5,
+"y": 0.55,
+"at": "@1",
+"size": 56
+}
+]
+},
+{
+"lines": [
+268,
+269,
+270
+],
+"set": "room",
+"actors": [
+{
+"id": "lily",
+"who": "lily",
+"x": 0.55,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1,
+"talk": [
+"@2",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.72
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"props": [
+{
+"k": "battery",
+"x": 0.52,
+"y": 0.5,
+"r": 30,
+"at": 0.05,
+"disc": true
+}
+],
+"wall": "#e8c0d0",
+"wall2": "#a07a90",
+"room": {
+"window": 1300,
+"sky": "night",
+"night": true
+}
+},
+{
+"lines": [
+271,
+272,
+273,
+274
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"thought": {
+"props": [
+"money",
+"crowd",
+"camera"
+],
+"x": 0.6,
+"y": 0.25,
+"at": "@1"
+},
+"fx": [
+"night",
+"dark"
+],
+"wall": "#e8c0d0",
+"wall2": "#a07a90",
+"room": {
+"window": 1300,
+"sky": "night",
+"night": true
+}
+},
+{
+"lines": [
+275,
+276,
+277,
+278
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+0,
+"@1.9"
+]
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.513,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"rot": -1.5708,
+"dy": 41,
+"talk": [
+"@3",
+1
+]
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.5
+}
+],
+"extra": [
+{
+"k": "blanket",
+"x": 0.5
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"text": [
+{
+"s": "\"LOOK UP, DADDY\"",
+"x": 0.5,
+"y": 0.2,
+"at": "@3"
+}
+],
+"wall": "#e8c0d0",
+"wall2": "#a07a90",
+"room": {
+"window": 1300,
+"sky": "night",
+"night": true
+}
+},
+{
+"lines": [
+279,
+280
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"pointUp"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [
+{
+"k": "kite",
+"x": 0.5,
+"up": 2.9
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"cam": {
+"z": [
+1.1,
+1.2
+],
+"y": [
+-120,
+-140
+]
+},
+"wall": "#e8c0d0",
+"wall2": "#a07a90",
+"room": {
+"window": 1300,
+"sky": "night",
+"night": true
+}
+},
+{
+"lines": [
+281
+],
+"set": "sky",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "IS IT REAL?",
+"x": 0.5,
+"y": 0.45,
+"at": 0.05,
+"size": 110
+}
+]
+},
+{
+"lines": [
+282,
+283,
+284,
+285
+],
+"set": "lake",
+"actors": [
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": [
+[
+0,
+0.2
+],
+[
+1,
+0.75
+]
+],
+"pose": [
+[
+0,
+"flyUp"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"up": 1.6,
+"fly": true,
+"rot": 0.3,
+"trail": true
+}
+],
+"items": [],
+"card": {
+"big": "2017",
+"small": "Richard Browning's jet suit",
+"at": 0.05,
+"y": 0.14,
+"w": 640
+},
+"fx": [
+"speed"
+]
+},
+{
+"lines": [
+286
+],
+"set": "sky",
+"actors": [],
+"items": [],
+"card": {
+"big": "2019: 130+ KM/H",
+"small": "jet suit speed record",
+"at": 0.05,
+"w": 640
+}
+},
+{
+"lines": [
+287,
+288,
+289
+],
+"set": "sky",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "speaker",
+"x": 0.25,
+"y": 0.5,
+"r": 60,
+"at": 0.05,
+"disc": true
+},
+{
+"k": "fire",
+"x": 0.5,
+"y": 0.5,
+"r": 60,
+"at": "@1",
+"disc": true
+},
+{
+"k": "clock",
+"x": 0.75,
+"y": 0.5,
+"r": 60,
+"at": "@2",
+"disc": true
+}
+],
+"text": [
+{
+"s": "LOUD",
+"x": 0.25,
+"y": 0.3,
+"at": 0.05
+},
+{
+"s": "THIRSTY",
+"x": 0.5,
+"y": 0.3,
+"at": "@1"
+},
+{
+"s": "A FEW MINUTES",
+"x": 0.75,
+"y": 0.3,
+"at": "@2",
+"size": 50
+}
+]
+},
+{
+"lines": [
+290,
+291,
+292
+],
+"set": "sky",
+"actors": [],
+"items": [
+{
+"k": "prop",
+"p": "helicopter",
+"x": 0.5,
+"size": 3.0,
+"up": 0.6
+}
+],
+"text": [
+{
+"s": "REAL PHYSICS SAYS NO",
+"x": 0.5,
+"y": 0.15,
+"at": "@1",
+"size": 56
+},
+{
+"s": "HUGE BLADES NEEDED",
+"x": 0.5,
+"y": 0.26,
+"at": "@2",
+"size": 46
+}
+]
+},
+{
+"lines": [
+293,
+294
+],
+"set": "sky",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"pointUp"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"up": 1.6,
+"hat": "copter",
+"fly": true
+}
+],
+"items": [],
+"text": [
+{
+"s": "A LITTLE CLOSER EVERY YEAR",
+"x": 0.5,
+"y": 0.15,
+"at": 0.05,
+"size": 52
+}
+]
+},
+{
+"lines": [
+295,
+296,
+297
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@1",
+"surprised"
+]
+]
+}
+],
+"items": [
+{
+"k": "robot",
+"x": 0.6,
+"up": 0.9,
+"wave": true,
+"say": "HI!"
+},
+{
+"k": "table",
+"x": 0.6,
+"w": 0.6
+}
+],
+"fx": [
+"night",
+"dark"
+],
+"text": [
+{
+"s": "\"I'M YOUR NEW ASSISTANT\"",
+"x": 0.5,
+"y": 0.18,
+"at": "@2",
+"size": 50
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+298,
+299
+],
+"set": "face",
+"actors": [],
+"items": [],
+"who": "rio",
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"lines": [
+300
+],
+"set": "end",
+"actors": [],
+"items": [],
+"tpl": "end"
+}
+]

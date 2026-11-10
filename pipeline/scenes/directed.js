@@ -58,7 +58,7 @@ const EXTRA_POSES = {
   knob: () => ({ ...POSES.stand, eF: [18, -134], hF: [32, -146], eB: [30, -150], hB: [58, -134] }),  // back hand on the knob (1 m), front hand keeps the cup
   chest: () => ({ ...POSES.sad, eF: [22, -140], hF: [10, -156], eB: [16, -138], hB: [8, -150] }),
   push: () => ({ ...POSES.reach, eF: [30, -160], hF: [58, -170], eB: [28, -150], hB: [56, -158] }),
-  cpr: (p) => { const b = 7 * Math.max(0, Math.sin(p * 120)); return { ...POSES.kneel, head: [26, -150 + b], sh: [20, -118 + b], eF: [34, -86 + b * 0.6], hF: [42, -58], eB: [30, -86 + b * 0.6], hB: [40, -58] }; },
+  cpr: (p) => { const b = 6 * Math.max(0, Math.sin(p * 120)); return { ...POSES.kneel, head: [34, -132 + b], sh: [26, -100 + b], eF: [36, -62 + b * 0.6], hF: [44, -24], eB: [33, -62 + b * 0.6], hB: [42, -24] }; },   // straight arms, hands on the chest of someone lying on the floor
   phoneEar: () => ({ ...POSES.stand, eF: [24, -160], hF: [18, -196] }),
   flySup: () => ({ ...POSES.dive }),
   flyUp: () => ({ ...POSES.stand, eF: [20, -200], hF: [24, -240], eB: [-14, -200], hB: [-18, -238], kF: [8, -52], fF: [6, -4], kB: [-4, -48], fB: [-10, -6] }),
@@ -189,11 +189,25 @@ function table(g, x, y, o) {   // 1.8 m table, 0.75 m high; o.cloth draws the wh
   if (o.cloth) { poly(g, [[L - 14, top], [L + w + 14, top], [L + w + 26, top + M_(0.35)], [L - 26, top + M_(0.35)]], '#f6f4ee'); for (let k = 0; k < 8; k++) seg(g, [[L + k * w / 7, top + M_(0.33)], [L + k * w / 7 - 4, top + M_(0.36)]], 3, '#dcd8ce'); }
   else { g.fillStyle = '#8a5a3a'; g.fillRect(L, top, w, 14); }
 }
+// simple real-size foods on a plate (plate 28 cm). kinds: lasagna pancakes taco sushi steak pasta soup mac cocoa spaghetti pho curry cake pizza pepper milk
+function food(g, k, x, y) {
+  const m = M_;
+  if (k === 'lasagna') { for (let i = 0; i < 4; i++) { g.fillStyle = i % 2 ? '#e0443a' : '#f2c060'; g.fillRect(x - m(0.1), y - m(0.02) * (i + 1), m(0.2), m(0.02)); } }
+  else if (k === 'pancakes') { for (let i = 0; i < 4; i++) { g.fillStyle = '#d8a050'; g.beginPath(); g.ellipse(x, y - 4 - i * 7, m(0.1), 5, 0, 0, 7); g.fill(); g.strokeStyle = '#5a3010'; g.lineWidth = 2.5; g.stroke(); } circle(g, x, y - 34, 5, '#f2e070'); }
+  else if (k === 'taco') { g.fillStyle = '#e8b040'; g.beginPath(); g.arc(x, y - 4, m(0.08), Math.PI, 0); g.fill(); for (const [dx, c] of [[-8, '#3aa876'], [0, '#e0443a'], [8, '#f2e070']]) circle(g, x + dx, y - m(0.07), 6, c); }
+  else if (k === 'sushi') { for (const dx of [-24, 0, 24]) { rr(g, x + dx - 10, y - 14, 20, 12, 4); g.fillStyle = '#f4f4f4'; g.fill(); rr(g, x + dx - 11, y - 20, 22, 7, 3); g.fillStyle = '#f08a5a'; g.fill(); } }
+  else if (k === 'steak') { g.fillStyle = '#8a3a2a'; g.beginPath(); g.ellipse(x, y - 8, m(0.09), 10, 0, 0, 7); g.fill(); for (let i = -2; i <= 2; i++) seg(g, [[x + i * 10 - 6, y - 14], [x + i * 10 + 6, y - 2]], 2, '#3a1a10'); }
+  else if (k === 'pasta' || k === 'spaghetti') { g.fillStyle = '#f2d080'; g.beginPath(); g.ellipse(x, y - 10, m(0.09), 14, 0, Math.PI, 0); g.fill(); if (k === 'spaghetti') for (const dx of [-10, 6, 16]) circle(g, x + dx, y - 16, 6, '#8a3a2a'); else circle(g, x, y - 20, 5, '#2a2a2a'); }
+  else if (k === 'soup' || k === 'pho' || k === 'curry' || k === 'mac') { const c = { soup: '#f2b040', pho: '#e8c890', curry: '#d88a20', mac: '#f2c030' }[k]; g.fillStyle = '#f4f0e8'; g.beginPath(); g.arc(x, y - 14, m(0.08), 0, Math.PI); g.fill(); g.fillStyle = c; g.beginPath(); g.ellipse(x, y - 14, m(0.08), 6, 0, 0, 7); g.fill(); if (k === 'pho') seg(g, [[x - 20, y - 40], [x + 6, y - 14]], 3, '#8a5a3a'); }
+  else if (k === 'cocoa' || k === 'milk') { rr(g, x - 11, y - 26, 22, 26, 4); g.fillStyle = '#f2efe8'; g.fill(); g.fillStyle = k === 'milk' ? '#ffffff' : '#6a3a20'; g.fillRect(x - 9, y - 22, 18, 6); }
+  else drawProp(g, k, x, y - m(0.1), m(0.1), 0, { disc: false, bob: false });
+  for (let i = 0; i < 3; i++) { g.strokeStyle = 'rgba(255,255,255,.35)'; g.lineWidth = 3; g.beginPath(); g.moveTo(x - 10 + i * 10, y - 40); g.quadraticCurveTo(x + i * 10, y - 56, x - 10 + i * 10, y - 70); g.stroke(); }
+}
 function dish(g, x, y, o, p, t) {  // a dish appearing on the table top in a puff at time `at`
   const at = o.at ?? 0, a = clamp((p - at) * 12); if (a <= 0) return; const top = y - M_(0.75);
   if (p - at < 0.12) for (let k = 0; k < 6; k++) FX.sparkle(g, x + Math.cos(k) * 50 * (1 + (p - at) * 8), top - 40 - Math.sin(k) * 30, 14, '#fff', 1 - (p - at) * 8);
   g.save(); g.globalAlpha *= a; g.fillStyle = '#eeeae2'; g.beginPath(); g.ellipse(x, top - 6, M_(0.14), 9, 0, 0, 7); g.fill();
-  drawProp(g, o.food || 'pizza', x, top - 6 - M_(o.size || 0.22) / 2, M_(o.size || 0.22) / 2, t, { disc: false, bob: false }); g.restore();
+  food(g, o.food || 'pizza', x, top - 8); g.restore();
 }
 function kite(g, x, y, o, p, t) {   // red kite with a rainbow tail; string goes to (o.hx, o.hy) in screen fractions
   const ky = y - M_(o.up || 6) + Math.sin(t * 1.3) * 20, kx = x + Math.sin(t * 0.9) * 30;
@@ -248,6 +262,10 @@ function heldItem(g, k, h, p, o = {}) {
   else if (k === 'hammer') { seg(g, [[0, 0], [10, -22]], 2.4, '#8a5a3a'); rr(g, 4, -28, 14, 7, 1.5); g.fillStyle = '#6a6a72'; g.fill(); }
   else if (k === 'note') { rr(g, 0, -12, 12, 12, 1); g.fillStyle = '#f2e04a'; g.fill(); }
   else if (k === 'towel') { rr(g, -4, -20, 20, 30, 3); g.fillStyle = '#e8d8c0'; g.fill(); }
+  else if (k === 'fork') { seg(g, [[0, 0], [8, -16]], 1.6, '#c8ccd4'); }
+  else if (k === 'shovel') { seg(g, [[0, 20], [0, -30]], 2.4, '#8a5a3a'); rr(g, -6, 20, 12, 14, 2); g.fillStyle = '#6a6a72'; g.fill(); }
+  else if (k === 'pepper') { g.fillStyle = '#e0302a'; g.beginPath(); g.ellipse(6, -4, 6, 3, 0.3, 0, 7); g.fill(); }
+  else if (k === 'suitcase') { rr(g, -6, 2, 26, 30, 3); g.fillStyle = '#3a4a6a'; g.fill(); seg(g, [[2, 2], [2, -2], [12, -2], [12, 2]], 1.6, '#2a2a30'); }
   else if (k === 'phone') { rr(g, 0, -12, 7, 13, 1.5); g.fillStyle = '#22222e'; g.fill(); g.fillStyle = '#6fc3ff'; g.fillRect(1, -11, 5, 10); }
   g.restore();
 }
@@ -320,6 +338,8 @@ function roofSet(g, t, cam, d) {   // night, rain, on top of a flat roof, flood 
 export function directed(g, t, info) {
   const d = info.dir || {}, p = info.p, cam = { z: range(d.cam?.z ?? 1, p), x: range(d.cam?.x ?? 0, p), y: range(d.cam?.y ?? 0, p) };
   const M = mood(d.mood || 'interiorWarm'), Y = GY();
+  // keep flying actors in frame: follow the highest one unless the board fixes the camera height
+  if (d.follow !== false && !(d.cam && d.cam.y != null)) { let mu = 0; for (const a of (d.actors || [])) mu = Math.max(mu, track(a.up, p, 0)); if (mu > 1.3) { cam.y = -M_(mu - 0.9) * 0.6; cam.z = Math.min(cam.z, 0.8); } }
   if (d.set === 'map') { mapCard(g, p, t, d); return; }
   if (d.set === 'face') {
     const st = drawSet(d.bg || 'home', g, t * 0.3, { z: 1.5, x: 0, y: -E.H * 0.1 });
@@ -352,6 +372,8 @@ export function directed(g, t, info) {
       const talking = a.talk && p >= a.talk[0] && p <= a.talk[1];
       if (a.shadowAt != null && fly) { g.fillStyle = 'rgba(0,0,0,.18)'; g.beginPath(); g.ellipse(X, Y, 30 * s, 5 * s, 0, 0, 7); g.fill(); }
       if (a.trail) FX.speedLines(g, t, { cx: X, cy: Yy - 120, count: 14, a: 0.12, inner: 120 });
+      const pn = stepVal(a.pose, p, 'relaxed');
+      if (!moving && !fly && a.chair !== false && a.clip == null && /^(sit|sitTable|eat|type|sitPhone|sitBack)$/.test(pn)) FX.chair(g, X - facing * 6 * s, Y, s * 0.62, '#3a2a2a');   // something to sit on
       if (a.clip != null) { g.save(); g.beginPath(); g.rect(-E.W, -E.H * 2, E.W * 3, Y - M_(a.clip) + E.H * 2); g.clip(); }   // e.g. seated in a car: hide legs below the door line
       drawFigure(g, { x: X, y: Yy, s, facing, outfit: of, pose: pz, expr, rot: track(a.rot, p, 0) || 0, shadow: !fly, alpha: al, talk: talking ? 0.5 + 0.5 * Math.sin(t * 22) : 0, look: [facing * 0.6, 0], rim: { color: M.rim || '#ffc68a', dir: [0, -1], w: 4 } });
       if (a.clip != null) g.restore();
@@ -368,8 +390,10 @@ export function directed(g, t, info) {
   const fx = [].concat(d.fx || []);
   if (fx.includes('rain')) FX.rain(g, t, { count: 260, a: 0.5 });
   if (fx.includes('snow')) FX.snow(g, t, { count: 220 });
+  if (fx.includes('greensky')) { g.fillStyle = 'rgba(60,200,90,.38)'; g.fillRect(0, 0, E.W, E.H * 0.55); }
+  if (fx.includes('drought')) { g.fillStyle = 'rgba(170,110,40,.35)'; g.fillRect(0, 0, E.W, E.H); }
   if (fx.includes('night')) { g.fillStyle = 'rgba(10,14,40,.38)'; g.fillRect(0, 0, E.W, E.H); }
-  if (fx.includes('dark')) { g.fillStyle = 'rgba(0,0,0,.55)'; g.fillRect(0, 0, E.W, E.H); }
+  if (fx.includes('dark')) { g.fillStyle = 'rgba(0,0,0,.32)'; g.fillRect(0, 0, E.W, E.H); }
   if (fx.includes('flash')) { const a = clamp(1 - p * 6); g.fillStyle = `rgba(255,255,255,${a})`; g.fillRect(0, 0, E.W, E.H); }
   if (fx.includes('speed')) FX.speedLines(g, t, { count: 30, a: 0.12, inner: 420 });
   if (fx.includes('shake')) { /* handled by cam */ }
