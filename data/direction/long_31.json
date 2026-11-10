@@ -1,0 +1,9178 @@
+[
+{
+"lines": [
+0
+],
+"set": "room",
+"wall": "#b8a8c8",
+"wall2": "#6a5a8a",
+"room": {
+"window": 1250,
+"sky": "golden"
+},
+"cam": {
+"z": [
+1.75,
+1.65
+],
+"x": [
+-210,
+-210
+],
+"y": [
+170,
+170
+]
+},
+"items": [
+{
+"k": "bed",
+"x": 0.42
+},
+{
+"k": "alarm",
+"x": 0.247,
+"ring": [
+0.05,
+0.75
+],
+"time": "7:00"
+}
+],
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.433,
+"dy": 41,
+"rot": -1.5708,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+],
+[
+0.5,
+"shocked"
+]
+]
+}
+],
+"extra": [
+{
+"k": "blanket",
+"x": 0.42
+}
+],
+"sfx": [
+{
+"at": 0.1,
+"name": "ding",
+"gain": -14
+}
+]
+},
+{
+"lines": [
+1
+],
+"set": "bathroom",
+"cam": {
+"z": [
+1.25,
+1.35
+],
+"x": [
+0,
+40
+]
+},
+"items": [
+{
+"k": "sink",
+"x": 0.56
+}
+],
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.485,
+"facing": 1,
+"pose": [
+[
+0,
+"brush"
+]
+],
+"hold": {
+"k": "toothbrush"
+},
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+}
+]
+},
+{
+"lines": [
+2
+],
+"set": "room",
+"wall": "#e8c890",
+"wall2": "#a87a50",
+"room": {
+"tiles": true,
+"window": 1150
+},
+"cam": {
+"z": [
+1.2,
+1.3
+]
+},
+"items": [
+{
+"k": "counter",
+"x": 0.55
+}
+],
+"actors": [
+{
+"id": "rio",
+"x": 0.45,
+"facing": 1,
+"pose": [
+[
+0,
+"pour"
+]
+],
+"hold": {
+"k": "pour",
+"fill": [
+0.15,
+0.85
+]
+},
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+]
+},
+{
+"lines": [
+3
+],
+"set": "room",
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+},
+"cam": {
+"z": [
+1.0,
+1.2
+],
+"x": [
+-60,
+120
+]
+},
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": [
+[
+0.32,
+0
+],
+[
+0.5,
+1
+]
+],
+"inside": "office",
+"sparkle": true
+}
+],
+"actors": [
+{
+"id": "rio",
+"x": [
+[
+0,
+0.2
+],
+[
+0.3,
+0.564
+],
+[
+0.5,
+0.564
+],
+[
+0.72,
+0.64
+]
+],
+"pose": [
+[
+0,
+"holdCup"
+],
+[
+0.3,
+"knob"
+],
+[
+0.5,
+"holdCup"
+]
+],
+"hold": {
+"k": "cup"
+},
+"expr": [
+[
+0,
+"smile"
+],
+[
+0.3,
+"smirk"
+]
+],
+"alpha": [
+[
+0.66,
+1
+],
+[
+0.76,
+0
+]
+]
+}
+],
+"sfx": [
+{
+"at": 1.6,
+"name": "shimmer",
+"gain": -16
+}
+]
+},
+{
+"lines": [
+4
+],
+"set": "office",
+"cam": {
+"z": [
+1.05,
+1.1
+]
+},
+"items": [
+{
+"k": "door",
+"x": 0.3,
+"open": [
+[
+0,
+1
+],
+[
+0.55,
+1
+],
+[
+0.85,
+0
+]
+],
+"inside": "apartment",
+"label": "SUPPLY CLOSET"
+},
+{
+"k": "desk",
+"x": 0.74
+}
+],
+"actors": [
+{
+"id": "rio",
+"x": [
+[
+0,
+0.3
+],
+[
+0.5,
+0.46
+]
+],
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"hold": {
+"k": "cup"
+},
+"expr": [
+[
+0,
+"smile"
+]
+],
+"alpha": [
+[
+0,
+0
+],
+[
+0.12,
+1
+]
+]
+}
+],
+"text": [
+{
+"s": "CHICAGO",
+"x": 0.5,
+"y": 0.16,
+"at": 0.1,
+"size": 90
+}
+]
+},
+{
+"lines": [
+5
+],
+"set": "map",
+"sfx": [
+{
+"at": 0.3,
+"name": "whoosh",
+"gain": -18
+}
+]
+},
+{
+"lines": [
+6
+],
+"set": "office",
+"cam": {
+"z": [
+1.2,
+1.3
+],
+"x": [
+60,
+100
+]
+},
+"items": [
+{
+"k": "desk",
+"x": 0.8
+}
+],
+"actors": [
+{
+"id": "rio",
+"x": 0.36,
+"facing": 1,
+"pose": [
+[
+0,
+"sip"
+]
+],
+"hold": {
+"k": "cup",
+"sip": true
+},
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "max",
+"x": 0.6,
+"facing": -1,
+"pose": [
+[
+0,
+"holdCup"
+],
+[
+0.35,
+"drop"
+]
+],
+"hold": {
+"k": "bagel",
+"drop": 0.35
+},
+"expr": [
+[
+0,
+"neutral"
+],
+[
+0.3,
+"shocked"
+]
+]
+}
+]
+},
+{
+"lines": [
+7
+],
+"set": "office",
+"cam": {
+"z": [
+1.1,
+1.15
+],
+"x": [
+-40,
+-40
+]
+},
+"items": [
+{
+"k": "door",
+"x": 0.22,
+"label": "SUPPLY CLOSET"
+},
+{
+"k": "desk",
+"x": 0.8
+}
+],
+"actors": [
+{
+"id": "rio",
+"x": 0.44,
+"facing": 1,
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"hold": {
+"k": "cup"
+},
+"expr": [
+[
+0,
+"smirk"
+]
+]
+},
+{
+"id": "max",
+"x": 0.64,
+"facing": -1,
+"pose": [
+[
+0,
+"handsOnHead"
+],
+[
+0.35,
+"point"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+],
+[
+0.35,
+"confused"
+]
+],
+"talk": [
+0,
+1
+]
+}
+]
+},
+{
+"lines": [
+8
+],
+"set": "office",
+"cam": {
+"z": [
+1.3,
+1.35
+]
+},
+"items": [
+{
+"k": "desk",
+"x": 0.8
+}
+],
+"actors": [
+{
+"id": "rio",
+"x": 0.42,
+"facing": 1,
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+},
+{
+"id": "max",
+"x": 0.66,
+"facing": -1,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"props": [
+{
+"k": "car",
+"x": 0.22,
+"y": 0.3,
+"r": 60,
+"at": 0.45,
+"disc": true
+}
+],
+"text": [
+{
+"s": "TRAFFIC?",
+"x": 0.22,
+"y": 0.14,
+"at": 0.45,
+"size": 64
+}
+]
+},
+{
+"lines": [
+9
+],
+"set": "office",
+"cam": {
+"z": [
+1.15,
+1.2
+],
+"x": [
+0,
+30
+]
+},
+"items": [
+{
+"k": "desk",
+"x": 0.74
+}
+],
+"actors": [
+{
+"id": "rio",
+"x": 0.4,
+"facing": 1,
+"pose": [
+[
+0,
+"sip"
+]
+],
+"hold": {
+"k": "cup",
+"sip": true
+},
+"expr": [
+[
+0,
+"smirk"
+]
+]
+},
+{
+"id": "max",
+"x": 0.62,
+"facing": -1,
+"pose": [
+[
+0,
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+]
+},
+{
+"lines": [
+10
+],
+"set": "face",
+"bg": "home",
+"name": "RIO",
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"lines": [
+11
+],
+"set": "night",
+"cam": {
+"z": [
+1.0,
+1.12
+]
+},
+"in": "fade",
+"items": [
+{
+"k": "door",
+"x": 0.58,
+"a": [
+[
+0.15,
+0
+],
+[
+0.6,
+1
+]
+],
+"sparkle": true
+}
+],
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.3,
+"facing": 1,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+0.55,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+],
+[
+0.5,
+"shocked"
+]
+]
+}
+],
+"sfx": [
+{
+"at": 0.6,
+"name": "shimmer",
+"gain": -14
+}
+]
+},
+{
+"lines": [
+12
+],
+"set": "night",
+"cam": {
+"z": [
+1.05,
+1.05
+]
+},
+"items": [
+{
+"k": "door",
+"x": 0.55,
+"front": true
+}
+],
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": [
+[
+0,
+0.35
+],
+[
+0.45,
+0.72
+],
+[
+0.55,
+0.72
+]
+],
+"pose": [
+[
+0,
+"think"
+],
+[
+0.5,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"text": [
+{
+"s": "?",
+"x": 0.72,
+"y": 0.3,
+"at": 0.5,
+"size": 120
+}
+]
+},
+{
+"lines": [
+13
+],
+"set": "night",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": [
+[
+0,
+0.42
+],
+[
+0.6,
+0.5
+]
+],
+"pose": [
+[
+0,
+"think"
+],
+[
+0.6,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.6,
+"front": true
+}
+],
+"cam": {
+"z": [
+1.2,
+1.3
+],
+"x": [
+80,
+120
+]
+}
+},
+{
+"lines": [
+14
+],
+"set": "night",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.44,
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.6
+}
+],
+"cam": {
+"z": [
+1.0,
+1.0
+]
+}
+},
+{
+"lines": [
+15,
+16,
+17,
+18
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.564
+],
+[
+"@2.8",
+0.564
+],
+[
+"@3.6",
+0.64
+]
+],
+"pose": [
+[
+0,
+"knob"
+],
+[
+"@1",
+"think"
+],
+[
+"@2",
+"knob"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@1",
+"thinking"
+],
+[
+"@3",
+"joy"
+]
+],
+"alpha": [
+[
+"@3.5",
+1
+],
+[
+"@3.9",
+0
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": [
+[
+"@2.1",
+0
+],
+[
+"@2.6",
+1
+]
+],
+"inside": "sunset",
+"sparkle": true
+}
+],
+"thought": {
+"props": [
+"globe"
+],
+"x": 0.3,
+"y": 0.25,
+"at": "@1"
+},
+"cam": {
+"z": [
+1.1,
+1.25
+],
+"x": [
+0,
+120
+]
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+19,
+20
+],
+"set": "highway",
+"actors": [],
+"items": [
+{
+"k": "prop",
+"p": "car",
+"x": 0.2,
+"size": 1.2,
+"up": 0.0,
+"dx": [
+[
+0,
+0
+],
+[
+1,
+0.05
+]
+]
+},
+{
+"k": "prop",
+"p": "bus",
+"x": 0.45,
+"size": 1.6,
+"up": 0.0,
+"dx": [
+[
+0,
+0
+],
+[
+1,
+0.03
+]
+]
+},
+{
+"k": "prop",
+"p": "car",
+"x": 0.7,
+"size": 1.2,
+"up": 0.0
+}
+],
+"card": {
+"big": "27 MIN",
+"small": "average commute in the US... one way",
+"at": 0.12
+},
+"fx": [
+"speed"
+]
+},
+{
+"lines": [
+21
+],
+"set": "highway",
+"actors": [],
+"items": [
+{
+"k": "prop",
+"p": "car",
+"x": 0.3,
+"size": 1.2,
+"up": 0.0
+},
+{
+"k": "prop",
+"p": "car",
+"x": 0.6,
+"size": 1.2,
+"up": 0.0
+}
+],
+"card": {
+"big": "4.5 HOURS",
+"small": "every week, just getting to work",
+"at": 0.12
+}
+},
+{
+"lines": [
+22
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.64
+],
+[
+0.6,
+0.5
+]
+],
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hold": {
+"k": "cup"
+},
+"alpha": [
+[
+0,
+0
+],
+[
+0.15,
+1
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": [
+[
+0,
+1
+],
+[
+0.7,
+1
+],
+[
+0.95,
+0
+]
+],
+"inside": "office"
+}
+],
+"card": {
+"big": "0 SECONDS",
+"small": null,
+"at": 0.3
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+23
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"pointUp"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"card": {
+"big": "ONE RULE",
+"small": null,
+"at": 0.3
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+24
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": [
+[
+0,
+0
+],
+[
+0.2,
+1
+]
+],
+"inside": "sunset"
+},
+{
+"k": "prop",
+"p": "hourglass",
+"x": 0.82,
+"size": 0.6,
+"up": 1.6,
+"disc": true
+}
+],
+"card": {
+"big": "60 SECONDS",
+"small": "the door stays open",
+"at": 0.12,
+"x": 0.3
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+25
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.95",
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@0.95",
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": [
+[
+0,
+1
+],
+[
+"@0.9",
+1
+],
+[
+"@1.0",
+0
+]
+],
+"inside": "sunset"
+},
+{
+"k": "prop",
+"p": "clock",
+"x": 0.82,
+"size": 0.5,
+"up": 1.6,
+"disc": true,
+"a": [
+[
+"@0.9",
+0
+],
+[
+"@1.1",
+1
+]
+]
+}
+],
+"card": {
+"big": "1 HOUR",
+"small": "to recharge",
+"at": "@1.1",
+"x": 0.3
+},
+"sfx": [
+{
+"at": 1.2,
+"name": "whoosh",
+"gain": -12
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+26,
+27
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"cheer"
+],
+[
+"@1",
+"sit"
+]
+],
+"expr": [
+[
+0,
+"joy"
+],
+[
+"@1",
+"sleepy"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+},
+{
+"k": "prop",
+"p": "clock",
+"x": 0.78,
+"size": 0.5,
+"up": 1.7,
+"disc": true,
+"a": [
+[
+"@1",
+0
+],
+[
+"@1.2",
+1
+]
+]
+}
+],
+"card": {
+"big": "1 MIN",
+"small": "of magic",
+"at": 0.05,
+"x": 0.3
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+28
+],
+"set": "room",
+"actors": [],
+"items": [],
+"tpl": "title",
+"params": {
+"title": "What If You Owned The Anywhere Door?"
+}
+},
+{
+"lines": [
+29,
+30
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "max",
+"who": "max",
+"x": 0.66,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.45
+}
+],
+"card": {
+"big": "DAY ONE",
+"small": "lunch break",
+"at": 0.05
+}
+},
+{
+"lines": [
+31,
+32
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@1",
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+],
+[
+"@1",
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.7
+}
+],
+"thought": {
+"props": [
+"fire"
+],
+"s": "RAMEN",
+"x": 0.3,
+"y": 0.23
+},
+"card": {
+"big": "TOKYO",
+"small": "real ramen",
+"at": "@1",
+"x": 0.7
+}
+},
+{
+"lines": [
+33
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.4
+],
+[
+"@0.6",
+0.4
+],
+[
+"@1",
+0.5
+]
+],
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@0.6",
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.4,
+"open": [
+[
+0,
+0
+],
+[
+0.25,
+1
+]
+],
+"inside": "office"
+},
+{
+"k": "shop",
+"x": 0.72,
+"s": "RAMEN",
+"closed": true
+}
+],
+"fx": [
+"night"
+],
+"cam": {
+"z": [
+1.0,
+1.1
+]
+}
+},
+{
+"lines": [
+34
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.4,
+"open": 1,
+"inside": "office"
+},
+{
+"k": "shop",
+"x": 0.72,
+"s": "RAMEN",
+"closed": true
+}
+],
+"fx": [
+"night"
+]
+},
+{
+"lines": [
+35
+],
+"set": "street",
+"actors": [],
+"items": [],
+"fx": [
+"night"
+],
+"card": {
+"big": "12 PM CHICAGO = 3 AM TOKYO",
+"small": "15 hours apart",
+"at": 0.12,
+"w": 980,
+"size": 64
+}
+},
+{
+"lines": [
+36
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.48,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [
+{
+"k": "shop",
+"x": 0.62,
+"s": "RAMEN",
+"closed": true
+}
+],
+"fx": [
+"night"
+],
+"cam": {
+"z": [
+1.25,
+1.35
+],
+"x": [
+60,
+80
+]
+}
+},
+{
+"lines": [
+37
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"stand"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "cat",
+"x": 0.62,
+"size": 0.5,
+"up": 0.0
+}
+],
+"fx": [
+"night"
+],
+"cam": {
+"z": [
+1.3,
+1.4
+],
+"x": [
+40,
+60
+],
+"y": [
+60,
+60
+]
+}
+},
+{
+"lines": [
+38
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "cat",
+"x": 0.6,
+"size": 0.5,
+"up": 0.0
+}
+],
+"fx": [
+"night"
+],
+"cam": {
+"z": [
+1.5,
+1.55
+],
+"x": [
+40,
+40
+],
+"y": [
+120,
+120
+]
+}
+},
+{
+"lines": [
+39
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.55
+],
+[
+0.8,
+0.4
+]
+],
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"alpha": [
+[
+0.75,
+1
+],
+[
+0.9,
+0
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.4,
+"open": 1,
+"inside": "office"
+},
+{
+"k": "prop",
+"p": "cat",
+"x": 0.7,
+"size": 0.35,
+"up": 0.0
+}
+],
+"fx": [
+"night"
+]
+},
+{
+"lines": [
+40,
+41,
+42
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"explain"
+],
+[
+"@2",
+"pointUp"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"card": {
+"big": "LESSON ONE",
+"small": "the door moves you...",
+"at": 0.05
+},
+"props": [
+{
+"k": "sun",
+"x": 0.8,
+"y": 0.25,
+"r": 70,
+"at": "@2",
+"disc": true
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+43,
+44
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"hold": {
+"k": "cup"
+}
+}
+],
+"items": [],
+"card": {
+"big": "DAY THREE",
+"small": "problem.",
+"at": 0.05
+},
+"props": [
+{
+"k": "dizzy",
+"x": 0.47,
+"y": 0.42,
+"r": 50,
+"at": "@1"
+}
+]
+},
+{
+"lines": [
+45,
+46
+],
+"set": "kitchen",
+"actors": [],
+"items": [],
+"tpl": "science",
+"params": {
+"sci": "BODY CLOCK",
+"icon": "brain"
+}
+},
+{
+"lines": [
+47
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "1 HOUR / DAY",
+"small": "how fast your body clock can shift",
+"at": 0.12,
+"w": 760
+}
+},
+{
+"lines": [
+48
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.564
+],
+[
+0.25,
+0.64
+],
+[
+0.35,
+0.64
+],
+[
+0.6,
+0.564
+],
+[
+0.7,
+0.564
+],
+[
+0.95,
+0.64
+]
+],
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"alpha": [
+[
+0.2,
+1
+],
+[
+0.27,
+0
+],
+[
+0.38,
+0
+],
+[
+0.45,
+1
+],
+[
+0.88,
+1
+],
+[
+0.95,
+0
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": 1,
+"inside": "tokyo"
+}
+],
+"card": {
+"big": "12 TIME ZONES",
+"small": "before dinner",
+"at": 0.12,
+"x": 0.3
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+49
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "stomach",
+"x": 0.6,
+"y": 0.4,
+"r": 60,
+"at": 0.1,
+"disc": true
+},
+{
+"k": "sun",
+"x": 0.75,
+"y": 0.25,
+"r": 50,
+"at": 0.4,
+"disc": true
+}
+],
+"card": {
+"big": "BREAKFAST?",
+"small": null,
+"at": 0.5,
+"x": 0.3
+}
+},
+{
+"lines": [
+50
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "eye",
+"x": 0.6,
+"y": 0.4,
+"r": 60,
+"at": 0.1,
+"disc": true
+},
+{
+"k": "moon",
+"x": 0.75,
+"y": 0.25,
+"r": 50,
+"at": 0.4,
+"disc": true
+}
+],
+"card": {
+"big": "MIDNIGHT",
+"small": null,
+"at": 0.5,
+"x": 0.3
+}
+},
+{
+"lines": [
+51,
+52,
+53
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"sad"
+],
+[
+"@1",
+"shrug"
+],
+[
+"@2",
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+],
+[
+"@1",
+"smirk"
+],
+[
+"@2",
+"sad"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "JET LAG",
+"small": "...without the jet",
+"at": 0.05
+},
+"text": [
+{
+"s": "GENIUS?",
+"x": 0.72,
+"y": 0.3,
+"at": "@1"
+},
+{
+"s": "TORTURE?",
+"x": 0.72,
+"y": 0.45,
+"at": "@2",
+"color": "#ff6a5a"
+}
+]
+},
+{
+"lines": [
+54,
+55,
+56,
+57
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.564,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1",
+"knob"
+],
+[
+"@3",
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": [
+[
+"@1.3",
+0
+],
+[
+"@2",
+1
+]
+],
+"inside": "mountain"
+}
+],
+"card": {
+"big": "DENVER",
+"small": "the Mile High City... about 1,600 m up",
+"at": "@1",
+"w": 820
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+58,
+59,
+60
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"knob"
+],
+[
+"@0.6",
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@0.6",
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": 1,
+"inside": "mountain"
+},
+{
+"k": "prop",
+"p": "letter",
+"x": 0.3,
+"size": 0.3,
+"up": 1.0,
+"dx": [
+[
+"@1",
+0
+],
+[
+"@2",
+0.4
+]
+],
+"upk": [
+[
+"@1",
+1.0
+],
+[
+"@2",
+1.8
+]
+],
+"rot": [
+[
+"@1",
+0
+],
+[
+"@2",
+4
+]
+]
+},
+{
+"k": "prop",
+"p": "letter",
+"x": 0.25,
+"size": 0.25,
+"up": 0.8,
+"dx": [
+[
+"@1",
+0
+],
+[
+"@2",
+0.45
+]
+],
+"upk": [
+[
+"@1",
+0.8
+],
+[
+"@2",
+1.4
+]
+],
+"rot": [
+[
+"@1",
+0
+],
+[
+"@2",
+-3
+]
+]
+},
+{
+"k": "prop",
+"p": "flower",
+"x": 0.2,
+"size": 0.5,
+"up": 0.0,
+"rot": [
+[
+"@2",
+0
+],
+[
+"@2.4",
+1.4
+]
+]
+}
+],
+"fx": [
+"speed"
+],
+"sfx": [
+{
+"at": 0.4,
+"name": "whoosh",
+"gain": -10
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+61,
+62
+],
+"set": "mountain",
+"actors": [],
+"items": [],
+"card": {
+"big": "1/6 LESS AIR PRESSURE",
+"small": "in Denver than in Miami",
+"at": "@1",
+"w": 840
+},
+"text": [
+{
+"s": "THINNER AIR",
+"x": 0.5,
+"y": 0.45,
+"at": 0.05,
+"size": 80
+}
+]
+},
+{
+"lines": [
+63,
+64
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"explain"
+],
+[
+"@1",
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+],
+[
+"@1",
+"smirk"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": 1,
+"inside": "mountain"
+}
+],
+"text": [
+{
+"s": "HIGH  >>>  LOW",
+"x": 0.55,
+"y": 0.2,
+"at": 0.05,
+"size": 64
+},
+{
+"s": "ACHOO!",
+"x": 0.75,
+"y": 0.35,
+"at": "@1"
+}
+],
+"fx": [
+"speed"
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+65
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": 1,
+"inside": "mountain"
+}
+],
+"props": [
+{
+"k": "ear",
+"x": 0.55,
+"y": 0.3,
+"r": 50,
+"at": 0.1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "POP!",
+"x": 0.35,
+"y": 0.3,
+"at": 0.3
+}
+],
+"cam": {
+"z": [
+1.3,
+1.4
+],
+"x": [
+-40,
+-40
+],
+"y": [
+-80,
+-80
+]
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+66,
+67
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1",
+"nervous"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+],
+[
+"@1",
+"nervous"
+]
+],
+"facing": -1
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": [
+[
+0,
+0.12
+],
+[
+0.3,
+0.22
+]
+],
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"talk": [
+"@1",
+1
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.72,
+"open": 1,
+"inside": "mountain"
+}
+],
+"text": [
+{
+"s": "KNOCK KNOCK",
+"x": 0.2,
+"y": 0.25,
+"at": 0.05,
+"size": 54
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+68,
+69
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1",
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.22,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.72,
+"open": [
+[
+0,
+1
+],
+[
+"@1.5",
+1
+],
+[
+"@1.9",
+0
+]
+],
+"inside": "mountain"
+}
+],
+"text": [
+{
+"s": "VENTILATION",
+"x": 0.5,
+"y": 0.2,
+"at": "@1"
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+70
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"ready"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"cam": {
+"z": [
+1.2,
+1.35
+]
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+71,
+72,
+73
+],
+"set": "mountain",
+"actors": [],
+"items": [],
+"card": {
+"big": "MOUNT EVEREST",
+"small": "8,849 m... the top of the world",
+"at": 0.05,
+"w": 820
+},
+"fx": [
+"snow"
+]
+},
+{
+"lines": [
+74
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.564,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"thought": {
+"props": [
+"mountain",
+"flag"
+],
+"x": 0.3,
+"y": 0.25,
+"at": 0.1
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+75
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.564
+],
+[
+0.4,
+0.5
+]
+],
+"pose": [
+[
+0,
+"knob"
+],
+[
+0.3,
+"ready"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+0.3,
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": [
+[
+0,
+0
+],
+[
+0.25,
+1
+]
+],
+"inside": "snow"
+},
+{
+"k": "prop",
+"p": "letter",
+"x": 0.3,
+"size": 0.3,
+"up": 1.2,
+"dx": [
+[
+0.3,
+0
+],
+[
+0.8,
+0.5
+]
+],
+"rot": [
+[
+0.3,
+0
+],
+[
+0.8,
+5
+]
+]
+}
+],
+"fx": [
+"speed",
+"snow"
+],
+"sfx": [
+{
+"at": 0.6,
+"name": "whoosh",
+"gain": -8
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+76
+],
+"set": "mountain",
+"actors": [],
+"items": [],
+"card": {
+"big": "1/3 AIR PRESSURE",
+"small": "of sea level, at the summit",
+"at": 0.12,
+"w": 780
+},
+"fx": [
+"snow"
+]
+},
+{
+"lines": [
+77
+],
+"set": "mountain",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "-30 C",
+"small": "or colder",
+"at": 0.12,
+"x": 0.72
+},
+"fx": [
+"snow"
+],
+"props": [
+{
+"k": "snowflake",
+"x": 0.3,
+"y": 0.3,
+"r": 50,
+"at": 0.2,
+"disc": true
+}
+]
+},
+{
+"lines": [
+78,
+79
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1",
+"sad"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+],
+[
+"@1",
+"confused"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": 1,
+"inside": "snow"
+}
+],
+"props": [
+{
+"k": "dizzy",
+"x": 0.52,
+"y": 0.42,
+"r": 50,
+"at": "@1"
+}
+],
+"fx": [
+"snow"
+],
+"cam": {
+"z": [
+1.3,
+1.4
+],
+"x": [
+0,
+0
+],
+"y": [
+-60,
+-60
+]
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+80
+],
+"set": "mountain",
+"actors": [],
+"items": [],
+"card": {
+"big": "1-2 MINUTES",
+"small": "of clear thinking for an unprepared person",
+"at": 0.12,
+"w": 880
+},
+"props": [
+{
+"k": "brain",
+"x": 0.5,
+"y": 0.55,
+"r": 90,
+"at": 0.3,
+"disc": true
+}
+],
+"fx": [
+"snow"
+]
+},
+{
+"lines": [
+81
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.52,
+"pose": [
+[
+0,
+"ready"
+],
+[
+0.3,
+"kick2"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": [
+[
+0,
+1
+],
+[
+0.45,
+1
+],
+[
+0.6,
+0
+]
+],
+"inside": "snow"
+}
+],
+"sfx": [
+{
+"at": 0.6,
+"name": "whoosh",
+"gain": -12
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+82
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"rot": -1.5708,
+"dy": 136
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"cam": {
+"z": [
+1.2,
+1.25
+],
+"y": [
+80,
+80
+]
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+83,
+84
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "BALI",
+"small": "a quiet beach",
+"at": "@1",
+"x": 0.7
+},
+"thought": {
+"props": [
+"sun",
+"wave"
+],
+"x": 0.3,
+"y": 0.22,
+"at": 0.05
+}
+},
+{
+"lines": [
+85,
+86
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.564,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"card": {
+"big": "A FEW METERS TOO FAR OUT",
+"small": null,
+"at": "@1",
+"w": 900,
+"size": 56
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+87
+],
+"set": "ocean",
+"actors": [],
+"items": [],
+"card": {
+"big": "+1 ATMOSPHERE",
+"small": "every 10 m of seawater",
+"at": 0.12,
+"w": 760
+},
+"props": [
+{
+"k": "wave",
+"x": 0.5,
+"y": 0.55,
+"r": 90,
+"at": 0.3,
+"disc": true
+}
+]
+},
+{
+"lines": [
+88
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.564,
+"pose": [
+[
+0,
+"knob"
+],
+[
+0.5,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+0.5,
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": [
+[
+0.3,
+0
+],
+[
+0.42,
+0.12
+]
+],
+"inside": "water"
+},
+{
+"k": "jet",
+"x": 0.61,
+"a": [
+[
+0.4,
+0
+],
+[
+0.45,
+1
+]
+],
+"up": 1.5
+}
+],
+"sfx": [
+{
+"at": 1.0,
+"name": "whoosh",
+"gain": -10
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+89
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.56,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": [
+[
+0,
+0.12
+],
+[
+"@0.5",
+0
+]
+],
+"inside": "water"
+},
+{
+"k": "jet",
+"x": 0.61,
+"a": [
+[
+0,
+1
+],
+[
+"@0.5",
+0
+]
+],
+"up": 1.5
+},
+{
+"k": "puddle",
+"x": 0.56
+}
+],
+"text": [
+{
+"s": "CLICK",
+"x": 0.75,
+"y": 0.25,
+"at": "@1"
+},
+{
+"s": "drip... drip",
+"x": 0.4,
+"y": 0.62,
+"at": "@3",
+"size": 46
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+90,
+91
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.56,
+"pose": [
+[
+0,
+"knob"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+},
+{
+"k": "puddle",
+"x": 0.56
+},
+{
+"k": "paper",
+"x": 0.64,
+"up": 1.5,
+"s": "PICTURE THE SAND"
+}
+],
+"cam": {
+"z": [
+1.3,
+1.4
+],
+"x": [
+100,
+120
+],
+"y": [
+-60,
+-60
+]
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+92,
+93,
+94
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@2",
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "tomato",
+"from": "@1.5"
+}
+}
+],
+"items": [
+{
+"k": "stall",
+"x": 0.68
+},
+{
+"k": "door",
+"x": 0.15,
+"open": 1,
+"inside": "apartment"
+}
+],
+"card": {
+"big": "ITALY",
+"small": "Saturday groceries",
+"at": "@1",
+"x": 0.3
+},
+"text": [
+{
+"s": "TASTES LIKE SUMMER",
+"x": 0.6,
+"y": 0.18,
+"at": "@2",
+"size": 56
+}
+]
+},
+{
+"lines": [
+95,
+96,
+97
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@1",
+"surprised"
+]
+],
+"hold": {
+"k": "tomato"
+}
+}
+],
+"items": [
+{
+"k": "stall",
+"x": 0.68
+}
+],
+"card": {
+"big": "THE CATCH?",
+"small": null,
+"at": 0.05
+},
+"props": [
+{
+"k": "magnifier",
+"x": 0.55,
+"y": 0.45,
+"r": 70,
+"at": "@2",
+"disc": true
+},
+{
+"k": "bee",
+"x": 0.6,
+"y": 0.47,
+"r": 30,
+"at": "@2.4"
+}
+],
+"text": [
+{
+"s": "NO FRESH FRUIT ACROSS BORDERS",
+"x": 0.5,
+"y": 0.34,
+"at": "@1",
+"size": 46
+}
+]
+},
+{
+"lines": [
+98,
+99,
+100
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@1",
+"sad"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"hold": {
+"k": "tomato"
+}
+}
+],
+"items": [
+{
+"k": "stall",
+"x": 0.68
+}
+],
+"props": [
+{
+"k": "card",
+"x": 0.6,
+"y": 0.4,
+"r": 60,
+"at": 0.05,
+"disc": true
+},
+{
+"k": "police",
+"x": 0.75,
+"y": 0.4,
+"r": 50,
+"at": "@1",
+"disc": true
+}
+],
+"card": {
+"big": "STILL ILLEGAL",
+"small": "even with a magic door",
+"at": "@1",
+"x": 0.3
+}
+},
+{
+"lines": [
+101,
+102
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"hold": {
+"k": "tomato"
+}
+},
+{
+"id": "max",
+"who": "max",
+"x": 0.62,
+"pose": [
+[
+0,
+"cheer"
+],
+[
+"@1",
+"point"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1,
+"talk": [
+"@1",
+1
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.82
+}
+],
+"text": [
+{
+"s": "HA HA HA",
+"x": 0.65,
+"y": 0.25,
+"at": 0.05,
+"size": 54
+}
+]
+},
+{
+"lines": [
+103
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.52,
+"pose": [
+[
+0,
+"reach"
+],
+[
+0.6,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "tomato",
+"to": 0.55
+}
+}
+],
+"items": [
+{
+"k": "stall",
+"x": 0.68
+}
+]
+},
+{
+"lines": [
+104,
+105
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.15
+],
+[
+"@1",
+0.35
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@1",
+"shocked"
+]
+]
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.5,
+"pose": [
+[
+0,
+"stand"
+],
+[
+"@1",
+"chest"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@1",
+"scared"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.55
+}
+],
+"wall": "#c8b8a8",
+"wall2": "#7a6a5a"
+},
+{
+"lines": [
+106
+],
+"set": "room",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.5,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1,
+"hold": {
+"k": "phone"
+},
+"talk": [
+0,
+1
+]
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.55
+}
+],
+"card": {
+"big": "911",
+"small": null,
+"at": 0.12,
+"x": 0.3
+},
+"wall": "#c8b8a8",
+"wall2": "#7a6a5a"
+},
+{
+"lines": [
+107
+],
+"set": "city",
+"actors": [],
+"items": [
+{
+"k": "prop",
+"p": "ambulance",
+"x": 0.4,
+"size": 1.6,
+"up": 0.0,
+"dx": [
+[
+0,
+-0.2
+],
+[
+1,
+0.1
+]
+]
+}
+],
+"card": {
+"big": "~7 MINUTES",
+"small": "average ambulance arrival in big US cities",
+"at": 0.12,
+"w": 860
+}
+},
+{
+"lines": [
+108,
+109
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.4
+],
+[
+"@1",
+0.564
+]
+],
+"pose": [
+[
+0,
+"determined"
+],
+[
+"@1",
+"knob"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": [
+[
+"@1.3",
+0
+],
+[
+"@1.7",
+1
+]
+],
+"inside": "hospital",
+"sparkle": true
+}
+],
+"wall": "#c8b8a8",
+"wall2": "#7a6a5a"
+},
+{
+"lines": [
+110
+],
+"set": "hospital",
+"actors": [
+{
+"id": "nurse",
+"who": "nurse",
+"x": [
+[
+0,
+0.85
+],
+[
+0.8,
+0.55
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+},
+{
+"id": "doctor",
+"who": "doctor",
+"x": [
+[
+0,
+0.95
+],
+[
+0.8,
+0.68
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.18,
+"open": 1,
+"inside": "apartment"
+}
+]
+},
+{
+"lines": [
+111,
+112
+],
+"set": "hospital",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.42,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": -20
+},
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.64,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"talk": [
+"@1",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.78,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"card": {
+"big": "60 SECONDS LATER",
+"small": null,
+"at": 0.05,
+"y": 0.15
+}
+},
+{
+"lines": [
+113,
+114,
+115
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.42,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@2",
+"happy"
+]
+],
+"rot": -1.5708,
+"dy": 52
+}
+],
+"items": [],
+"text": [
+{
+"s": "NOT JET LAG...",
+"x": 0.5,
+"y": 0.2,
+"at": "@1"
+},
+{
+"s": "JOY",
+"x": 0.5,
+"y": 0.32,
+"at": "@2",
+"size": 90
+}
+]
+},
+{
+"lines": [
+116,
+117
+],
+"set": "city",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.5
+],
+[
+0.4,
+0.5
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"alpha": [
+[
+0,
+0
+],
+[
+0.3,
+1
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.25,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.78,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.5,
+"a": [
+[
+0,
+1
+],
+[
+0.35,
+0
+]
+],
+"open": 1,
+"inside": "apartment"
+}
+]
+},
+{
+"lines": [
+118,
+119
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+],
+[
+"@1",
+"nervous"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"card": {
+"big": "12,000,000 VIEWS",
+"small": "by Monday",
+"at": 0.05,
+"w": 760
+},
+"props": [
+{
+"k": "bell",
+"x": 0.7,
+"y": 0.42,
+"r": 40,
+"at": "@1",
+"disc": true
+}
+]
+},
+{
+"lines": [
+120,
+121,
+122
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "victor",
+"label": "VICTOR HALE",
+"talk": false,
+"at": "@1"
+},
+"card": {
+"big": "SHIPPING CEO",
+"small": "biggest on Earth",
+"at": "@2",
+"x": 0.3,
+"y": 0.18
+}
+},
+{
+"lines": [
+123
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "victor",
+"label": "VICTOR HALE",
+"talk": true,
+"at": 0
+}
+},
+{
+"lines": [
+124,
+125
+],
+"set": "ocean",
+"actors": [],
+"items": [
+{
+"k": "ship",
+"x": 0.5,
+"y": 0.62,
+"len": 30,
+"sc": 0.3
+}
+],
+"card": {
+"big": "80%",
+"small": "of world trade travels by sea",
+"at": 0.05
+},
+"text": [
+{
+"s": "WEEKS ON THE OCEAN",
+"x": 0.5,
+"y": 0.42,
+"at": "@1",
+"size": 56
+}
+]
+},
+{
+"lines": [
+126
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": 1,
+"inside": "market"
+},
+{
+"k": "prop",
+"p": "box",
+"x": 0.56,
+"size": 0.4,
+"up": 0.9,
+"a": 0
+}
+],
+"props": [
+{
+"k": "gift",
+"x": 0.55,
+"y": 0.6,
+"r": 40,
+"at": 0.1
+}
+],
+"card": {
+"big": "1 MINUTE",
+"small": null,
+"at": 0.4,
+"x": 0.3
+},
+"inset": {
+"who": "victor",
+"label": "VICTOR HALE",
+"talk": true,
+"at": 0,
+"x": 0.85
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+127
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"card": {
+"big": "$1,000,000,000",
+"small": null,
+"at": 0.4,
+"x": 0.45,
+"w": 760
+},
+"inset": {
+"who": "victor",
+"label": "VICTOR HALE",
+"talk": true,
+"at": 0,
+"x": 0.85
+}
+},
+{
+"lines": [
+128,
+129,
+130,
+131,
+132
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "victor",
+"label": "VICTOR HALE",
+"talk": true,
+"at": 0,
+"x": 0.82
+},
+"card": {
+"big": "THE DOOR BECOMES OURS",
+"small": "our warehouses only",
+"at": "@1",
+"x": 0.4,
+"w": 820,
+"size": 60
+},
+"text": [
+{
+"s": "SINGAPORE - FRIDAY, NOON",
+"x": 0.45,
+"y": 0.45,
+"at": "@3",
+"size": 50
+}
+],
+"props": [
+{
+"k": "contract",
+"x": 0.62,
+"y": 0.6,
+"r": 50,
+"at": "@3",
+"disc": true
+}
+]
+},
+{
+"lines": [
+133,
+134,
+135
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"phone"
+],
+[
+"@2",
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"awe"
+],
+[
+"@2",
+"confused"
+]
+],
+"hold": {
+"k": "phone",
+"to": "@2"
+}
+}
+],
+"items": [],
+"card": {
+"big": "ONE BILLION",
+"small": "is that even a real number?",
+"at": "@1"
+},
+"cam": {
+"z": [
+1.3,
+1.45
+],
+"y": [
+-60,
+-60
+]
+}
+},
+{
+"lines": [
+136,
+137
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.64
+],
+[
+0.6,
+0.45
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"alpha": [
+[
+0,
+0
+],
+[
+0.15,
+1
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": [
+[
+0,
+1
+],
+[
+0.7,
+1
+],
+[
+0.95,
+0
+]
+],
+"inside": "apartment"
+}
+],
+"mood": "dusk",
+"text": [
+{
+"s": "CHASING SUNSETS",
+"x": 0.5,
+"y": 0.2,
+"at": "@1"
+}
+]
+},
+{
+"lines": [
+138
+],
+"set": "space",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "earth",
+"x": 0.5,
+"y": 0.5,
+"r": 200,
+"at": 0,
+"disc": false
+}
+],
+"card": {
+"big": "1,670 KM/H",
+"small": "Earth's spin at the equator",
+"at": 0.12,
+"y": 0.15,
+"w": 720
+}
+},
+{
+"lines": [
+139,
+140
+],
+"set": "space",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "globe",
+"x": 0.35,
+"y": 0.5,
+"r": 160,
+"at": 0
+},
+{
+"k": "clock",
+"x": 0.72,
+"y": 0.5,
+"r": 110,
+"at": "@1"
+}
+],
+"card": {
+"big": "1 HOUR = 1 TIME ZONE WEST",
+"small": null,
+"at": 0.12,
+"w": 900,
+"size": 58,
+"y": 0.15
+}
+},
+{
+"lines": [
+141
+],
+"set": "desert",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.62
+],
+[
+0.5,
+0.45
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"alpha": [
+[
+0,
+0
+],
+[
+0.15,
+1
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.62,
+"open": [
+[
+0,
+1
+],
+[
+0.8,
+1
+],
+[
+1,
+0
+]
+],
+"inside": "sunset"
+}
+],
+"mood": "dusk"
+},
+{
+"lines": [
+142
+],
+"set": "lake",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.62,
+"open": 1,
+"inside": "sunset"
+}
+],
+"mood": "dusk"
+},
+{
+"lines": [
+143
+],
+"set": "mountain",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.62,
+"open": 1,
+"inside": "sunset"
+}
+],
+"mood": "dusk",
+"card": {
+"big": "7 SUNSETS",
+"small": "in one evening",
+"at": 0.2
+}
+},
+{
+"lines": [
+144,
+145,
+146
+],
+"set": "beach",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+],
+[
+"@2",
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@2",
+"smirk"
+]
+],
+"hold": {
+"k": "phone",
+"to": "@2"
+}
+}
+],
+"items": [],
+"mood": "dusk",
+"text": [
+{
+"s": "MAX: You're showing off.",
+"x": 0.68,
+"y": 0.25,
+"at": "@1",
+"size": 46,
+"color": "#f2ecdf"
+},
+{
+"s": "RIO: Yes.",
+"x": 0.68,
+"y": 0.36,
+"at": "@2",
+"size": 46
+}
+]
+},
+{
+"lines": [
+147,
+148
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"thought": {
+"props": [
+"car",
+"map"
+],
+"x": 0.3,
+"y": 0.25,
+"at": "@1"
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+149,
+150,
+151
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"thought": {
+"props": [
+"plane",
+"car",
+"note"
+],
+"x": 0.32,
+"y": 0.25,
+"at": 0.05,
+"cross": true
+},
+"text": [
+{
+"s": "NO AIRPORTS",
+"x": 0.75,
+"y": 0.2,
+"at": 0.05,
+"size": 44
+},
+{
+"s": "NO WINDOW SEATS",
+"x": 0.75,
+"y": 0.3,
+"at": "@1",
+"size": 44
+},
+{
+"s": "NO ROAD TRIPS",
+"x": 0.75,
+"y": 0.4,
+"at": "@2",
+"size": 44
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+152,
+153
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.564
+],
+[
+"@0.6",
+0.64
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"alpha": [
+[
+"@0.5",
+1
+],
+[
+"@0.7",
+0
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": 1,
+"inside": "sunset"
+}
+],
+"fx": [
+"dark"
+],
+"text": [
+{
+"s": "ONE STEP AWAY",
+"x": 0.5,
+"y": 0.2,
+"at": 0.05
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+154
+],
+"set": "room",
+"actors": [],
+"items": [],
+"tpl": "science",
+"params": {
+"sci": "NEW TRIPS = MEMORIES",
+"icon": "brain"
+}
+},
+{
+"lines": [
+155,
+156
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.2
+],
+[
+0.3,
+0.564
+],
+[
+0.32,
+0.2
+],
+[
+0.62,
+0.564
+],
+[
+0.64,
+0.2
+],
+[
+0.95,
+0.564
+]
+],
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "cup"
+}
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"fx": [
+"dark"
+],
+"text": [
+{
+"s": "SAME HALLWAY. SAME DOOR.",
+"x": 0.5,
+"y": 0.2,
+"at": 0.05,
+"size": 56
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+157
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"s": 0.9
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"cam": {
+"z": [
+1.0,
+0.75
+]
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+158,
+159,
+160
+],
+"set": "town",
+"actors": [
+{
+"id": "linda",
+"who": "linda",
+"x": 0.36,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.6
+}
+],
+"items": [
+{
+"k": "house",
+"x": 0.5
+}
+],
+"cam": {
+"z": [
+0.55,
+0.6
+],
+"y": [
+-200,
+-200
+]
+},
+"card": {
+"big": "MISSOURI",
+"small": "a small river town... home",
+"at": "@1",
+"y": 0.15
+}
+},
+{
+"lines": [
+161,
+162
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"card": {
+"big": "2 YEARS",
+"small": "since you last visited",
+"at": 0.05
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+163,
+164,
+165,
+166
+],
+"set": "town",
+"actors": [],
+"items": [
+{
+"k": "house",
+"x": 0.62
+}
+],
+"cam": {
+"z": [
+1.6,
+1.8
+],
+"x": [
+-560,
+-560
+],
+"y": [
+-200,
+-200
+]
+},
+"text": [
+{
+"s": "MADE BY RIO, AGE 9",
+"x": 0.5,
+"y": 0.2,
+"at": "@1",
+"size": 46
+},
+{
+"s": "6 OLD SPOONS",
+"x": 0.5,
+"y": 0.3,
+"at": "@2",
+"size": 46
+}
+]
+},
+{
+"lines": [
+167,
+168
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "linda",
+"label": "MOM",
+"talk": true,
+"at": 0,
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+},
+{
+"lines": [
+169,
+170,
+171
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "phone"
+},
+"talk": [
+"@1",
+1
+]
+}
+],
+"items": [],
+"inset": {
+"who": "linda",
+"label": "MOM",
+"at": 0,
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+"text": [
+{
+"s": "\"DISTANCE IS JUST A DOOR\"",
+"x": 0.42,
+"y": 0.18,
+"at": "@2",
+"size": 52
+}
+]
+},
+{
+"lines": [
+172,
+173,
+174
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@1",
+"sad"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "linda",
+"label": "MOM",
+"talk": true,
+"at": 0,
+"expr": [
+[
+0,
+"happy"
+],
+[
+"@1",
+"sad"
+]
+]
+},
+"cam": {
+"z": [
+1.2,
+1.35
+],
+"y": [
+-60,
+-60
+]
+}
+},
+{
+"lines": [
+175,
+176
+],
+"set": "town",
+"actors": [],
+"items": [
+{
+"k": "house",
+"x": 0.62
+}
+],
+"cam": {
+"z": [
+1.8,
+1.9
+],
+"x": [
+-560,
+-560
+],
+"y": [
+-200,
+-200
+]
+},
+"text": [
+{
+"s": "clink... clink",
+"x": 0.45,
+"y": 0.3,
+"at": 0.2,
+"size": 50
+}
+]
+},
+{
+"lines": [
+177,
+178,
+179,
+180
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@3",
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+},
+{
+"k": "prop",
+"p": "clock",
+"x": 0.8,
+"size": 0.5,
+"up": 1.7,
+"disc": true
+}
+],
+"card": {
+"big": "FRIDAY 11:00 AM",
+"small": "Singapore at 11:59",
+"at": 0.05,
+"w": 760
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+181,
+182,
+183
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@1",
+"worried"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"inset": {
+"who": "linda",
+"label": "MOM",
+"talk": true,
+"rain": true,
+"at": 0,
+"expr": [
+[
+0,
+"scared"
+]
+],
+"bg": [
+"#2a3a4a",
+"#0a1018"
+]
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+184,
+185,
+186
+],
+"set": "town",
+"actors": [
+{
+"id": "linda",
+"who": "linda",
+"x": 0.86,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"up": 5.2,
+"s": 1.6
+}
+],
+"items": [
+{
+"k": "house",
+"x": 0.5,
+"night": true,
+"chime": false
+},
+{
+"k": "water",
+"level": [
+[
+0,
+1.2
+],
+[
+1,
+1.6
+]
+]
+}
+],
+"smood": "night",
+"fx": [
+"rain",
+"night"
+],
+"cam": {
+"z": [
+0.6,
+0.63
+],
+"x": [
+560,
+560
+],
+"y": [
+-640,
+-640
+]
+}
+},
+{
+"lines": [
+187,
+188,
+189,
+190
+],
+"set": "town",
+"actors": [
+{
+"id": "linda",
+"who": "linda",
+"x": 0.79,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"up": 5.2
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.84,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"up": 5.2
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.88,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"up": 5.2
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.75,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"up": 5.2
+},
+{
+"id": "kid",
+"who": "kid",
+"x": 0.72,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"up": 5.2
+},
+{
+"id": "boy",
+"who": "boy",
+"x": 0.82,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"up": 5.2
+}
+],
+"items": [
+{
+"k": "house",
+"x": 0.5,
+"night": true,
+"chime": false
+},
+{
+"k": "water",
+"level": [
+[
+0,
+1.6
+],
+[
+1,
+2.1
+]
+]
+}
+],
+"smood": "night",
+"fx": [
+"rain",
+"night"
+],
+"cam": {
+"z": [
+0.6,
+0.63
+],
+"x": [
+560,
+560
+],
+"y": [
+-640,
+-640
+]
+},
+"card": {
+"big": "12 PEOPLE",
+"small": "on one roof",
+"at": "@1",
+"y": 0.15
+}
+},
+{
+"lines": [
+191,
+192
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"card": {
+"big": "911",
+"small": "every boat is already out",
+"at": 0.05,
+"x": 0.3
+},
+"props": [
+{
+"k": "boat",
+"x": 0.75,
+"y": 0.35,
+"r": 50,
+"at": "@1",
+"disc": true
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+193,
+194,
+195,
+196
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.564,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"thought": {
+"props": [
+"house",
+"wave"
+],
+"x": 0.3,
+"y": 0.25,
+"at": 0.05,
+"cross": true
+},
+"card": {
+"big": "THE PORCH IS UNDERWATER",
+"small": null,
+"at": "@1",
+"w": 900,
+"size": 56,
+"y": 0.12
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+197,
+198,
+199
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.564,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"thought": {
+"props": [
+"house",
+"star"
+],
+"x": 0.3,
+"y": 0.25,
+"at": 0.05
+},
+"text": [
+{
+"s": "THE ROOF",
+"x": 0.5,
+"y": 0.15,
+"at": "@1"
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+200,
+201,
+202
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.3,
+"pose": [
+[
+0,
+"knob"
+],
+[
+"@2",
+"point"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "linda",
+"who": "linda",
+"x": 0.72,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.8,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.88,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.38,
+"open": [
+[
+0,
+0
+],
+[
+0.12,
+1
+]
+],
+"inside": "apartment"
+}
+],
+"fx": [
+"rain"
+],
+"text": [
+{
+"s": "GO, GO, GO!",
+"x": 0.3,
+"y": 0.18,
+"at": "@2"
+}
+]
+},
+{
+"lines": [
+203,
+204,
+205,
+206
+],
+"set": "roof",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.28,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.72,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.8,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.38,
+"open": 1,
+"inside": "apartment"
+}
+],
+"fx": [
+"rain"
+],
+"card": {
+"big": "60 SECONDS",
+"small": "12 people... 5 seconds each",
+"at": "@1",
+"x": 0.62,
+"w": 640
+}
+},
+{
+"lines": [
+207,
+208
+],
+"set": "roof",
+"actors": [
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": [
+[
+0,
+0.7
+],
+[
+1,
+0.62
+]
+],
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1
+},
+{
+"id": "linda",
+"who": "linda",
+"x": 0.8,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.38,
+"open": 1,
+"inside": "apartment"
+}
+],
+"fx": [
+"rain"
+],
+"text": [
+{
+"s": "SLIPPERY",
+"x": 0.6,
+"y": 0.2,
+"at": "@1"
+}
+]
+},
+{
+"lines": [
+209,
+210
+],
+"set": "town",
+"actors": [],
+"items": [
+{
+"k": "prop",
+"p": "car",
+"x": 0.6,
+"size": 1.2,
+"up": 0.3,
+"rot": [
+[
+0,
+0
+],
+[
+1,
+0.2
+]
+]
+},
+{
+"k": "water",
+"level": [
+[
+0,
+0.15
+],
+[
+"@1",
+0.15
+],
+[
+"@1.6",
+0.6
+]
+]
+}
+],
+"smood": "night",
+"card": {
+"big": "15 CM",
+"small": "of moving water can knock you down",
+"at": 0.05,
+"w": 760
+},
+"text": [
+{
+"s": "60 CM FLOATS A CAR",
+"x": 0.5,
+"y": 0.4,
+"at": "@1",
+"size": 60
+}
+],
+"fx": [
+"rain"
+]
+},
+{
+"lines": [
+211
+],
+"set": "town",
+"actors": [],
+"items": [
+{
+"k": "house",
+"x": 0.5,
+"night": true,
+"chime": false
+},
+{
+"k": "water",
+"level": [
+[
+0,
+2.4
+],
+[
+1,
+2.6
+]
+]
+}
+],
+"smood": "night",
+"fx": [
+"rain",
+"night"
+],
+"cam": {
+"z": [
+0.6,
+0.63
+],
+"x": [
+560,
+560
+],
+"y": [
+-640,
+-640
+]
+},
+"card": {
+"big": "WATER AT THE GUTTERS",
+"small": null,
+"at": 0.12,
+"w": 820,
+"size": 56
+}
+},
+{
+"lines": [
+212
+],
+"set": "room",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": [
+[
+0,
+0.72
+],
+[
+0.4,
+0.38
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"alpha": [
+[
+0.35,
+1
+],
+[
+0.42,
+0
+]
+]
+},
+{
+"id": "kid",
+"who": "kid",
+"x": [
+[
+0.3,
+0.72
+],
+[
+0.7,
+0.38
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"alpha": [
+[
+0.65,
+1
+],
+[
+0.72,
+0
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": [
+[
+0.55,
+0.8
+],
+[
+0.95,
+0.38
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"alpha": [
+[
+0.9,
+1
+],
+[
+0.97,
+0
+]
+]
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.28,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.38,
+"open": 1,
+"inside": "apartment"
+}
+],
+"fx": [
+"rain"
+],
+"text": [
+{
+"s": "5...  6...  7...",
+"x": 0.6,
+"y": 0.18,
+"at": 0.1
+}
+]
+},
+{
+"lines": [
+213,
+214,
+215
+],
+"set": "room",
+"actors": [
+{
+"id": "linda",
+"who": "linda",
+"x": 0.6,
+"pose": [
+[
+0,
+"point"
+],
+[
+"@1",
+"wave"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"talk": [
+0,
+"@1.6"
+]
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": [
+[
+0,
+0.5
+],
+[
+"@0.8",
+0.38
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"alpha": [
+[
+"@0.7",
+1
+],
+[
+"@0.9",
+0
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.38,
+"open": [
+[
+0,
+1
+],
+[
+"@1.7",
+1
+],
+[
+"@2.0",
+0
+]
+],
+"inside": "apartment"
+}
+],
+"fx": [
+"rain"
+],
+"text": [
+{
+"s": "SLAM",
+"x": 0.38,
+"y": 0.2,
+"at": "@1.8"
+}
+],
+"sfx": [
+{
+"at": 2.4,
+"name": "whoosh",
+"gain": -8
+}
+]
+},
+{
+"lines": [
+216,
+217
+],
+"set": "town",
+"actors": [
+{
+"id": "linda",
+"who": "linda",
+"x": 0.79,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"up": 5.2
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.84,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"up": 5.2
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.88,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"up": 5.2
+},
+{
+"id": "boy",
+"who": "boy",
+"x": 0.75,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"up": 5.2
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.91,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"up": 5.2
+}
+],
+"items": [
+{
+"k": "house",
+"x": 0.5,
+"night": true,
+"chime": false
+},
+{
+"k": "water",
+"level": [
+[
+0,
+2.5
+],
+[
+1,
+2.7
+]
+]
+}
+],
+"smood": "night",
+"fx": [
+"rain",
+"night"
+],
+"cam": {
+"z": [
+0.6,
+0.63
+],
+"x": [
+560,
+560
+],
+"y": [
+-640,
+-640
+]
+},
+"card": {
+"big": "5 STILL ON THE ROOF",
+"small": "including Mom",
+"at": 0.05,
+"y": 0.14
+}
+},
+{
+"lines": [
+218,
+219
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "clock",
+"x": 0.68,
+"size": 0.6,
+"up": 1.6,
+"disc": true
+}
+],
+"card": {
+"big": "11:00",
+"small": "the door needs 1 hour",
+"at": "@1",
+"x": 0.3
+}
+},
+{
+"lines": [
+220,
+221,
+222
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "clock",
+"x": 0.68,
+"size": 0.6,
+"up": 1.6,
+"disc": true
+}
+],
+"card": {
+"big": "12:00 NOON",
+"small": "same minute as Singapore",
+"at": "@1",
+"x": 0.32,
+"w": 700
+}
+},
+{
+"lines": [
+223,
+224,
+225
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.5,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.5
+}
+],
+"thought": {
+"props": [
+"money",
+"house"
+],
+"x": 0.5,
+"y": 0.2,
+"at": "@2"
+},
+"text": [
+{
+"s": "ONE OPENING. ONE DOOR.",
+"x": 0.5,
+"y": 0.42,
+"at": 0.05,
+"size": 56
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+226,
+227
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hold": {
+"k": "towel"
+}
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.5,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "kid",
+"who": "kid",
+"x": 0.6,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.7,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.8,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "THE LONGEST HOUR",
+"small": null,
+"at": 0.05,
+"y": 0.14,
+"w": 700
+}
+},
+{
+"lines": [
+228,
+229,
+230,
+231
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.55,
+"pose": [
+[
+0,
+"reach"
+],
+[
+"@1",
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"talk": [
+"@1",
+"@1.9"
+]
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.4,
+1.5
+],
+"x": [
+0,
+0
+],
+"y": [
+-60,
+-60
+]
+}
+},
+{
+"lines": [
+232,
+233
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.564,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64
+}
+],
+"inset": {
+"who": "victor",
+"label": "VICTOR HALE",
+"talk": true,
+"at": 0,
+"x": 0.25
+},
+"props": [
+{
+"k": "pencil",
+"x": 0.25,
+"y": 0.55,
+"r": 40,
+"at": "@1",
+"disc": true
+}
+],
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+234,
+235,
+236,
+237
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.564,
+"pose": [
+[
+0,
+"knob"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.64,
+"open": [
+[
+"@3.6",
+0
+],
+[
+"@3.95",
+1
+]
+],
+"inside": "roof"
+}
+],
+"card": {
+"big": "11:59",
+"small": null,
+"at": 0.05,
+"x": 0.3
+},
+"thought": {
+"props": [
+"house"
+],
+"x": 0.3,
+"y": 0.45,
+"at": "@3"
+},
+"cam": {
+"z": [
+1.2,
+1.45
+],
+"x": [
+60,
+140
+],
+"y": [
+-40,
+-40
+]
+},
+"wall": "#d8b898",
+"wall2": "#8a6a5a",
+"room": {
+"frames": 300
+}
+},
+{
+"lines": [
+238,
+239
+],
+"set": "roof",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.3,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "linda",
+"who": "linda",
+"x": 0.72,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.6,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.82,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.38,
+"open": 1,
+"inside": "apartment"
+},
+{
+"k": "water",
+"level": [
+[
+0,
+-0.05
+],
+[
+1,
+0.03
+]
+]
+}
+],
+"fx": [
+"rain"
+]
+},
+{
+"lines": [
+240,
+241,
+242
+],
+"set": "room",
+"actors": [
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": [
+[
+0,
+0.6
+],
+[
+"@0.8",
+0.38
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"alpha": [
+[
+"@0.7",
+1
+],
+[
+"@0.9",
+0
+]
+]
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": [
+[
+0,
+0.75
+],
+[
+"@1.8",
+0.38
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"alpha": [
+[
+"@1.7",
+1
+],
+[
+"@1.9",
+0
+]
+]
+},
+{
+"id": "kid",
+"who": "kid",
+"x": [
+[
+"@1",
+0.82
+],
+[
+"@2.8",
+0.38
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"alpha": [
+[
+"@2.7",
+1
+],
+[
+"@2.9",
+0
+]
+]
+},
+{
+"id": "boy",
+"who": "boy",
+"x": [
+[
+"@1.5",
+0.88
+],
+[
+"@2.9",
+0.4
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1
+},
+{
+"id": "linda",
+"who": "linda",
+"x": 0.9,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.38,
+"open": 1,
+"inside": "apartment"
+}
+],
+"fx": [
+"rain"
+]
+},
+{
+"lines": [
+243,
+244,
+245,
+246
+],
+"set": "roof",
+"actors": [
+{
+"id": "linda",
+"who": "linda",
+"x": [
+[
+0,
+0.7
+],
+[
+"@3",
+0.45
+]
+],
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1,
+"hold": {
+"k": "chime"
+}
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.38,
+"open": 1,
+"inside": "apartment"
+}
+],
+"fx": [
+"rain"
+],
+"cam": {
+"z": [
+1.2,
+1.4
+],
+"x": [
+0,
+-60
+],
+"y": [
+-40,
+-40
+]
+},
+"text": [
+{
+"s": "clink",
+"x": 0.55,
+"y": 0.25,
+"at": "@3",
+"size": 50
+}
+]
+},
+{
+"lines": [
+247
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.36,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "linda",
+"who": "linda",
+"x": 0.46,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1,
+"hold": {
+"k": "chime"
+}
+}
+],
+"items": [
+{
+"k": "door",
+"x": 0.72,
+"open": [
+[
+0,
+1
+],
+[
+0.6,
+1
+],
+[
+0.8,
+0
+]
+],
+"inside": "roof"
+}
+],
+"text": [
+{
+"s": "SLAM",
+"x": 0.72,
+"y": 0.2,
+"at": 0.7
+}
+]
+},
+{
+"lines": [
+248,
+249,
+250
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+],
+[
+"@2",
+"hug"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "phone",
+"to": "@2"
+}
+},
+{
+"id": "linda",
+"who": "linda",
+"x": 0.52,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"card": {
+"big": "CONTRACT CANCELLED",
+"small": null,
+"at": "@1",
+"w": 760,
+"size": 60
+}
+},
+{
+"lines": [
+251,
+252,
+253,
+254
+],
+"set": "home",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.3,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 136,
+"zzz": true
+},
+{
+"id": "kid",
+"who": "kid",
+"x": 0.5,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 136
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.66,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 136
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"card": {
+"big": "12 GUESTS",
+"small": "on the couch, on the floor",
+"at": 0.05,
+"y": 0.14
+},
+"text": [
+{
+"s": "SNORE...",
+"x": 0.35,
+"y": 0.4,
+"at": "@3"
+}
+]
+},
+{
+"lines": [
+255
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.36,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.6,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.48,
+"w": 1.0
+},
+{
+"k": "cards",
+"x": 0.48
+}
+],
+"card": {
+"big": "3 - 0",
+"small": "Mrs. Parker wins again",
+"at": 0.12,
+"x": 0.5,
+"y": 0.15
+}
+},
+{
+"lines": [
+256,
+257
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.7,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1,
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.5,
+"y": 0.35,
+"r": 120,
+"at": 0,
+"disc": true
+},
+{
+"k": "gift",
+"x": 0.3,
+"y": 0.2,
+"r": 40,
+"at": "@1"
+},
+{
+"k": "boat",
+"x": 0.5,
+"y": 0.14,
+"r": 40,
+"at": "@1.3"
+},
+{
+"k": "cake",
+"x": 0.7,
+"y": 0.2,
+"r": 40,
+"at": "@1.6"
+}
+]
+},
+{
+"lines": [
+258,
+259
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.3,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "hammer"
+}
+},
+{
+"id": "linda",
+"who": "linda",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "house",
+"x": 0.62,
+"chime": false
+}
+],
+"cam": {
+"z": [
+1.0,
+1.05
+],
+"x": [
+-300,
+-300
+],
+"y": [
+-100,
+-100
+]
+},
+"card": {
+"big": "BOARD BY BOARD",
+"small": null,
+"at": "@1",
+"y": 0.14
+}
+},
+{
+"lines": [
+260,
+261,
+262
+],
+"set": "highway",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.44,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"dy": 0,
+"clip": 0.62
+},
+{
+"id": "linda",
+"who": "linda",
+"x": 0.52,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"dy": 0,
+"clip": 0.62
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#3a8ad0"
+},
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#3a8ad0",
+"part": "front",
+"front": true
+}
+],
+"card": {
+"big": "MIAMI > MISSOURI",
+"small": null,
+"at": "@2",
+"y": 0.15,
+"w": 720
+},
+"fx": [
+"speed"
+]
+},
+{
+"lines": [
+263,
+264
+],
+"set": "highway",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.44,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"dy": 0,
+"clip": 0.62
+},
+{
+"id": "linda",
+"who": "linda",
+"x": 0.52,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"dy": 0,
+"clip": 0.62
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#3a8ad0"
+},
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#3a8ad0",
+"part": "front",
+"front": true
+}
+],
+"card": {
+"big": "1,800 KM",
+"small": "two days",
+"at": 0.05,
+"y": 0.15
+}
+},
+{
+"lines": [
+265,
+266,
+267
+],
+"set": "highway",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.44,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"dy": 0,
+"clip": 0.62,
+"hold": {
+"k": "cup"
+}
+},
+{
+"id": "linda",
+"who": "linda",
+"x": 0.52,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"happy"
+],
+[
+"@2",
+"sleepy"
+]
+],
+"dy": 0,
+"clip": 0.62,
+"rot": [
+[
+0,
+0
+],
+[
+"@2",
+0
+],
+[
+"@2.5",
+-0.25
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#3a8ad0"
+},
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#3a8ad0",
+"part": "front",
+"front": true
+}
+],
+"mood": "dusk",
+"props": [
+{
+"k": "note",
+"x": 0.7,
+"y": 0.3,
+"r": 40,
+"at": "@1",
+"disc": true
+}
+],
+"cam": {
+"z": [
+1.3,
+1.4
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+268,
+269
+],
+"set": "highway",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.44,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"dy": 0,
+"clip": 0.62
+},
+{
+"id": "linda",
+"who": "linda",
+"x": 0.52,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"dy": 0,
+"clip": 0.62,
+"rot": -0.25
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#3a8ad0"
+},
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#3a8ad0",
+"part": "front",
+"front": true
+}
+],
+"mood": "dusk",
+"text": [
+{
+"s": "THE BEST TRIP OF YOUR LIFE",
+"x": 0.5,
+"y": 0.18,
+"at": 0.1,
+"size": 56
+}
+]
+},
+{
+"lines": [
+270
+],
+"set": "town",
+"actors": [],
+"items": [
+{
+"k": "house",
+"x": 0.62
+}
+],
+"cam": {
+"z": [
+1.8,
+1.9
+],
+"x": [
+-560,
+-560
+],
+"y": [
+-200,
+-200
+]
+},
+"text": [
+{
+"s": "clink... clink",
+"x": 0.45,
+"y": 0.3,
+"at": 0.2,
+"size": 50
+}
+]
+},
+{
+"lines": [
+271,
+272,
+273,
+274
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.3,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+0,
+"@0.9"
+]
+},
+{
+"id": "linda",
+"who": "linda",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@2",
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"talk": [
+"@2",
+1
+]
+}
+],
+"items": [
+{
+"k": "house",
+"x": 0.62
+}
+],
+"smood": "dusk",
+"cam": {
+"z": [
+1.1,
+1.2
+],
+"x": [
+-300,
+-320
+],
+"y": [
+-100,
+-100
+]
+},
+"text": [
+{
+"s": "\"DISTANCE IS A CHOICE.\"",
+"x": 0.5,
+"y": 0.15,
+"at": "@3",
+"size": 56
+}
+]
+},
+{
+"lines": [
+275
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "IS IT REAL?",
+"x": 0.5,
+"y": 0.45,
+"at": 0.05,
+"size": 110
+}
+]
+},
+{
+"lines": [
+276,
+277,
+278
+],
+"set": "space",
+"actors": [],
+"items": [],
+"card": {
+"big": "1935",
+"small": "Einstein & Rosen: a bridge through space",
+"at": 0.05,
+"w": 820
+},
+"props": [
+{
+"k": "planet",
+"x": 0.25,
+"y": 0.6,
+"r": 80,
+"at": "@1"
+},
+{
+"k": "planet",
+"x": 0.75,
+"y": 0.6,
+"r": 80,
+"at": "@1"
+}
+],
+"text": [
+{
+"s": "WORMHOLE",
+"x": 0.5,
+"y": 0.62,
+"at": "@2",
+"size": 80
+}
+]
+},
+{
+"lines": [
+279,
+280,
+281
+],
+"set": "space",
+"actors": [],
+"items": [],
+"card": {
+"big": "1988",
+"small": "Thorne & Morris: how to keep one open?",
+"at": 0.05,
+"w": 840
+},
+"text": [
+{
+"s": "NEGATIVE ENERGY",
+"x": 0.5,
+"y": 0.55,
+"at": "@2",
+"size": 70
+}
+]
+},
+{
+"lines": [
+282,
+283,
+284
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "NEVER FOUND... YET",
+"x": 0.5,
+"y": 0.4,
+"at": 0.05,
+"size": 80
+}
+],
+"props": [
+{
+"k": "question",
+"x": 0.5,
+"y": 0.62,
+"r": 80,
+"at": "@1"
+}
+]
+},
+{
+"lines": [
+285
+],
+"set": "highway",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.44,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"dy": 0,
+"clip": 0.62
+},
+{
+"id": "linda",
+"who": "linda",
+"x": 0.52,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"dy": 0,
+"clip": 0.62,
+"rot": -0.25
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#3a8ad0"
+},
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#3a8ad0",
+"part": "front",
+"front": true
+}
+],
+"mood": "dusk"
+},
+{
+"lines": [
+286,
+287,
+288,
+289,
+290
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.2
+],
+[
+"@2",
+0.4
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@3",
+"surprised"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@3",
+"surprised"
+]
+]
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.62,
+"ring": [
+"@3",
+1
+]
+},
+{
+"k": "booth",
+"x": 0.62,
+"part": "front"
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "RING... RING",
+"x": 0.62,
+"y": 0.2,
+"at": "@3",
+"size": 54
+},
+{
+"s": "\"WHAT KIND OF WORLD DO YOU WANT?\"",
+"x": 0.5,
+"y": 0.12,
+"at": "@4",
+"size": 46,
+"color": "#f2ecdf"
+}
+]
+},
+{
+"lines": [
+291,
+292
+],
+"set": "face",
+"actors": [],
+"items": [],
+"who": "rio",
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"lines": [
+293
+],
+"set": "end",
+"actors": [],
+"items": [],
+"tpl": "end"
+}
+]

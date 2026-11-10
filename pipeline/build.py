@@ -230,7 +230,7 @@ def plan_shots(item, kind, sents, words, cast):
     title = item["title"]
     vertical = kind == "short"
     full = item["script"].lower()
-    power = power_of(title, item.get("knob", ""))
+    power = item["power"] if "power" in item else power_of(title, item.get("knob", ""))
     score = {n: len(re.findall(rx, full)) for n, rx in ALL_LOC}
     ranked = [k for k in sorted(score, key=lambda k: -score[k]) if score[k]]
     ROT = ["home", "city", "park", "office", "cafe", "street", "kitchen", "rooftop", "lab", "classroom"]
@@ -367,6 +367,29 @@ def main():
     json.dump(sinfo, open(os.path.join(P, "timeline", "sentences.json"), "w"), indent=1)
     cast = detect_cast(item["script"], item.get("rel", ""))
     shots, base, second = plan_shots(item, a.kind, sinfo, words, cast)
+    dpath = os.path.join(ROOT, "data", "direction", f"{slug}.json")
+    if os.path.exists(dpath):   # hand-directed storyboard: one entry per shot, covering sentence indices
+        board = json.load(open(dpath, encoding="utf-8"))
+        assert sum(len(b["lines"]) for b in board) == len(sinfo), f"storyboard covers {sum(len(b['lines']) for b in board)} of {len(sinfo)} sentences"
+        shots = []
+        for k, b in enumerate(board):
+            i0, i1 = b["lines"][0], b["lines"][-1]
+            st = 0.0 if k == 0 else sinfo[i0]["start"] - 0.12
+            en = sinfo[i1 + 1]["start"] - 0.12 if i1 + 1 < len(sinfo) else total
+            # "@n.f" keyframe times = sentence n of this shot (0-based) + fraction f of it -> fraction of the whole shot
+            marks = [(sinfo[i]["start"] - st, sinfo[i]["end"] - st) for i in b["lines"]]; D = max(0.1, en - st)
+            def conv(o):
+                if isinstance(o, str) and re.fullmatch(r"@\d+(\.\d+)?", o):
+                    v = float(o[1:]); n = int(v); f = v - n; n = min(n, len(marks) - 1); a0, a1 = marks[n]
+                    return round(max(0.0, min(1.0, (a0 + (a1 - a0) * f) / D)), 4)
+                if isinstance(o, list): return [conv(x) for x in o]
+                if isinstance(o, dict): return {kk: conv(vv) for kk, vv in o.items()}
+                return o
+            b = conv(b)
+            q = {"tpl": b.get("tpl", "dir"), "dir": b, "seed": k + 1, "loc": b.get("set", "home"), "speaker": "rio", **b.get("params", {})}
+            if b.get("tpl") == "end": q.update({"tpl": "end"})
+            shots.append({"id": f"s{k + 1:03d}", "start": round(st, 3), "end": round(en, 3), "line": " ".join(sinfo[i]["text"] for i in b["lines"]),
+                          "scene": q["tpl"], "set": q["loc"], "in": {"type": b.get("in", "cut")}, "sfx": b.get("sfx", []), "params": q, **({"captions": False} if q["tpl"] == "end" else {})})
     shots[-1]["end"] = total
     vertical = a.kind == "short"
     styles = ["dusk", "golden", "midnight", "storybook"]

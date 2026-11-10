@@ -1,2 +1,2 @@
-Run 7 - long 6-10
-FORCE:long_6,long_7,long_8,long_9,long_10
+Doraemon set - video 31 (hand-directed storyboard)
+ONLY:long_31

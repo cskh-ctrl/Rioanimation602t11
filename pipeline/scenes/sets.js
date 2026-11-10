@@ -334,4 +334,4 @@ export function city(g, t, cam, o = {}) {
 }
 
 export const SETS = { street, home, hospital, stadium, park, classroom, cafe, lab, sky, ocean, beach, space, mountain, forest, kitchen, office, studio, bedroom, rooftop, museum, snowy, desert, gym, store, poolside, lake, library, highway, canyon, city };
-export function drawSet(name, g, t, cam) { return (SETS[name] || street)(g, t, cam); }
+export function drawSet(name, g, t, cam, o = {}) { return (SETS[name] || street)(g, t, cam, o.mood ? o : {}); }

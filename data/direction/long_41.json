@@ -1,0 +1,818 @@
+[
+ {
+  "lines": [
+   0
+  ],
+  "set": "room",
+  "wall": "#b8a8c8",
+  "wall2": "#6a5a8a",
+  "room": {
+   "window": 1250,
+   "sky": "golden"
+  },
+  "cam": {
+   "z": [
+    1.75,
+    1.65
+   ],
+   "x": [
+    -210,
+    -210
+   ],
+   "y": [
+    170,
+    170
+   ]
+  },
+  "items": [
+   {
+    "k": "bed",
+    "x": 0.42
+   },
+   {
+    "k": "alarm",
+    "x": 0.247,
+    "ring": [
+     0.05,
+     0.75
+    ],
+    "time": "7:00"
+   }
+  ],
+  "actors": [
+   {
+    "id": "rio",
+    "who": "rioPj",
+    "x": 0.433,
+    "dy": 41,
+    "rot": -1.5708,
+    "pose": [
+     [
+      0,
+      "lie"
+     ]
+    ],
+    "expr": [
+     [
+      0,
+      "sleepy"
+     ],
+     [
+      0.5,
+      "shocked"
+     ]
+    ]
+   }
+  ],
+  "extra": [
+   {
+    "k": "blanket",
+    "x": 0.42
+   }
+  ],
+  "sfx": [
+   {
+    "at": 0.1,
+    "name": "ding",
+    "gain": -14
+   }
+  ]
+ },
+ {
+  "lines": [
+   1
+  ],
+  "set": "bathroom",
+  "cam": {
+   "z": [
+    1.25,
+    1.35
+   ],
+   "x": [
+    0,
+    40
+   ]
+  },
+  "items": [
+   {
+    "k": "sink",
+    "x": 0.56
+   }
+  ],
+  "actors": [
+   {
+    "id": "rio",
+    "who": "rioPj",
+    "x": 0.485,
+    "facing": 1,
+    "pose": [
+     [
+      0,
+      "brush"
+     ]
+    ],
+    "hold": {
+     "k": "toothbrush"
+    },
+    "expr": [
+     [
+      0,
+      "sleepy"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "lines": [
+   2
+  ],
+  "set": "room",
+  "wall": "#e8c890",
+  "wall2": "#a87a50",
+  "room": {
+   "tiles": true,
+   "window": 1150
+  },
+  "cam": {
+   "z": [
+    1.2,
+    1.3
+   ]
+  },
+  "items": [
+   {
+    "k": "counter",
+    "x": 0.55
+   }
+  ],
+  "actors": [
+   {
+    "id": "rio",
+    "x": 0.45,
+    "facing": 1,
+    "pose": [
+     [
+      0,
+      "pour"
+     ]
+    ],
+    "hold": {
+     "k": "pour",
+     "fill": [
+      0.15,
+      0.85
+     ]
+    },
+    "expr": [
+     [
+      0,
+      "smile"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "lines": [
+   3
+  ],
+  "set": "room",
+  "wall": "#d8b898",
+  "wall2": "#8a6a5a",
+  "room": {
+   "frames": 300
+  },
+  "cam": {
+   "z": [
+    1.0,
+    1.2
+   ],
+   "x": [
+    -60,
+    120
+   ]
+  },
+  "items": [
+   {
+    "k": "door",
+    "x": 0.64,
+    "open": [
+     [
+      0.32,
+      0
+     ],
+     [
+      0.5,
+      1
+     ]
+    ],
+    "inside": "office",
+    "sparkle": true
+   }
+  ],
+  "actors": [
+   {
+    "id": "rio",
+    "x": [
+     [
+      0,
+      0.2
+     ],
+     [
+      0.3,
+      0.564
+     ],
+     [
+      0.5,
+      0.564
+     ],
+     [
+      0.72,
+      0.64
+     ]
+    ],
+    "pose": [
+     [
+      0,
+      "holdCup"
+     ],
+     [
+      0.3,
+      "knob"
+     ],
+     [
+      0.5,
+      "holdCup"
+     ]
+    ],
+    "hold": {
+     "k": "cup"
+    },
+    "expr": [
+     [
+      0,
+      "smile"
+     ],
+     [
+      0.3,
+      "smirk"
+     ]
+    ],
+    "alpha": [
+     [
+      0.66,
+      1
+     ],
+     [
+      0.76,
+      0
+     ]
+    ]
+   }
+  ],
+  "sfx": [
+   {
+    "at": 1.6,
+    "name": "shimmer",
+    "gain": -16
+   }
+  ]
+ },
+ {
+  "lines": [
+   4
+  ],
+  "set": "office",
+  "cam": {
+   "z": [
+    1.05,
+    1.1
+   ]
+  },
+  "items": [
+   {
+    "k": "door",
+    "x": 0.3,
+    "open": [
+     [
+      0,
+      1
+     ],
+     [
+      0.55,
+      1
+     ],
+     [
+      0.85,
+      0
+     ]
+    ],
+    "inside": "apartment",
+    "label": "SUPPLY CLOSET"
+   },
+   {
+    "k": "desk",
+    "x": 0.74
+   }
+  ],
+  "actors": [
+   {
+    "id": "rio",
+    "x": [
+     [
+      0,
+      0.3
+     ],
+     [
+      0.5,
+      0.46
+     ]
+    ],
+    "pose": [
+     [
+      0,
+      "holdCup"
+     ]
+    ],
+    "hold": {
+     "k": "cup"
+    },
+    "expr": [
+     [
+      0,
+      "smile"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      0.12,
+      1
+     ]
+    ]
+   }
+  ],
+  "text": [
+   {
+    "s": "CHICAGO",
+    "x": 0.5,
+    "y": 0.16,
+    "at": 0.1,
+    "size": 90
+   }
+  ]
+ },
+ {
+  "lines": [
+   5
+  ],
+  "set": "map",
+  "sfx": [
+   {
+    "at": 0.3,
+    "name": "whoosh",
+    "gain": -18
+   }
+  ]
+ },
+ {
+  "lines": [
+   6
+  ],
+  "set": "office",
+  "cam": {
+   "z": [
+    1.2,
+    1.3
+   ],
+   "x": [
+    60,
+    100
+   ]
+  },
+  "items": [
+   {
+    "k": "desk",
+    "x": 0.8
+   }
+  ],
+  "actors": [
+   {
+    "id": "rio",
+    "x": 0.36,
+    "facing": 1,
+    "pose": [
+     [
+      0,
+      "sip"
+     ]
+    ],
+    "hold": {
+     "k": "cup",
+     "sip": true
+    },
+    "expr": [
+     [
+      0,
+      "smile"
+     ]
+    ]
+   },
+   {
+    "id": "max",
+    "x": 0.6,
+    "facing": -1,
+    "pose": [
+     [
+      0,
+      "holdCup"
+     ],
+     [
+      0.35,
+      "drop"
+     ]
+    ],
+    "hold": {
+     "k": "bagel",
+     "drop": 0.35
+    },
+    "expr": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      0.3,
+      "shocked"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "lines": [
+   7
+  ],
+  "set": "office",
+  "cam": {
+   "z": [
+    1.1,
+    1.15
+   ],
+   "x": [
+    -40,
+    -40
+   ]
+  },
+  "items": [
+   {
+    "k": "door",
+    "x": 0.22,
+    "label": "SUPPLY CLOSET"
+   },
+   {
+    "k": "desk",
+    "x": 0.8
+   }
+  ],
+  "actors": [
+   {
+    "id": "rio",
+    "x": 0.44,
+    "facing": 1,
+    "pose": [
+     [
+      0,
+      "holdCup"
+     ]
+    ],
+    "hold": {
+     "k": "cup"
+    },
+    "expr": [
+     [
+      0,
+      "smirk"
+     ]
+    ]
+   },
+   {
+    "id": "max",
+    "x": 0.64,
+    "facing": -1,
+    "pose": [
+     [
+      0,
+      "handsOnHead"
+     ],
+     [
+      0.35,
+      "point"
+     ]
+    ],
+    "expr": [
+     [
+      0,
+      "shocked"
+     ],
+     [
+      0.35,
+      "confused"
+     ]
+    ],
+    "talk": [
+     0,
+     1
+    ]
+   }
+  ]
+ },
+ {
+  "lines": [
+   8
+  ],
+  "set": "office",
+  "cam": {
+   "z": [
+    1.3,
+    1.35
+   ]
+  },
+  "items": [
+   {
+    "k": "desk",
+    "x": 0.8
+   }
+  ],
+  "actors": [
+   {
+    "id": "rio",
+    "x": 0.42,
+    "facing": 1,
+    "pose": [
+     [
+      0,
+      "shrug"
+     ]
+    ],
+    "expr": [
+     [
+      0,
+      "smirk"
+     ]
+    ]
+   },
+   {
+    "id": "max",
+    "x": 0.66,
+    "facing": -1,
+    "pose": [
+     [
+      0,
+      "crossArms"
+     ]
+    ],
+    "expr": [
+     [
+      0,
+      "confused"
+     ]
+    ]
+   }
+  ],
+  "props": [
+   {
+    "k": "car",
+    "x": 0.22,
+    "y": 0.3,
+    "r": 60,
+    "at": 0.45,
+    "disc": true
+   }
+  ],
+  "text": [
+   {
+    "s": "TRAFFIC?",
+    "x": 0.22,
+    "y": 0.14,
+    "at": 0.45,
+    "size": 64
+   }
+  ]
+ },
+ {
+  "lines": [
+   9
+  ],
+  "set": "office",
+  "cam": {
+   "z": [
+    1.15,
+    1.2
+   ],
+   "x": [
+    0,
+    30
+   ]
+  },
+  "items": [
+   {
+    "k": "desk",
+    "x": 0.74
+   }
+  ],
+  "actors": [
+   {
+    "id": "rio",
+    "x": 0.4,
+    "facing": 1,
+    "pose": [
+     [
+      0,
+      "sip"
+     ]
+    ],
+    "hold": {
+     "k": "cup",
+     "sip": true
+    },
+    "expr": [
+     [
+      0,
+      "smirk"
+     ]
+    ]
+   },
+   {
+    "id": "max",
+    "x": 0.62,
+    "facing": -1,
+    "pose": [
+     [
+      0,
+      "facepalm"
+     ]
+    ],
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "lines": [
+   10
+  ],
+  "set": "face",
+  "bg": "home",
+  "name": "RIO",
+  "expr": [
+   [
+    0,
+    "smile"
+   ]
+  ]
+ },
+ {
+  "lines": [
+   11
+  ],
+  "set": "night",
+  "cam": {
+   "z": [
+    1.0,
+    1.12
+   ]
+  },
+  "in": "fade",
+  "items": [
+   {
+    "k": "door",
+    "x": 0.58,
+    "a": [
+     [
+      0.15,
+      0
+     ],
+     [
+      0.6,
+      1
+     ]
+    ],
+    "sparkle": true
+   }
+  ],
+  "actors": [
+   {
+    "id": "rio",
+    "who": "rioPj",
+    "x": 0.3,
+    "facing": 1,
+    "pose": [
+     [
+      0,
+      "relaxed"
+     ],
+     [
+      0.55,
+      "handsOnHead"
+     ]
+    ],
+    "expr": [
+     [
+      0,
+      "sleepy"
+     ],
+     [
+      0.5,
+      "shocked"
+     ]
+    ]
+   }
+  ],
+  "sfx": [
+   {
+    "at": 0.6,
+    "name": "shimmer",
+    "gain": -14
+   }
+  ]
+ },
+ {
+  "lines": [
+   12
+  ],
+  "set": "night",
+  "cam": {
+   "z": [
+    1.05,
+    1.05
+   ]
+  },
+  "items": [
+   {
+    "k": "door",
+    "x": 0.55,
+    "front": true
+   }
+  ],
+  "actors": [
+   {
+    "id": "rio",
+    "who": "rioPj",
+    "x": [
+     [
+      0,
+      0.35
+     ],
+     [
+      0.45,
+      0.72
+     ],
+     [
+      0.55,
+      0.72
+     ]
+    ],
+    "pose": [
+     [
+      0,
+      "think"
+     ],
+     [
+      0.5,
+      "shrug"
+     ]
+    ],
+    "expr": [
+     [
+      0,
+      "confused"
+     ]
+    ]
+   }
+  ],
+  "text": [
+   {
+    "s": "?",
+    "x": 0.72,
+    "y": 0.3,
+    "at": 0.5,
+    "size": 120
+   }
+  ]
+ },
+ {
+  "lines": [
+   13
+  ],
+  "tpl": "end"
+ }
+]

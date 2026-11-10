@@ -6,6 +6,7 @@ import * as FX from '/engine/fx2d.js';
 import * as UI from '/engine/ui2d.js';
 import { drawSet, SETS } from './sets.js';
 import { drawProp, hasProp, sparkle as spk } from './props.js';
+import { directed } from './directed.js';
 
 export const RIO = { top: 'hoodie', color: '#2d7fe0', head: 'curly', headColor: '#0e0b12' };
 const PALETTE = ['#e0532f', '#f2c21a', '#3aa876', '#9a5ad6', '#e06aa0', '#d98a3a'];
@@ -390,7 +391,7 @@ function duo2(g, t, info) {
   if (info.powerOn && info.power) { const s = V(1.6, 1.75), x = E.W / 2 - V(230, 200), y = E.H * V(0.8, 0.7); powerFx(g, info, x, y, s, t, false); }
 }
 
-const T = { hero, act, focus, props: propsShot, think, duo: duo2, face, number, science, compare, question, title, end };
+const T = { dir: directed, hero, act, focus, props: propsShot, think, duo: duo2, face, number, science, compare, question, title, end };
 for (const sh of E.shots) {
   registerShot(sh.id, { draw(g, t, info) {
     (T[info.tpl] || act)(g, t, info);
