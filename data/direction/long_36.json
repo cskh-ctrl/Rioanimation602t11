@@ -1,0 +1,14494 @@
+[
+{
+"lines": [
+0
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+],
+[
+0.5,
+"awe"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"fx": [
+"flash"
+],
+"cam": {
+"z": [
+1.3,
+1.15
+],
+"x": [
+-200,
+-150
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+1
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"facing": [
+[
+0,
+1
+],
+[
+"@0.500",
+-1
+],
+[
+"@0.999",
+1
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "YOUR CHILDHOOD KITCHEN",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 50
+}
+]
+},
+{
+"lines": [
+2
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"facing": [
+[
+0,
+1
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "YOUR CHILDHOOD KITCHEN",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 50
+},
+{
+"s": "LITTLE YELLOW DUCKS",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+3
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.3
+],
+[
+0.5,
+0.2
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"props": [
+{
+"k": "radio",
+"x": 0.12,
+"y": 0.42,
+"r": 50,
+"at": 0.1,
+"disc": true
+},
+{
+"k": "note",
+"x": 0.17,
+"y": 0.32,
+"r": 30,
+"at": 0.3,
+"disc": true
+},
+{
+"k": "note",
+"x": 0.09,
+"y": 0.28,
+"r": 26,
+"at": 0.5,
+"disc": true
+}
+]
+},
+{
+"lines": [
+4
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.3
+],
+[
+0.5,
+0.72
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+0.6,
+"surprised"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+},
+{
+"k": "paper",
+"x": 2.0
+},
+{
+"k": "paper",
+"x": 0.94,
+"up": 1.25,
+"s": "AUG 2006"
+}
+],
+"cam": {
+"z": [
+1.0,
+1.35
+],
+"x": [
+0,
+520
+],
+"y": [
+0,
+-40
+]
+}
+},
+{
+"lines": [
+5
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.72,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": []
+},
+{
+"lines": [
+6,
+7
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.72,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+],
+[
+"@1.000",
+"cry"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "YOUR DAD",
+"x": 0.4,
+"y": 0.16,
+"at": "@0.000"
+},
+{
+"s": "20 YEARS YOUNGER... ALIVE",
+"x": 0.5,
+"y": 0.26,
+"at": "@1.000",
+"size": 50
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+422.4,
+422.4
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+8
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@0.400",
+"confused"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.72,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": []
+},
+{
+"lines": [
+9
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"hold": {
+"k": "newspaper"
+},
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.72,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"CAN I HELP YOU, BUDDY?\"",
+"x": 0.4,
+"y": 0.16,
+"at": "@0.000",
+"size": 52
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-230.39999999999998,
+-230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+10
+],
+"set": "face",
+"actors": [],
+"items": [],
+"who": "rio",
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"bg": "kitchen"
+},
+{
+"lines": [
+11,
+12
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1",
+"think"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "RIO, 34",
+"small": null,
+"at": 0.1,
+"x": 0.68
+},
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+13,
+14
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "TOM",
+"small": "your dad... died in 2007",
+"at": "@0.150",
+"x": 0.68,
+"w": 560
+},
+"props": [
+{
+"k": "brokenheart",
+"x": 0.68,
+"y": 0.5,
+"r": 60,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+15
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "TOM",
+"small": "your dad... died in 2007",
+"at": -1,
+"x": 0.68,
+"w": 560
+},
+"props": [
+{
+"k": "brokenheart",
+"x": 0.68,
+"y": 0.5,
+"r": 60,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "HE WAS 52. YOU WERE 15.",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 50
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+16
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.05
+],
+[
+"@0.999",
+0.2583
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "tmachine",
+"x": 0.5
+}
+],
+"fx": [
+"dark"
+],
+"text": [
+{
+"s": "GRANDPA'S OLD GARAGE",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.100",
+"size": 50
+}
+],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {}
+},
+{
+"lines": [
+17
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.2583
+],
+[
+"@0.200",
+0.3
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.300",
+"point"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@0.300",
+"awe"
+]
+]
+}
+],
+"items": [
+{
+"k": "tmachine",
+"x": 0.5
+}
+],
+"fx": [
+"dark"
+],
+"text": [
+{
+"s": "GRANDPA'S OLD GARAGE",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 50
+},
+{
+"s": "A METAL CHAIR... A BRASS DIAL",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {},
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-424.032,
+-424.032
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+18
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.32,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "tmachine",
+"x": 0.5
+}
+],
+"cam": {
+"z": [
+1.6,
+1.7
+],
+"x": [
+100.0,
+109.0
+],
+"y": [
+60.0,
+65.0
+]
+},
+"text": [
+{
+"s": "ONE SETTING:",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 50
+}
+],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {}
+},
+{
+"lines": [
+19
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.32,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "tmachine",
+"x": 0.5
+}
+],
+"cam": {
+"z": [
+1.7,
+1.8
+],
+"x": [
+109.0,
+118.0
+],
+"y": [
+65.0,
+70.0
+]
+},
+"text": [
+{
+"s": "ONE SETTING:",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 50
+},
+{
+"s": "20 YEARS AGO. TODAY.",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 54
+}
+],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+20,
+21
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.32
+],
+[
+0.3,
+0.5
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+0.35,
+"sit"
+],
+[
+"@1.2",
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+],
+[
+"@1.3",
+"scared"
+]
+],
+"chair": false
+}
+],
+"items": [
+{
+"k": "tmachine",
+"x": 0.5,
+"lever": [
+[
+0,
+0
+],
+[
+"@1.3",
+0
+],
+[
+"@1.6",
+1
+]
+]
+}
+],
+"text": [
+{
+"s": "CLICK",
+"x": 0.7,
+"y": 0.3,
+"at": "@1.6"
+}
+],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {}
+},
+{
+"lines": [
+22
+],
+"set": "home",
+"actors": [
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.45,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "camera",
+"x": 0.65,
+"y": 0.4,
+"r": 50,
+"at": 0.2,
+"disc": true
+}
+],
+"text": [
+{
+"s": "MOST PEOPLE VISIT THE PAST IN PHOTOS",
+"x": 0.5,
+"y": 0.16,
+"at": 0.1,
+"size": 46
+}
+]
+},
+{
+"lines": [
+23
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "YOU'RE STANDING IN IT",
+"x": 0.5,
+"y": 0.16,
+"at": 0.1,
+"size": 56
+}
+]
+},
+{
+"lines": [
+24
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "tmachine",
+"x": 0.5
+}
+],
+"card": {
+"big": "ONE RULE",
+"small": "exactly one hour",
+"at": "@0.100",
+"x": 0.7
+},
+"props": [],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {}
+},
+{
+"lines": [
+25
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "tmachine",
+"x": 0.5
+}
+],
+"card": {
+"big": "ONE RULE",
+"small": "exactly one hour",
+"at": -1,
+"x": 0.7
+},
+"props": [
+{
+"k": "hourglass",
+"x": 0.7,
+"y": 0.55,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+26
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "tmachine",
+"x": 0.5
+}
+],
+"card": {
+"big": "ONE CHANGE",
+"small": "one message... to one person",
+"at": "@0.100",
+"x": 0.7,
+"w": 620
+},
+"text": [],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {}
+},
+{
+"lines": [
+27
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "tmachine",
+"x": 0.5
+}
+],
+"card": {
+"big": "ONE CHANGE",
+"small": "one message... to one person",
+"at": -1,
+"x": 0.7,
+"w": 620
+},
+"text": [
+{
+"s": "...THEN IT PULLS YOU HOME",
+"x": 0.62,
+"y": 0.42,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+28,
+29
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1",
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "ONE MESSAGE.",
+"x": 0.5,
+"y": 0.14,
+"at": 0.05
+},
+{
+"s": "ONE CHANGE.",
+"x": 0.5,
+"y": 0.24,
+"at": "@1"
+}
+]
+},
+{
+"lines": [
+30
+],
+"set": "room",
+"actors": [],
+"items": [],
+"tpl": "title",
+"params": {
+"title": "What If You Went Back 20 Years?"
+}
+},
+{
+"lines": [
+31,
+32
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.62
+],
+[
+"@1.600",
+0.42
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@1.000",
+"confused"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "tvset",
+"x": 0.22,
+"show": "news",
+"who": "crowd2",
+"bg": "#3a5a8a"
+}
+],
+"card": {
+"big": "MINUTE 1",
+"small": null,
+"at": "@0.150",
+"x": 0.75
+},
+"text": []
+},
+{
+"lines": [
+33
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.42
+]
+],
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "tvset",
+"x": 0.22,
+"show": "news",
+"who": "crowd2",
+"bg": "#3a5a8a"
+}
+],
+"card": {
+"big": "MINUTE 1",
+"small": null,
+"at": -1,
+"x": 0.75
+},
+"text": [
+{
+"s": "A TV LIKE A BOX",
+"x": 0.3,
+"y": 0.3,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+34,
+35
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.72,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "PHONES FLIP OPEN",
+"x": 0.5,
+"y": 0.14,
+"at": 0.05,
+"size": 50
+},
+{
+"s": "NOBODY IS SCROLLING",
+"x": 0.5,
+"y": 0.24,
+"at": "@1",
+"size": 46
+}
+]
+},
+{
+"lines": [
+36
+],
+"set": "space",
+"actors": [],
+"items": [],
+"card": {
+"big": "JANUARY 2007",
+"small": "when the first iPhone is announced",
+"at": 0.05,
+"w": 780
+},
+"props": [
+{
+"k": "phone",
+"x": 0.5,
+"y": 0.6,
+"r": 70,
+"at": 0.3,
+"disc": true
+}
+]
+},
+{
+"lines": [
+37,
+38
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.400",
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@1.000",
+"confused"
+]
+],
+"hold": {
+"k": "phone",
+"from": "@0.400"
+}
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "NO SIGNAL. NO APPS.",
+"x": 0.5,
+"y": 0.14,
+"at": "@1.000",
+"size": 50
+}
+]
+},
+{
+"lines": [
+39
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"hold": {
+"k": "phone",
+"from": 0
+}
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "NO SIGNAL. NO APPS.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 50
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+40
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hold": {
+"k": "phone",
+"from": 0
+}
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "NO SIGNAL. NO APPS.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 50
+},
+{
+"s": "A VERY EXPENSIVE MIRROR",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-76.80000000000001,
+-76.80000000000001
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+41,
+42
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.72
+],
+[
+"@1.000",
+0.5
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"card": {
+"big": "MINUTE 3",
+"small": null,
+"at": "@0.200",
+"x": 0.75
+},
+"props": [
+{
+"k": "newspaper",
+"x": 0.3,
+"y": 0.42,
+"r": 60,
+"at": "@1.500",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+43,
+44
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.5
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"card": {
+"big": "MINUTE 3",
+"small": null,
+"at": -1,
+"x": 0.75
+},
+"props": [
+{
+"k": "newspaper",
+"x": 0.3,
+"y": 0.42,
+"r": 60,
+"at": -1,
+"disc": true
+},
+{
+"k": "planet",
+"x": 0.42,
+"y": 0.42,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "PLUTO",
+"x": 0.36,
+"y": 0.28,
+"at": "@0.000",
+"size": 60
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+45
+],
+"set": "space",
+"actors": [],
+"items": [],
+"card": {
+"big": "AUGUST 2006",
+"small": "Pluto is no longer a full planet",
+"at": "@0.100",
+"w": 760
+},
+"props": [
+{
+"k": "planet",
+"x": 0.5,
+"y": 0.6,
+"r": 80,
+"at": "@0.400",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+46
+],
+"set": "space",
+"actors": [],
+"items": [],
+"card": {
+"big": "AUGUST 2006",
+"small": "Pluto is no longer a full planet",
+"at": -1,
+"w": 760
+},
+"props": [
+{
+"k": "planet",
+"x": 0.5,
+"y": 0.6,
+"r": 80,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "NOW: A DWARF PLANET",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.000",
+"size": 56
+}
+],
+"fx": []
+},
+{
+"lines": [
+47,
+48
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "newspaper"
+},
+"talk": [
+"@1.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"POOR LITTLE GUY\"",
+"x": 0.38,
+"y": 0.16,
+"at": "@1.000",
+"size": 54
+}
+]
+},
+{
+"lines": [
+49
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hold": {
+"k": "newspaper"
+},
+"talk": [
+"@0.000",
+"@0.900"
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@0.500",
+"joy"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"POOR LITTLE GUY\"",
+"x": 0.38,
+"y": 0.16,
+"at": -1,
+"size": 54
+},
+{
+"s": "\"50 YEARS A PLANET, AND NOW THIS\"",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-230.39999999999998,
+-230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+50
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"POOR LITTLE GUY\"",
+"x": 0.38,
+"y": 0.16,
+"at": -1,
+"size": 54
+},
+{
+"s": "\"50 YEARS A PLANET, AND NOW THIS\"",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+115.19999999999999,
+115.19999999999999
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+51,
+52
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": [
+[
+0,
+0.38
+],
+[
+"@0.6",
+0.68
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.8",
+"pour"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "pour",
+"from": "@0.8"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+]
+}
+],
+"items": [
+{
+"k": "counter",
+"x": 0.95
+}
+],
+"card": {
+"big": "MINUTE 5",
+"small": null,
+"at": 0.05,
+"x": 0.25
+},
+"text": [
+{
+"s": "COFFEE?",
+"x": 0.7,
+"y": 0.3,
+"at": "@1"
+}
+]
+},
+{
+"lines": [
+53,
+54
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.52,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"shake"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"I'M TOM. AND YOU ARE?\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@1.000",
+"size": 54
+}
+]
+},
+{
+"lines": [
+55
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.52,
+"pose": [
+[
+0,
+"shake"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"I'M TOM. AND YOU ARE?\"",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 54
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+38.400000000000034,
+38.400000000000034
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+56,
+57
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"think"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+],
+[
+"@1.000",
+"thinking"
+]
+]
+}
+],
+"items": [],
+"text": []
+},
+{
+"lines": [
+58
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"I'M YOUR SON... FROM THE FUTURE?\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+59,
+60
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@1.000",
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+],
+[
+"@1.000",
+"scared"
+]
+]
+}
+],
+"items": [],
+"thought": {
+"props": [
+"police"
+],
+"x": 0.7,
+"y": 0.28,
+"at": "@0.000"
+},
+"text": [
+{
+"s": "\"I'M YOUR SON... FROM THE FUTURE?\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "OR WORSE... HE'D BELIEVE YOU",
+"x": 0.5,
+"y": 0.48,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-76.80000000000001,
+-76.80000000000001
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+61
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+]
+},
+{
+"id": "tom",
+"who": "tom",
+"x": 0.56,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": []
+},
+{
+"lines": [
+62
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "tom",
+"who": "tom",
+"x": 0.56,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"A FRIEND OF THE FAMILY\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 54
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+63,
+64
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": [
+[
+0,
+0.56
+],
+[
+"@1.500",
+0.42
+]
+],
+"pose": [
+[
+0,
+"shrug"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@1.000",
+1
+],
+"facing": [
+[
+0,
+-1
+],
+[
+"@1.600",
+1
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.42
+],
+[
+"@1.999",
+0.62
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": []
+},
+{
+"lines": [
+65
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": [
+[
+0,
+0.42
+]
+],
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"facing": [
+[
+0,
+1
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.62
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.500",
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"SIT DOWN.\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000"
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+66,
+67
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"card": {
+"big": "MINUTE 7",
+"small": null,
+"at": 0.05,
+"x": 0.25
+}
+},
+{
+"lines": [
+68
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"cam": {
+"z": [
+1.6,
+1.65
+],
+"x": [
+-160.0,
+-160.0
+],
+"y": [
+-110.0,
+-110.0
+]
+},
+"text": [],
+"props": []
+},
+{
+"lines": [
+69
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"cam": {
+"z": [
+1.65,
+1.7
+],
+"x": [
+-160.0,
+-160.0
+],
+"y": [
+-110.0,
+-110.0
+]
+},
+"text": [
+{
+"s": "THE LITTLE SCAR ON HIS CHIN",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 46
+}
+],
+"props": [],
+"fx": []
+},
+{
+"lines": [
+70
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"cam": {
+"z": [
+1.7,
+1.75
+],
+"x": [
+-160.0,
+-160.0
+],
+"y": [
+-110.0,
+-110.0
+]
+},
+"text": [
+{
+"s": "THE LITTLE SCAR ON HIS CHIN",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "HE HUMS WHEN HE READS",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"props": [
+{
+"k": "note",
+"x": 0.32,
+"y": 0.35,
+"r": 30,
+"at": "@0.200",
+"disc": true
+},
+{
+"k": "note",
+"x": 0.28,
+"y": 0.3,
+"r": 24,
+"at": "@0.500",
+"disc": true
+}
+],
+"fx": []
+},
+{
+"lines": [
+71,
+72,
+73
+],
+"set": "kitchen",
+"actors": [],
+"items": [],
+"tpl": "science",
+"params": {
+"sci": "MEMORY REBUILDS",
+"icon": "brain"
+}
+},
+{
+"lines": [
+74
+],
+"set": "face",
+"actors": [],
+"items": [],
+"who": "rio",
+"expr": [
+[
+0,
+"awe"
+]
+],
+"bg": "kitchen"
+},
+{
+"lines": [
+75,
+76
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@1.000",
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+},
+{
+"k": "stairs",
+"x": 0.02
+}
+],
+"card": {
+"big": "MINUTE 9",
+"small": null,
+"at": "@0.150",
+"x": 0.75
+},
+"text": [
+{
+"s": "STOMP... STOMP",
+"x": 0.2,
+"y": 0.3,
+"at": "@1.000",
+"size": 50
+}
+]
+},
+{
+"lines": [
+77
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+},
+{
+"k": "stairs",
+"x": 0.02
+}
+],
+"card": {
+"big": "MINUTE 9",
+"small": null,
+"at": -1,
+"x": 0.75
+},
+"text": [
+{
+"s": "STOMP... STOMP",
+"x": 0.2,
+"y": 0.3,
+"at": -1,
+"size": 50
+},
+{
+"s": "SLAM!",
+"x": 0.3,
+"y": 0.2,
+"at": "@0.000"
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+230.39999999999998,
+230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+78
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": [
+[
+0,
+0.25
+],
+[
+"@0.900",
+0.24
+],
+[
+"@0.999",
+0.075
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"yk": [
+[
+0,
+-0.27
+],
+[
+"@0.900",
+0
+],
+[
+"@0.999",
+-0.045
+]
+],
+"hold": {
+"k": "phone"
+},
+"walkArms": true
+},
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+},
+{
+"k": "stairs",
+"x": 0.02
+}
+],
+"text": []
+},
+{
+"lines": [
+79,
+80
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": [
+[
+0,
+0.075
+],
+[
+"@0.200",
+0.04
+],
+[
+"@1.999",
+0.24
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"yk": [
+[
+0,
+-0.045
+],
+[
+"@0.200",
+0
+]
+],
+"hold": {
+"k": "phone"
+},
+"walkArms": true
+},
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+],
+[
+"@1.000",
+"shocked"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+},
+{
+"k": "stairs",
+"x": 0.02
+}
+],
+"text": [
+{
+"s": "HEADPHONES. MESSY HAIR.",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 46
+},
+{
+"s": "IT'S YOU",
+"x": 0.62,
+"y": 0.26,
+"at": "@1.000"
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+230.39999999999998,
+230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+81
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.28,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"DAD! CAN I GO TO JOSH'S?\"",
+"x": 0.4,
+"y": 0.16,
+"at": "@0.400",
+"size": 52
+}
+]
+},
+{
+"lines": [
+82
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.28,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"DAD! CAN I GO TO JOSH'S?\"",
+"x": 0.4,
+"y": 0.16,
+"at": -1,
+"size": 52
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-422.4,
+-422.4
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+83,
+84
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.28,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"talk": [
+"@1",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"HOMEWORK FIRST, CHAMP.\"",
+"x": 0.4,
+"y": 0.16,
+"at": "@1",
+"size": 52
+}
+]
+},
+{
+"lines": [
+85,
+86
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": [
+[
+0,
+0.28
+],
+[
+"@1",
+0.28
+],
+[
+"@1.8",
+-0.08
+]
+],
+"pose": [
+[
+0,
+"facepalm"
+],
+[
+"@0.8",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"angry"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"UGH. FINE.\"",
+"x": 0.3,
+"y": 0.2,
+"at": 0.3,
+"size": 54
+}
+]
+},
+{
+"lines": [
+87,
+88
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "newspaper"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+],
+[
+"@1",
+"confused"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "WAS I REALLY THAT RUDE?",
+"x": 0.5,
+"y": 0.16,
+"at": "@1",
+"size": 52
+}
+]
+},
+{
+"lines": [
+89,
+90
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@1",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "HA HA",
+"x": 0.38,
+"y": 0.2,
+"at": 0.1
+},
+{
+"s": "\"HE'S FOURTEEN.\"",
+"x": 0.42,
+"y": 0.3,
+"at": "@1",
+"size": 52
+}
+]
+},
+{
+"lines": [
+91,
+92
+],
+"set": "kitchen",
+"actors": [],
+"items": [],
+"tpl": "science",
+"params": {
+"sci": "BRAIN DONE ~25",
+"icon": "brain"
+}
+},
+{
+"lines": [
+93,
+94
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "HALF A BRAIN",
+"x": 0.5,
+"y": 0.16,
+"at": 0.1
+},
+{
+"s": "HA HA HA",
+"x": 0.5,
+"y": 0.26,
+"at": "@1",
+"size": 54
+}
+]
+},
+{
+"lines": [
+95,
+96
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@1.000",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+],
+[
+"@1.000",
+"smirk"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "MINUTE 12",
+"small": null,
+"at": "@0.150",
+"x": 0.75
+},
+"thought": {
+"props": [
+"money",
+"chart"
+],
+"x": 0.25,
+"y": 0.28,
+"at": "@1.000"
+}
+},
+{
+"lines": [
+97
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "MINUTE 12",
+"small": null,
+"at": -1,
+"x": 0.75
+},
+"thought": {
+"props": [
+"money",
+"chart"
+],
+"x": 0.25,
+"y": 0.28,
+"at": -1
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+98
+],
+"set": "space",
+"actors": [],
+"items": [],
+"card": {
+"big": "~$1.65 BILLION",
+"small": "Google buys YouTube in two months",
+"at": 0.05,
+"w": 780
+},
+"props": [
+{
+"k": "money",
+"x": 0.5,
+"y": 0.6,
+"r": 70,
+"at": 0.3,
+"disc": true
+}
+]
+},
+{
+"lines": [
+99
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "TWITTER JUST LAUNCHED",
+"x": 0.5,
+"y": 0.35,
+"at": "@0.100",
+"size": 56
+}
+],
+"props": [
+{
+"k": "phone",
+"x": 0.5,
+"y": 0.7,
+"r": 50,
+"at": "@0.400",
+"disc": true
+}
+]
+},
+{
+"lines": [
+100
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "TWITTER JUST LAUNCHED",
+"x": 0.5,
+"y": 0.35,
+"at": -1,
+"size": 56
+},
+{
+"s": "FACEBOOK OPENS TO EVERYONE",
+"x": 0.5,
+"y": 0.5,
+"at": "@0.000",
+"size": 52
+}
+],
+"props": [
+{
+"k": "phone",
+"x": 0.5,
+"y": 0.7,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"fx": []
+},
+{
+"lines": [
+101
+],
+"set": "space",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "chart",
+"x": 0.5,
+"y": 0.6,
+"r": 80,
+"at": "@0.400",
+"disc": true
+}
+]
+},
+{
+"lines": [
+102
+],
+"set": "space",
+"actors": [],
+"items": [],
+"card": {
+"big": "50x+",
+"small": "Apple stock over the next 20 years",
+"at": "@0.000",
+"w": 700
+},
+"props": [
+{
+"k": "chart",
+"x": 0.5,
+"y": 0.6,
+"r": 80,
+"at": -1,
+"disc": true
+}
+],
+"fx": []
+},
+{
+"lines": [
+103
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.42
+],
+[
+"@0.999",
+0.28
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.02
+}
+],
+"text": []
+},
+{
+"lines": [
+104
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.28
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.200",
+"point"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.02
+}
+],
+"text": [
+{
+"s": "BUY APPLE STOCK.",
+"x": 0.62,
+"y": 0.14,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-422.4,
+-422.4
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+105,
+106
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.28
+]
+],
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.02
+}
+],
+"text": [
+{
+"s": "BUY APPLE STOCK.",
+"x": 0.62,
+"y": 0.14,
+"at": -1,
+"size": 50
+},
+{
+"s": "SAVE EVERY DOLLAR.",
+"x": 0.62,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+},
+{
+"s": "DON'T SELL.",
+"x": 0.62,
+"y": 0.34,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-211.2,
+-211.2
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+107
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.28
+]
+],
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.02
+}
+],
+"text": [
+{
+"s": "BUY APPLE STOCK.",
+"x": 0.62,
+"y": 0.14,
+"at": -1,
+"size": 50
+},
+{
+"s": "SAVE EVERY DOLLAR.",
+"x": 0.62,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "DON'T SELL.",
+"x": 0.62,
+"y": 0.34,
+"at": -1,
+"size": 46
+}
+],
+"thought": {
+"props": [
+"house",
+"money"
+],
+"x": 0.6,
+"y": 0.5,
+"at": "@0.000"
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-422.4,
+-422.4
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+108,
+109
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@1.000",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [],
+"thought": {
+"props": [
+"car",
+"money",
+"house"
+],
+"x": 0.62,
+"y": 0.3,
+"at": "@0.150"
+},
+"text": [
+{
+"s": "NO MORE STUDENT LOANS",
+"x": 0.5,
+"y": 0.14,
+"at": "@1.000",
+"size": 46
+}
+]
+},
+{
+"lines": [
+110
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [],
+"thought": {
+"props": [
+"car",
+"money",
+"house"
+],
+"x": 0.62,
+"y": 0.3,
+"at": -1
+},
+"text": [
+{
+"s": "NO MORE STUDENT LOANS",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "NO MORE TINY APARTMENT",
+"x": 0.5,
+"y": 0.56,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-191.99999999999994,
+-191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+111,
+112
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"shrug"
+],
+[
+"@1",
+"point"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "WHO WOULDN'T?",
+"x": 0.5,
+"y": 0.16,
+"at": 0.1
+},
+{
+"s": "WOULDN'T YOU?",
+"x": 0.5,
+"y": 0.26,
+"at": "@1"
+}
+]
+},
+{
+"lines": [
+113,
+114
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1",
+"sad"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+],
+[
+"@1",
+"sad"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "MINUTE 15",
+"small": null,
+"at": 0.05,
+"x": 0.75
+}
+},
+{
+"lines": [
+115
+],
+"set": "room",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": [
+[
+0,
+0.1
+],
+[
+"@0.800",
+0.3
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.85,
+"color": "#5a6a8a"
+}
+],
+"fx": [
+"night"
+],
+"card": {
+"big": "2007",
+"small": "a night in the garage",
+"at": "@0.250",
+"x": 0.75
+},
+"text": [],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {}
+},
+{
+"lines": [
+116,
+117
+],
+"set": "room",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.5,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": [
+[
+0,
+0.3
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.85,
+"color": "#5a6a8a"
+}
+],
+"fx": [
+"night"
+],
+"card": {
+"big": "2007",
+"small": "a night in the garage",
+"at": -1,
+"x": 0.75
+},
+"text": [],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {},
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+118
+],
+"set": "room",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.5,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": [
+[
+0,
+0.3
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.85,
+"color": "#5a6a8a"
+}
+],
+"fx": [
+"night"
+],
+"card": {
+"big": "2007",
+"small": "a night in the garage",
+"at": -1,
+"x": 0.75
+},
+"text": [],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {},
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+119
+],
+"set": "room",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.5,
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"facing": -1
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": [
+[
+0,
+0.3
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.85,
+"color": "#5a6a8a"
+}
+],
+"fx": [
+"night"
+],
+"card": {
+"big": "2007",
+"small": "a night in the garage",
+"at": -1,
+"x": 0.75
+},
+"text": [
+{
+"s": "\"JUST HEARTBURN, CHAMP\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 50
+}
+],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {},
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+120
+],
+"set": "kitchen",
+"actors": [],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+},
+{
+"k": "dish",
+"x": 0.45,
+"food": "cocoa",
+"at": -1
+}
+],
+"fx": [
+"dark"
+],
+"text": [
+{
+"s": "TWO DAYS LATER",
+"x": 0.5,
+"y": 0.2,
+"at": 0.1,
+"size": 56
+}
+]
+},
+{
+"lines": [
+121
+],
+"set": "hospital",
+"actors": [
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.6,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.35,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "WARNING SIGNS",
+"small": "for months",
+"at": "@0.250",
+"x": 0.3
+},
+"text": []
+},
+{
+"lines": [
+122
+],
+"set": "hospital",
+"actors": [
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.6,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.35,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "WARNING SIGNS",
+"small": "for months",
+"at": -1,
+"x": 0.3
+},
+"text": [
+{
+"s": "CHEST PRESSURE",
+"x": 0.72,
+"y": 0.16,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+123
+],
+"set": "hospital",
+"actors": [
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.6,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+"@0.900"
+]
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.35,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "WARNING SIGNS",
+"small": "for months",
+"at": -1,
+"x": 0.3
+},
+"text": [
+{
+"s": "CHEST PRESSURE",
+"x": 0.72,
+"y": 0.16,
+"at": -1,
+"size": 44
+},
+{
+"s": "SHORT BREATH... COLD SWEATS",
+"x": 0.68,
+"y": 0.26,
+"at": "@0.000",
+"size": 40
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+95.99999999999997,
+95.99999999999997
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+124,
+125
+],
+"set": "hospital",
+"actors": [
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.6,
+"pose": [
+[
+0,
+"talk"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.35,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "WARNING SIGNS",
+"small": "for months",
+"at": -1,
+"x": 0.3
+},
+"text": [
+{
+"s": "CHEST PRESSURE",
+"x": 0.72,
+"y": 0.16,
+"at": -1,
+"size": 44
+},
+{
+"s": "SHORT BREATH... COLD SWEATS",
+"x": 0.68,
+"y": 0.26,
+"at": -1,
+"size": 40
+},
+{
+"s": "HE NEVER TOLD ANYONE",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+126
+],
+"set": "hospital",
+"actors": [],
+"items": [],
+"card": {
+"big": "~800,000",
+"small": "heart attacks a year in the US",
+"at": "@0.100",
+"w": 700
+},
+"props": [
+{
+"k": "heart",
+"x": 0.5,
+"y": 0.58,
+"r": 80,
+"at": "@0.400",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+127
+],
+"set": "hospital",
+"actors": [],
+"items": [],
+"card": {
+"big": "~800,000",
+"small": "heart attacks a year in the US",
+"at": -1,
+"w": 700
+},
+"props": [
+{
+"k": "heart",
+"x": 0.5,
+"y": 0.58,
+"r": 80,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "MANY HAVE WARNING SIGNS FIRST",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+128
+],
+"set": "hospital",
+"actors": [
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.22,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "heart",
+"x": 0.42,
+"y": 0.3,
+"r": 40,
+"at": "@0.200",
+"disc": true
+}
+],
+"text": [
+{
+"s": "CHEST PAIN OR PRESSURE",
+"x": 0.62,
+"y": 0.48,
+"at": "@0.200",
+"size": 40
+}
+]
+},
+{
+"lines": [
+129
+],
+"set": "hospital",
+"actors": [
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.22,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "heart",
+"x": 0.42,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "hand",
+"x": 0.56,
+"y": 0.3,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "CHEST PAIN OR PRESSURE",
+"x": 0.62,
+"y": 0.48,
+"at": -1,
+"size": 40
+},
+{
+"s": "ARM, JAW OR BACK",
+"x": 0.62,
+"y": 0.56,
+"at": "@0.000",
+"size": 40
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-520,
+-520
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+130,
+131
+],
+"set": "hospital",
+"actors": [
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.22,
+"pose": [
+[
+0,
+"explain"
+],
+[
+"@1.000",
+"talk"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "heart",
+"x": 0.42,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "hand",
+"x": 0.56,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "lungs",
+"x": 0.7,
+"y": 0.3,
+"r": 40,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "sweat",
+"x": 0.84,
+"y": 0.3,
+"r": 40,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "CHEST PAIN OR PRESSURE",
+"x": 0.62,
+"y": 0.48,
+"at": -1,
+"size": 40
+},
+{
+"s": "ARM, JAW OR BACK",
+"x": 0.62,
+"y": 0.56,
+"at": -1,
+"size": 40
+},
+{
+"s": "SHORT OF BREATH",
+"x": 0.62,
+"y": 0.64,
+"at": "@0.000",
+"size": 40
+},
+{
+"s": "COLD SWEAT, NAUSEA",
+"x": 0.62,
+"y": 0.72,
+"at": "@1.000",
+"size": 40
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-268.8,
+-268.8
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+132,
+133
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.45,
+"pose": [
+[
+0,
+"chest"
+],
+[
+"@0.6",
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"worried"
+],
+[
+"@0.6",
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "MANY PEOPLE IGNORE THEM",
+"x": 0.5,
+"y": 0.16,
+"at": 0.05,
+"size": 50
+},
+{
+"s": "JUST LIKE YOUR DAD",
+"x": 0.5,
+"y": 0.26,
+"at": "@1",
+"size": 50
+}
+]
+},
+{
+"lines": [
+134,
+135
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "pen"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"card": {
+"big": "MINUTE 18",
+"small": null,
+"at": "@0.200",
+"x": 0.75
+},
+"props": [
+{
+"k": "pencil",
+"x": 0.47,
+"y": 0.5,
+"r": 30,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+136
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "pen"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"card": {
+"big": "MINUTE 18",
+"small": null,
+"at": -1,
+"x": 0.75
+},
+"props": [
+{
+"k": "pencil",
+"x": 0.47,
+"y": 0.5,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A CROSSWORD... IN PEN",
+"x": 0.4,
+"y": 0.16,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+230.39999999999998,
+230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+137
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "pen"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"card": {
+"big": "MINUTE 18",
+"small": null,
+"at": -1,
+"x": 0.75
+},
+"props": [
+{
+"k": "pencil",
+"x": 0.47,
+"y": 0.5,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A CROSSWORD... IN PEN",
+"x": 0.4,
+"y": 0.16,
+"at": -1,
+"size": 50
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+115.19999999999999,
+115.19999999999999
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+138
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"hold": {
+"k": "pen"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": []
+},
+{
+"lines": [
+139,
+140
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hold": {
+"k": "pen"
+},
+"talk": [
+"@0.000",
+"@1.900"
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"SOME THINGS CAN'T WAIT, BUDDY.\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 48
+},
+{
+"s": "\"MIGHT AS WELL GUESS.\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@1.000",
+"size": 48
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+141
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hold": {
+"k": "pen"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"SOME THINGS CAN'T WAIT, BUDDY.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "\"MIGHT AS WELL GUESS.\"",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 48
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+115.19999999999999,
+115.19999999999999
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+142,
+143
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "pen"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"cam": {
+"z": [
+1.4,
+1.467
+],
+"x": [
+230.0,
+230.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "HIS LINE",
+"x": 0.5,
+"y": 0.14,
+"at": "@1.000"
+}
+]
+},
+{
+"lines": [
+144
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "pen"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"cam": {
+"z": [
+1.467,
+1.5
+],
+"x": [
+230.0,
+230.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "HIS LINE",
+"x": 0.5,
+"y": 0.14,
+"at": -1
+},
+{
+"s": "THE ONE THING HE NEVER DID FOR HIMSELF",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 40
+}
+],
+"fx": []
+},
+{
+"lines": [
+145
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.5
+],
+[
+"@0.800",
+0.74
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "paper",
+"x": 0.94,
+"up": 1.2,
+"s": "YELLOWSTONE"
+},
+{
+"k": "paper",
+"x": 0.94,
+"up": 0.85,
+"s": "NEXT SUMMER!"
+}
+],
+"cam": {
+"z": [
+1.3,
+1.342
+],
+"x": [
+420.0,
+436.667
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"props": [
+{
+"k": "map",
+"x": 0.8,
+"y": 0.22,
+"r": 40,
+"at": "@0.500",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+146
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.74
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "paper",
+"x": 0.94,
+"up": 1.2,
+"s": "YELLOWSTONE"
+},
+{
+"k": "paper",
+"x": 0.94,
+"up": 0.85,
+"s": "NEXT SUMMER!"
+}
+],
+"cam": {
+"z": [
+1.342,
+1.383
+],
+"x": [
+436.667,
+453.333
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"props": [
+{
+"k": "map",
+"x": 0.8,
+"y": 0.22,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "OLD FAITHFUL",
+"x": 0.45,
+"y": 0.16,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+147,
+148
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.74
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "paper",
+"x": 0.94,
+"up": 1.2,
+"s": "YELLOWSTONE"
+},
+{
+"k": "paper",
+"x": 0.94,
+"up": 0.85,
+"s": "NEXT SUMMER!"
+}
+],
+"cam": {
+"z": [
+1.383,
+1.467
+],
+"x": [
+453.333,
+486.667
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"props": [
+{
+"k": "map",
+"x": 0.8,
+"y": 0.22,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "OLD FAITHFUL",
+"x": 0.45,
+"y": 0.16,
+"at": -1,
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+149,
+150
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.74
+]
+],
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@1.000",
+"sad"
+]
+]
+}
+],
+"items": [
+{
+"k": "paper",
+"x": 0.94,
+"up": 1.2,
+"s": "YELLOWSTONE"
+},
+{
+"k": "paper",
+"x": 0.94,
+"up": 0.85,
+"s": "NEXT SUMMER!"
+}
+],
+"cam": {
+"z": [
+1.467,
+1.55
+],
+"x": [
+486.667,
+520.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"props": [
+{
+"k": "map",
+"x": 0.8,
+"y": 0.22,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "OLD FAITHFUL",
+"x": 0.45,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "THE TRIP NEVER HAPPENED",
+"x": 0.45,
+"y": 0.26,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+151,
+152
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.75
+],
+[
+"@1.999",
+0.3
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "MINUTE 25",
+"small": null,
+"at": "@0.150",
+"x": 0.25
+},
+"text": []
+},
+{
+"lines": [
+153
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.3
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.100",
+"reach"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "MINUTE 25",
+"small": null,
+"at": -1,
+"x": 0.25
+},
+"text": [
+{
+"s": "THE DUCKS",
+"x": 0.3,
+"y": 0.42,
+"at": "@0.200",
+"size": 50
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+154
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.55,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.6
+}
+],
+"props": [],
+"text": []
+},
+{
+"lines": [
+155
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.55,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.6
+}
+],
+"props": [],
+"text": [
+{
+"s": "PRETENDING TO DO HOMEWORK",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-520,
+-520
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+156
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.55,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.6
+}
+],
+"props": [
+{
+"k": "robot",
+"x": 0.62,
+"y": 0.42,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "PRETENDING TO DO HOMEWORK",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "A CARTOON ROBOT",
+"x": 0.62,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-288.0,
+-288.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+157
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.55,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.6
+}
+],
+"props": [
+{
+"k": "robot",
+"x": 0.62,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "PRETENDING TO DO HOMEWORK",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "A CARTOON ROBOT",
+"x": 0.62,
+"y": 0.24,
+"at": -1,
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-520,
+-520
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+158
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.55,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.6
+}
+],
+"props": [
+{
+"k": "robot",
+"x": 0.62,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "PRETENDING TO DO HOMEWORK",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "A CARTOON ROBOT",
+"x": 0.62,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "FOR THE NEXT 20 YEARS",
+"x": 0.4,
+"y": 0.34,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-288.0,
+-288.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+159,
+160
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"think"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "MINUTE 30",
+"small": "half your time is gone",
+"at": "@0.150",
+"x": 0.68,
+"w": 620
+},
+"props": [
+{
+"k": "clock",
+"x": 0.3,
+"y": 0.3,
+"r": 50,
+"at": "@1.000",
+"disc": true
+}
+]
+},
+{
+"lines": [
+161
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "MINUTE 30",
+"small": "half your time is gone",
+"at": -1,
+"x": 0.68,
+"w": 620
+},
+"props": [
+{
+"k": "clock",
+"x": 0.3,
+"y": 0.3,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+162
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"facing": [
+[
+0,
+1
+],
+[
+"@0.999",
+-1.0
+]
+]
+}
+],
+"items": [],
+"props": [],
+"text": []
+},
+{
+"lines": [
+163
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"facing": [
+[
+0,
+-1.0
+],
+[
+"@0.999",
+1
+]
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "money",
+"x": 0.2,
+"y": 0.36,
+"r": 60,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "GET RICH",
+"x": 0.2,
+"y": 0.2,
+"at": "@0.000"
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+164
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"facing": [
+[
+0,
+1
+]
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "money",
+"x": 0.2,
+"y": 0.36,
+"r": 60,
+"at": -1,
+"disc": true
+},
+{
+"k": "heart",
+"x": 0.8,
+"y": 0.36,
+"r": 60,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "GET RICH",
+"x": 0.2,
+"y": 0.2,
+"at": -1
+},
+{
+"s": "SAVE DAD",
+"x": 0.8,
+"y": 0.2,
+"at": "@0.000"
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+165,
+166
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"facing": [
+[
+0,
+1
+]
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "money",
+"x": 0.2,
+"y": 0.36,
+"r": 60,
+"at": -1,
+"disc": true
+},
+{
+"k": "heart",
+"x": 0.8,
+"y": 0.36,
+"r": 60,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "GET RICH",
+"x": 0.2,
+"y": 0.2,
+"at": -1
+},
+{
+"s": "SAVE DAD",
+"x": 0.8,
+"y": 0.2,
+"at": -1
+},
+{
+"s": "ONE MESSAGE. ONE PERSON. NOT TWO.",
+"x": 0.5,
+"y": 0.56,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+167
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"facing": [
+[
+0,
+1
+]
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "money",
+"x": 0.2,
+"y": 0.36,
+"r": 60,
+"at": -1,
+"disc": true
+},
+{
+"k": "heart",
+"x": 0.8,
+"y": 0.36,
+"r": 60,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "GET RICH",
+"x": 0.2,
+"y": 0.2,
+"at": -1
+},
+{
+"s": "SAVE DAD",
+"x": 0.8,
+"y": 0.2,
+"at": -1
+},
+{
+"s": "ONE MESSAGE. ONE PERSON. NOT TWO.",
+"x": 0.5,
+"y": 0.56,
+"at": -1,
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+168
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"facing": [
+[
+0,
+1
+]
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "money",
+"x": 0.2,
+"y": 0.36,
+"r": 60,
+"at": -1,
+"disc": true
+},
+{
+"k": "heart",
+"x": 0.8,
+"y": 0.36,
+"r": 60,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "GET RICH",
+"x": 0.2,
+"y": 0.2,
+"at": -1
+},
+{
+"s": "SAVE DAD",
+"x": 0.8,
+"y": 0.2,
+"at": -1
+},
+{
+"s": "ONE MESSAGE. ONE PERSON. NOT TWO.",
+"x": 0.5,
+"y": 0.56,
+"at": -1,
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+169,
+170
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.22
+],
+[
+"@0.600",
+0.3
+],
+[
+"@1.999",
+0.3817
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": [
+[
+0,
+0
+],
+[
+"@0.600",
+0
+],
+[
+"@1.999",
+-0.0992
+]
+]
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.3
+}
+],
+"card": {
+"big": "MINUTE 35",
+"small": null,
+"at": "@0.300",
+"x": 0.2
+},
+"text": [
+{
+"s": "TOWARD YOUR YOUNGER SELF",
+"x": 0.72,
+"y": 0.36,
+"at": "@1.000",
+"size": 44
+}
+]
+},
+{
+"lines": [
+171,
+172
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.3817
+],
+[
+"@1.000",
+0.44
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.200",
+"think"
+]
+],
+"expr": [
+[
+0,
+"determined"
+],
+[
+"@1.000",
+"smirk"
+]
+],
+"yk": [
+[
+0,
+-0.0992
+],
+[
+"@1.000",
+-0.17
+]
+]
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.3
+}
+],
+"card": {
+"big": "MINUTE 35",
+"small": null,
+"at": -1,
+"x": 0.2
+},
+"text": [
+{
+"s": "TOWARD YOUR YOUNGER SELF",
+"x": 0.72,
+"y": 0.36,
+"at": -1,
+"size": 44
+},
+{
+"s": "YOU'D BE RICH",
+"x": 0.72,
+"y": 0.46,
+"at": "@1.000",
+"size": 50
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-171.168,
+-171.168
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+173
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.44
+]
+],
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"yk": [
+[
+0,
+-0.17
+]
+]
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.3
+}
+],
+"card": {
+"big": "MINUTE 35",
+"small": null,
+"at": -1,
+"x": 0.2
+},
+"text": [
+{
+"s": "TOWARD YOUR YOUNGER SELF",
+"x": 0.72,
+"y": 0.36,
+"at": -1,
+"size": 44
+},
+{
+"s": "YOU'D BE RICH",
+"x": 0.72,
+"y": 0.46,
+"at": -1,
+"size": 50
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-57.599999999999994,
+-57.599999999999994
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+174
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.44
+]
+],
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"yk": [
+[
+0,
+-0.17
+]
+]
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.3
+}
+],
+"card": {
+"big": "MINUTE 35",
+"small": null,
+"at": -1,
+"x": 0.2
+},
+"text": [
+{
+"s": "TOWARD YOUR YOUNGER SELF",
+"x": 0.72,
+"y": 0.36,
+"at": -1,
+"size": 44
+},
+{
+"s": "YOU'D BE RICH",
+"x": 0.72,
+"y": 0.46,
+"at": -1,
+"size": 50
+}
+],
+"thought": {
+"props": [
+"money",
+"stethoscope"
+],
+"x": 0.78,
+"y": 0.62,
+"at": "@0.000"
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-115.19999999999999,
+-115.19999999999999
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+175
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.44,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"yk": -0.17
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.3
+}
+],
+"text": [
+{
+"s": "BUT WAIT.",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.150"
+}
+]
+},
+{
+"lines": [
+176
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.44,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"yk": -0.17
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.3
+}
+],
+"text": [
+{
+"s": "BUT WAIT.",
+"x": 0.5,
+"y": 0.14,
+"at": -1
+},
+{
+"s": "NOBODY WILL KNOW HE'S SICK",
+"x": 0.62,
+"y": 0.26,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-115.19999999999999,
+-115.19999999999999
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+177
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.44,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"yk": -0.17
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.3
+}
+],
+"text": [
+{
+"s": "BUT WAIT.",
+"x": 0.5,
+"y": 0.14,
+"at": -1
+},
+{
+"s": "NOBODY WILL KNOW HE'S SICK",
+"x": 0.62,
+"y": 0.26,
+"at": -1,
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-57.599999999999994,
+-57.599999999999994
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+178,
+179
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.44,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"yk": -0.17,
+"facing": -1
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.3
+}
+],
+"card": {
+"big": "MINUTE 40",
+"small": null,
+"at": "@0.250",
+"x": 0.75
+},
+"props": [],
+"text": []
+},
+{
+"lines": [
+180
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.44,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"yk": -0.17,
+"facing": -1
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.3
+}
+],
+"card": {
+"big": "MINUTE 40",
+"small": null,
+"at": -1,
+"x": 0.75
+},
+"props": [],
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-115.19999999999999,
+-115.19999999999999
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+181,
+182
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.44,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"yk": -0.17,
+"facing": -1
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.3
+}
+],
+"card": {
+"big": "MINUTE 40",
+"small": null,
+"at": -1,
+"x": 0.75
+},
+"props": [
+{
+"k": "note",
+"x": 0.2,
+"y": 0.55,
+"r": 30,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "note",
+"x": 0.15,
+"y": 0.5,
+"r": 24,
+"at": "@0.400",
+"disc": true
+}
+],
+"text": [
+{
+"s": "WHISTLING... OFF KEY",
+"x": 0.25,
+"y": 0.4,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-57.599999999999994,
+-57.599999999999994
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+183,
+184
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.44
+],
+[
+"@1.200",
+0.44
+],
+[
+"@1.999",
+0.33
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"think"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": [
+[
+0,
+-0.17
+],
+[
+"@1.200",
+-0.17
+],
+[
+"@1.999",
+-0.085
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.3
+}
+],
+"card": {
+"big": "MINUTE 45",
+"small": "15 minutes left",
+"at": "@0.150",
+"x": 0.75
+}
+},
+{
+"lines": [
+185
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.33
+],
+[
+"@0.800",
+0.22
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": [
+[
+0,
+-0.085
+],
+[
+"@0.800",
+0
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": 0.3
+}
+],
+"card": {
+"big": "MINUTE 45",
+"small": "15 minutes left",
+"at": -1,
+"x": 0.75
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-431.99999999999994,
+-431.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+186,
+187
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hold": {
+"k": "pen"
+},
+"facing": 1,
+"talk": [
+"@1.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.85
+],
+[
+"@0.800",
+0.7
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"EVERYTHING OKAY, BUDDY?\"",
+"x": 0.42,
+"y": 0.14,
+"at": "@1.000",
+"size": 48
+}
+]
+},
+{
+"lines": [
+188
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hold": {
+"k": "pen"
+},
+"facing": 1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.7
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"EVERYTHING OKAY, BUDDY?\"",
+"x": 0.42,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "\"YOU LOOK PALE.\"",
+"x": 0.42,
+"y": 0.24,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+189
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"hold": {
+"k": "pen"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.7
+],
+[
+"@0.600",
+0.62
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.700",
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": []
+},
+{
+"lines": [
+190
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"hold": {
+"k": "pen"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.62
+]
+],
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+230.39999999999998,
+230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+191
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"hold": {
+"k": "pen"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.62
+]
+],
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"TOM... I NEED TO TELL YOU SOMETHING.\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+115.19999999999999,
+115.19999999999999
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+192
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"hold": {
+"k": "pen"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.62
+]
+],
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"TOM... I NEED TO TELL YOU SOMETHING.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"AND I NEED YOU TO REALLY LISTEN.\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+230.39999999999998,
+230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+193
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hold": {
+"k": "pen",
+"to": 0.4
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"cam": {
+"z": [
+1.5,
+1.6
+],
+"x": [
+-160,
+-160
+],
+"y": [
+-80,
+-80
+]
+},
+"props": [
+{
+"k": "pencil",
+"x": 0.46,
+"y": 0.55,
+"r": 30,
+"at": 0.45,
+"disc": true
+}
+]
+},
+{
+"lines": [
+194,
+195
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"PRESSURE IN YOUR CHEST\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.300",
+"size": 46
+}
+]
+},
+{
+"lines": [
+196,
+197
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"PRESSURE IN YOUR CHEST\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"WHEN YOU CLIMB STAIRS\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+230.39999999999998,
+230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+198
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"PRESSURE IN YOUR CHEST\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"WHEN YOU CLIMB STAIRS\"",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"YOUR LEFT ARM FEELS HEAVY\"",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+115.19999999999999,
+115.19999999999999
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+199
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"PRESSURE IN YOUR CHEST\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"WHEN YOU CLIMB STAIRS\"",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"YOUR LEFT ARM FEELS HEAVY\"",
+"x": 0.5,
+"y": 0.34,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"YOU'VE BEEN CALLING IT HEARTBURN\"",
+"x": 0.5,
+"y": 0.44,
+"at": "@0.000",
+"size": 42
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+230.39999999999998,
+230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+200,
+201
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"talk": [
+"@1",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"cam": {
+"z": [
+1.5,
+1.6
+],
+"x": [
+-160,
+-160
+],
+"y": [
+-80,
+-80
+]
+},
+"text": [
+{
+"s": "\"HOW DO YOU KNOW THAT?\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@1",
+"size": 50
+}
+]
+},
+{
+"lines": [
+202,
+203
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": []
+},
+{
+"lines": [
+204,
+205
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"GO TO A DOCTOR.\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 52
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+230.39999999999998,
+230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+206
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"GO TO A DOCTOR.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 52
+},
+{
+"s": "\"NOT NEXT SUMMER... THIS WEEK.\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+115.19999999999999,
+115.19999999999999
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+207
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"cam": {
+"z": [
+1.3,
+1.363
+],
+"x": [
+-160.0,
+-170.0
+],
+"y": [
+-60.0,
+-65.0
+]
+},
+"text": []
+},
+{
+"lines": [
+208
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"cam": {
+"z": [
+1.363,
+1.425
+],
+"x": [
+-170.0,
+-180.0
+],
+"y": [
+-65.0,
+-70.0
+]
+},
+"text": [],
+"fx": []
+},
+{
+"lines": [
+209,
+210
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"talk": [
+"@1.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"cam": {
+"z": [
+1.425,
+1.55
+],
+"x": [
+-180.0,
+-200.0
+],
+"y": [
+-70.0,
+-80.0
+]
+},
+"text": [
+{
+"s": "\"WHO ARE YOU?\"",
+"x": 0.42,
+"y": 0.16,
+"at": "@1.000"
+}
+],
+"fx": []
+},
+{
+"lines": [
+211,
+212
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+],
+[
+"@0.500",
+"smile"
+]
+],
+"facing": -1,
+"talk": [
+"@1.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"SOME THINGS CAN'T WAIT, TOM.\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@1.000",
+"size": 48
+}
+]
+},
+{
+"lines": [
+213
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"SOME THINGS CAN'T WAIT, TOM.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "\"MIGHT AS WELL GUESS.\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+230.39999999999998,
+230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+214
+],
+"set": "face",
+"actors": [],
+"items": [],
+"who": "tom",
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"bg": "kitchen"
+},
+{
+"lines": [
+215
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1,
+"alpha": [
+[
+0,
+1
+],
+[
+"@0.999",
+0.3333
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"fx": [
+"speed"
+],
+"cam": {
+"z": [
+1.0,
+1.15
+]
+}
+},
+{
+"lines": [
+216
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1,
+"alpha": [
+[
+0,
+0.3333
+],
+[
+"@0.500",
+0
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"fx": [
+"speed"
+],
+"cam": {
+"z": [
+1.15,
+1.3
+]
+}
+},
+{
+"lines": [
+217
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": [
+[
+0,
+0.42
+],
+[
+"@0.500",
+0.42
+],
+[
+"@0.999",
+0.31
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": [
+[
+0,
+1
+],
+[
+"@0.600",
+-1
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+},
+{
+"k": "wallphone",
+"x": 0.15
+}
+],
+"fx": [
+"speed"
+]
+},
+{
+"lines": [
+218
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tom",
+"who": "tom",
+"x": [
+[
+0,
+0.31
+],
+[
+"@0.500",
+0.2
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.600",
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": [
+[
+0,
+-1
+]
+],
+"hold": {
+"k": "phone",
+"from": "@0.600"
+}
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+},
+{
+"k": "wallphone",
+"x": 0.15
+}
+],
+"fx": [
+"speed"
+],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-470.4,
+-470.4
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+219
+],
+"set": "room",
+"actors": [],
+"items": [],
+"fx": [
+"dark"
+],
+"text": [
+{
+"s": "...",
+"x": 0.5,
+"y": 0.45,
+"at": 0.2,
+"size": 90
+}
+],
+"wall": "#0a0a10",
+"wall2": "#050508"
+},
+{
+"lines": [
+220
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.4
+]
+],
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": [
+[
+0,
+-1.5708
+]
+],
+"yk": [
+[
+0,
+0.126
+]
+]
+}
+],
+"items": [
+{
+"k": "tmachine",
+"x": 0.6,
+"cracked": true,
+"glow": 0
+}
+],
+"card": {
+"big": "2026",
+"small": "grandpa's garage",
+"at": "@0.250",
+"x": 0.25
+},
+"text": [],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {}
+},
+{
+"lines": [
+221,
+222
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.4
+],
+[
+"@1.000",
+0.4
+]
+],
+"pose": [
+[
+0,
+"lie"
+],
+[
+"@1.000",
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"rot": [
+[
+0,
+-1.5708
+],
+[
+"@1.000",
+-1.5708
+],
+[
+"@1.300",
+0
+]
+],
+"yk": [
+[
+0,
+0.126
+],
+[
+"@1.000",
+0.126
+],
+[
+"@1.300",
+0
+]
+]
+}
+],
+"items": [
+{
+"k": "tmachine",
+"x": 0.6,
+"cracked": true,
+"glow": 0
+}
+],
+"card": {
+"big": "2026",
+"small": "grandpa's garage",
+"at": -1,
+"x": 0.25
+},
+"text": [],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+223,
+224
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.4
+]
+],
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"rot": [
+[
+0,
+0
+]
+],
+"yk": [
+[
+0,
+0
+]
+]
+}
+],
+"items": [
+{
+"k": "tmachine",
+"x": 0.6,
+"cracked": true,
+"glow": 0
+}
+],
+"card": {
+"big": "2026",
+"small": "grandpa's garage",
+"at": -1,
+"x": 0.25
+},
+"text": [
+{
+"s": "THE DIAL IS CRACKED",
+"x": 0.62,
+"y": 0.3,
+"at": "@0.000",
+"size": 46
+},
+{
+"s": "IT WILL NEVER WORK AGAIN",
+"x": 0.62,
+"y": 0.4,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#5a5a64",
+"wall2": "#2a2a32",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+225,
+226
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "SAME TINY APARTMENT",
+"x": 0.62,
+"y": 0.14,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+227,
+228
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@1.000",
+"sad"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "SAME TINY APARTMENT",
+"x": 0.62,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "SAME STUDENT LOANS",
+"x": 0.62,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+},
+{
+"s": "NOT RICH. NOT EVEN A LITTLE.",
+"x": 0.5,
+"y": 0.34,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+229
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "SAME TINY APARTMENT",
+"x": 0.62,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "SAME STUDENT LOANS",
+"x": 0.62,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "NOT RICH. NOT EVEN A LITTLE.",
+"x": 0.5,
+"y": 0.34,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-76.80000000000001,
+-76.80000000000001
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+230,
+231
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "DID IT WORK?",
+"x": 0.65,
+"y": 0.16,
+"at": "@0.250"
+},
+{
+"s": "DID HE GO?",
+"x": 0.65,
+"y": 0.26,
+"at": "@1.000"
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+232,
+233
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@1.000",
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"worried"
+],
+[
+"@1.000",
+"scared"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "DID IT WORK?",
+"x": 0.65,
+"y": 0.16,
+"at": -1
+},
+{
+"s": "DID HE GO?",
+"x": 0.65,
+"y": 0.26,
+"at": -1
+},
+{
+"s": "DID HE BELIEVE YOU?",
+"x": 0.65,
+"y": 0.36,
+"at": "@0.000",
+"size": 52
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+234
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "DID IT WORK?",
+"x": 0.65,
+"y": 0.16,
+"at": -1
+},
+{
+"s": "DID HE GO?",
+"x": 0.65,
+"y": 0.26,
+"at": -1
+},
+{
+"s": "DID HE BELIEVE YOU?",
+"x": 0.65,
+"y": 0.36,
+"at": -1,
+"size": 52
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-76.80000000000001,
+-76.80000000000001
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+235
+],
+"set": "highway",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.48,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"dy": 0,
+"clip": 0.62
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#7a7a86"
+},
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#7a7a86",
+"part": "front",
+"front": true
+}
+],
+"fx": [
+"speed"
+],
+"text": [
+{
+"s": "TO MOM'S HOUSE",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.200"
+}
+]
+},
+{
+"lines": [
+236,
+237
+],
+"set": "highway",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.48,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"dy": 0,
+"clip": 0.62
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#7a7a86"
+},
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#7a7a86",
+"part": "front",
+"front": true
+}
+],
+"fx": [
+"speed"
+],
+"text": [
+{
+"s": "TO MOM'S HOUSE",
+"x": 0.5,
+"y": 0.16,
+"at": -1
+},
+{
+"s": "TOO SAD. TOO QUIET.",
+"x": 0.5,
+"y": 0.26,
+"at": "@1.000",
+"size": 50
+}
+]
+},
+{
+"lines": [
+238
+],
+"set": "highway",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.48,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"dy": 0,
+"clip": 0.62
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#7a7a86"
+},
+{
+"k": "car",
+"x": 0.5,
+"drive": true,
+"color": "#7a7a86",
+"part": "front",
+"front": true
+}
+],
+"fx": [
+"speed"
+],
+"text": [
+{
+"s": "TO MOM'S HOUSE",
+"x": 0.5,
+"y": 0.16,
+"at": -1
+},
+{
+"s": "TOO SAD. TOO QUIET.",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 50
+}
+]
+},
+{
+"lines": [
+239,
+240
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.05
+],
+[
+"@0.800",
+0.25
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.500",
+"chest"
+]
+],
+"expr": [
+[
+0,
+"sad"
+],
+[
+"@1.000",
+"surprised"
+]
+]
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.08,
+"open": [
+[
+0,
+0.2
+],
+[
+"@0.900",
+1
+]
+]
+},
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"props": [
+{
+"k": "coffee",
+"x": 0.5,
+"y": 0.42,
+"r": 40,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+241
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.25
+]
+],
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.08,
+"open": [
+[
+0,
+1
+]
+]
+},
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"props": [
+{
+"k": "coffee",
+"x": 0.5,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "note",
+"x": 0.62,
+"y": 0.32,
+"r": 30,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "note",
+"x": 0.68,
+"y": 0.26,
+"r": 24,
+"at": "@0.400",
+"disc": true
+}
+],
+"text": [
+{
+"s": "HUMMING... OFF KEY",
+"x": 0.6,
+"y": 0.18,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-480.0,
+-480.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+242
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.48,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "pen"
+},
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.4,
+"w": 1.2
+}
+],
+"card": {
+"big": "72 YEARS OLD",
+"small": "gray hair, a little scar on his chin",
+"at": "@0.200",
+"x": 0.7,
+"w": 640
+},
+"text": []
+},
+{
+"lines": [
+243
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.48,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "pen"
+},
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.4,
+"w": 1.2
+}
+],
+"card": {
+"big": "72 YEARS OLD",
+"small": "gray hair, a little scar on his chin",
+"at": -1,
+"x": 0.7,
+"w": 640
+},
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-480.0,
+-480.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+244
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.48,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "pen"
+},
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.4,
+"w": 1.2
+}
+],
+"card": {
+"big": "72 YEARS OLD",
+"small": "gray hair, a little scar on his chin",
+"at": -1,
+"x": 0.7,
+"w": 640
+},
+"text": [
+{
+"s": "A CROSSWORD... IN PEN",
+"x": 0.62,
+"y": 0.36,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-240.0,
+-240.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+245
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.48,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "pen"
+},
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.4,
+"w": 1.2
+}
+],
+"card": {
+"big": "72 YEARS OLD",
+"small": "gray hair, a little scar on his chin",
+"at": -1,
+"x": 0.7,
+"w": 640
+},
+"text": [
+{
+"s": "A CROSSWORD... IN PEN",
+"x": 0.62,
+"y": 0.36,
+"at": -1,
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-480.0,
+-480.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+246,
+247
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.48,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1,
+"talk": [
+0,
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.4,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"HEY, CHAMP! YOU'RE EARLY.\"",
+"x": 0.5,
+"y": 0.16,
+"at": 0.1,
+"size": 52
+}
+]
+},
+{
+"lines": [
+248,
+249
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.48,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.4,
+"w": 1.2
+}
+],
+"text": []
+},
+{
+"lines": [
+250
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.48,
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.4,
+"w": 1.2
+}
+],
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-38.400000000000034,
+-38.400000000000034
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+251
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.48,
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.4,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "\"YOU LOOK LIKE YOU'VE SEEN A GHOST.\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-19.200000000000017,
+-19.200000000000017
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+252
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.25
+],
+[
+0.3,
+0.44
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+0.35,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+0.35,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+0.35,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.7,
+"w": 1.0
+}
+],
+"text": [
+{
+"s": "HIS GLASSES FALL OFF",
+"x": 0.5,
+"y": 0.16,
+"at": 0.5,
+"size": 46
+}
+]
+},
+{
+"lines": [
+253
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": []
+},
+{
+"lines": [
+254
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "A STRANGER IN THE KITCHEN",
+"x": 0.27,
+"y": 0.14,
+"at": "@0.000",
+"size": 40
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-230.39999999999998,
+-230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+255
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "A STRANGER IN THE KITCHEN",
+"x": 0.27,
+"y": 0.14,
+"at": -1,
+"size": 40
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-115.19999999999999,
+-115.19999999999999
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+256
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "A STRANGER IN THE KITCHEN",
+"x": 0.27,
+"y": 0.14,
+"at": -1,
+"size": 40
+},
+{
+"s": "HE SAW A DOCTOR THAT WEEK",
+"x": 0.27,
+"y": 0.24,
+"at": "@0.000",
+"size": 40
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-230.39999999999998,
+-230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+257
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"card": {
+"big": "3 BLOCKED ARTERIES",
+"small": "surgery that same month",
+"at": "@0.000",
+"x": 0.7,
+"w": 640
+},
+"text": [
+{
+"s": "A STRANGER IN THE KITCHEN",
+"x": 0.27,
+"y": 0.14,
+"at": -1,
+"size": 40
+},
+{
+"s": "HE SAW A DOCTOR THAT WEEK",
+"x": 0.27,
+"y": 0.24,
+"at": -1,
+"size": 40
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-115.19999999999999,
+-115.19999999999999
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+258
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"talk": [
+"@0.000",
+"@0.500"
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"card": {
+"big": "3 BLOCKED ARTERIES",
+"small": "surgery that same month",
+"at": -1,
+"x": 0.7,
+"w": 640
+},
+"text": [
+{
+"s": "A STRANGER IN THE KITCHEN",
+"x": 0.27,
+"y": 0.14,
+"at": -1,
+"size": 40
+},
+{
+"s": "HE SAW A DOCTOR THAT WEEK",
+"x": 0.27,
+"y": 0.24,
+"at": -1,
+"size": 40
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-230.39999999999998,
+-230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+259
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.38,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"card": {
+"big": "3 BLOCKED ARTERIES",
+"small": "surgery that same month",
+"at": -1,
+"x": 0.7,
+"w": 640
+},
+"text": [
+{
+"s": "A STRANGER IN THE KITCHEN",
+"x": 0.27,
+"y": 0.14,
+"at": -1,
+"size": 40
+},
+{
+"s": "HE SAW A DOCTOR THAT WEEK",
+"x": 0.27,
+"y": 0.24,
+"at": -1,
+"size": 40
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+115.19999999999999,
+115.19999999999999
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+260
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.72,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "paper",
+"x": 0.94,
+"up": 1.2,
+"s": "YELLOWSTONE"
+},
+{
+"k": "paper",
+"x": 0.94,
+"up": 0.85,
+"s": "THIS SUMMER. RIO"
+}
+],
+"cam": {
+"z": [
+1.4,
+1.44
+],
+"x": [
+500.0,
+508.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": []
+},
+{
+"lines": [
+261,
+262
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.72,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "paper",
+"x": 0.94,
+"up": 1.2,
+"s": "YELLOWSTONE"
+},
+{
+"k": "paper",
+"x": 0.94,
+"up": 0.85,
+"s": "THIS SUMMER. RIO"
+}
+],
+"cam": {
+"z": [
+1.44,
+1.52
+],
+"x": [
+508.0,
+524.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "\"NEXT SUMMER!\" CROSSED OUT",
+"x": 0.45,
+"y": 0.16,
+"at": "@1.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+263,
+264
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.72,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [
+{
+"k": "paper",
+"x": 0.94,
+"up": 1.2,
+"s": "YELLOWSTONE"
+},
+{
+"k": "paper",
+"x": 0.94,
+"up": 0.85,
+"s": "THIS SUMMER. RIO"
+}
+],
+"cam": {
+"z": [
+1.52,
+1.6
+],
+"x": [
+524.0,
+540.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "\"NEXT SUMMER!\" CROSSED OUT",
+"x": 0.45,
+"y": 0.16,
+"at": -1,
+"size": 44
+},
+{
+"s": "THIS SUMMER. WITH RIO.",
+"x": 0.45,
+"y": 0.26,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+265,
+266
+],
+"set": "canyon",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.38,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.15,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.48,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "geyser",
+"x": 0.72
+}
+],
+"card": {
+"big": "JUNE",
+"small": "Yellowstone, Old Faithful",
+"at": "@0.150",
+"x": 0.68,
+"w": 600
+}
+},
+{
+"lines": [
+267
+],
+"set": "canyon",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.38,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.15,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.48,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "geyser",
+"x": 0.72
+}
+],
+"card": {
+"big": "JUNE",
+"small": "Yellowstone, Old Faithful",
+"at": -1,
+"x": 0.68,
+"w": 600
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+268,
+269
+],
+"set": "canyon",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"think"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.38,
+"pose": [
+[
+0,
+"explain"
+],
+[
+"@1.000",
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+"@0.900"
+]
+}
+],
+"items": [
+{
+"k": "geyser",
+"x": 0.72
+}
+],
+"cam": {
+"z": [
+1.4,
+1.433
+],
+"x": [
+-300.0,
+-300.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "\"SOME THINGS CAN'T WAIT\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.300",
+"size": 50
+}
+]
+},
+{
+"lines": [
+270
+],
+"set": "canyon",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.38,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "geyser",
+"x": 0.72
+}
+],
+"cam": {
+"z": [
+1.433,
+1.45
+],
+"x": [
+-300.0,
+-300.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "\"SOME THINGS CAN'T WAIT\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 50
+},
+{
+"s": "\"MIGHT AS WELL GUESS\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+271
+],
+"set": "canyon",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.600",
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+},
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.38,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.750",
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.15,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.900",
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.48,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.900",
+"point"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+}
+],
+"items": [
+{
+"k": "geyser",
+"x": 0.72,
+"erupt": 0.1
+}
+],
+"text": []
+},
+{
+"lines": [
+272
+],
+"set": "canyon",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+},
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.38,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.15,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.48,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+}
+],
+"items": [
+{
+"k": "geyser",
+"x": 0.72,
+"erupt": 0.1
+}
+],
+"card": {
+"big": "~50 METERS",
+"small": "of steam and water",
+"at": "@0.000",
+"x": 0.3,
+"w": 560
+},
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+273
+],
+"set": "canyon",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+},
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.38,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.15,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.48,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+}
+],
+"items": [
+{
+"k": "geyser",
+"x": 0.72,
+"erupt": 0.1
+}
+],
+"card": {
+"big": "~50 METERS",
+"small": "of steam and water",
+"at": -1,
+"x": 0.3,
+"w": 560
+},
+"text": [
+{
+"s": "AND YOUR DAD IS THERE TO SEE IT",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-192.0,
+-192.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+274
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "IS TIME TRAVEL REAL?",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.100",
+"size": 80
+}
+]
+},
+{
+"lines": [
+275
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "IS TIME TRAVEL REAL?",
+"x": 0.5,
+"y": 0.42,
+"at": -1,
+"size": 80
+},
+{
+"s": "IN A STRANGE WAY... YES",
+"x": 0.5,
+"y": 0.56,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+276
+],
+"set": "space",
+"actors": [],
+"items": [],
+"card": {
+"big": "EINSTEIN",
+"small": "time moves differently with speed and gravity",
+"at": 0.05,
+"w": 860
+},
+"props": [
+{
+"k": "clock",
+"x": 0.5,
+"y": 0.6,
+"r": 70,
+"at": 0.3,
+"disc": true
+}
+]
+},
+{
+"lines": [
+277
+],
+"set": "space",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "satellite",
+"x": 0.35,
+"y": 0.55,
+"r": 80,
+"at": "@0.150",
+"disc": true
+}
+]
+},
+{
+"lines": [
+278
+],
+"set": "space",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "satellite",
+"x": 0.35,
+"y": 0.55,
+"r": 80,
+"at": -1,
+"disc": true
+},
+{
+"k": "astronaut",
+"x": 0.65,
+"y": 0.55,
+"r": 70,
+"at": "@0.000",
+"disc": true
+}
+],
+"card": {
+"big": "6 MONTHS ON THE ISS",
+"small": "you come home a few thousandths of a second younger",
+"at": "@0.000",
+"w": 900
+},
+"fx": []
+},
+{
+"lines": [
+279
+],
+"set": "space",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "satellite",
+"x": 0.35,
+"y": 0.55,
+"r": 80,
+"at": -1,
+"disc": true
+},
+{
+"k": "astronaut",
+"x": 0.65,
+"y": 0.55,
+"r": 70,
+"at": -1,
+"disc": true
+}
+],
+"card": {
+"big": "6 MONTHS ON THE ISS",
+"small": "you come home a few thousandths of a second younger",
+"at": -1,
+"w": 900
+},
+"fx": []
+},
+{
+"lines": [
+280
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "THAT'S TRAVEL INTO THE FUTURE",
+"x": 0.5,
+"y": 0.3,
+"at": "@0.200",
+"size": 56
+}
+],
+"props": []
+},
+{
+"lines": [
+281
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "THAT'S TRAVEL INTO THE FUTURE",
+"x": 0.5,
+"y": 0.3,
+"at": -1,
+"size": 56
+},
+{
+"s": "THE PAST?",
+"x": 0.5,
+"y": 0.44,
+"at": "@0.000",
+"size": 70
+}
+],
+"props": [],
+"fx": []
+},
+{
+"lines": [
+282
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "THAT'S TRAVEL INTO THE FUTURE",
+"x": 0.5,
+"y": 0.3,
+"at": -1,
+"size": 56
+},
+{
+"s": "THE PAST?",
+"x": 0.5,
+"y": 0.44,
+"at": -1,
+"size": 70
+},
+{
+"s": "NO ONE HAS EVER DONE IT",
+"x": 0.5,
+"y": 0.58,
+"at": "@0.000",
+"size": 50
+}
+],
+"props": [],
+"fx": []
+},
+{
+"lines": [
+283
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "THAT'S TRAVEL INTO THE FUTURE",
+"x": 0.5,
+"y": 0.3,
+"at": -1,
+"size": 56
+},
+{
+"s": "THE PAST?",
+"x": 0.5,
+"y": 0.44,
+"at": -1,
+"size": 70
+},
+{
+"s": "NO ONE HAS EVER DONE IT",
+"x": 0.5,
+"y": 0.58,
+"at": -1,
+"size": 50
+}
+],
+"props": [
+{
+"k": "question",
+"x": 0.5,
+"y": 0.78,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"fx": []
+},
+{
+"lines": [
+284
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": [
+{
+"s": "WOULD YOU GO BACK IF YOU COULD?",
+"x": 0.5,
+"y": 0.16,
+"at": 0.1,
+"size": 50
+}
+]
+},
+{
+"lines": [
+285
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.42,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "AND ONE MORE THING...",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.100",
+"size": 50
+}
+]
+},
+{
+"lines": [
+286
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "tomOld",
+"who": "tomOld",
+"x": 0.42,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.5,
+"w": 1.2
+}
+],
+"text": [
+{
+"s": "AND ONE MORE THING...",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 50
+},
+{
+"s": "THE SURGERY SCAR STILL BOTHERS HIM",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+287
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.2
+],
+[
+"@0.800",
+0.45
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.8
+}
+],
+"props": [
+{
+"k": "bag",
+"x": 0.55,
+"y": 0.68,
+"r": 40,
+"at": "@0.300",
+"disc": true
+}
+],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+288,
+289
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.8
+}
+],
+"props": [
+{
+"k": "bag",
+"x": 0.55,
+"y": 0.68,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "letter",
+"x": 0.55,
+"y": 0.42,
+"r": 45,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "\"IT CAN CURE ANYTHING.\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@1.000",
+"size": 52
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+290,
+291
+],
+"set": "face",
+"actors": [],
+"items": [],
+"who": "rio",
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"lines": [
+292
+],
+"set": "end",
+"actors": [],
+"items": [],
+"tpl": "end"
+}
+]

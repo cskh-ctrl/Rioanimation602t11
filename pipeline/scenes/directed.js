@@ -45,6 +45,10 @@ export const OUTFITS = {
   frank: { top: 'trench', color: '#7a6a4a', head: 'fedora', headColor: '#4a3a2a', face: 'glasses' },
   victoria: { top: 'suit', color: '#e8e4ec', head: 'bun', headColor: '#e8d070' },
   investor: { top: 'suit', color: '#2a4a3a', head: 'none' },
+  tom: { top: 'tshirt', color: '#5a7a4a', head: 'none' },
+  tomOld: { top: 'tshirt', color: '#5a7a4a', head: 'none', face: 'glasses' },
+  rioKid: { top: 'hoodie', color: '#2d7fe0', head: 'curly', headColor: '#0e0b12', kid: true },
+  dummy: { top: 'tshirt', color: '#c8ccd4', head: 'none' },
   crowd1: { top: 'tshirt', color: '#9a5ad6', head: 'beanie', headColor: '#4a2a6a' },
   crowd2: { top: 'jersey', color: '#d98a3a', head: 'cap', headColor: '#6a3a10' },
 };
@@ -320,7 +324,25 @@ function housedoor(g, x, y, o, p) {   // ordinary apartment door 0.9 x 2.03 m in
   const dw = w * (1 - 0.8 * op); rr(g, L, y - h, dw, h, 3); g.fillStyle = o.color || '#8a5a3a'; g.fill();
   if (op < 0.5) { for (const yy of [0.12, 0.55]) { rr(g, L + dw * 0.14, y - h + h * yy, dw * 0.72, h * 0.32, 4); g.strokeStyle = 'rgba(0,0,0,.22)'; g.lineWidth = 3; g.stroke(); } circle(g, L + dw * 0.85, y - M_(1.0), 7, '#e0c070'); }
 }
-const ITEMS = { housedoor, hoop, bball, stove, cereal, billboard, cerealbox, tvset, mannequin, fence, bank: bankDesk, jet, puddle, stall, shop: shopFront, stairs, ship, cards, door: pinkDoor, alarm, bed, blanket, sink, counter, desk, sign, prop: propItem, house, chime, water, car, booth, table, dish, kite, float, sea, robot, glass: glassWall, stage, fridge, paper };
+
+function tmachine(g, x, y, o, p, t) {   // grandpa's time machine: metal chair 0.9 m, brass dial 0.5 m, a lever on the right; o.cracked
+  seg(g, [[x - M_(0.25), y], [x - M_(0.25), y - M_(0.45)], [x + M_(0.25), y - M_(0.45)], [x + M_(0.25), y]], 8, '#6a6a76');
+  seg(g, [[x - M_(0.28), y - M_(0.45)], [x - M_(0.28), y - M_(1.0)]], 10, '#6a6a76'); rr(g, x - M_(0.3), y - M_(0.5), M_(0.6), 14, 4); g.fillStyle = '#8a8a96'; g.fill();
+  const dx = x + M_(0.55), dy = y - M_(1.15); seg(g, [[dx, y], [dx, dy]], 10, '#5a5a66'); circle(g, dx, dy, M_(0.25), '#c8a040'); circle(g, dx, dy, M_(0.21), '#f2e2b0');
+  for (let k = 0; k < 12; k++) { const a = k / 12 * 6.283; seg(g, [[dx + Math.cos(a) * M_(0.17), dy + Math.sin(a) * M_(0.17)], [dx + Math.cos(a) * M_(0.2), dy + Math.sin(a) * M_(0.2)]], 2, '#5a4a2a'); }
+  seg(g, [[dx, dy], [dx - M_(0.12), dy - M_(0.1)]], 4, '#c0302a'); circle(g, dx, dy, 6, '#5a4a2a');
+  if (o.cracked) { g.strokeStyle = '#3a3a3a'; g.lineWidth = 3; g.beginPath(); g.moveTo(dx - 30, dy - 40); g.lineTo(dx - 4, dy - 6); g.lineTo(dx + 22, dy + 2); g.lineTo(dx + 36, dy + 30); g.stroke(); }
+  const lv = track(o.lever, p, 0); g.save(); g.translate(x + M_(0.3), y - M_(0.5)); g.rotate(-0.6 + lv * 1.2); seg(g, [[0, 0], [0, -M_(0.45)]], 6, '#3a3a44'); circle(g, 0, -M_(0.45), 10, '#c0302a'); g.restore();
+  if (!o.cracked && (o.glow ?? 1)) { g.save(); g.globalCompositeOperation = 'lighter'; circle(g, dx, dy, M_(0.3) + Math.sin(t * 3) * 4, 'rgba(255,210,120,.12)'); g.restore(); }
+}
+function wallphone(g, x, y) { /* corded wall phone at 1.5 m */ const by = y - M_(1.5); rr(g, x - 18, by - 50, 36, 60, 6); g.fillStyle = '#e8e0c8'; g.fill(); rr(g, x - 22, by - 58, 10, 54, 5); g.fillStyle = '#d8d0b8'; g.fill(); g.strokeStyle = '#d8d0b8'; g.lineWidth = 2; g.beginPath(); g.moveTo(x - 17, by - 4); for (let k = 0; k < 8; k++) g.lineTo(x - 17 + (k % 2 ? 6 : -6), by + 4 + k * 6); g.stroke(); }
+function geyser(g, x, y, o, p, t) {   // Old Faithful: a mound, then a column of water and steam when o.erupt starts (it shoots far above the frame)
+  g.fillStyle = '#c8b8a0'; g.beginPath(); g.ellipse(x, y, M_(2.2), 26, 0, Math.PI, 0); g.fill();
+  const e = clamp((p - (o.erupt ?? 2)) * 4); if (e <= 0) { for (let k = 0; k < 3; k++) { const q = (t * 0.4 + k / 3) % 1; circle(g, x - 20 + k * 20, y - 30 - q * 80, 20 + q * 20, `rgba(255,255,255,${0.25 * (1 - q)})`); } return; }
+  const top = y - E.H * 1.6 * e; g.fillStyle = 'rgba(235,245,255,.85)'; g.beginPath(); g.moveTo(x - 30, y - 10); g.quadraticCurveTo(x - 60 - Math.sin(t * 3) * 10, (y + top) / 2, x - 120, top); g.lineTo(x + 120, top); g.quadraticCurveTo(x + 60 + Math.sin(t * 3) * 10, (y + top) / 2, x + 30, y - 10); g.closePath(); g.fill();
+  for (let k = 0; k < 14; k++) { const q = (t * 0.3 + k / 14) % 1; circle(g, x + Math.sin(k * 3 + t) * 140 * q, y - 60 - q * E.H * 1.2 * e, 50 + q * 90, `rgba(255,255,255,${0.35 * (1 - q)})`); }
+}
+const ITEMS = { tmachine, wallphone, geyser, housedoor, hoop, bball, stove, cereal, billboard, cerealbox, tvset, mannequin, fence, bank: bankDesk, jet, puddle, stall, shop: shopFront, stairs, ship, cards, door: pinkDoor, alarm, bed, blanket, sink, counter, desk, sign, prop: propItem, house, chime, water, car, booth, table, dish, kite, float, sea, robot, glass: glassWall, stage, fridge, paper };
 
 // held objects, drawn in pose units (1 m = 134) right at the hand --------------------
 function heldItem(g, k, h, p, o = {}) {
@@ -348,6 +370,8 @@ function heldItem(g, k, h, p, o = {}) {
   else if (k === 'remote') { rr(g, -2, -4, 14, 5, 1.5); g.fillStyle = '#22222e'; g.fill(); circle(g, 9, -1.5, 1.2, '#e0443a'); }
   else if (k === 'camera') { rr(g, -8, -16, 22, 15, 2); g.fillStyle = '#1a1a22'; g.fill(); circle(g, 9, -8, 5, '#3a3a48'); circle(g, 9, -8, 2.6, '#6fa8ff'); if (o.flash) { g.save(); g.globalCompositeOperation = 'lighter'; circle(g, -4, -20, 18 * o.flash, 'rgba(255,255,240,.9)'); g.restore(); } }
   else if (k === 'bowl') { g.fillStyle = '#f2efe8'; g.beginPath(); g.ellipse(6, -4, 9, 5, 0, 0, Math.PI); g.fill(); }
+  else if (k === 'newspaper') { rr(g, -4, -26, 34, 26, 2); g.fillStyle = '#ece8dc'; g.fill(); for (let i = 0; i < 5; i++) seg(g, [[0, -21 + i * 4.5], [26, -21 + i * 4.5]], 1, '#8a8478'); }
+  else if (k === 'pen') { seg(g, [[0, 2], [6, -12]], 1.6, '#1a3a8a'); }
   else if (k === 'phone') { rr(g, 0, -12, 7, 13, 1.5); g.fillStyle = '#22222e'; g.fill(); g.fillStyle = '#6fc3ff'; g.fillRect(1, -11, 5, 10); }
   g.restore();
 }
