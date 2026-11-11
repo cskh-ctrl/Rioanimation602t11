@@ -1,2 +1,2 @@
-Rio videos 39-40 - retry after apt network failure
+Rio videos 39-40 - retry with apt retries
 FORCE:long_39,long_40
