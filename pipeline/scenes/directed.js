@@ -48,6 +48,9 @@ export const OUTFITS = {
   tom: { top: 'tshirt', color: '#5a7a4a', head: 'none' },
   tomOld: { top: 'tshirt', color: '#5a7a4a', head: 'none', face: 'glasses' },
   rioKid: { top: 'hoodie', color: '#2d7fe0', head: 'curly', headColor: '#0e0b12', kid: true },
+  maya: { top: 'labcoat', head: 'bun', headColor: '#1a0e0a' },
+  gordon: { top: 'suit', color: '#3a3a48', head: 'none', face: 'glasses' },
+  noah: { top: 'tshirt', color: '#e0443a', head: 'curly', headColor: '#1a0e0a', kid: true },
   dummy: { top: 'tshirt', color: '#c8ccd4', head: 'none' },
   crowd1: { top: 'tshirt', color: '#9a5ad6', head: 'beanie', headColor: '#4a2a6a' },
   crowd2: { top: 'jersey', color: '#d98a3a', head: 'cap', headColor: '#6a3a10' },
@@ -370,6 +373,9 @@ function heldItem(g, k, h, p, o = {}) {
   else if (k === 'remote') { rr(g, -2, -4, 14, 5, 1.5); g.fillStyle = '#22222e'; g.fill(); circle(g, 9, -1.5, 1.2, '#e0443a'); }
   else if (k === 'camera') { rr(g, -8, -16, 22, 15, 2); g.fillStyle = '#1a1a22'; g.fill(); circle(g, 9, -8, 5, '#3a3a48'); circle(g, 9, -8, 2.6, '#6fa8ff'); if (o.flash) { g.save(); g.globalCompositeOperation = 'lighter'; circle(g, -4, -20, 18 * o.flash, 'rgba(255,255,240,.9)'); g.restore(); } }
   else if (k === 'bowl') { g.fillStyle = '#f2efe8'; g.beginPath(); g.ellipse(6, -4, 9, 5, 0, 0, Math.PI); g.fill(); }
+  else if (k === 'docbag') {   // old leather doctor's bag 30 x 20 cm with a brass clasp; o.glow 0..1 = soft green light
+    if (o.glow > 0) { g.save(); g.globalCompositeOperation = 'lighter'; circle(g, 10, -8, 70 * o.glow, 'rgba(90,255,140,.18)'); circle(g, 10, -8, 38 * o.glow, 'rgba(120,255,160,.28)'); g.restore(); }
+    g.strokeStyle = '#3a2214'; g.lineWidth = 2.4; g.beginPath(); g.arc(10, -14, 7, Math.PI, 0); g.stroke(); rr(g, -6, -14, 32, 20, 4); g.fillStyle = '#6a3a1e'; g.fill(); seg(g, [[-6, -10], [26, -10]], 1.6, '#4a2412'); rr(g, 7, -13, 6, 5, 1); g.fillStyle = '#d8b040'; g.fill(); }
   else if (k === 'newspaper') { rr(g, -4, -26, 34, 26, 2); g.fillStyle = '#ece8dc'; g.fill(); for (let i = 0; i < 5; i++) seg(g, [[0, -21 + i * 4.5], [26, -21 + i * 4.5]], 1, '#8a8478'); }
   else if (k === 'pen') { seg(g, [[0, 2], [6, -12]], 1.6, '#1a3a8a'); }
   else if (k === 'phone') { rr(g, 0, -12, 7, 13, 1.5); g.fillStyle = '#22222e'; g.fill(); g.fillStyle = '#6fc3ff'; g.fillRect(1, -11, 5, 10); }
@@ -386,7 +392,7 @@ function drawHeld(g, a, pz, p) {
       const sx = pz.hF[0] + 34, sy = pz.hF[1] - 2;          // spout tip after the 0.9 rad tilt
       if (fill < 1) seg(g, [[sx, sy], [sx, pz.hB[1] - 9]], 1.8, '#6a3a20');
     } else if (hd.k === 'cup' && hd.sip) heldItem(g, 'cup', [pz.hF[0] - 6, pz.hF[1] + 2], p, { tilt: -0.55 });
-    else heldItem(g, hd.k, pz.hF, p, { flash: hd.flash ? Math.max(0, Math.sin(p * hd.flash) - 0.85) * 6 : 0 });
+    else heldItem(g, hd.k, pz.hF, p, { flash: hd.flash ? Math.max(0, Math.sin(p * hd.flash) - 0.85) * 6 : 0, glow: hd.glow ? clamp(Math.min((p - hd.glow[0]) * 10, (hd.glow[1] - p) * 10)) * (0.85 + 0.15 * Math.sin(p * 90)) : 0 });
   }
   g.restore();
 }
@@ -463,7 +469,7 @@ export function directed(g, t, info) {
   // items behind actors
   layer(g, cam, 1, (g) => {
     for (const it of (d.items || [])) it._dur = info.dur;
-    for (const it of (d.items || [])) if (!it.front) ITEMS[it.k]?.(g, it.x * E.W, it.y ? it.y * E.H : Y, it, p, t);
+    for (const it of (d.items || [])) if (!it.front) ITEMS[it.k]?.(g, track(it.x, p, 0.5) * E.W, it.y ? it.y * E.H : Y, it, p, t);
     for (const a of (d.actors || [])) {
       const of = OUTFITS[a.who || a.id] || a.outfit || OUTFITS.rio, s = a.s || 1.6;
       // position = storyboard keys + optional walk-in / walk-out + pacing (small walks back and forth)
@@ -502,8 +508,8 @@ export function directed(g, t, info) {
       if (a.hat === 'copter') { const hx = X + pz.head[0] * facing * s, hy = Yy + (pz.head[1] - 30) * s; seg(g, [[hx, hy + 8 * s], [hx, hy]], 3 * s, '#c8a010'); const k = Math.cos(t * 40); seg(g, [[hx - 34 * s * k, hy], [hx + 34 * s * k, hy]], 5 * s, '#f2c21a'); circle(g, hx, hy, 4 * s, '#c8a010'); }
       if (a.zzz) for (let k = 0; k < 3; k++) { const q = (t * 0.6 + k / 3) % 1; text(g, 'z', X + 60 + q * 60, Yy - 260 - q * 120, { size: 30 + k * 10, color: alpha('#e8ecff', 1 - q), font: FONTS.title, weight: 700 }); }
     }
-    for (const it of (d.items || [])) if (it.front) ITEMS[it.k]?.(g, it.x * E.W, it.y ? it.y * E.H : Y, it, p, t);
-    for (const it of (d.extra || [])) ITEMS[it.k]?.(g, it.x * E.W, it.y ? it.y * E.H : Y, it, p, t);
+    for (const it of (d.items || [])) if (it.front) ITEMS[it.k]?.(g, track(it.x, p, 0.5) * E.W, it.y ? it.y * E.H : Y, it, p, t);
+    for (const it of (d.extra || [])) ITEMS[it.k]?.(g, track(it.x, p, 0.5) * E.W, it.y ? it.y * E.H : Y, it, p, t);
   });
   for (const tx of (d.text || [])) { const a = ease.outBack(prog(p, tx.at ?? 0.1, (tx.at ?? 0.1) + 0.15)); if (a <= 0) continue; const fs = fitSize(g, tx.s, tx.size || 70, FONTS.title, 700, E.W - 2 * SAFE - 20), hw = measure(g, tx.s, fs, FONTS.title, 700) / 2 + 10; g.save(); g.translate(clamp(tx.x * E.W, SAFE + hw, E.W - SAFE - hw), clamp(tx.y * E.H, SAFE + fs / 2, E.H * 0.86)); g.scale(a, a); text(g, tx.s, 0, 0, { size: fs, color: tx.color || S().ui.gold, font: FONTS.title, weight: 700, stroke: 10, strokeColor: 'rgba(0,0,0,.55)' }); g.restore(); }
   for (const pr of (d.props || [])) drawProp(g, pr.k, pr.x * E.W, pr.y * E.H, pr.r || 70, t, { start: (pr.at || 0) * info.dur, disc: pr.disc ?? false });

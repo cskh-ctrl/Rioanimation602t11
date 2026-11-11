@@ -1,0 +1,16305 @@
+[
+{
+"lines": [
+0,
+1
+],
+"set": "room",
+"actors": [
+{
+"id": "boy",
+"who": "boy",
+"x": 0.45,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"s": 1.6
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.25,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "COUGH! COUGH!",
+"x": 0.45,
+"y": 0.32,
+"at": 0.1,
+"size": 56
+}
+],
+"wall": "#c8d4d8",
+"wall2": "#7a8a90",
+"room": {
+"window": 1300
+}
+},
+{
+"lines": [
+2
+],
+"set": "room",
+"actors": [
+{
+"id": "boy",
+"who": "boy",
+"x": 0.45,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.2
+],
+[
+"@0.800",
+0.39
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.900",
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"text": [],
+"wall": "#c8d4d8",
+"wall2": "#7a8a90",
+"room": {
+"window": 1300
+}
+},
+{
+"lines": [
+3
+],
+"set": "room",
+"actors": [
+{
+"id": "boy",
+"who": "boy",
+"x": 0.45,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.39
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.600",
+1
+]
+}
+}
+],
+"items": [],
+"text": [],
+"wall": "#c8d4d8",
+"wall2": "#7a8a90",
+"room": {
+"window": 1300
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-211.2,
+-211.2
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+4
+],
+"set": "room",
+"actors": [
+{
+"id": "boy",
+"who": "boy",
+"x": 0.45,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sad"
+],
+[
+"@0.500",
+"surprised"
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.39
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.000",
+"@0.800"
+]
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "A SOFT GREEN LIGHT",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 50
+},
+{
+"s": "THE COUGH STOPS",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.600",
+"size": 50
+}
+],
+"wall": "#c8d4d8",
+"wall2": "#7a8a90",
+"room": {
+"window": 1300
+},
+"fx": []
+},
+{
+"lines": [
+5
+],
+"set": "room",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"sit"
+],
+[
+"@0.500",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.39,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "boy",
+"who": "boy",
+"x": 0.47,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+]
+}
+],
+"items": [],
+"text": [],
+"wall": "#c8d4d8",
+"wall2": "#7a8a90",
+"room": {
+"window": 1300
+}
+},
+{
+"lines": [
+6
+],
+"set": "room",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.39,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "boy",
+"who": "boy",
+"x": 0.47,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"WHAT DID YOU JUST DO?\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 52
+}
+],
+"wall": "#c8d4d8",
+"wall2": "#7a8a90",
+"room": {
+"window": 1300
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+7
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.39,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"hold": {
+"k": "docbag",
+"to": 1
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": [],
+"wall": "#c8d4d8",
+"wall2": "#7a8a90",
+"room": {
+"window": 1300
+}
+},
+{
+"lines": [
+8,
+9
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.39,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+],
+[
+"@1.000",
+"smirk"
+]
+],
+"hold": {
+"k": "docbag",
+"to": "@0.900"
+},
+"talk": [
+"@1.000",
+1
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"I HAVE NO IDEA.\"",
+"x": 0.4,
+"y": 0.16,
+"at": "@1.000",
+"size": 54
+}
+],
+"wall": "#c8d4d8",
+"wall2": "#7a8a90",
+"room": {
+"window": 1300
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-211.2,
+-211.2
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+10
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.5
+}
+],
+"card": {
+"big": "RIO",
+"small": "front desk, a busy city hospital",
+"at": "@0.100",
+"x": 0.68,
+"w": 640
+}
+},
+{
+"lines": [
+11
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.5
+}
+],
+"card": {
+"big": "RIO",
+"small": "front desk, a busy city hospital",
+"at": -1,
+"x": 0.68,
+"w": 640
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+12,
+13
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@1.000",
+"sleepy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.66,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.78,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.5
+}
+],
+"props": [
+{
+"k": "paper",
+"x": 0.58,
+"y": 0.45,
+"r": 30,
+"at": "@0.300",
+"disc": true
+}
+],
+"text": [
+{
+"s": "FORMS. EXCITING?",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.150",
+"size": 50
+}
+]
+},
+{
+"lines": [
+14
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.66,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.78,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.5
+}
+],
+"props": [
+{
+"k": "paper",
+"x": 0.58,
+"y": 0.45,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "FORMS. EXCITING?",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "\"PLEASE WAIT...\" ALL DAY",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+15
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.2
+],
+[
+"@0.800",
+0.42
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.5
+}
+],
+"props": [
+{
+"k": "bag",
+"x": 0.5,
+"y": 0.58,
+"r": 40,
+"at": "@0.250",
+"disc": true
+}
+],
+"card": {
+"big": "LAST MONDAY",
+"small": "an old doctor's bag on your desk",
+"at": "@0.250",
+"x": 0.68,
+"w": 640
+},
+"text": []
+},
+{
+"lines": [
+16,
+17
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.42
+]
+],
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.5
+}
+],
+"props": [
+{
+"k": "bag",
+"x": 0.5,
+"y": 0.58,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"card": {
+"big": "LAST MONDAY",
+"small": "an old doctor's bag on your desk",
+"at": -1,
+"x": 0.68,
+"w": 640
+},
+"text": [
+{
+"s": "NO NAME TAG",
+"x": 0.3,
+"y": 0.3,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+18,
+19
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.42
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"confused"
+],
+[
+"@1.000",
+"surprised"
+]
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.5
+}
+],
+"props": [
+{
+"k": "bag",
+"x": 0.5,
+"y": 0.58,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "letter",
+"x": 0.6,
+"y": 0.4,
+"r": 40,
+"at": "@1.000",
+"disc": true
+}
+],
+"card": {
+"big": "LAST MONDAY",
+"small": "an old doctor's bag on your desk",
+"at": -1,
+"x": 0.68,
+"w": 640
+},
+"text": [
+{
+"s": "NO NAME TAG",
+"x": 0.3,
+"y": 0.3,
+"at": -1,
+"size": 46
+},
+{
+"s": "A BRASS CLASP",
+"x": 0.3,
+"y": 0.4,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+20,
+21
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.5
+}
+],
+"text": [
+{
+"s": "\"HOLD ME NEAR THE SICK.\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.150",
+"size": 52
+},
+{
+"s": "ANY SICKNESS. ANY PERSON.",
+"x": 0.5,
+"y": 0.26,
+"at": "@1.000",
+"size": 48
+}
+]
+},
+{
+"lines": [
+22
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.5
+}
+],
+"text": [
+{
+"s": "\"HOLD ME NEAR THE SICK.\"",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 52
+},
+{
+"s": "ANY SICKNESS. ANY PERSON.",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+23,
+24
+],
+"set": "hospital",
+"actors": [
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.6,
+"pose": [
+[
+0,
+"explain"
+],
+[
+"@1",
+"talk"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "pill",
+"x": 0.3,
+"y": 0.4,
+"r": 40,
+"at": 0.05,
+"disc": true
+},
+{
+"k": "calendar",
+"x": 0.42,
+"y": 0.4,
+"r": 40,
+"at": 0.2,
+"disc": true
+}
+],
+"card": {
+"big": "10 SECONDS",
+"small": null,
+"at": "@1",
+"x": 0.3
+}
+},
+{
+"lines": [
+25
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"card": {
+"big": "ONE RULE",
+"small": "one cure... then it sleeps one hour",
+"at": "@0.150",
+"x": 0.68,
+"w": 640
+},
+"props": [],
+"text": []
+},
+{
+"lines": [
+26
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"card": {
+"big": "ONE RULE",
+"small": "one cure... then it sleeps one hour",
+"at": -1,
+"x": 0.68,
+"w": 640
+},
+"props": [
+{
+"k": "clock",
+"x": 0.68,
+"y": 0.55,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+27
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"card": {
+"big": "ONE RULE",
+"small": "one cure... then it sleeps one hour",
+"at": -1,
+"x": 0.68,
+"w": 640
+},
+"props": [
+{
+"k": "clock",
+"x": 0.68,
+"y": 0.55,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "NO EXCEPTIONS",
+"x": 0.68,
+"y": 0.42,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-76.80000000000001,
+-76.80000000000001
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+28
+],
+"set": "space",
+"actors": [],
+"items": [],
+"card": {
+"big": "24 PEOPLE A DAY",
+"small": "on a planet of 8 billion",
+"at": "@0.100",
+"w": 720
+},
+"props": [
+{
+"k": "earth",
+"x": 0.5,
+"y": 0.6,
+"r": 90,
+"at": "@0.400",
+"disc": true
+}
+]
+},
+{
+"lines": [
+29
+],
+"set": "space",
+"actors": [],
+"items": [],
+"card": {
+"big": "24 PEOPLE A DAY",
+"small": "on a planet of 8 billion",
+"at": -1,
+"w": 720
+},
+"props": [
+{
+"k": "earth",
+"x": 0.5,
+"y": 0.6,
+"r": 90,
+"at": -1,
+"disc": true
+}
+],
+"fx": []
+},
+{
+"lines": [
+30
+],
+"set": "room",
+"actors": [],
+"items": [],
+"tpl": "title",
+"params": {
+"title": "What If A Bag Could Cure Any Disease?"
+}
+},
+{
+"lines": [
+31,
+32
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"card": {
+"big": "DAY ONE",
+"small": "you test it on yourself",
+"at": "@0.150",
+"x": 0.7
+},
+"props": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+33
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"card": {
+"big": "DAY ONE",
+"small": "you test it on yourself",
+"at": -1,
+"x": 0.7
+},
+"props": [
+{
+"k": "tissue",
+"x": 0.55,
+"y": 0.42,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+34,
+35
+],
+"set": "room",
+"actors": [],
+"items": [],
+"tpl": "science",
+"params": {
+"sci": "200+ COLD VIRUSES",
+"icon": "germ"
+}
+},
+{
+"lines": [
+36,
+37
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.500",
+"brush"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"hold": {
+"k": "docbag",
+"glow": [
+"@1.000",
+1
+]
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "GREEN LIGHT",
+"x": 0.6,
+"y": 0.16,
+"at": "@1.000",
+"size": 50
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+38,
+39
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"brush"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+],
+[
+"@1.000",
+"joy"
+]
+],
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.000",
+"@0.900"
+]
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "GREEN LIGHT",
+"x": 0.6,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "10 SECONDS",
+"x": 0.6,
+"y": 0.26,
+"at": "@0.000",
+"size": 50
+},
+{
+"s": "NOSE: CLEAR",
+"x": 0.6,
+"y": 0.36,
+"at": "@1.000",
+"size": 50
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+40,
+41
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1",
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"joy"
+],
+[
+"@1",
+"awe"
+]
+],
+"hold": {
+"k": "docbag",
+"to": "@0.9"
+}
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.5
+}
+],
+"props": [
+{
+"k": "coffee",
+"x": 0.6,
+"y": 0.35,
+"r": 50,
+"at": 0.1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "COFFEE... 3 FLOORS DOWN",
+"x": 0.6,
+"y": 0.18,
+"at": 0.2,
+"size": 46
+},
+{
+"s": "IS THIS REAL?",
+"x": 0.5,
+"y": 0.3,
+"at": "@1"
+}
+]
+},
+{
+"lines": [
+42
+],
+"set": "hospital",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"rot": -1.5708,
+"dy": 41
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.38,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"card": {
+"big": "DAY TWO",
+"small": "a terrible flu",
+"at": "@0.150",
+"x": 0.25
+},
+"props": [],
+"text": []
+},
+{
+"lines": [
+43,
+44
+],
+"set": "hospital",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"rot": -1.5708,
+"dy": 41
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.38,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"card": {
+"big": "DAY TWO",
+"small": "a terrible flu",
+"at": -1,
+"x": 0.25
+},
+"props": [
+{
+"k": "thermometer",
+"x": 0.62,
+"y": 0.36,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "FEVER. CHILLS. ACHING BONES.",
+"x": 0.62,
+"y": 0.22,
+"at": "@0.000",
+"size": 40
+}
+],
+"fx": []
+},
+{
+"lines": [
+45,
+46
+],
+"set": "hospital",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"lie"
+],
+[
+"@1",
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+],
+[
+"@1",
+"surprised"
+]
+],
+"rot": [
+[
+0,
+-1.5708
+],
+[
+"@1",
+-1.5708
+],
+[
+"@1.3",
+0
+]
+],
+"yk": [
+[
+0,
+0.038
+],
+[
+"@1",
+0.038
+],
+[
+"@1.3",
+-0.02
+]
+],
+"chair": false
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "docbag",
+"glow": [
+0,
+"@0.95"
+]
+}
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"text": [
+{
+"s": "GREEN LIGHT",
+"x": 0.4,
+"y": 0.2,
+"at": 0.05
+}
+]
+},
+{
+"lines": [
+47
+],
+"set": "hospital",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"yk": -0.02,
+"chair": false,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"hold": {
+"k": "note",
+"drop": 2
+}
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"text": [
+{
+"s": "\"A SANDWICH. HAM AND CHEESE.\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.400",
+"size": 46
+}
+]
+},
+{
+"lines": [
+48,
+49
+],
+"set": "hospital",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"yk": -0.02,
+"chair": false,
+"talk": [
+"@0.000",
+"@0.900"
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"hold": {
+"k": "note",
+"drop": 2
+}
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"text": [
+{
+"s": "\"A SANDWICH. HAM AND CHEESE.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"EXTRA PICKLES.\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+50
+],
+"set": "hospital",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"yk": -0.02,
+"chair": false
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.82,
+"pose": [
+[
+0,
+"shocked"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1,
+"hold": {
+"k": "note",
+"drop": "@0.200"
+}
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"text": [
+{
+"s": "\"A SANDWICH. HAM AND CHEESE.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"EXTRA PICKLES.\"",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+51,
+52
+],
+"set": "hospital",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.6,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 41
+},
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.78,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"card": {
+"big": "DAY FOUR",
+"small": "things get serious",
+"at": "@0.200",
+"x": 0.25
+},
+"props": [],
+"text": []
+},
+{
+"lines": [
+53
+],
+"set": "hospital",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.6,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 41
+},
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.78,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"card": {
+"big": "DAY FOUR",
+"small": "things get serious",
+"at": -1,
+"x": 0.25
+},
+"props": [],
+"text": [],
+"fx": []
+},
+{
+"lines": [
+54
+],
+"set": "hospital",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.6,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 41
+},
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.78,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"card": {
+"big": "DAY FOUR",
+"small": "things get serious",
+"at": -1,
+"x": 0.25
+},
+"props": [
+{
+"k": "pill",
+"x": 0.35,
+"y": 0.42,
+"r": 40,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "cross",
+"x": 0.35,
+"y": 0.42,
+"r": 40,
+"at": "@0.500",
+"disc": true
+}
+],
+"text": [
+{
+"s": "EVERY ANTIBIOTIC... NOTHING WORKS",
+"x": 0.5,
+"y": 0.32,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+55
+],
+"set": "hospital",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "germ",
+"x": 0.5,
+"y": 0.62,
+"r": 80,
+"at": "@0.100",
+"disc": true
+}
+],
+"text": [
+{
+"s": "GERMS THAT SURVIVE OUR MEDICINES",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.100",
+"size": 46
+}
+]
+},
+{
+"lines": [
+56
+],
+"set": "hospital",
+"actors": [],
+"items": [],
+"card": {
+"big": "~1.27 MILLION",
+"small": "deaths directly caused by drug-resistant infections, 2019",
+"at": "@0.000",
+"w": 920
+},
+"props": [
+{
+"k": "germ",
+"x": 0.5,
+"y": 0.62,
+"r": 80,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "GERMS THAT SURVIVE OUR MEDICINES",
+"x": 0.5,
+"y": 0.42,
+"at": -1,
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+57,
+58
+],
+"set": "hospital",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.6,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 41
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.600",
+1
+]
+}
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"text": [
+{
+"s": "GREEN LIGHT",
+"x": 0.4,
+"y": 0.2,
+"at": "@1.000"
+}
+]
+},
+{
+"lines": [
+59
+],
+"set": "hospital",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.6,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"rot": -1.5708,
+"dy": 41
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.000",
+"@0.900"
+]
+}
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"text": [
+{
+"s": "GREEN LIGHT",
+"x": 0.4,
+"y": 0.2,
+"at": -1
+},
+{
+"s": "THE FEVER BREAKS",
+"x": 0.5,
+"y": 0.3,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+60,
+61
+],
+"set": "hospital",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.6,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"yk": -0.02,
+"chair": false,
+"talk": [
+"@1.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"shake"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"text": [
+{
+"s": "\"THANK YOU, SON.\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@1.000",
+"size": 50
+}
+]
+},
+{
+"lines": [
+62
+],
+"set": "hospital",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.6,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"yk": -0.02,
+"chair": false,
+"talk": [
+"@0.000",
+"@0.900"
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"shake"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"text": [
+{
+"s": "\"THANK YOU, SON.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 50
+},
+{
+"s": "\"WHO ARE YOU?\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+63
+],
+"set": "hospital",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.6,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"yk": -0.02,
+"chair": false
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"text": [
+{
+"s": "\"THANK YOU, SON.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 50
+},
+{
+"s": "\"WHO ARE YOU?\"",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 50
+},
+{
+"s": "FRONT DESK",
+"x": 0.38,
+"y": 0.4,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+64,
+65
+],
+"set": "room",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.35,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.5,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.65,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.8,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.72,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "DAY FIVE",
+"small": "word spreads, fast",
+"at": "@0.150",
+"y": 0.14
+},
+"wall": "#c8d4d8",
+"wall2": "#7a8a90",
+"room": {
+"window": 1300
+}
+},
+{
+"lines": [
+66
+],
+"set": "room",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.35,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.5,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.65,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.8,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.72,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "DAY FIVE",
+"small": "word spreads, fast",
+"at": -1,
+"y": 0.14
+},
+"wall": "#c8d4d8",
+"wall2": "#7a8a90",
+"room": {
+"window": 1300
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-520,
+-520
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+67,
+68
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.72,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.85,
+"color": "#5a6a8a"
+}
+],
+"text": [
+{
+"s": "THE HALLWAY. THE PARKING LOT.",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 46
+}
+]
+},
+{
+"lines": [
+69
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.72,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.85,
+"color": "#5a6a8a"
+}
+],
+"text": [
+{
+"s": "THE HALLWAY. THE PARKING LOT.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "FROM 3 STATES AWAY",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+70
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.72,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.85,
+"color": "#5a6a8a"
+}
+],
+"text": [
+{
+"s": "THE HALLWAY. THE PARKING LOT.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "FROM 3 STATES AWAY",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "SLEEPING IN THEIR CARS",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+71
+],
+"set": "city",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.35,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "note"
+}
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.5,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "note"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.65,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "PHOTOS OF SICK CHILDREN",
+"x": 0.45,
+"y": 0.14,
+"at": "@0.200",
+"size": 46
+}
+]
+},
+{
+"lines": [
+72
+],
+"set": "city",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.35,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "note"
+}
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.5,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "note"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.65,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "PHOTOS OF SICK CHILDREN",
+"x": 0.45,
+"y": 0.14,
+"at": -1,
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+520,
+520
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+73
+],
+"set": "city",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.35,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "note"
+}
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.5,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "note"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.65,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "PHOTOS OF SICK CHILDREN",
+"x": 0.45,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "ONE PER HOUR",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+74
+],
+"set": "city",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.35,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "note"
+}
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.5,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "note"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.65,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "PHOTOS OF SICK CHILDREN",
+"x": 0.45,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "ONE PER HOUR",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 50
+},
+{
+"s": "HOW DO YOU CHOOSE?",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000"
+}
+],
+"fx": []
+},
+{
+"lines": [
+75
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": [
+[
+0,
+0.85
+],
+[
+"@0.800",
+0.6
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"text": []
+},
+{
+"lines": [
+76
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": [
+[
+0,
+0.6
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"card": {
+"big": "DR. MAYA PATEL",
+"small": "runs the emergency room, 20 years",
+"at": "@0.000",
+"x": 0.5,
+"w": 760
+},
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-191.99999999999994,
+-191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+77,
+78
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": [
+[
+0,
+0.6
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"card": {
+"big": "DR. MAYA PATEL",
+"small": "runs the emergency room, 20 years",
+"at": -1,
+"x": 0.5,
+"w": 760
+},
+"text": [
+{
+"s": "TIRED EYES. KIND VOICE.",
+"x": 0.5,
+"y": 0.36,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+79
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.6,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+"@0.950"
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"YOU LOOK LIKE YOU HAVEN'T SLEPT\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.150",
+"size": 46
+}
+]
+},
+{
+"lines": [
+80,
+81
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.6,
+"pose": [
+[
+0,
+"talk"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"YOU LOOK LIKE YOU HAVEN'T SLEPT\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"RIO, SIT.\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@1.000"
+}
+],
+"fx": []
+},
+{
+"lines": [
+82
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.6,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"text": []
+},
+{
+"lines": [
+83
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.6,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "TRIAGE",
+"small": "from a French word: to sort",
+"at": "@0.000",
+"x": 0.5,
+"w": 660
+},
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+84
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.6,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "TRIAGE",
+"small": "from a French word: to sort",
+"at": -1,
+"x": 0.5,
+"w": 660
+},
+"text": [
+{
+"s": "NOT IN ORDER OF ARRIVAL",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+95.99999999999997,
+95.99999999999997
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+85
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.6,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "TRIAGE",
+"small": "from a French word: to sort",
+"at": -1,
+"x": 0.5,
+"w": 660
+},
+"text": [
+{
+"s": "NOT IN ORDER OF ARRIVAL",
+"x": 0.5,
+"y": 0.36,
+"at": -1,
+"size": 46
+},
+{
+"s": "THE SICKEST FIRST",
+"x": 0.5,
+"y": 0.46,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+86
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.6,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "TRIAGE",
+"small": "from a French word: to sort",
+"at": -1,
+"x": 0.5,
+"w": 660
+},
+"text": [
+{
+"s": "NOT IN ORDER OF ARRIVAL",
+"x": 0.5,
+"y": 0.36,
+"at": -1,
+"size": 46
+},
+{
+"s": "THE SICKEST FIRST",
+"x": 0.5,
+"y": 0.46,
+"at": -1,
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+87
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.6,
+"pose": [
+[
+0,
+"tap"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.5,
+1.533
+],
+"x": [
+190.0,
+190.0
+],
+"y": [
+-80.0,
+-80.0
+]
+},
+"props": [
+{
+"k": "note",
+"x": 0.62,
+"y": 0.45,
+"r": 40,
+"at": "@0.150",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+88,
+89
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.6,
+"pose": [
+[
+0,
+"tap"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.533,
+1.6
+],
+"x": [
+190.0,
+190.0
+],
+"y": [
+-80.0,
+-80.0
+]
+},
+"props": [
+{
+"k": "note",
+"x": 0.62,
+"y": 0.45,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "THREE WORDS, IN RED",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 46
+},
+{
+"s": "ONE AT A TIME",
+"x": 0.5,
+"y": 0.24,
+"at": "@1.000",
+"color": "#ff6a5a"
+}
+],
+"fx": []
+},
+{
+"lines": [
+90
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.6,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"YOU CAN'T SAVE EVERYBODY AT ONCE\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 46
+}
+]
+},
+{
+"lines": [
+91
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.6,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"YOU CAN'T SAVE EVERYBODY AT ONCE\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"NOBODY CAN.\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000"
+}
+],
+"fx": []
+},
+{
+"lines": [
+92
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.6,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"YOU CAN'T SAVE EVERYBODY AT ONCE\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"NOBODY CAN.\"",
+"x": 0.5,
+"y": 0.24,
+"at": -1
+},
+{
+"s": "ONE. THEN THE NEXT.",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+93
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.6,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"YOU CAN'T SAVE EVERYBODY AT ONCE\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"NOBODY CAN.\"",
+"x": 0.5,
+"y": 0.24,
+"at": -1
+},
+{
+"s": "ONE. THEN THE NEXT.",
+"x": 0.5,
+"y": 0.34,
+"at": -1,
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+94,
+95
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"sit"
+],
+[
+"@1.000",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@1.000",
+"determined"
+]
+]
+},
+{
+"id": "maya",
+"who": "maya",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": []
+},
+{
+"lines": [
+96
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "maya",
+"who": "maya",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"ONE AT A TIME.\"",
+"x": 0.45,
+"y": 0.16,
+"at": "@0.000",
+"color": "#ff6a5a"
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+97,
+98
+],
+"set": "hospital",
+"actors": [
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.25,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "maya",
+"who": "maya",
+"x": 0.38,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"card": {
+"big": "WEEK TWO",
+"small": "you and Maya make a system",
+"at": "@0.250",
+"x": 0.72,
+"w": 600
+},
+"text": []
+},
+{
+"lines": [
+99,
+100
+],
+"set": "hospital",
+"actors": [
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.25,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "maya",
+"who": "maya",
+"x": 0.38,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"card": {
+"big": "WEEK TWO",
+"small": "you and Maya make a system",
+"at": -1,
+"x": 0.72,
+"w": 600
+},
+"text": [
+{
+"s": "THE DOCTORS CHOOSE.",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 46
+},
+{
+"s": "YOU HEAL.",
+"x": 0.5,
+"y": 0.46,
+"at": "@1.000",
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+101
+],
+"set": "hospital",
+"actors": [
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.25,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "maya",
+"who": "maya",
+"x": 0.38,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"card": {
+"big": "WEEK TWO",
+"small": "you and Maya make a system",
+"at": -1,
+"x": 0.72,
+"w": 600
+},
+"text": [
+{
+"s": "THE DOCTORS CHOOSE.",
+"x": 0.5,
+"y": 0.36,
+"at": -1,
+"size": 46
+},
+{
+"s": "YOU HEAL.",
+"x": 0.5,
+"y": 0.46,
+"at": -1,
+"size": 50
+},
+{
+"s": "EVERY HOUR, ON THE HOUR",
+"x": 0.5,
+"y": 0.56,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+102,
+103
+],
+"set": "hospital",
+"actors": [
+{
+"id": "lily",
+"who": "lily",
+"x": 0.6,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 41
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.8",
+1
+]
+}
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"text": [
+{
+"s": "A FAILING HEART",
+"x": 0.5,
+"y": 0.16,
+"at": 0.05,
+"size": 50
+},
+{
+"s": "GREEN LIGHT",
+"x": 0.5,
+"y": 0.26,
+"at": "@1",
+"size": 46
+}
+]
+},
+{
+"lines": [
+104,
+105
+],
+"set": "hospital",
+"actors": [
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.6,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 41
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.8",
+1
+]
+}
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.6
+}
+],
+"text": [
+{
+"s": "A TEACHER WITH CANCER",
+"x": 0.5,
+"y": 0.16,
+"at": 0.05,
+"size": 50
+},
+{
+"s": "GREEN LIGHT",
+"x": 0.5,
+"y": 0.26,
+"at": "@1",
+"size": 46
+}
+]
+},
+{
+"lines": [
+106
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.800",
+1
+]
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.68,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.8,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.55
+}
+],
+"props": [
+{
+"k": "baby",
+"x": 0.56,
+"y": 0.52,
+"r": 40,
+"at": "@0.150",
+"disc": true
+}
+],
+"text": [
+{
+"s": "A BABY WHO CAN'T BREATHE ALONE",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.150",
+"size": 46
+}
+]
+},
+{
+"lines": [
+107
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.000",
+"@0.900"
+]
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.68,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.8,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.55
+}
+],
+"props": [
+{
+"k": "baby",
+"x": 0.56,
+"y": 0.52,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A BABY WHO CAN'T BREATHE ALONE",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "GREEN LIGHT",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+108
+],
+"set": "hospital",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.68,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.8,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.55
+}
+],
+"props": [
+{
+"k": "baby",
+"x": 0.56,
+"y": 0.52,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A BABY WHO CAN'T BREATHE ALONE",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "GREEN LIGHT",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+109
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.1
+],
+[
+"@0.999",
+0.275
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"text": []
+},
+{
+"lines": [
+110
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.275
+],
+[
+"@0.999",
+0.45
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "SHAKING... IN A GOOD WAY",
+"x": 0.5,
+"y": 0.18,
+"at": "@0.000",
+"size": 50
+}
+]
+},
+{
+"lines": [
+111,
+112
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.47,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 52
+}
+],
+"items": [
+{
+"k": "alarm",
+"x": 0.3
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "BUT THERE'S A COST",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.200",
+"size": 50
+}
+]
+},
+{
+"lines": [
+113,
+114
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.47,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"rot": -1.5708,
+"dy": 52
+}
+],
+"items": [
+{
+"k": "alarm",
+"x": 0.3
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "BUT THERE'S A COST",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "BEEP! EVERY HOUR. ALL NIGHT.",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 46
+}
+]
+},
+{
+"lines": [
+115
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.4,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "EVERY HOUR ASLEEP = ONE PERSON NOT HELPED",
+"x": 0.5,
+"y": 0.18,
+"at": 0.1,
+"size": 40
+}
+]
+},
+{
+"lines": [
+116
+],
+"set": "room",
+"actors": [],
+"items": [],
+"card": {
+"big": "17-19 HOURS AWAKE",
+"small": "reactions as slow as after drinking alcohol",
+"at": "@0.100",
+"w": 860
+},
+"props": [
+{
+"k": "brain",
+"x": 0.5,
+"y": 0.62,
+"r": 80,
+"at": "@0.400",
+"disc": true
+}
+],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+117
+],
+"set": "room",
+"actors": [],
+"items": [],
+"card": {
+"big": "17-19 HOURS AWAKE",
+"small": "reactions as slow as after drinking alcohol",
+"at": -1,
+"w": 860
+},
+"props": [
+{
+"k": "brain",
+"x": 0.5,
+"y": 0.62,
+"r": 80,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "YOU: 30 HOURS",
+"x": 0.5,
+"y": 0.45,
+"at": "@0.000",
+"color": "#ff6a5a"
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+118
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.5
+],
+[
+"@0.600",
+0.72
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.700",
+"reach"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.84
+}
+],
+"text": [
+{
+"s": "KEYS IN THE FRIDGE",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.600",
+"size": 50
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+119
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.72
+]
+],
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"talk": [
+"@0.000",
+"@0.900"
+]
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.84
+}
+],
+"text": [
+{
+"s": "KEYS IN THE FRIDGE",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "\"THANKS... MOM\"",
+"x": 0.4,
+"y": 0.26,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+120
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.72
+]
+],
+"pose": [
+[
+0,
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.84
+}
+],
+"text": [
+{
+"s": "KEYS IN THE FRIDGE",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "\"THANKS... MOM\"",
+"x": 0.4,
+"y": 0.26,
+"at": -1,
+"size": 46
+},
+{
+"s": "IS THIS HELPING ANYONE?",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+121,
+122
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "camera",
+"flash": 70
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.35,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.6,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"card": {
+"big": "WEEK THREE",
+"small": "the world finds out",
+"at": "@0.200",
+"x": 0.5,
+"y": 0.14
+},
+"props": [
+{
+"k": "helicopter",
+"x": 0.3,
+"y": 0.3,
+"r": 50,
+"at": "@1.000",
+"disc": true
+},
+{
+"k": "camera",
+"x": 0.7,
+"y": 0.3,
+"r": 40,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+123
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "camera",
+"flash": 70
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.35,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.6,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"card": {
+"big": "WEEK THREE",
+"small": "the world finds out",
+"at": -1,
+"x": 0.5,
+"y": 0.14
+},
+"props": [
+{
+"k": "helicopter",
+"x": 0.3,
+"y": 0.3,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "camera",
+"x": 0.7,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+520,
+520
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+124
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "camera",
+"flash": 70
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.35,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.6,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"card": {
+"big": "WEEK THREE",
+"small": "the world finds out",
+"at": -1,
+"x": 0.5,
+"y": 0.14
+},
+"props": [
+{
+"k": "helicopter",
+"x": 0.3,
+"y": 0.3,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "camera",
+"x": 0.7,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "\"RIO! RIO!\"",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 56
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+300,
+300
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+125
+],
+"set": "city",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.5,
+"y": 0.45,
+"r": 120,
+"at": "@0.200",
+"disc": true
+}
+],
+"text": [
+{
+"s": "HERO?",
+"x": 0.25,
+"y": 0.25,
+"at": "@0.200"
+}
+]
+},
+{
+"lines": [
+126,
+127
+],
+"set": "city",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.5,
+"y": 0.45,
+"r": 120,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "HERO?",
+"x": 0.25,
+"y": 0.25,
+"at": -1
+},
+{
+"s": "FAKE?",
+"x": 0.75,
+"y": 0.25,
+"at": "@0.000",
+"color": "#ff6a5a"
+},
+{
+"s": "WHO'S RIGHT?",
+"x": 0.5,
+"y": 0.72,
+"at": "@1.000",
+"size": 56
+}
+],
+"fx": []
+},
+{
+"lines": [
+128
+],
+"set": "city",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.5,
+"y": 0.45,
+"r": 120,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "HERO?",
+"x": 0.25,
+"y": 0.25,
+"at": -1
+},
+{
+"s": "FAKE?",
+"x": 0.75,
+"y": 0.25,
+"at": -1,
+"color": "#ff6a5a"
+},
+{
+"s": "WHO'S RIGHT?",
+"x": 0.5,
+"y": 0.72,
+"at": -1,
+"size": 56
+},
+{
+"s": "\"GIVE IT TO THE GOVERNMENT\"",
+"x": 0.5,
+"y": 0.84,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+129
+],
+"set": "street",
+"actors": [
+{
+"id": "gordon",
+"who": "gordon",
+"x": [
+[
+0,
+0.62
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"alpha": [
+[
+0,
+0
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.7,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+]
+},
+{
+"lines": [
+130
+],
+"set": "street",
+"actors": [
+{
+"id": "gordon",
+"who": "gordon",
+"x": [
+[
+0,
+0.62
+],
+[
+"@0.300",
+0.62
+],
+[
+"@0.900",
+0.5
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"alpha": [
+[
+0,
+0.0
+],
+[
+"@0.200",
+1
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.7,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"card": {
+"big": "GORDON STEELE",
+"small": "one of the richest men in the world",
+"at": "@0.500",
+"x": 0.5,
+"w": 760
+}
+},
+{
+"lines": [
+131
+],
+"set": "street",
+"actors": [
+{
+"id": "gordon",
+"who": "gordon",
+"x": [
+[
+0,
+0.5
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"alpha": [
+[
+0,
+1
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.7,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"card": {
+"big": "GORDON STEELE",
+"small": "one of the richest men in the world",
+"at": -1,
+"x": 0.5,
+"w": 760
+}
+},
+{
+"lines": [
+132,
+133
+],
+"set": "street",
+"actors": [
+{
+"id": "gordon",
+"who": "gordon",
+"x": 0.5,
+"pose": [
+[
+0,
+"talk"
+],
+[
+"@1.000",
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@1.000",
+"sad"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.32,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "\"MY KNEES ARE RUINED\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@1.000",
+"size": 48
+}
+]
+},
+{
+"lines": [
+134,
+135
+],
+"set": "street",
+"actors": [
+{
+"id": "gordon",
+"who": "gordon",
+"x": 0.5,
+"pose": [
+[
+0,
+"explain"
+],
+[
+"@1.000",
+"point"
+]
+],
+"expr": [
+[
+0,
+"sad"
+],
+[
+"@1.000",
+"neutral"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.32,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "\"MY KNEES ARE RUINED\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "\"20 YEARS OF PAIN\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+},
+{
+"s": "\"HEAL ME TONIGHT. 9 O'CLOCK.\"",
+"x": 0.5,
+"y": 0.34,
+"at": "@1.000",
+"size": 46
+}
+]
+},
+{
+"lines": [
+136,
+137
+],
+"set": "street",
+"actors": [
+{
+"id": "gordon",
+"who": "gordon",
+"x": 0.5,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.32,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "\"MY KNEES ARE RUINED\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "\"20 YEARS OF PAIN\"",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"HEAL ME TONIGHT. 9 O'CLOCK.\"",
+"x": 0.5,
+"y": 0.34,
+"at": -1,
+"size": 46
+}
+]
+},
+{
+"lines": [
+138
+],
+"set": "street",
+"actors": [
+{
+"id": "gordon",
+"who": "gordon",
+"x": 0.5,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.32,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"card": {
+"big": "$1,000,000,000",
+"small": "to build 10 new hospitals",
+"at": "@0.250",
+"x": 0.5,
+"w": 760
+},
+"props": [],
+"text": []
+},
+{
+"lines": [
+139,
+140
+],
+"set": "street",
+"actors": [
+{
+"id": "gordon",
+"who": "gordon",
+"x": 0.5,
+"pose": [
+[
+0,
+"talk"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+"@1.900"
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.32,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"card": {
+"big": "$1,000,000,000",
+"small": "to build 10 new hospitals",
+"at": -1,
+"x": 0.5,
+"w": 760
+},
+"props": [
+{
+"k": "hospital",
+"x": 0.25,
+"y": 0.62,
+"r": 50,
+"at": "@1.000",
+"disc": true
+},
+{
+"k": "hospital",
+"x": 0.35,
+"y": 0.62,
+"r": 50,
+"at": "@1.200",
+"disc": true
+},
+{
+"k": "hospital",
+"x": 0.45,
+"y": 0.62,
+"r": 50,
+"at": "@1.400",
+"disc": true
+}
+],
+"text": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+141
+],
+"set": "street",
+"actors": [
+{
+"id": "gordon",
+"who": "gordon",
+"x": 0.5,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.32,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"card": {
+"big": "$1,000,000,000",
+"small": "to build 10 new hospitals",
+"at": -1,
+"x": 0.5,
+"w": 760
+},
+"props": [
+{
+"k": "hospital",
+"x": 0.25,
+"y": 0.62,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "hospital",
+"x": 0.35,
+"y": 0.62,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "hospital",
+"x": 0.45,
+"y": 0.62,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-172.79999999999998,
+-172.79999999999998
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+142
+],
+"set": "street",
+"actors": [
+{
+"id": "gordon",
+"who": "gordon",
+"x": 0.5,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.32,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"card": {
+"big": "$1,000,000,000",
+"small": "to build 10 new hospitals",
+"at": -1,
+"x": 0.5,
+"w": 760
+},
+"props": [
+{
+"k": "hospital",
+"x": 0.25,
+"y": 0.62,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "hospital",
+"x": 0.35,
+"y": 0.62,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "hospital",
+"x": 0.45,
+"y": 0.62,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "THOUSANDS OF LIVES? MORE?",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.000",
+"size": 46
+}
+],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-345.59999999999997,
+-345.59999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+143,
+144
+],
+"set": "street",
+"actors": [
+{
+"id": "gordon",
+"who": "gordon",
+"x": [
+[
+0,
+0.5
+]
+],
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": [
+[
+0,
+-1
+],
+[
+"@1.999",
+0.5385
+]
+],
+"talk": [
+"@1.000",
+1
+],
+"alpha": [
+[
+0,
+1
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.32,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": [
+[
+0,
+0.75
+]
+],
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "\"NINE O'CLOCK EXACTLY.\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@1.000",
+"size": 48
+}
+]
+},
+{
+"lines": [
+145
+],
+"set": "street",
+"actors": [
+{
+"id": "gordon",
+"who": "gordon",
+"x": [
+[
+0,
+0.5
+],
+[
+"@0.500",
+0.5
+],
+[
+"@0.999",
+0.7
+]
+],
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": [
+[
+0,
+0.5385
+],
+[
+"@0.600",
+1
+]
+],
+"talk": [
+"@0.000",
+"@0.900"
+],
+"alpha": [
+[
+0,
+1
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.32,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": [
+[
+0,
+0.75
+]
+],
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "\"NINE O'CLOCK EXACTLY.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+}
+]
+},
+{
+"lines": [
+146
+],
+"set": "street",
+"actors": [
+{
+"id": "gordon",
+"who": "gordon",
+"x": [
+[
+0,
+0.7
+]
+],
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": [
+[
+0,
+1
+]
+],
+"alpha": [
+[
+0,
+1
+],
+[
+"@0.300",
+0
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.32,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": [
+[
+0,
+0.75
+],
+[
+"@0.300",
+0.75
+],
+[
+"@0.999",
+1.3
+]
+],
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "\"NINE O'CLOCK EXACTLY.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "\"I DON'T WAIT FOR ANYONE.\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+]
+},
+{
+"lines": [
+147
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.4,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.2,
+"open": 1
+}
+],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+148,
+149
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.4,
+"pose": [
+[
+0,
+"wave"
+],
+[
+"@1.000",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.2,
+"open": 1
+}
+],
+"card": {
+"big": "NOAH",
+"small": "8, lives next door",
+"at": "@0.000",
+"x": 0.72,
+"w": 560
+},
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+96.00000000000009,
+96.00000000000009
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+150,
+151
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.2,
+"open": 1
+}
+],
+"card": {
+"big": "NOAH",
+"small": "8, lives next door",
+"at": -1,
+"x": 0.72,
+"w": 560
+},
+"text": [
+{
+"s": "RED SNEAKERS",
+"x": 0.72,
+"y": 0.38,
+"at": "@0.000",
+"size": 44
+},
+{
+"s": "TWO FRONT TEETH MISSING",
+"x": 0.72,
+"y": 0.46,
+"at": "@1.000",
+"size": 40
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+152
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.2,
+"open": 1
+}
+],
+"props": [],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+153
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.42,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "note",
+"from": "@0.000"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.2,
+"open": 1
+}
+],
+"props": [],
+"text": [
+{
+"s": "A DRAWING EVERY AFTERNOON",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+96.00000000000009,
+96.00000000000009
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+154
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.42,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "note",
+"from": 0
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.2,
+"open": 1
+}
+],
+"props": [
+{
+"k": "crown",
+"x": 0.5,
+"y": 0.3,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "A DRAWING EVERY AFTERNOON",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+48.00000000000004,
+48.00000000000004
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+155
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.42,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "note",
+"from": 0
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.2,
+"open": 1
+}
+],
+"props": [
+{
+"k": "crown",
+"x": 0.5,
+"y": 0.3,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "bag",
+"x": 0.56,
+"y": 0.3,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "A DRAWING EVERY AFTERNOON",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+96.00000000000009,
+96.00000000000009
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+156
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.42,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "note",
+"from": 0
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.2,
+"open": 1
+}
+],
+"props": [
+{
+"k": "crown",
+"x": 0.5,
+"y": 0.3,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "bag",
+"x": 0.56,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A DRAWING EVERY AFTERNOON",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"SUPER RIO\"",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.000",
+"color": "#5ad28a"
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+157
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.42,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@0.000",
+"@0.900"
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"ONE AT A TIME!\"",
+"x": 0.42,
+"y": 0.16,
+"at": "@0.250",
+"color": "#ff6a5a"
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+158
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.42,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"ONE AT A TIME!\"",
+"x": 0.42,
+"y": 0.16,
+"at": -1,
+"color": "#ff6a5a"
+},
+{
+"s": "HE HEARD IT ON TV",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+159,
+160
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.42,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"ONE AT A TIME!\"",
+"x": 0.42,
+"y": 0.16,
+"at": -1,
+"color": "#ff6a5a"
+},
+{
+"s": "HE HEARD IT ON TV",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+161
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.42,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"ONE AT A TIME!\"",
+"x": 0.42,
+"y": 0.16,
+"at": -1,
+"color": "#ff6a5a"
+},
+{
+"s": "HE HEARD IT ON TV",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 46
+},
+{
+"s": "YOU LOVE HIM FOR IT",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+162
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.5
+],
+[
+"@0.500",
+0.72
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.600",
+"reach"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.84
+},
+{
+"k": "paper",
+"x": 0.84,
+"up": 1.3,
+"s": "SUPER RIO"
+}
+],
+"cam": {
+"z": [
+1.3,
+1.4
+],
+"x": [
+420.0,
+450.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+163
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.72
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.84
+},
+{
+"k": "paper",
+"x": 0.84,
+"up": 1.3,
+"s": "SUPER RIO"
+}
+],
+"cam": {
+"z": [
+1.4,
+1.5
+],
+"x": [
+450.0,
+480.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "NEXT TO YOUR KEYS",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+164,
+165
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.84
+}
+],
+"card": {
+"big": "FRIDAY, 8:15 PM",
+"small": "the car comes at 8:40",
+"at": "@0.200",
+"x": 0.7,
+"w": 600
+},
+"props": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+166
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.84
+}
+],
+"card": {
+"big": "FRIDAY, 8:15 PM",
+"small": "the car comes at 8:40",
+"at": -1,
+"x": 0.7,
+"w": 600
+},
+"props": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+167
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.84
+}
+],
+"card": {
+"big": "FRIDAY, 8:15 PM",
+"small": "the car comes at 8:40",
+"at": -1,
+"x": 0.7,
+"w": 600
+},
+"props": [
+{
+"k": "clock",
+"x": 0.7,
+"y": 0.55,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-76.80000000000001,
+-76.80000000000001
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+168,
+169
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.84
+}
+],
+"thought": {
+"props": [
+"money",
+"hospital"
+],
+"x": 0.7,
+"y": 0.28,
+"at": "@0.200"
+},
+"text": [
+{
+"s": "9 O'CLOCK. $1 BILLION. 10 HOSPITALS.",
+"x": 0.5,
+"y": 0.56,
+"at": "@1.000",
+"size": 40
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+170,
+171
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.84
+}
+],
+"thought": {
+"props": [
+"money",
+"hospital"
+],
+"x": 0.7,
+"y": 0.28,
+"at": -1
+},
+"text": [
+{
+"s": "9 O'CLOCK. $1 BILLION. 10 HOSPITALS.",
+"x": 0.5,
+"y": 0.56,
+"at": -1,
+"size": 40
+},
+{
+"s": "EASY CHOICE. RIGHT?",
+"x": 0.5,
+"y": 0.66,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+172,
+173
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.42
+],
+[
+"@0.600",
+0.32
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+],
+[
+"@1.000",
+"shocked"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.18,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.18,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12,
+"s": 1.6
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.12,
+"open": [
+[
+0,
+0
+],
+[
+"@0.300",
+1
+]
+]
+}
+],
+"text": [
+{
+"s": "BANG! BANG!",
+"x": 0.2,
+"y": 0.16,
+"at": "@0.150"
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+174
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.32
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.18,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.18,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12,
+"s": 1.6
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.12,
+"open": [
+[
+0,
+1
+]
+]
+}
+],
+"text": [
+{
+"s": "BANG! BANG!",
+"x": 0.2,
+"y": 0.16,
+"at": -1
+},
+{
+"s": "\"RIO. PLEASE.\"",
+"x": 0.3,
+"y": 0.26,
+"at": "@0.000"
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+175
+],
+"set": "room",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.48,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "bandage",
+"x": 0.3,
+"y": 0.42,
+"r": 40,
+"at": "@0.200",
+"disc": true
+}
+],
+"text": [
+{
+"s": "\"A SMALL CUT, TWO DAYS AGO\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 44
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+176,
+177
+],
+"set": "room",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.48,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "bandage",
+"x": 0.3,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "thermometer",
+"x": 0.42,
+"y": 0.42,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "\"A SMALL CUT, TWO DAYS AGO\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"NOW HE'S BURNING HOT\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+178
+],
+"set": "room",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.48,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "bandage",
+"x": 0.3,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "thermometer",
+"x": 0.42,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "\"A SMALL CUT, TWO DAYS AGO\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"NOW HE'S BURNING HOT\"",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"HE DOESN'T KNOW WHO I AM\"",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+179
+],
+"set": "room",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.5,
+1.52
+],
+"x": [
+-250.0,
+-250.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": []
+},
+{
+"lines": [
+180
+],
+"set": "room",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.52,
+1.54
+],
+"x": [
+-250.0,
+-250.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": [
+{
+"s": "PALE, CLAMMY SKIN",
+"x": 0.62,
+"y": 0.16,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+181
+],
+"set": "room",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.54,
+1.56
+],
+"x": [
+-250.0,
+-250.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": [
+{
+"s": "PALE, CLAMMY SKIN",
+"x": 0.62,
+"y": 0.16,
+"at": -1,
+"size": 44
+},
+{
+"s": "LIPS A LITTLE BLUE",
+"x": 0.62,
+"y": 0.26,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+182
+],
+"set": "room",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.56,
+1.58
+],
+"x": [
+-250.0,
+-250.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": [
+{
+"s": "PALE, CLAMMY SKIN",
+"x": 0.62,
+"y": 0.16,
+"at": -1,
+"size": 44
+},
+{
+"s": "LIPS A LITTLE BLUE",
+"x": 0.62,
+"y": 0.26,
+"at": -1,
+"size": 44
+},
+{
+"s": "HEART RACING",
+"x": 0.62,
+"y": 0.36,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+183
+],
+"set": "room",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.58,
+1.6
+],
+"x": [
+-250.0,
+-250.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": [
+{
+"s": "PALE, CLAMMY SKIN",
+"x": 0.62,
+"y": 0.16,
+"at": -1,
+"size": 44
+},
+{
+"s": "LIPS A LITTLE BLUE",
+"x": 0.62,
+"y": 0.26,
+"at": -1,
+"size": 44
+},
+{
+"s": "HEART RACING",
+"x": 0.62,
+"y": 0.36,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+184
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+185
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"card": {
+"big": "SEPSIS?",
+"small": null,
+"at": "@0.000",
+"x": 0.68
+},
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+186
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.25,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "SEPSIS",
+"small": "the body's response to infection attacks its own organs",
+"at": "@0.300",
+"w": 900
+},
+"props": [],
+"text": []
+},
+{
+"lines": [
+187,
+188
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.25,
+"pose": [
+[
+0,
+"talk"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "SEPSIS",
+"small": "the body's response to infection attacks its own organs",
+"at": -1,
+"w": 900
+},
+"props": [
+{
+"k": "bandage",
+"x": 0.5,
+"y": 0.62,
+"r": 40,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "IT CAN START SMALL",
+"x": 0.6,
+"y": 0.42,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-480.0,
+-480.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+189,
+190
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.25,
+"pose": [
+[
+0,
+"talk"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "SEPSIS",
+"small": "the body's response to infection attacks its own organs",
+"at": -1,
+"w": 900
+},
+"props": [
+{
+"k": "bandage",
+"x": 0.5,
+"y": 0.62,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "germ",
+"x": 0.62,
+"y": 0.62,
+"r": 40,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "lungs",
+"x": 0.74,
+"y": 0.62,
+"r": 40,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "IT CAN START SMALL",
+"x": 0.6,
+"y": 0.42,
+"at": -1,
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-240.0,
+-240.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+191
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.25,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "SEPSIS",
+"small": "the body's response to infection attacks its own organs",
+"at": -1,
+"w": 900
+},
+"props": [
+{
+"k": "bandage",
+"x": 0.5,
+"y": 0.62,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "germ",
+"x": 0.62,
+"y": 0.62,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "lungs",
+"x": 0.74,
+"y": 0.62,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "IT CAN START SMALL",
+"x": 0.6,
+"y": 0.42,
+"at": -1,
+"size": 46
+},
+{
+"s": "~11 MILLION DEATHS A YEAR, WORLDWIDE",
+"x": 0.6,
+"y": 0.78,
+"at": "@0.000",
+"size": 40
+}
+],
+"fx": []
+},
+{
+"lines": [
+192,
+193
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.25,
+"pose": [
+[
+0,
+"point"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "WARNING SIGNS",
+"small": null,
+"at": "@0.350",
+"x": 0.62,
+"y": 0.14
+},
+"text": [
+{
+"s": "FEVER, OR FEELING VERY COLD",
+"x": 0.62,
+"y": 0.32,
+"at": "@1.000",
+"size": 40
+}
+]
+},
+{
+"lines": [
+194,
+195
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.25,
+"pose": [
+[
+0,
+"point"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "WARNING SIGNS",
+"small": null,
+"at": -1,
+"x": 0.62,
+"y": 0.14
+},
+"text": [
+{
+"s": "FEVER, OR FEELING VERY COLD",
+"x": 0.62,
+"y": 0.32,
+"at": -1,
+"size": 40
+},
+{
+"s": "FAST BREATHING",
+"x": 0.62,
+"y": 0.4,
+"at": "@0.000",
+"size": 40
+},
+{
+"s": "RACING HEART. CONFUSION.",
+"x": 0.62,
+"y": 0.48,
+"at": "@1.000",
+"size": 40
+}
+],
+"fx": []
+},
+{
+"lines": [
+196,
+197
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.25,
+"pose": [
+[
+0,
+"point"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "WARNING SIGNS",
+"small": null,
+"at": -1,
+"x": 0.62,
+"y": 0.14
+},
+"text": [
+{
+"s": "FEVER, OR FEELING VERY COLD",
+"x": 0.62,
+"y": 0.32,
+"at": -1,
+"size": 40
+},
+{
+"s": "FAST BREATHING",
+"x": 0.62,
+"y": 0.4,
+"at": -1,
+"size": 40
+},
+{
+"s": "RACING HEART. CONFUSION.",
+"x": 0.62,
+"y": 0.48,
+"at": -1,
+"size": 40
+},
+{
+"s": "CLAMMY SKIN",
+"x": 0.62,
+"y": 0.56,
+"at": "@0.000",
+"size": 40
+},
+{
+"s": "EXTREME PAIN",
+"x": 0.62,
+"y": 0.64,
+"at": "@1.000",
+"size": 40
+}
+],
+"fx": []
+},
+{
+"lines": [
+198
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.25,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "WARNING SIGNS",
+"small": null,
+"at": -1,
+"x": 0.62,
+"y": 0.14
+},
+"text": [
+{
+"s": "FEVER, OR FEELING VERY COLD",
+"x": 0.62,
+"y": 0.32,
+"at": -1,
+"size": 40
+},
+{
+"s": "FAST BREATHING",
+"x": 0.62,
+"y": 0.4,
+"at": -1,
+"size": 40
+},
+{
+"s": "RACING HEART. CONFUSION.",
+"x": 0.62,
+"y": 0.48,
+"at": -1,
+"size": 40
+},
+{
+"s": "CLAMMY SKIN",
+"x": 0.62,
+"y": 0.56,
+"at": -1,
+"size": 40
+},
+{
+"s": "EXTREME PAIN",
+"x": 0.62,
+"y": 0.64,
+"at": -1,
+"size": 40
+},
+{
+"s": "IT GETS WORSE FAST",
+"x": 0.62,
+"y": 0.74,
+"at": "@0.000",
+"size": 46,
+"color": "#ff6a5a"
+}
+],
+"fx": []
+},
+{
+"lines": [
+199,
+200
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.000",
+"@0.900"
+]
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+}
+],
+"items": [],
+"card": {
+"big": "8:20 PM",
+"small": null,
+"at": "@1.000",
+"x": 0.72
+},
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+201
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+}
+],
+"items": [],
+"card": {
+"big": "8:20 PM",
+"small": null,
+"at": -1,
+"x": 0.72
+},
+"text": [
+{
+"s": "HEAL NOAH = BAG ASLEEP TILL 9:20",
+"x": 0.6,
+"y": 0.36,
+"at": "@0.000",
+"size": 40
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+202
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+}
+],
+"items": [],
+"card": {
+"big": "8:20 PM",
+"small": null,
+"at": -1,
+"x": 0.72
+},
+"text": [
+{
+"s": "HEAL NOAH = BAG ASLEEP TILL 9:20",
+"x": 0.6,
+"y": 0.36,
+"at": -1,
+"size": 40
+},
+{
+"s": "STEELE DOESN'T WAIT",
+"x": 0.6,
+"y": 0.46,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+203,
+204
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"kneel"
+],
+[
+"@0.500",
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"facing": -1,
+"hold": {
+"k": "phone",
+"from": "@0.500"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "pilot",
+"label": "THE DRIVER",
+"talk": true,
+"at": "@1.000",
+"x": 0.78
+},
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+205,
+206
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"facing": -1,
+"hold": {
+"k": "phone",
+"from": 0
+}
+}
+],
+"items": [],
+"inset": {
+"who": "pilot",
+"label": "THE DRIVER",
+"talk": true,
+"at": -1,
+"x": 0.78
+},
+"text": [
+{
+"s": "\"I'M OUTSIDE, MR. RIO.\"",
+"x": 0.45,
+"y": 0.16,
+"at": "@0.000",
+"size": 48
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+207,
+208
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": [
+[
+0,
+-1
+],
+[
+"@1.000",
+1
+],
+[
+"@1.999",
+-1
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "heart",
+"x": 0.2,
+"y": 0.4,
+"r": 50,
+"at": "@0.200",
+"disc": true
+},
+{
+"k": "car",
+"x": 0.8,
+"y": 0.4,
+"r": 50,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+209
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": [
+[
+0,
+-1
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "heart",
+"x": 0.2,
+"y": 0.4,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "car",
+"x": 0.8,
+"y": 0.4,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "$1 BILLION FOR 10 HOSPITALS...",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 44
+},
+{
+"s": "...OR ONE LITTLE BOY, NOW",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.500",
+"size": 44
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+210
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": [
+[
+0,
+-1
+]
+],
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "heart",
+"x": 0.2,
+"y": 0.4,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "car",
+"x": 0.8,
+"y": 0.4,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "$1 BILLION FOR 10 HOSPITALS...",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "...OR ONE LITTLE BOY, NOW",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "WHAT WOULD YOU DO?",
+"x": 0.5,
+"y": 0.58,
+"at": "@0.000"
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+211,
+212
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+213
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "2 DAYS WITHOUT SLEEP",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+214,
+215
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+],
+[
+"@1.000",
+"determined"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "maya",
+"label": "MAYA (MEMORY)",
+"talk": true,
+"at": "@0.000",
+"x": 0.78
+},
+"text": [
+{
+"s": "2 DAYS WITHOUT SLEEP",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"ONE AT A TIME.\"",
+"x": 0.5,
+"y": 0.26,
+"at": "@1.000",
+"color": "#ff6a5a"
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+216,
+217
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.45
+],
+[
+"@0.500",
+0.42
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.600",
+"kneel"
+],
+[
+"@1.500",
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+}
+],
+"items": [],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+218
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.42
+]
+],
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.000",
+1
+]
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+}
+],
+"items": [],
+"text": [
+{
+"s": "GREEN LIGHT",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000"
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+219,
+220
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.000",
+1
+]
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.4,
+1.45
+],
+"x": [
+-250.0,
+-250.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": [
+{
+"s": "1 SECOND",
+"x": 0.62,
+"y": 0.14,
+"at": "@0.160",
+"size": 46
+},
+{
+"s": "2 SECONDS",
+"x": 0.62,
+"y": 0.22,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+221
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.000",
+1
+]
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.45,
+1.475
+],
+"x": [
+-250.0,
+-250.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": [
+{
+"s": "1 SECOND",
+"x": 0.62,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "2 SECONDS",
+"x": 0.62,
+"y": 0.22,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+222,
+223
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.000",
+1
+]
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.475,
+1.525
+],
+"x": [
+-250.0,
+-250.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": [
+{
+"s": "1 SECOND",
+"x": 0.62,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "2 SECONDS",
+"x": 0.62,
+"y": 0.22,
+"at": -1,
+"size": 46
+},
+{
+"s": "5 SECONDS",
+"x": 0.62,
+"y": 0.3,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+224,
+225
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag",
+"glow": [
+"@0.000",
+"@0.800"
+]
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+],
+[
+"@1.000",
+"shocked"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"rot": 1.5708,
+"yk": -0.12
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.525,
+1.575
+],
+"x": [
+-250.0,
+-250.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": [
+{
+"s": "1 SECOND",
+"x": 0.62,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "2 SECONDS",
+"x": 0.62,
+"y": 0.22,
+"at": -1,
+"size": 46
+},
+{
+"s": "5 SECONDS",
+"x": 0.62,
+"y": 0.3,
+"at": -1,
+"size": 46
+},
+{
+"s": "10 SECONDS",
+"x": 0.62,
+"y": 0.38,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+226
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.42,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.33,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"rot": 1.5708,
+"yk": -0.12,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.575,
+1.6
+],
+"x": [
+-250.0,
+-250.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": [
+{
+"s": "1 SECOND",
+"x": 0.62,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "2 SECONDS",
+"x": 0.62,
+"y": 0.22,
+"at": -1,
+"size": 46
+},
+{
+"s": "5 SECONDS",
+"x": 0.62,
+"y": 0.3,
+"at": -1,
+"size": 46
+},
+{
+"s": "10 SECONDS",
+"x": 0.62,
+"y": 0.38,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"SUPER RIO?\"",
+"x": 0.4,
+"y": 0.46,
+"at": "@0.000",
+"color": "#5ad28a"
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+227
+],
+"set": "room",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.36,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"props": [],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+228
+],
+"set": "room",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.36,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.6,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"hold": {
+"k": "phone",
+"from": "@0.000"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "ambulance",
+"x": 0.8,
+"y": 0.3,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "YOU CALL AN AMBULANCE ANYWAY",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+229
+],
+"set": "room",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "noah",
+"who": "noah",
+"x": 0.36,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.6,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"hold": {
+"k": "phone",
+"from": 0
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "ambulance",
+"x": 0.8,
+"y": 0.3,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "YOU CALL AN AMBULANCE ANYWAY",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 44
+},
+{
+"s": "A DOCTOR SHOULD STILL CHECK HIM",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 42
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+230
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.1
+],
+[
+"@0.999",
+0.45
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "pilot",
+"who": "pilot",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"text": []
+},
+{
+"lines": [
+231
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "pilot",
+"who": "pilot",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"text": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+232
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "pilot",
+"who": "pilot",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"text": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-47.999999999999986,
+-47.999999999999986
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+233
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "pilot",
+"who": "pilot",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "\"THE BAG IS ASLEEP\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 48
+}
+],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+234
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "pilot",
+"who": "pilot",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "\"THE BAG IS ASLEEP\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "\"I CAN HEAL HIM AT 9:20\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+]
+},
+{
+"lines": [
+235,
+236
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "pilot",
+"who": "pilot",
+"x": [
+[
+0,
+0.6
+]
+],
+"pose": [
+[
+0,
+"phoneEar"
+],
+[
+"@1.000",
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"hold": {
+"k": "phone",
+"to": "@0.950"
+},
+"alpha": [
+[
+0,
+1
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": [
+[
+0,
+0.75
+]
+],
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"text": []
+},
+{
+"lines": [
+237,
+238
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "pilot",
+"who": "pilot",
+"x": [
+[
+0,
+0.6
+],
+[
+"@1.000",
+0.6
+],
+[
+"@1.300",
+0.75
+]
+],
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+"@0.900"
+],
+"alpha": [
+[
+0,
+1
+],
+[
+"@1.200",
+1
+],
+[
+"@1.400",
+0
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": [
+[
+0,
+0.75
+],
+[
+"@1.400",
+0.75
+],
+[
+"@1.999",
+0.9938
+]
+],
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "\"MR. STEELE SAYS NO DEAL.\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 48
+}
+]
+},
+{
+"lines": [
+239
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "docbag"
+}
+},
+{
+"id": "pilot",
+"who": "pilot",
+"x": [
+[
+0,
+0.75
+]
+],
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"alpha": [
+[
+0,
+0
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": [
+[
+0,
+0.9938
+],
+[
+"@0.999",
+1.4
+]
+],
+"color": "#c8ccd4"
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "\"MR. STEELE SAYS NO DEAL.\"",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 48
+},
+{
+"s": "$1 BILLION... DRIVES AWAY",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 48
+}
+]
+},
+{
+"lines": [
+240,
+241
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"chair": false,
+"yk": 0.03,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "ON THE CURB. IN YOUR BEST SHIRT.",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.250",
+"size": 44
+}
+]
+},
+{
+"lines": [
+242,
+243
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"chair": false,
+"yk": 0.03,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "ON THE CURB. IN YOUR BEST SHIRT.",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 44
+},
+{
+"s": "HA... HA HA",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 54
+}
+]
+},
+{
+"lines": [
+244
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"chair": false,
+"yk": 0.03,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "ON THE CURB. IN YOUR BEST SHIRT.",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 44
+},
+{
+"s": "HA... HA HA",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 54
+},
+{
+"s": "YOU'D DO IT AGAIN",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 50
+}
+]
+},
+{
+"lines": [
+245
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "maya",
+"label": "MAYA",
+"talk": true,
+"at": "@0.000",
+"x": 0.75
+},
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+246
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"hold": {
+"k": "phone"
+},
+"talk": [
+"@0.800",
+1
+]
+}
+],
+"items": [],
+"inset": {
+"who": "maya",
+"label": "MAYA",
+"talk": true,
+"at": -1,
+"x": 0.75
+},
+"text": [
+{
+"s": "\"A BILLION... FOR A KID WITH SEPSIS?\"",
+"x": 0.42,
+"y": 0.16,
+"at": "@0.000",
+"size": 42
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+247,
+248
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"hold": {
+"k": "phone"
+},
+"talk": [
+"@0.000",
+"@0.900"
+]
+}
+],
+"items": [],
+"inset": {
+"who": "maya",
+"label": "MAYA",
+"talk": true,
+"at": -1,
+"x": 0.75
+},
+"text": [
+{
+"s": "\"A BILLION... FOR A KID WITH SEPSIS?\"",
+"x": 0.42,
+"y": 0.16,
+"at": -1,
+"size": 42
+},
+{
+"s": "\"WAS THAT STUPID?\"",
+"x": 0.42,
+"y": 0.26,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+249
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "maya",
+"label": "MAYA",
+"talk": true,
+"at": "@0.000",
+"x": 0.75,
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+250
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "maya",
+"label": "MAYA",
+"talk": true,
+"at": -1,
+"x": 0.75,
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+"text": [
+{
+"s": "\"THAT'S THE MOST DOCTOR THING",
+"x": 0.42,
+"y": 0.16,
+"at": "@0.000",
+"size": 44
+},
+{
+"s": "I'VE EVER HEARD.\"",
+"x": 0.42,
+"y": 0.26,
+"at": "@0.300",
+"size": 44
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+251
+],
+"set": "city",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.62,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.5,
+"y": 0.3,
+"r": 90,
+"at": "@0.250",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+252
+],
+"set": "city",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.62,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.5,
+"y": 0.3,
+"r": 90,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "NOAH'S STORY SPREADS... NOT THE BAG",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 42
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+253,
+254
+],
+"set": "city",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.62,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.5,
+"y": 0.3,
+"r": 90,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "NOAH'S STORY SPREADS... NOT THE BAG",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 42
+},
+{
+"s": "FEVER. FAST BREATHING.",
+"x": 0.5,
+"y": 0.54,
+"at": "@0.000",
+"size": 44
+},
+{
+"s": "CONFUSION. CLAMMY SKIN.",
+"x": 0.5,
+"y": 0.62,
+"at": "@1.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+255
+],
+"set": "city",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.62,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.5,
+"y": 0.3,
+"r": 90,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "NOAH'S STORY SPREADS... NOT THE BAG",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 42
+},
+{
+"s": "FEVER. FAST BREATHING.",
+"x": 0.5,
+"y": 0.54,
+"at": -1,
+"size": 44
+},
+{
+"s": "CONFUSION. CLAMMY SKIN.",
+"x": 0.5,
+"y": 0.62,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+256
+],
+"set": "hospital",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.35,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.55,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.75,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"COULD IT BE SEPSIS?\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 50
+}
+]
+},
+{
+"lines": [
+257,
+258
+],
+"set": "hospital",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.35,
+"pose": [
+[
+0,
+"explain"
+],
+[
+"@1.000",
+"talk"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"talk": [
+"@0.000",
+"@0.900"
+]
+},
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.55,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.75,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"COULD IT BE SEPSIS?\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 50
+},
+{
+"s": "NURSES SHARE IT. SCHOOLS SHARE IT.",
+"x": 0.5,
+"y": 0.24,
+"at": "@1.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+259
+],
+"set": "hospital",
+"actors": [
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.35,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.55,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.75,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"COULD IT BE SEPSIS?\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 50
+},
+{
+"s": "NURSES SHARE IT. SCHOOLS SHARE IT.",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+260
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.45,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"card": {
+"big": "A MONTH LATER",
+"small": "more early cases caught than ever",
+"at": "@0.100",
+"x": 0.5,
+"w": 700
+},
+"text": []
+},
+{
+"lines": [
+261
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.45,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"card": {
+"big": "A MONTH LATER",
+"small": "more early cases caught than ever",
+"at": -1,
+"x": 0.5,
+"w": 700
+},
+"text": [
+{
+"s": "MANY NEVER NEEDED THE BAG",
+"x": 0.5,
+"y": 0.4,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+262,
+263
+],
+"set": "city",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "money",
+"x": 0.3,
+"y": 0.5,
+"r": 50,
+"at": "@0.400",
+"disc": true
+},
+{
+"k": "coin",
+"x": 0.5,
+"y": 0.5,
+"r": 50,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "$5. $10.",
+"x": 0.5,
+"y": 0.3,
+"at": "@1.000",
+"size": 60
+}
+]
+},
+{
+"lines": [
+264,
+265
+],
+"set": "city",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "money",
+"x": 0.3,
+"y": 0.5,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "coin",
+"x": 0.5,
+"y": 0.5,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "heart",
+"x": 0.7,
+"y": 0.5,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "$5. $10.",
+"x": 0.5,
+"y": 0.3,
+"at": -1,
+"size": 60
+},
+{
+"s": "FROM THOUSANDS OF STRANGERS",
+"x": 0.5,
+"y": 0.7,
+"at": "@1.000",
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+266
+],
+"set": "hospital",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.4,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.5
+},
+{
+"k": "sign",
+"x": 0.5,
+"y": 0.4,
+"s": "NOAH WING"
+}
+],
+"card": {
+"big": "ONE NEW CHILDREN'S WING",
+"small": "not ten hospitals",
+"at": "@0.150",
+"w": 760
+}
+},
+{
+"lines": [
+267,
+268
+],
+"set": "hospital",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.4,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.5
+},
+{
+"k": "sign",
+"x": 0.5,
+"y": 0.4,
+"s": "NOAH WING"
+}
+],
+"card": {
+"big": "ONE NEW CHILDREN'S WING",
+"small": "not ten hospitals",
+"at": -1,
+"w": 760
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+269
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.47,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 52,
+"zzz": true
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"text": []
+},
+{
+"lines": [
+270
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.47,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 52,
+"zzz": true
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "NO MORE HOURLY ALARMS",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 46
+}
+]
+},
+{
+"lines": [
+271
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.47,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 52,
+"zzz": true
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "NO MORE HOURLY ALARMS",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+}
+]
+},
+{
+"lines": [
+272,
+273
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.47,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 52,
+"zzz": true
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "NO MORE HOURLY ALARMS",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "HEAL BY DAY. SLEEP AT NIGHT.",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+]
+},
+{
+"lines": [
+274
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rio",
+"who": "rioPj",
+"x": 0.47,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": -1.5708,
+"dy": 52,
+"zzz": true
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "NO MORE HOURLY ALARMS",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "HEAL BY DAY. SLEEP AT NIGHT.",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "THE DOCTORS HANDLE THE REST",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 44
+}
+]
+},
+{
+"lines": [
+275
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"text": []
+},
+{
+"lines": [
+276
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "YOU CAN'T SAVE EVERYONE",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+96.00000000000009,
+96.00000000000009
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+277
+],
+"set": "hospital",
+"actors": [
+{
+"id": "maya",
+"who": "maya",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"hold": {
+"k": "docbag"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "YOU CAN'T SAVE EVERYONE",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "BUT YOU CAN SAVE THE NEXT ONE",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+278
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": [
+[
+0,
+0.15
+],
+[
+"@0.999",
+0.4
+]
+],
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.12,
+"open": 1
+}
+],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+279
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": [
+[
+0,
+0.4
+]
+],
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.12,
+"open": 1
+}
+],
+"text": [
+{
+"s": "KNOCK KNOCK",
+"x": 0.15,
+"y": 0.16,
+"at": "@0.000",
+"size": 50
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+96.00000000000009,
+96.00000000000009
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+280,
+281
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": [
+[
+0,
+0.4
+]
+],
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.12,
+"open": 1
+}
+],
+"text": [
+{
+"s": "KNOCK KNOCK",
+"x": 0.15,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "ONE NEW FRONT TOOTH",
+"x": 0.5,
+"y": 0.26,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+282,
+283
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.4,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "note"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"props": [],
+"text": [
+{
+"s": "NO CAPE. NO BAG.",
+"x": 0.5,
+"y": 0.12,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+284,
+285
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.4,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "note"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "bed",
+"x": 0.78,
+"y": 0.4,
+"r": 50,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "NO CAPE. NO BAG.",
+"x": 0.5,
+"y": 0.12,
+"at": -1,
+"size": 46
+},
+{
+"s": "JUST YOU... ASLEEP ON THE COUCH",
+"x": 0.5,
+"y": 0.2,
+"at": "@1.000",
+"size": 42
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+286,
+287
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.4,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "note"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"joy"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "bed",
+"x": 0.78,
+"y": 0.4,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "NO CAPE. NO BAG.",
+"x": 0.5,
+"y": 0.12,
+"at": -1,
+"size": 46
+},
+{
+"s": "JUST YOU... ASLEEP ON THE COUCH",
+"x": 0.5,
+"y": 0.2,
+"at": -1,
+"size": 42
+},
+{
+"s": "\"SUPER RIO. TAKING A NAP.\"",
+"x": 0.5,
+"y": 0.28,
+"at": "@1.000",
+"size": 44,
+"color": "#5ad28a"
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+288,
+289
+],
+"set": "room",
+"actors": [
+{
+"id": "noah",
+"who": "noah",
+"x": 0.4,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "note"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"joy"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "bed",
+"x": 0.78,
+"y": 0.4,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "NO CAPE. NO BAG.",
+"x": 0.5,
+"y": 0.12,
+"at": -1,
+"size": 46
+},
+{
+"s": "JUST YOU... ASLEEP ON THE COUCH",
+"x": 0.5,
+"y": 0.2,
+"at": -1,
+"size": 42
+},
+{
+"s": "\"SUPER RIO. TAKING A NAP.\"",
+"x": 0.5,
+"y": 0.28,
+"at": -1,
+"size": 44,
+"color": "#5ad28a"
+},
+{
+"s": "ONE AT A TIME",
+"x": 0.5,
+"y": 0.36,
+"at": "@1.000",
+"size": 44,
+"color": "#ff6a5a"
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+290
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.72,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+]
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.84
+},
+{
+"k": "paper",
+"x": 0.84,
+"up": 1.1,
+"s": "SUPER RIO, NAP"
+}
+],
+"cam": {
+"z": [
+1.4,
+1.45
+],
+"x": [
+440.0,
+450.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+291
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.72,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+]
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.84
+},
+{
+"k": "paper",
+"x": 0.84,
+"up": 1.1,
+"s": "SUPER RIO, NAP"
+}
+],
+"cam": {
+"z": [
+1.45,
+1.5
+],
+"x": [
+450.0,
+460.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "RIGHT IN THE MIDDLE",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 48
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+292
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"alpha": [
+[
+0,
+1
+]
+]
+}
+],
+"items": [
+{
+"k": "glass",
+"x": 0.6
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "YOUR REFLECTION FLICKERS",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.600",
+"size": 48
+}
+]
+},
+{
+"lines": [
+293,
+294
+],
+"set": "bedroom",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@1.000",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"alpha": [
+[
+0,
+1.0
+],
+[
+"@0.300",
+0.35
+],
+[
+"@0.600",
+1
+],
+[
+"@1.000",
+0.25
+]
+]
+}
+],
+"items": [
+{
+"k": "glass",
+"x": 0.6
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "YOUR REFLECTION FLICKERS",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 48
+},
+{
+"s": "...INVISIBLE?",
+"x": 0.5,
+"y": 0.26,
+"at": "@1.000"
+}
+]
+},
+{
+"lines": [
+295,
+296
+],
+"set": "face",
+"actors": [],
+"items": [],
+"who": "rio",
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"lines": [
+297
+],
+"set": "end",
+"actors": [],
+"items": [],
+"tpl": "end"
+}
+]

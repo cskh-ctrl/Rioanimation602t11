@@ -77,6 +77,10 @@ def _remap_obj(o, n, s0, L):
             u = _u(h["drop"], n)
             if u < s0: o.pop("hold"); h = None
             else: v = _scal(h["drop"], n, s0, L); h["drop"] = 2 if v is None else v
+        if h is not None and "glow" in h:
+            a0, a1 = _u(h["glow"][0], n), _u(h["glow"][1], n); a0, a1 = max(a0, s0), min(a1, s0 + L)
+            if a1 > a0: h["glow"] = [_at(a0 - s0), _at(a1 - s0) if a1 < s0 + L else 1]
+            else: h.pop("glow")
         if h is not None: o["hold"] = h
     if "enter" in o:
         if s0 > 0: o.pop("enter"); o.pop("enterUntil", None)
@@ -137,6 +141,7 @@ def _frame(c, j):
     if j == 0 or c.get("tpl") or c["set"] in ("face", "space", "map") or "cam" in c or not c["actors"]: return
     acts = c["actors"]
     if any(a.get("up") or a.get("rot") or a.get("alpha") or a.get("clip") is not None or a.get("fly") for a in acts): return
+    if len(c.get("text") or []) >= 2: return   # text-heavy shots keep the wide frame so the words never sit on a face
     f = ([a for a in acts if a.get("talk")] or [a for a in acts if a["id"] == "rio"] or acts)[0]; X = _xs(f)
     if not all(isinstance(v, (int, float)) for v in X) or max(X) - min(X) > 0.15: return
     xm = sum(X) / len(X)
