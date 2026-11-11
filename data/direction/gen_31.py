@@ -51,7 +51,7 @@ S([48], "room", [A("rio", [[0, KNOB], [0.25, 0.64], [0.35, 0.64], [0.6, KNOB], [
   [door(0.64, open=1, inside="tokyo")], card=card("12 TIME ZONES", "before dinner", x=0.3), **HALL)
 S([49], "kitchen", [A("rio", 0.45, "chest", "confused")], [], props=[{"k": "stomach", "x": 0.6, "y": 0.4, "r": 60, "at": 0.1, "disc": True}, {"k": "sun", "x": 0.75, "y": 0.25, "r": 50, "at": 0.4, "disc": True}], card=card("BREAKFAST?", None, x=0.3, at=0.5))
 S([50], "kitchen", [A("rio", 0.45, "sad", "sleepy")], [], props=[{"k": "eye", "x": 0.6, "y": 0.4, "r": 60, "at": 0.1, "disc": True}, {"k": "moon", "x": 0.75, "y": 0.25, "r": 50, "at": 0.4, "disc": True}], card=card("MIDNIGHT", None, x=0.3, at=0.5))
-S([51, 52, 53], "home", [A("rio", 0.4, [[0, "sad"], ["@1", "shrug"], ["@2", "facepalm"]], [[0, "sleepy"], ["@1", "smirk"], ["@2", "sad"]])], [], card=card("JET LAG", "...without the jet", at=0.05), text=[{"s": "GENIUS?", "x": 0.72, "y": 0.3, "at": "@1"}, {"s": "TORTURE?", "x": 0.72, "y": 0.45, "at": "@2", "color": "#ff6a5a"}])
+S([51, 52, 53], "home", [A("rio", 0.4, [[0, "sad"], ["@1", "shrug"], ["@2", "facepalm"]], [[0, "sleepy"], ["@1", "smirk"], ["@2", "sad"]])], [], card=card("JET LAG", "...without the jet", at=0.05), text=[{"s": "GENIUS?", "x": 0.75, "y": 0.42, "at": "@1"}, {"s": "TORTURE?", "x": 0.75, "y": 0.55, "at": "@2", "color": "#ff6a5a"}])
 S([54, 55, 56, 57], "room", [A("rio", KNOB, [[0, "relaxed"], ["@1", "knob"], ["@3", "holdCup"]], "smile")], [door(0.64, open=[["@1.3", 0], ["@2", 1]], inside="mountain")], card=card("DENVER", "the Mile High City... about 1,600 m up", at="@1", w=820), **HALL)
 S([58, 59, 60], "room", [A("rio", 0.5, [[0, "knob"], ["@0.6", "handsOnHead"]], [[0, "smile"], ["@0.6", "shocked"]])],
   [door(0.64, open=1, inside="mountain"), prop("letter", 0.3, 0.3, up=1.0, dx=[["@1", 0], ["@2", 0.4]], upk=[["@1", 1.0], ["@2", 1.8]], rot=[["@1", 0], ["@2", 4]]), prop("letter", 0.25, 0.25, up=0.8, dx=[["@1", 0], ["@2", 0.45]], upk=[["@1", 0.8], ["@2", 1.4]], rot=[["@1", 0], ["@2", -3]]),
@@ -81,7 +81,7 @@ S([89], "room", [A("rio", 0.56, "push", "determined")], [door(0.64, open=[[0, 0.
 S([90, 91], "room", [A("rio", 0.56, "knob", "smirk", hold={"k": "note"})], [door(0.64), {"k": "puddle", "x": 0.56}, {"k": "paper", "x": 0.64, "up": 1.5, "s": "PICTURE THE SAND"}], cam={"z": [1.3, 1.4], "x": [100, 120], "y": [-60, -60]}, **HALL)
 S([92, 93, 94], "town", [A("rio", 0.42, [[0, "relaxed"], ["@2", "holdCup"]], "joy", hold={"k": "tomato", "from": "@1.5"})], [{"k": "stall", "x": 0.68}, door(0.15, open=1, inside="apartment")], card=card("ITALY", "Saturday groceries", at="@1", x=0.3), text=[{"s": "TASTES LIKE SUMMER", "x": 0.6, "y": 0.18, "at": "@2", "size": 56}])
 S([95, 96, 97], "town", [A("rio", 0.42, "holdCup", [[0, "smile"], ["@1", "surprised"]], hold={"k": "tomato"})], [{"k": "stall", "x": 0.68}],
-  card=card("THE CATCH?", None, at=0.05), props=[{"k": "magnifier", "x": 0.55, "y": 0.45, "r": 70, "at": "@2", "disc": True}, {"k": "bee", "x": 0.6, "y": 0.47, "r": 30, "at": "@2.4"}], text=[{"s": "NO FRESH FRUIT ACROSS BORDERS", "x": 0.5, "y": 0.34, "at": "@1", "size": 46}])
+  card=card("THE CATCH?", None, at=0.05), props=[{"k": "magnifier", "x": 0.55, "y": 0.45, "r": 70, "at": "@2", "disc": True}, {"k": "bee", "x": 0.6, "y": 0.47, "r": 30, "at": "@2.4"}], text=[{"s": "NO FRESH FRUIT ACROSS BORDERS", "x": 0.5, "y": 0.42, "at": "@1", "size": 46}])
 S([98, 99, 100], "town", [A("rio", 0.42, [[0, "think"], ["@1", "sad"]], "nervous", hold={"k": "tomato"})], [{"k": "stall", "x": 0.68}], props=[{"k": "card", "x": 0.6, "y": 0.4, "r": 60, "at": 0.05, "disc": True}, {"k": "police", "x": 0.75, "y": 0.4, "r": 50, "at": "@1", "disc": True}], card=card("STILL ILLEGAL", "even with a magic door", at="@1", x=0.3))
 S([101, 102], "office", [A("rio", 0.4, "holdCup", "nervous", hold={"k": "tomato"}), A("max", 0.62, [[0, "cheer"], ["@1", "point"]], "happy", facing=-1, talk=["@1", 1])], [{"k": "desk", "x": 0.82}], text=[{"s": "HA HA HA", "x": 0.65, "y": 0.25, "at": 0.05, "size": 54}])
 S([103], "town", [A("rio", 0.52, [[0, "reach"], [0.6, "sad"]], "sad", hold={"k": "tomato", "to": 0.55})], [{"k": "stall", "x": 0.68}])
@@ -90,8 +90,8 @@ S([106], "room", [A("oldman", 0.5, "chest", "scared", facing=-1), A("oldwoman", 
 S([107], "city", [], [prop("ambulance", 0.4, 1.6, dx=[[0, -0.2], [1, 0.1]])], card=card("~7 MINUTES", "average ambulance arrival in big US cities", w=860))
 S([108, 109], "room", [A("rio", [[0, 0.4], ["@1", KNOB]], [[0, "determined"], ["@1", "knob"]], "determined")], [door(0.64, open=[["@1.3", 0], ["@1.7", 1]], inside="hospital", sparkle=True)], wall="#c8b8a8", wall2="#7a6a5a")
 S([110], "hospital", [A("nurse", [[0, 0.85], [0.8, 0.55]], "relaxed", "worried", facing=-1), A("doctor", [[0, 0.95], [0.8, 0.68]], "relaxed", "worried", facing=-1), A("rio", 0.3, "point", "determined")], [door(0.18, open=1, inside="apartment")])
-S([111, 112], "hospital", [A("oldman", 0.42, "lie", "sleepy", rot=-1.5708, dy=-20), A("doctor", 0.64, "explain", "smile", facing=-1, talk=["@1", 1]), A("rio", 0.78, "relaxed", "joy", facing=-1)], [], card=card("60 SECONDS LATER", None, at=0.05, y=0.15))
-S([113, 114, 115], "bedroom", [A("rio", 0.42, "lie", [[0, "neutral"], ["@2", "happy"]], rot=-1.5708, dy=52, who="rioPj")], [], text=[{"s": "NOT JET LAG...", "x": 0.5, "y": 0.2, "at": "@1"}, {"s": "JOY", "x": 0.5, "y": 0.32, "at": "@2", "size": 90}])
+S([111, 112], "hospital", [A("oldman", 0.42, "lie", "sleepy", rot=-1.5708, dy=41), A("doctor", 0.64, "explain", "smile", facing=-1, talk=["@1", 1]), A("rio", 0.78, "relaxed", "joy", facing=-1)], [{"k": "bed", "x": 0.42}], card=card("60 SECONDS LATER", None, at=0.05, y=0.15))
+S([113, 114, 115], "bedroom", [A("rio", 0.47, "lie", [[0, "neutral"], ["@2", "happy"]], rot=-1.5708, dy=52, who="rioPj")], [], text=[{"s": "NOT JET LAG...", "x": 0.5, "y": 0.2, "at": "@1"}, {"s": "JOY", "x": 0.5, "y": 0.32, "at": "@2", "size": 90}])
 S([116, 117], "city", [A("rio", [[0, 0.5], [0.4, 0.5]], "relaxed", "smile", alpha=[[0, 0], [0.3, 1]]), A("crowd1", 0.25, "phone", "shocked", hold={"k": "phone"}), A("crowd2", 0.78, "point", "shocked", facing=-1)], [door(0.5, a=[[0, 1], [0.35, 0]], open=1, inside="apartment")])
 S([118, 119], "home", [A("rio", 0.45, "phone", [[0, "surprised"], ["@1", "nervous"]], hold={"k": "phone"})], [], card=card("12,000,000 VIEWS", "by Monday", at=0.05, w=760), props=[{"k": "bell", "x": 0.7, "y": 0.42, "r": 40, "at": "@1", "disc": True}])
 S([120, 121, 122], "home", [A("rio", 0.4, "phoneEar", "surprised", hold={"k": "phone"})], [], inset={"who": "victor", "label": "VICTOR HALE", "talk": False, "at": "@1"}, card=card("SHIPPING CEO", "biggest on Earth", at="@2", x=0.3, y=0.18))
@@ -132,27 +132,27 @@ S([191, 192], "room", [A("rio", 0.45, "phoneEar", "worried", hold={"k": "phone"}
 S([193, 194, 195, 196], "room", [A("rio", KNOB, "think", "worried", who="rioSuit")], [door(0.64)], thought={"props": ["house", "wave"], "x": 0.3, "y": 0.25, "at": 0.05, "cross": True}, card=card("THE PORCH IS UNDERWATER", None, at="@1", w=900, size=56, y=0.12), **HALL)
 S([197, 198, 199], "room", [A("rio", KNOB, "think", "determined", who="rioSuit")], [door(0.64)], thought={"props": ["house", "star"], "x": 0.3, "y": 0.25, "at": 0.05}, text=[{"s": "THE ROOF", "x": 0.5, "y": 0.15, "at": "@1"}], **HALL)
 ROOF = dict()
-S([200, 201, 202], "room", [A("rio", 0.3, [[0, "knob"], ["@2", "point"]], "determined", who="rioSuit"), A("linda", 0.72, "wave", "scared", facing=-1), A("oldwoman", 0.8, "sad", "scared", facing=-1), A("crowd2", 0.88, "handsOnHead", "scared", facing=-1)],
+S([200, 201, 202], "roof", [A("rio", 0.3, [[0, "knob"], ["@2", "point"]], "determined", who="rioSuit"), A("linda", 0.72, "wave", "scared", facing=-1), A("oldwoman", 0.8, "sad", "scared", facing=-1), A("crowd2", 0.88, "handsOnHead", "scared", facing=-1)],
   [door(0.38, open=[[0, 0], [0.12, 1]], inside="apartment")], fx=["rain"], text=[{"s": "GO, GO, GO!", "x": 0.3, "y": 0.18, "at": "@2"}], **ROOF)
 S([203, 204, 205, 206], "roof", [A("rio", 0.28, "think", "worried", who="rioSuit"), A("crowd1", 0.72, "relaxed", "scared", facing=-1), A("oldman", 0.8, "sad", "scared", facing=-1)], [door(0.38, open=1, inside="apartment")], fx=["rain"], card=card("60 SECONDS", "12 people... 5 seconds each", at="@1", x=0.62, w=640), **ROOF)
 S([207, 208], "roof", [A("oldwoman", [[0, 0.7], [1, 0.62]], "holdFront", "scared", facing=-1), A("linda", 0.8, "point", "worried", facing=-1)], [door(0.38, open=1, inside="apartment")], fx=["rain"], text=[{"s": "SLIPPERY", "x": 0.6, "y": 0.2, "at": "@1"}], **ROOF)
 S([209, 210], "town:night", [], [prop("car", 0.6, 1.2, up=0.3, rot=[[0, 0], [1, 0.2]]), {"k": "water", "level": [[0, 0.15], ["@1", 0.15], ["@1.6", 0.6]]}], card=card("15 CM", "of moving water can knock you down", at=0.05, w=760), text=[{"s": "60 CM FLOATS A CAR", "x": 0.5, "y": 0.4, "at": "@1", "size": 60}], fx=["rain"])
 S([211], "town:night", [], [{"k": "house", "x": 0.5, "night": True, "chime": False}, {"k": "water", "level": [[0, 2.4], [1, 2.6]]}], fx=["rain", "night"], cam={"z": [0.6, 0.63], "x": [560, 560], "y": [-640, -640]}, card=card("WATER AT THE GUTTERS", None, w=820, size=56))
-S([212], "room", [A("oldman", [[0, 0.72], [0.4, 0.38]], "relaxed", "scared", facing=-1, alpha=[[0.35, 1], [0.42, 0]]), A("kid", [[0.3, 0.72], [0.7, 0.38]], "relaxed", "scared", facing=-1, alpha=[[0.65, 1], [0.72, 0]]), A("crowd1", [[0.55, 0.8], [0.95, 0.38]], "relaxed", "scared", facing=-1, alpha=[[0.9, 1], [0.97, 0]]), A("rio", 0.28, "point", "determined", who="rioSuit")],
+S([212], "roof", [A("oldman", [[0, 0.72], [0.4, 0.38]], "relaxed", "scared", facing=-1, alpha=[[0.35, 1], [0.42, 0]]), A("kid", [[0.3, 0.72], [0.7, 0.38]], "relaxed", "scared", facing=-1, alpha=[[0.65, 1], [0.72, 0]]), A("crowd1", [[0.55, 0.8], [0.95, 0.38]], "relaxed", "scared", facing=-1, alpha=[[0.9, 1], [0.97, 0]]), A("rio", 0.28, "point", "determined", who="rioSuit")],
   [door(0.38, open=1, inside="apartment")], fx=["rain"], text=[{"s": "5...  6...  7...", "x": 0.6, "y": 0.18, "at": 0.1}], **ROOF)
-S([213, 214, 215], "room", [A("linda", 0.6, [[0, "point"], ["@1", "wave"]], "determined", facing=-1, talk=[0, "@1.6"]), A("oldwoman", [[0, 0.5], ["@0.8", 0.38]], "relaxed", "scared", facing=-1, alpha=[["@0.7", 1], ["@0.9", 0]])],
+S([213, 214, 215], "roof", [A("linda", 0.6, [[0, "point"], ["@1", "wave"]], "determined", facing=-1, talk=[0, "@1.6"]), A("oldwoman", [[0, 0.5], ["@0.8", 0.38]], "relaxed", "scared", facing=-1, alpha=[["@0.7", 1], ["@0.9", 0]])],
   [door(0.38, open=[[0, 1], ["@1.7", 1], ["@2.0", 0]], inside="apartment")], fx=["rain"], text=[{"s": "SLAM", "x": 0.38, "y": 0.2, "at": "@1.8"}], sfx=[{"at": 2.4, "name": "whoosh", "gain": -8}], **ROOF)
 S([216, 217], "town:night", [A("linda", 0.79, "wave", "scared", up=5.2), A("oldwoman", 0.84, "sad", "scared", up=5.2), A("oldman", 0.88, "crossArms", "worried", up=5.2), A("boy", 0.75, "sad", "scared", up=5.2), A("crowd2", 0.91, "sad", "scared", up=5.2)],
   [{"k": "house", "x": 0.5, "night": True, "chime": False}, {"k": "water", "level": [[0, 2.5], [1, 2.7]]}], fx=["rain", "night"], cam={"z": [0.6, 0.63], "x": [560, 560], "y": [-640, -640]}, card=card("5 STILL ON THE ROOF", "including Mom", at=0.05, y=0.14))
 S([218, 219], "home", [A("rio", 0.4, "sad", "scared", who="rioSuit")], [prop("clock", 0.68, 0.6, up=1.6, disc=True)], card=card("11:00", "the door needs 1 hour", at="@1", x=0.3))
 S([220, 221, 222], "home", [A("rio", 0.4, "think", "worried", who="rioSuit")], [prop("clock", 0.68, 0.6, up=1.6, disc=True)], card=card("12:00 NOON", "same minute as Singapore", at="@1", x=0.32, w=700))
-S([223, 224, 225], "room", [A("rio", 0.5, "think", "worried", who="rioSuit")], [door(0.5)], thought={"props": ["money", "house"], "x": 0.5, "y": 0.2, "at": "@2"}, text=[{"s": "ONE OPENING. ONE DOOR.", "x": 0.5, "y": 0.42, "at": 0.05, "size": 56}], **HALL)
-S([226, 227], "home", [A("rio", 0.3, "carry", "worried", who="rioSuit", hold={"k": "towel"}), A("oldman", 0.5, "sad", "sad"), A("kid", 0.6, "sad", "sad"), A("crowd1", 0.7, "crossArms", "sad"), A("crowd2", 0.8, "sad", "sad")], [], card=card("THE LONGEST HOUR", None, at=0.05, y=0.14, w=700))
+S([223, 224, 225], "room", [A("rio", 0.5, "think", "worried", who="rioSuit")], [door(0.5)], thought={"props": ["money", "house"], "x": 0.25, "y": 0.32, "at": "@2"}, text=[{"s": "ONE OPENING. ONE DOOR.", "x": 0.5, "y": 0.12, "at": 0.05, "size": 56}], **HALL)
+S([226, 227], "home", [A("rio", [[0, 0.15], ["@1.3", 0.42]], "carry", "worried", who="rioSuit", hold={"k": "towel"}, walkArms=True), A("oldman", 0.5, "sad", "sad"), A("kid", 0.6, "sad", "sad"), A("crowd1", 0.7, "crossArms", "sad"), A("crowd2", 0.8, "sad", "sad")], [], card=card("THE LONGEST HOUR", None, at=0.05, y=0.14, w=700))
 S([228, 229, 230, 231], "home", [A("rio", 0.42, "relaxed", "sad", who="rioSuit"), A("oldwoman", 0.55, [[0, "reach"], ["@1", "talk"]], "smile", facing=-1, talk=["@1", "@1.9"])], [], cam={"z": [1.4, 1.5], "x": [0, 0], "y": [-60, -60]})
 S([232, 233], "room", [A("rio", KNOB, "phoneEar", "determined", who="rioSuit", hold={"k": "phone"})], [door(0.64)], inset={"who": "victor", "label": "VICTOR HALE", "talk": True, "at": 0, "x": 0.25}, props=[{"k": "pencil", "x": 0.25, "y": 0.55, "r": 40, "at": "@1", "disc": True}], **HALL)
 S([234, 235, 236, 237], "room", [A("rio", KNOB, "knob", "determined", who="rioSuit")], [door(0.64, open=[["@3.6", 0], ["@3.95", 1]], inside="roof")], card=card("11:59", None, at=0.05, x=0.3), thought={"props": ["house"], "x": 0.3, "y": 0.45, "at": "@3"}, cam={"z": [1.2, 1.45], "x": [60, 140], "y": [-40, -40]}, **HALL)
 S([238, 239], "roof", [A("rio", 0.3, "point", "determined", who="rioSuit"), A("linda", 0.72, "wave", "scared", facing=-1), A("oldwoman", 0.6, "sad", "scared", facing=-1), A("oldman", 0.82, "sad", "scared", facing=-1)], [door(0.38, open=1, inside="apartment"), {"k": "water", "level": [[0, -0.05], [1, 0.03]]}], fx=["rain"], **ROOF)
-S([240, 241, 242], "room", [A("oldwoman", [[0, 0.6], ["@0.8", 0.38]], "relaxed", "scared", facing=-1, alpha=[["@0.7", 1], ["@0.9", 0]]), A("oldman", [[0, 0.75], ["@1.8", 0.38]], "relaxed", "scared", facing=-1, alpha=[["@1.7", 1], ["@1.9", 0]]),
+S([240, 241, 242], "roof", [A("oldwoman", [[0, 0.6], ["@0.8", 0.38]], "relaxed", "scared", facing=-1, alpha=[["@0.7", 1], ["@0.9", 0]]), A("oldman", [[0, 0.75], ["@1.8", 0.38]], "relaxed", "scared", facing=-1, alpha=[["@1.7", 1], ["@1.9", 0]]),
   A("kid", [["@1", 0.82], ["@2.8", 0.38]], "relaxed", "scared", facing=-1, alpha=[["@2.7", 1], ["@2.9", 0]]), A("boy", [["@1.5", 0.88], ["@2.9", 0.4]], "relaxed", "scared", facing=-1), A("linda", 0.9, "wave", "worried", facing=-1)], [door(0.38, open=1, inside="apartment")], fx=["rain"], **ROOF)
 S([243, 244, 245, 246], "roof", [A("linda", [[0, 0.7], ["@3", 0.45]], "holdCup", "sad", facing=-1, hold={"k": "chime"})], [door(0.38, open=1, inside="apartment")], fx=["rain"], cam={"z": [1.2, 1.4], "x": [0, -60], "y": [-40, -40]}, text=[{"s": "clink", "x": 0.55, "y": 0.25, "at": "@3", "size": 50}], **ROOF)
 S([247], "home", [A("rio", 0.36, "hug", "cry", who="rioSuit"), A("linda", 0.46, "hug", "cry", facing=-1, hold={"k": "chime"})], [door(0.72, open=[[0, 1], [0.6, 1], [0.8, 0]], inside="roof")], text=[{"s": "SLAM", "x": 0.72, "y": 0.2, "at": 0.7}])
@@ -176,6 +176,44 @@ S([286, 287, 288, 289, 290], "street", [A("rio", [[0, 0.2], ["@2", 0.4]], [[0, "
 S([291, 292], "face", [], [], who="rio", expr=[[0, "smile"]])
 S([293], "end", [], [], tpl="end")
 
+
+# ---- v3 pass (same as video 32): talkers change gesture each sentence, no aimless pacing,
+# long shots cut into 1-2 sentence shots with varied framing ----
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "pipeline"))
+from sb import split_board, plan_chunks
+from build import split_sentences
+for b in B: b.setdefault("actors", []); b.setdefault("items", []); b.setdefault("set", "home")
+VAR = {"relaxed": ["think", "crossArms", "shrug"], "think": ["relaxed", "crossArms"], "crossArms": ["think", "relaxed"], "sad": ["facepalm", "chest"], "nervous": ["handsOnHead", "think"],
+       "talk": ["explain", "point"], "explain": ["talk", "point"], "worried": ["think", "handsOnHead"], "point": ["explain", "relaxed"], "shrug": ["relaxed", "think"]}
+for b in B:
+    if b.get("tpl") or b["set"] in ("face", "space"): continue
+    n = len(b["lines"])
+    for a in b["actors"]:
+        poses = a["pose"]; p0 = poses[0][1]
+        if len(poses) == 1 and p0 in VAR and n > 1 and (a.get("talk") or len(b["actors"]) == 1) and not a.get("rot") and not a.get("up") and not a.get("hold"):
+            v = VAR[p0]; a["pose"] = [[0, p0]] + [[f"@{i}", v[(i - 1) % len(v)] if i % 2 else p0] for i in range(1, n)]
+item = next(x for x in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "scripts.json")))["long"] if x["stt"] == 31)
+LENS = [len(x.split()) for x in split_sentences(item["script"])]
+def xs(a):
+    v = a["x"]; return [k[1] for k in v] if isinstance(v, list) else [v]
+def frame(c, j):
+    if j == 0 or c.get("tpl") or c["set"] in ("face", "space", "map") or "cam" in c or not c["actors"]: return
+    acts = c["actors"]
+    if any(a.get("up") or a.get("rot") or a.get("alpha") or a.get("clip") is not None for a in acts): return
+    f = ([a for a in acts if a.get("talk")] or [a for a in acts if a["id"] == "rio"] or acts)[0]; X = xs(f)
+    if max(X) - min(X) > 0.15: return
+    xm = sum(X) / len(X)
+    if j % 2 == 1: c["cam"] = {"z": [1.34, 1.42], "x": [max(-520, min(520, (xm - 0.5) * 1920))] * 2, "y": [-40, -40]}
+    else: c["cam"] = {"z": [1.12, 1.16], "x": [max(-300, min(300, (xm - 0.5) * 960))] * 2, "y": [-10, -10]}
+NB = []
+for b in B:
+    n = len(b["lines"])
+    if n < 2 or b.get("tpl") or b["set"] == "face": NB.append(b); continue
+    ch = plan_chunks(n, [LENS[i] for i in b["lines"]])
+    if len(ch) == 1: NB.append(b); continue
+    for j, c in enumerate(split_board(b, ch)): frame(c, j); NB.append(c)
+B[:] = NB
 out = os.path.join(os.path.dirname(__file__), "long_31.json")
 json.dump(B, open(out, "w"), indent=0, ensure_ascii=False)
 covered = sorted(i for b in B for i in b["lines"]); print(len(B), "shots, lines", covered[0], "-", covered[-1], "count", len(covered), "dupes" if len(set(covered)) != len(covered) else "")
