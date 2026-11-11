@@ -1,2 +1,2 @@
-Rio video 40 - spare pocket
-FORCE:long_40
+Rio videos 39-40 - retry after apt network failure
+FORCE:long_39,long_40
