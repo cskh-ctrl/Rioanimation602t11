@@ -1,2 +1,2 @@
-Rio video 31 v3 - more cuts, varied framing, roof set fix, text fit
-FORCE:long_31
+Rio videos 33-35 v3 - cuts, framing, text placement
+FORCE:long_33,long_34,long_35

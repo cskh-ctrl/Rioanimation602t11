@@ -84,7 +84,7 @@ S([269, 270, 271, 272, 273, 274], "room", [A("rio", 0.4, "pointUp", "determined"
 S([275, 276, 277, 278], "room", [seat("rio", 0.42, "type", "determined")], deskT(0.54) + [mini(0.62, 0.75)], card=card("THE STORY SPREADS", "how a silly code word stopped a scam", at=0.05, w=780), props=[P("heart", 0.75, 0.42, 40, "@3")], **APT)
 S([279, 280], "home", [A("grandma", 0.35, "phone", "smile", hold={"k": "phone"}), A("oldman", 0.65, "phone", "smile", facing=-1, hold={"k": "phone"})], [], text=[T("\"WHAT'S OUR CODE WORD?\"", 0.5, 0.18, "@1", size=52)])
 S([281, 282, 283, 284, 285, 286], "room", [A("rio", 0.4, "phoneEar", [[0, "surprised"], ["@4", "joy"]], hold={"k": "phone"})], [], inset={"who": "investor", "label": "NEW INVESTOR", "talk": True, "at": 0}, text=[T("\"SOMEONE WHO KNOWS WHAT MATTERS\"", 0.42, 0.2, "@3", size=46), T("IT'S ENOUGH", 0.42, 0.32, "@5", size=56)], **APT)
-S([287, 288, 289, 290, 291, 292, 293], "room", [A("rio", 0.4, "phoneEar", "happy", hold={"k": "phone"}, talk=["@5", 1])], [mini(0.62, 0.0, alert=False)], inset={"who": "frank", "label": "DAD", "talk": True, "at": "@1", "expr": [[0, "happy"]]}, card=card("SUNDAY, 6 PM", "you answer it yourself", at=0.03, x=0.35, y=0.15, w=560), text=[T("\"BISCUIT, DAD. ALWAYS BISCUIT.\"", 0.42, 0.32, "@5", size=48)], **APT)
+S([287, 288, 289, 290, 291, 292, 293], "room", [A("rio", 0.4, "phoneEar", "happy", hold={"k": "phone"}, talk=["@5", 1])], [mini(0.62, 0.0, alert=False)], inset={"who": "frank", "label": "DAD", "talk": True, "at": "@1", "expr": [[0, "happy"]]}, card=card("SUNDAY, 6 PM", "you answer it yourself", at=0.03, x=0.35, y=0.15, w=560), text=[T("\"BISCUIT, DAD. ALWAYS BISCUIT.\"", 0.5, 0.5, "@5", size=48)], **APT)
 S([294, 295, 296], "room", [A("rio", 0.32, "relaxed", [[0, "neutral"], ["@1", "surprised"]])], [mini(0.5, 0.0, hop=True)], fx=["night"], props=[P("clock", 0.68, 0.45, 110, "@1")], text=[T("2006", 0.68, 0.22, "@2", size=90)], **APT)
 S([297, 298], "face", [], [], who="rio", expr=[[0, "smile"]])
 S([299], "end", [], [], tpl="end")
@@ -94,4 +94,5 @@ for b in B:
     if mi and "cam" not in b:
         xs = [mi[0]["x"]] + [a["x"] for a in b["actors"] if isinstance(a["x"], (int, float))]
         cx = (min(xs) + max(xs)) / 2; b["cam"] = {"z": [1.35, 1.42], "x": [round((cx - 0.5) * 1920 * 0.75)] * 2, "y": [90, 90]}
+v3_pass(35)
 save(35, 300)

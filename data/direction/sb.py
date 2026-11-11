@@ -126,3 +126,45 @@ def plan_chunks(n, lens):
         else: out.append(1); i += 1
     if len(out) >= 2 and out[-1] == 1 and out[-2] == 1 and lens[-1] <= 3: out[-2:] = [2]
     return out
+
+# ---- v3 pass used for videos 31-40: talkers change gesture each sentence, nobody paces aimlessly,
+# long shots are cut into 1-2 sentence shots with varied framing (wide / medium on the speaker / alternate)
+V3_VAR = {"relaxed": ["think", "crossArms", "shrug"], "think": ["relaxed", "crossArms"], "crossArms": ["think", "relaxed"], "sad": ["facepalm", "chest"], "nervous": ["handsOnHead", "think"],
+          "talk": ["explain", "point"], "explain": ["talk", "point"], "worried": ["think", "handsOnHead"], "point": ["explain", "relaxed"], "shrug": ["relaxed", "think"]}
+def _xs(a):
+    v = a["x"]; return [k[1] for k in v] if isinstance(v, list) else [v]
+def _frame(c, j):
+    if j == 0 or c.get("tpl") or c["set"] in ("face", "space", "map") or "cam" in c or not c["actors"]: return
+    acts = c["actors"]
+    if any(a.get("up") or a.get("rot") or a.get("alpha") or a.get("clip") is not None or a.get("fly") for a in acts): return
+    f = ([a for a in acts if a.get("talk")] or [a for a in acts if a["id"] == "rio"] or acts)[0]; X = _xs(f)
+    if not all(isinstance(v, (int, float)) for v in X) or max(X) - min(X) > 0.15: return
+    xm = sum(X) / len(X)
+    if j % 2 == 1: c["cam"] = {"z": [1.34, 1.42], "x": [max(-520, min(520, (xm - 0.5) * 1920))] * 2, "y": [-40, -40]}
+    else: c["cam"] = {"z": [1.12, 1.16], "x": [max(-300, min(300, (xm - 0.5) * 960))] * 2, "y": [-10, -10]}
+def v3_pass(n):
+    import sys
+    here = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(here, "..", "..", "pipeline"))
+    from build import split_sentences
+    item = next(x for x in json.load(open(os.path.join(here, "..", "scripts.json")))["long"] if x["stt"] == n)
+    lens = [len(x.split()) for x in split_sentences(item["script"])]
+    for b in B:
+        b.setdefault("actors", []); b.setdefault("items", []); b.setdefault("set", "home")
+        if b.get("tpl") or b["set"] in ("face", "space"): continue
+        m = len(b["lines"])
+        for a in b["actors"]:
+            a.pop("pace", None)
+            poses = a["pose"]; p0 = poses[0][1]
+            if len(poses) == 1 and p0 in V3_VAR and m > 1 and (a.get("talk") or len(b["actors"]) == 1) and not a.get("rot") and not a.get("up") and not a.get("hold") and not a.get("fly"):
+                v = V3_VAR[p0]; a["pose"] = [[0, p0]] + [[f"@{i}", v[(i - 1) % len(v)] if i % 2 else p0] for i in range(1, m)]
+    NB = []
+    for b in B:
+        m = len(b["lines"])
+        if m < 2 or b.get("tpl") or b["set"] == "face": NB.append(b); continue
+        ch = plan_chunks(m, [lens[i] for i in b["lines"]])
+        if len(ch) == 1: NB.append(b); continue
+        parts = split_board(b, ch)
+        empty = lambda c: not c["actors"] and not c.get("items") and not c.get("card") and not c.get("text") and not c.get("props") and not c.get("thought") and not c.get("inset")
+        if any(empty(c) for c in parts): NB.append(b); continue   # never cut to an empty frame
+        for j, c in enumerate(parts): _frame(c, j); NB.append(c)
+    B[:] = NB

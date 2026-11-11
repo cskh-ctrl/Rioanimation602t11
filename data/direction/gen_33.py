@@ -65,9 +65,9 @@ S([149, 150], "room", [A("dad", 0.6, "explain", "happy", facing=-1, talk=["@1", 
 S([151, 152, 153, 154, 155], "room", [A("rio", 0.4, "phoneEar", "smile", hold={"k": "phone"})], [], inset={"who": "dad", "label": "DAD", "talk": True, "at": "@1"}, card=card("1 YEAR", "since you went home", at=0.05, x=0.3), **KIT)
 S([156, 157, 158], "room", [A("rio", 0.4, "phoneEar", [[0, "thinking"], ["@2", "sad"]], hold={"k": "phone"}, talk=["@2", 1])], tbl(0.62, 1.2), inset={"who": "dad", "label": "DAD", "at": 0, "expr": [[0, "smile"], ["@2", "sad"]]}, props=[P("letter", 0.62, 0.45, 40, "@1")], text=[T("\"MAYBE NEXT TIME, DAD\"", 0.42, 0.2, "@2", size=50)], **KIT)
 S([159, 160, 161], "room", [A("rio", 0.4, "carry", "smile", hold={"k": "suitcase"}, who="rioSuit")], [], card=card("FRIDAY", "flight to New York at 6 PM", at=0.05, w=700), **KIT)
-S([162, 163, 164, 165], "room", [A("rio", 0.4, "phoneEar", "worried", hold={"k": "phone"}, who="rioSuit")], [], inset={"who": "dad", "label": "DAD", "talk": True, "at": 0, "expr": [[0, "worried"]], "bg": ["#c8d8e8", "#6a7a8a"]}, fx=["snow"], **KIT)
+S([162, 163, 164, 165], "room", [A("rio", 0.4, "phoneEar", "worried", hold={"k": "phone"}, who="rioSuit")], [], inset={"who": "dad", "label": "DAD", "talk": True, "at": 0, "expr": [[0, "worried"]], "bg": ["#c8d8e8", "#6a7a8a"]}, fx=[], **KIT)
 S([166, 167, 168], "snowy", [], [{"k": "car", "x": 0.2, "color": "#e0443a"}, {"k": "car", "x": 0.75, "color": "#3a8ad0"}], fx=["snow"], card=card("60 PEOPLE STUCK", "kids, old folks, a bus of students", at=0.05, y=0.14, w=760))
-S([169, 170, 171], "room", [A("dad", 0.5, "holdFront", "worried", hold={"k": "carafe"})], [{"k": "counter", "x": 0.5}], fx=["dark", "snow"], text=[T("POWER'S OUT", 0.5, 0.18, 0.05)], **DINER)
+S([169, 170, 171], "room", [A("dad", 0.5, "holdFront", "worried", hold={"k": "carafe"})], [{"k": "counter", "x": 0.5}], fx=["dark"], text=[T("POWER'S OUT", 0.5, 0.18, 0.05)], **DINER)
 S([172, 173], "snowy", [], [{"k": "car", "x": 0.5, "color": "#3a8ad0"}], fx=["snow"], card=card("-20 C", "outside", at="@1", x=0.75))
 S([174, 175, 176], "room", [], [], tpl="science", params={"sci": "HYPOTHERMIA: BELOW 35 C", "icon": "heart"})
 S([177, 178, 179, 180], "room", [A("rio", 0.5, "think", "worried", who="rioSuit")], [], props=[P("bag", 0.3, 0.55, 60, 0.05), P("sparkles", 0.72, 0.55, 60, "@1")], text=[T("YOU CAN'T DO BOTH", 0.5, 0.18, "@2", size=56)], **KIT)
@@ -104,7 +104,7 @@ S([273, 274, 275, 276, 277, 278, 279], "room", [seat("crowd1", 0.3, "eat", "smil
   tbl(0.45, 2.4, [D("soup", 0.3), D("pancakes", 0.4), D("mac", 0.5), D("pasta", 0.6)]), card=card("1 TABLE. 8 SEATS.", "all night long", at=0.05, y=0.14, w=640), text=[T("HUNGRY... LONELY... BOTH", 0.5, 0.28, "@4", size=46)], **DINER)
 S([280], "room", [A("rio", 0.72, "wave", "happy", facing=-1, talk=[0, 0.9]), seat("kid", 0.4, "sitTable", "smile")], tbl(0.45, 1.6), text=[T("\"PULL UP A CHAIR\"", 0.6, 0.18, 0.1, size=56)], **DINER)
 S([281, 282, 283], "room", [A("dad", 0.62, "point", "smile", facing=-1), A("rio", 0.45, "pour", "determined", hold={"k": "pour"})], [{"k": "counter", "x": 0.5}], card=card("SUNDAY MORNING", "real batter, the old grill", at=0.05, y=0.14, w=640), **DINER)
-S([284, 285, 286, 287], "room", [seat("rio", 0.42, "eat", [[0, "neutral"], ["@1", "nervous"], ["@3", "joy"]]), A("dad", 0.65, "crossArms", "smile", facing=-1)], tbl(0.5, 1.2, [D("pancakes", 0.5)], cloth=False), text=[T("TERRIBLE", 0.7, 0.18, "@1"), T("BURNT", 0.7, 0.28, "@2"), T("YOU LOVE THEM", 0.5, 0.4, "@3", size=56)], **DINER)
+S([284, 285, 286, 287], "room", [seat("rio", 0.42, "eat", [[0, "neutral"], ["@1", "nervous"], ["@3", "joy"]]), A("dad", 0.65, "crossArms", "smile", facing=-1)], tbl(0.5, 1.2, [D("pancakes", 0.5)], cloth=False), text=[T("TERRIBLE", 0.3, 0.14, "@1"), T("BURNT", 0.5, 0.14, "@2"), T("YOU LOVE THEM", 0.72, 0.14, "@3", size=56)], **DINER)
 S([288, 289, 290], "room", [A("rio", 0.42, "talk", "happy", talk=[0, "@0.9"]), A("dad", 0.6, [[0, "relaxed"], ["@1", "explain"]], "happy", facing=-1, talk=["@2", 1])], tbl(0.5, 1.2, [D("pancakes", 0.5)], cloth=False), text=[T("\"NOW YOU'RE GETTING IT, KIDDO\"", 0.5, 0.18, "@2", size=50)], **DINER)
 S([291, 292, 293], "town", [A("rio", 0.4, "pointUp", "awe")], [{"k": "car", "x": 0.68, "color": "#3a8ad0"}], smood="night", thought={"props": ["star", "bird"], "x": 0.3, "y": 0.25, "at": "@2"})
 S([294, 295], "face", [], [], who="rio", expr=[[0, "smile"]])
@@ -113,4 +113,5 @@ for b in B:
     tb = [i for i in b["items"] if i.get("k") == "table"]
     if tb and "cam" not in b and b.get("set") != "face":
         x = tb[0]["x"]; b["cam"] = {"z": [1.32, 1.4], "x": [round((x - 0.5) * 1920 * 0.7), round((x - 0.5) * 1920 * 0.7)], "y": [70, 70]}
+v3_pass(33)
 save(33, 297)
