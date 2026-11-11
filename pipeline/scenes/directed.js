@@ -48,6 +48,11 @@ export const OUTFITS = {
   tom: { top: 'tshirt', color: '#5a7a4a', head: 'none' },
   tomOld: { top: 'tshirt', color: '#5a7a4a', head: 'none', face: 'glasses' },
   rioKid: { top: 'hoodie', color: '#2d7fe0', head: 'curly', headColor: '#0e0b12', kid: true },
+  cloak: { top: 'trench', color: '#b8bcc8', head: 'curly', headColor: '#0e0b12' },
+  carla: { top: 'suit', color: '#c0304a', head: 'bun', headColor: '#2a1a1a' },
+  rosa: { top: 'dress', color: '#8a6aa8', head: 'bun', headColor: '#e0e0e0', face: 'glasses' },
+  ava: { top: 'dress', color: '#f28ab8', head: 'ponytail', headColor: '#2a1a12', kid: true },
+  worker: { top: 'jersey', color: '#f2a81a', head: 'cap', headColor: '#2a2a2a' },
   maya: { top: 'labcoat', head: 'bun', headColor: '#1a0e0a' },
   gordon: { top: 'suit', color: '#3a3a48', head: 'none', face: 'glasses' },
   noah: { top: 'tshirt', color: '#e0443a', head: 'curly', headColor: '#1a0e0a', kid: true },
@@ -345,7 +350,18 @@ function geyser(g, x, y, o, p, t) {   // Old Faithful: a mound, then a column of
   const top = y - E.H * 1.6 * e; g.fillStyle = 'rgba(235,245,255,.85)'; g.beginPath(); g.moveTo(x - 30, y - 10); g.quadraticCurveTo(x - 60 - Math.sin(t * 3) * 10, (y + top) / 2, x - 120, top); g.lineTo(x + 120, top); g.quadraticCurveTo(x + 60 + Math.sin(t * 3) * 10, (y + top) / 2, x + 30, y - 10); g.closePath(); g.fill();
   for (let k = 0; k < 14; k++) { const q = (t * 0.3 + k / 14) % 1; circle(g, x + Math.sin(k * 3 + t) * 140 * q, y - 60 - q * E.H * 1.2 * e, 50 + q * 90, `rgba(255,255,255,${0.35 * (1 - q)})`); }
 }
-const ITEMS = { tmachine, wallphone, geyser, housedoor, hoop, bball, stove, cereal, billboard, cerealbox, tvset, mannequin, fence, bank: bankDesk, jet, puddle, stall, shop: shopFront, stairs, ship, cards, door: pinkDoor, alarm, bed, blanket, sink, counter, desk, sign, prop: propItem, house, chime, water, car, booth, table, dish, kite, float, sea, robot, glass: glassWall, stage, fridge, paper };
+
+function subway(g, x, y, o, p, t) {   // side view of a platform: track bed behind a yellow safety line; train (20 m cars) runs right to left
+  const edge = y - 120, top = edge - M_(3.6);
+  g.fillStyle = '#2a2a34'; g.fillRect(-E.W, top - 40, E.W * 3, edge - top + 40); g.fillStyle = '#1a1a22'; g.fillRect(-E.W, edge - 24, E.W * 3, 24);
+  seg(g, [[-E.W, edge - 10], [E.W * 2, edge - 10]], 5, '#8a8a96');
+  const tx = track(o.tx, p, 2) * E.W;
+  if (tx < E.W * 1.5) { for (let c = 0; c < 4; c++) { const L = tx + c * M_(20.5), w = M_(20); if (L > E.W + 50 || L + w < -50) continue; rr(g, L, top + 20, w, edge - top - 30, 18); g.fillStyle = '#c8ccd4'; g.fill(); g.fillStyle = '#2a3a5a'; for (let k = 0; k < 9; k++) g.fillRect(L + 40 + k * (w - 80) / 9, top + 70, (w - 80) / 9 - 18, 90); g.fillStyle = '#e0443a'; g.fillRect(L, edge - 70, w, 14); if (c === 0) { circle(g, L + 24, edge - 110, 14, '#fff6c0'); g.save(); g.globalCompositeOperation = 'lighter'; circle(g, L + 10, edge - 110, 120, 'rgba(255,240,180,.18)'); g.restore(); } } }
+  else { const lamp = clamp(track(o.lamp, p, 0)); if (lamp > 0) { g.save(); g.globalCompositeOperation = 'lighter'; circle(g, E.W * 1.02, edge - 110, 60 + lamp * 240, `rgba(255,240,180,${0.1 + lamp * 0.3})`); g.restore(); } }
+  g.fillStyle = '#5a5a64'; g.fillRect(-E.W, edge, E.W * 3, 6); g.fillStyle = '#f2c21a'; g.fillRect(-E.W, edge + 10, E.W * 3, 14);
+}
+function stationclock(g, x, y) { const cy = y - M_(3.2); seg(g, [[x, y], [x, cy]], 10, '#3a3a44'); circle(g, x, cy, M_(0.45), '#2a2a34'); circle(g, x, cy, M_(0.4), '#f4f2ea'); seg(g, [[x, cy], [x, cy - M_(0.3)]], 5, '#1a1a22'); seg(g, [[x, cy], [x + M_(0.22), cy + M_(0.05)]], 5, '#1a1a22'); }
+const ITEMS = { subway, stationclock, tmachine, wallphone, geyser, housedoor, hoop, bball, stove, cereal, billboard, cerealbox, tvset, mannequin, fence, bank: bankDesk, jet, puddle, stall, shop: shopFront, stairs, ship, cards, door: pinkDoor, alarm, bed, blanket, sink, counter, desk, sign, prop: propItem, house, chime, water, car, booth, table, dish, kite, float, sea, robot, glass: glassWall, stage, fridge, paper };
 
 // held objects, drawn in pose units (1 m = 134) right at the hand --------------------
 function heldItem(g, k, h, p, o = {}) {
@@ -501,8 +517,11 @@ export function directed(g, t, info) {
       const pn = stepVal(a.pose, p, 'relaxed');
       if (!moving && !fly && a.chair !== false && a.clip == null && /^(sit|sitTable|eat|type|sitPhone|sitBack|remote)$/.test(pn)) FX.chair(g, X - facing * 6 * s, Y, s * 0.62, '#3a2a2a');   // something to sit on
       if (a.clip != null) { g.save(); g.beginPath(); g.rect(-E.W, -E.H * 2, E.W * 3, Y - M_(a.clip) + E.H * 2); g.clip(); }   // e.g. seated in a car: hide legs below the door line
-      drawFigure(g, { x: X, y: Yy - bounce, s, facing, outfit: of, pose: pz, expr, rot: track(a.rot, p, 0) || 0, shadow: !fly, alpha: al, talk: talking ? 0.5 + 0.5 * Math.sin(t * 22) : 0, look: [facing * 0.6, 0], rim: { color: M.rim || '#ffc68a', dir: [0, -1], w: 4 } });
+      const gh = track(a.ghost, p, 1);   // invisibility: 1 = normal, ~0 = only two floating eyes
+      drawFigure(g, { x: X, y: Yy - bounce, s, facing, outfit: of, pose: pz, expr, rot: track(a.rot, p, 0) || 0, shadow: !fly && gh > 0.5, alpha: al * gh, talk: talking ? 0.5 + 0.5 * Math.sin(t * 22) : 0, look: [facing * 0.6, 0], rim: { color: M.rim || '#ffc68a', dir: [0, -1], w: 4 } });
       if (a.clip != null) g.restore();
+      if (gh < 0.6) { const kz = (of.kid ? 0.72 : 1) * s, hx = X + pz.head[0] * facing * kz, hy = Yy - bounce + pz.head[1] * kz, ea = 1 - gh; for (const d of [-7, 7]) { circle(g, hx + (d + 4 * facing) * kz, hy - 2 * kz, 5.2 * kz, `rgba(250,250,255,${ea})`); circle(g, hx + (d + 5.5 * facing) * kz, hy - 2 * kz, 2.4 * kz, `rgba(20,16,30,${ea})`); } }
+      if (gh < 0.99 && a.ghostShadow === false) {}
       const A = { X, Y: Yy, s, facing, hold: a.hold };
       if (!(a.hold?.drop != null && p >= a.hold.drop)) drawHeld(g, A, pz, p); else dropFall(g, A, pz, p, info);
       if (a.hat === 'copter') { const hx = X + pz.head[0] * facing * s, hy = Yy + (pz.head[1] - 30) * s; seg(g, [[hx, hy + 8 * s], [hx, hy]], 3 * s, '#c8a010'); const k = Math.cos(t * 40); seg(g, [[hx - 34 * s * k, hy], [hx + 34 * s * k, hy]], 5 * s, '#f2c21a'); circle(g, hx, hy, 4 * s, '#c8a010'); }

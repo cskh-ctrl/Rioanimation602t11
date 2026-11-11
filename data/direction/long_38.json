@@ -1,0 +1,17089 @@
+[
+{
+"lines": [
+0,
+1
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+-0.05
+],
+[
+"@1.999",
+0.5
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "boss",
+"who": "boss",
+"x": 0.3,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "guard",
+"who": "guard",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.34
+}
+],
+"props": [],
+"text": [
+{
+"s": "PAST YOUR BOSS",
+"x": 0.3,
+"y": 0.16,
+"at": "@1.000",
+"size": 46
+}
+]
+},
+{
+"lines": [
+2,
+3
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.5
+],
+[
+"@1.999",
+1.05
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "boss",
+"who": "boss",
+"x": 0.3,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "guard",
+"who": "guard",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.34
+}
+],
+"props": [
+{
+"k": "coffee",
+"x": 0.58,
+"y": 0.45,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "PAST YOUR BOSS",
+"x": 0.3,
+"y": 0.16,
+"at": -1,
+"size": 46
+},
+{
+"s": "PAST THE COFFEE MACHINE",
+"x": 0.58,
+"y": 0.26,
+"at": "@0.000",
+"size": 44
+},
+{
+"s": "PAST SECURITY",
+"x": 0.82,
+"y": 0.36,
+"at": "@1.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+4,
+5
+],
+"set": "office",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.66,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.45
+],
+[
+"@1.999",
+0.5
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.34
+},
+{
+"k": "desk",
+"x": 0.7
+}
+],
+"text": [
+{
+"s": "NOBODY LOOKS UP",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 50
+}
+]
+},
+{
+"lines": [
+6
+],
+"set": "office",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.66,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.5
+],
+[
+"@0.999",
+0.525
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.34
+},
+{
+"k": "desk",
+"x": 0.7
+}
+],
+"text": [
+{
+"s": "NOBODY LOOKS UP",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 50
+},
+{
+"s": "WHICH IS NORMAL, HONESTLY",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+7
+],
+"set": "office",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.66,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.525
+],
+[
+"@0.999",
+0.55
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.34
+},
+{
+"k": "desk",
+"x": 0.7
+}
+],
+"text": [
+{
+"s": "NOBODY LOOKS UP",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 50
+},
+{
+"s": "WHICH IS NORMAL, HONESTLY",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "TODAY THEY REALLY CAN'T SEE YOU",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+8,
+9
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.7,
+"pose": [
+[
+0,
+"talk"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.46
+}
+],
+"card": {
+"big": "RIO",
+"small": "an accountant. quiet. polite.",
+"at": "@0.150",
+"x": 0.28,
+"w": 560
+},
+"text": []
+},
+{
+"lines": [
+10
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.7,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.46
+}
+],
+"card": {
+"big": "RIO",
+"small": "an accountant. quiet. polite.",
+"at": -1,
+"x": 0.28,
+"w": 560
+},
+"text": [
+{
+"s": "THE ONE PEOPLE FORGET IS IN THE ROOM",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.000",
+"size": 40
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+383.9999999999999,
+383.9999999999999
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+11
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.2
+],
+[
+"@0.600",
+0.42
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.55,
+"w": 1.0
+}
+],
+"props": [
+{
+"k": "gift",
+"x": 0.55,
+"y": 0.62,
+"r": 45,
+"at": "@0.300",
+"disc": true
+}
+],
+"card": {
+"big": "GRANDMA'S OLD TRUNK",
+"small": null,
+"at": "@0.150",
+"x": 0.7,
+"w": 640
+},
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+12
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.42
+]
+],
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.55,
+"w": 1.0
+}
+],
+"props": [
+{
+"k": "gift",
+"x": 0.55,
+"y": 0.62,
+"r": 45,
+"at": -1,
+"disc": true
+}
+],
+"card": {
+"big": "GRANDMA'S OLD TRUNK",
+"small": null,
+"at": -1,
+"x": 0.7,
+"w": 640
+},
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+13
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.42
+]
+],
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.55,
+"w": 1.0
+}
+],
+"props": [
+{
+"k": "gift",
+"x": 0.55,
+"y": 0.62,
+"r": 45,
+"at": -1,
+"disc": true
+},
+{
+"k": "mask",
+"x": 0.55,
+"y": 0.42,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"card": {
+"big": "GRANDMA'S OLD TRUNK",
+"small": null,
+"at": -1,
+"x": 0.7,
+"w": 640
+},
+"text": [
+{
+"s": "A SILVER CLOAK... SOFT AS WATER",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-76.80000000000001,
+-76.80000000000001
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+14,
+15
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.38,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"ghost": [
+[
+0,
+1
+],
+[
+"@0.800",
+1
+],
+[
+"@1.300",
+0.03
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"ghost": [
+[
+0,
+1
+],
+[
+"@0.800",
+1
+],
+[
+"@1.300",
+0.03
+]
+]
+}
+],
+"items": [
+{
+"k": "glass",
+"x": 0.5
+}
+],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+16,
+17
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.38,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"ghost": [
+[
+0,
+0.03
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1,
+"ghost": [
+[
+0,
+0.03
+]
+]
+}
+],
+"items": [
+{
+"k": "glass",
+"x": 0.5
+}
+],
+"text": [
+{
+"s": "NOBODY THERE",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 50
+},
+{
+"s": "EXCEPT TWO TINY EYES",
+"x": 0.5,
+"y": 0.26,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+18
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.38,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"ghost": [
+[
+0,
+0.03
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1,
+"ghost": [
+[
+0,
+0.03
+]
+]
+}
+],
+"items": [
+{
+"k": "glass",
+"x": 0.5
+}
+],
+"text": [
+{
+"s": "NOBODY THERE",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "EXCEPT TWO TINY EYES",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+19
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.45,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"text": [
+{
+"s": "EVERYONE WANTS TO BE SEEN",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.100",
+"size": 48
+}
+]
+},
+{
+"lines": [
+20
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.45,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"text": [
+{
+"s": "EVERYONE WANTS TO BE SEEN",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 48
+},
+{
+"s": "YOU: GONE FOR 24 HOURS",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+21
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"card": {
+"big": "ONE RULE",
+"small": "stay silent",
+"at": "@0.200",
+"x": 0.68
+},
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+22
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"card": {
+"big": "ONE RULE",
+"small": "stay silent",
+"at": -1,
+"x": 0.68
+},
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+23
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"card": {
+"big": "ONE RULE",
+"small": "stay silent",
+"at": -1,
+"x": 0.68
+},
+"text": [
+{
+"s": "SAY ONE WORD... YOU REAPPEAR. FOREVER.",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.000",
+"size": 40
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-76.80000000000001,
+-76.80000000000001
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+24
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"card": {
+"big": "ONE RULE",
+"small": "stay silent",
+"at": -1,
+"x": 0.68
+},
+"text": [
+{
+"s": "SAY ONE WORD... YOU REAPPEAR. FOREVER.",
+"x": 0.5,
+"y": 0.42,
+"at": -1,
+"size": 40
+},
+{
+"s": "JUST A PLAIN SILVER BLANKET",
+"x": 0.5,
+"y": 0.52,
+"at": "@0.000",
+"size": 42
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+25
+],
+"set": "room",
+"actors": [],
+"items": [],
+"tpl": "title",
+"params": {
+"title": "What If You Were Invisible For 24 Hours?"
+}
+},
+{
+"lines": [
+26
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "glass",
+"x": 0.6
+}
+],
+"card": {
+"big": "HOUR 1",
+"small": null,
+"at": "@0.200",
+"x": 0.75
+},
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+27
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "glass",
+"x": 0.6
+}
+],
+"card": {
+"big": "HOUR 1",
+"small": null,
+"at": -1,
+"x": 0.75
+},
+"text": [
+{
+"s": "WHY CAN YOU STILL SEE YOUR EYES?",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 42
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+28
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "glass",
+"x": 0.6
+}
+],
+"card": {
+"big": "HOUR 1",
+"small": null,
+"at": -1,
+"x": 0.75
+},
+"text": [
+{
+"s": "WHY CAN YOU STILL SEE YOUR EYES?",
+"x": 0.5,
+"y": 0.36,
+"at": -1,
+"size": 42
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-76.80000000000001,
+-76.80000000000001
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+29
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "glass",
+"x": 0.6
+}
+],
+"card": {
+"big": "HOUR 1",
+"small": null,
+"at": -1,
+"x": 0.75
+},
+"text": [
+{
+"s": "WHY CAN YOU STILL SEE YOUR EYES?",
+"x": 0.5,
+"y": 0.36,
+"at": -1,
+"size": 42
+},
+{
+"s": "FULLY INVISIBLE = BLIND",
+"x": 0.5,
+"y": 0.46,
+"at": "@0.000",
+"size": 48,
+"color": "#ff6a5a"
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+30,
+31,
+32
+],
+"set": "room",
+"actors": [],
+"items": [],
+"tpl": "science",
+"params": {
+"sci": "EYES MUST CATCH LIGHT",
+"icon": "eye"
+}
+},
+{
+"lines": [
+33
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.2
+],
+[
+"@0.999",
+0.34
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.82,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.86
+}
+],
+"cam": {
+"z": [
+1.3,
+1.333
+],
+"x": [
+0.0,
+40.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "TWO TINY HOLES FOR YOUR EYES",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.150",
+"size": 44
+}
+]
+},
+{
+"lines": [
+34
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.34
+],
+[
+"@0.999",
+0.48
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.82,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.86
+}
+],
+"cam": {
+"z": [
+1.333,
+1.367
+],
+"x": [
+40.0,
+80.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "TWO TINY HOLES FOR YOUR EYES",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+35
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.48
+],
+[
+"@0.999",
+0.62
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.82,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.86
+}
+],
+"cam": {
+"z": [
+1.367,
+1.4
+],
+"x": [
+80.0,
+120.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "TWO TINY HOLES FOR YOUR EYES",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "CREEPY? VERY.",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+36,
+37
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": [
+[
+0,
+0.95
+],
+[
+"@1.500",
+0.72
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.600",
+"reach"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "bagel"
+}
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.86
+}
+],
+"card": {
+"big": "HOUR 2",
+"small": "the break room",
+"at": "@0.150",
+"x": 0.25
+}
+},
+{
+"lines": [
+38
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": [
+[
+0,
+0.72
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "bagel"
+}
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.86
+}
+],
+"card": {
+"big": "HOUR 2",
+"small": "the break room",
+"at": -1,
+"x": 0.25
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+39
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": 0.62,
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "bagel",
+"drop": 2
+},
+"facing": [
+[
+0,
+1
+],
+[
+"@0.999",
+-1
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.5,
+"pose": [
+[
+0,
+"reach"
+],
+[
+"@0.600",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.86
+}
+],
+"props": [],
+"text": []
+},
+{
+"lines": [
+40,
+41
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": 0.62,
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"hold": {
+"k": "bagel",
+"drop": 2
+},
+"facing": [
+[
+0,
+-1
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.86
+}
+],
+"props": [
+{
+"k": "burger",
+"x": 0.66,
+"y": 0.32,
+"r": 30,
+"at": "@0.500",
+"disc": true
+}
+],
+"text": [
+{
+"s": "CHOMP",
+"x": 0.5,
+"y": 0.3,
+"at": "@0.500",
+"size": 50
+},
+{
+"s": "HE STARES AT THE EMPTY ROOM",
+"x": 0.5,
+"y": 0.16,
+"at": "@1.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+42
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": 0.62,
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"hold": {
+"k": "bagel",
+"drop": 2
+},
+"facing": [
+[
+0,
+-1
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.86
+}
+],
+"props": [
+{
+"k": "burger",
+"x": 0.66,
+"y": 0.32,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "CHOMP",
+"x": 0.5,
+"y": 0.3,
+"at": -1,
+"size": 50
+},
+{
+"s": "HE STARES AT THE EMPTY ROOM",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+43
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": 0.62,
+"pose": [
+[
+0,
+"drop"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"hold": {
+"k": "bagel",
+"drop": "@0.200"
+},
+"facing": [
+[
+0,
+-1
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.86
+}
+],
+"props": [
+{
+"k": "burger",
+"x": 0.66,
+"y": 0.32,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "CHOMP",
+"x": 0.5,
+"y": 0.3,
+"at": -1,
+"size": 50
+},
+{
+"s": "HE STARES AT THE EMPTY ROOM",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 44
+},
+{
+"s": "...INTO THE TRASH",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+44
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"text": [
+{
+"s": "DO YOU FEEL BAD?",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.100"
+}
+]
+},
+{
+"lines": [
+45
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"text": [
+{
+"s": "DO YOU FEEL BAD?",
+"x": 0.5,
+"y": 0.16,
+"at": -1
+},
+{
+"s": "A LITTLE.",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000"
+}
+],
+"fx": []
+},
+{
+"lines": [
+46,
+47
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.25,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.7,
+"pose": [
+[
+0,
+"talk"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.29
+}
+],
+"card": {
+"big": "HOUR 3",
+"small": "problems",
+"at": "@0.300",
+"x": 0.75
+},
+"text": [
+{
+"s": "NO TALKING. NO SNEEZING.",
+"x": 0.5,
+"y": 0.36,
+"at": "@1.000",
+"size": 44
+}
+]
+},
+{
+"lines": [
+48,
+49
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"chest"
+],
+[
+"@1.000",
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.25,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.7,
+"pose": [
+[
+0,
+"talk"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1,
+"talk": [
+"@1.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.29
+}
+],
+"card": {
+"big": "HOUR 3",
+"small": "problems",
+"at": -1,
+"x": 0.75
+},
+"text": [
+{
+"s": "NO TALKING. NO SNEEZING.",
+"x": 0.5,
+"y": 0.36,
+"at": -1,
+"size": 44
+},
+{
+"s": "NO LAUGHING.",
+"x": 0.5,
+"y": 0.46,
+"at": "@1.000",
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+50,
+51
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.25,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.7,
+"pose": [
+[
+0,
+"talk"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.29
+}
+],
+"card": {
+"big": "HOUR 3",
+"small": "problems",
+"at": -1,
+"x": 0.75
+},
+"text": [
+{
+"s": "NO TALKING. NO SNEEZING.",
+"x": 0.5,
+"y": 0.36,
+"at": -1,
+"size": 44
+},
+{
+"s": "NO LAUGHING.",
+"x": 0.5,
+"y": 0.46,
+"at": -1,
+"size": 48
+},
+{
+"s": "TORTURE",
+"x": 0.5,
+"y": 0.56,
+"at": "@1.000",
+"color": "#ff6a5a"
+}
+],
+"fx": []
+},
+{
+"lines": [
+52
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.2
+],
+[
+"@0.999",
+0.41
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"text": [
+{
+"s": "THE CLOAK DOESN'T HIDE FOOTSTEPS",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.100",
+"size": 44
+}
+]
+},
+{
+"lines": [
+53
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.41
+],
+[
+"@0.999",
+0.62
+]
+],
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"text": [
+{
+"s": "THE CLOAK DOESN'T HIDE FOOTSTEPS",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 44
+},
+{
+"s": "SQUEAK. SQUEAK.",
+"x": 0.5,
+"y": 0.3,
+"at": "@0.000",
+"size": 56
+}
+],
+"fx": []
+},
+{
+"lines": [
+54,
+55
+],
+"set": "office",
+"actors": [
+{
+"id": "boss",
+"who": "boss",
+"x": [
+[
+0,
+0.75
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"think"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@1.000",
+"confused"
+]
+],
+"facing": -1,
+"talk": [
+"@1.000",
+"@1.900"
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"IS SOMEONE THERE?\"",
+"x": 0.7,
+"y": 0.16,
+"at": "@1.000",
+"size": 50
+}
+]
+},
+{
+"lines": [
+56,
+57
+],
+"set": "office",
+"actors": [
+{
+"id": "boss",
+"who": "boss",
+"x": [
+[
+0,
+0.75
+]
+],
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"IS SOMEONE THERE?\"",
+"x": 0.7,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "SQUEAK.",
+"x": 0.4,
+"y": 0.3,
+"at": "@0.400",
+"size": 50
+},
+{
+"s": "WILL HE FIND YOU?",
+"x": 0.5,
+"y": 0.42,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+58
+],
+"set": "office",
+"actors": [
+{
+"id": "boss",
+"who": "boss",
+"x": [
+[
+0,
+0.75
+],
+[
+"@0.999",
+1.1
+]
+],
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"IS SOMEONE THERE?\"",
+"x": 0.7,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "SQUEAK.",
+"x": 0.4,
+"y": 0.3,
+"at": -1,
+"size": 50
+},
+{
+"s": "WILL HE FIND YOU?",
+"x": 0.5,
+"y": 0.42,
+"at": -1,
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+59,
+60
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"think"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"card": {
+"big": "HOUR 4",
+"small": "what can still find you",
+"at": "@0.200",
+"x": 0.75,
+"w": 620
+},
+"fx": [
+"dark"
+],
+"text": []
+},
+{
+"lines": [
+61
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"card": {
+"big": "HOUR 4",
+"small": "what can still find you",
+"at": -1,
+"x": 0.75,
+"w": 620
+},
+"fx": [
+"dark"
+],
+"text": [
+{
+"s": "YOUR BODY: ~37 C",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 50
+}
+],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+62
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"card": {
+"big": "HOUR 4",
+"small": "what can still find you",
+"at": -1,
+"x": 0.75,
+"w": 620
+},
+"fx": [
+"dark"
+],
+"text": [
+{
+"s": "YOUR BODY: ~37 C",
+"x": 0.5,
+"y": 0.36,
+"at": -1,
+"size": 50
+}
+],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-47.999999999999986,
+-47.999999999999986
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+63
+],
+"set": "park",
+"actors": [],
+"items": [
+{
+"k": "prop",
+"p": "dog",
+"x": 0.45,
+"size": 0.6
+}
+],
+"props": [
+{
+"k": "nose",
+"x": 0.62,
+"y": 0.4,
+"r": 50,
+"at": "@0.200",
+"disc": true
+}
+]
+},
+{
+"lines": [
+64
+],
+"set": "park",
+"actors": [],
+"items": [
+{
+"k": "prop",
+"p": "dog",
+"x": 0.45,
+"size": 0.6
+}
+],
+"props": [
+{
+"k": "nose",
+"x": 0.62,
+"y": 0.4,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"card": {
+"big": "1,000s OF TIMES",
+"small": "more sensitive noses than ours",
+"at": "@0.000",
+"w": 760
+},
+"fx": []
+},
+{
+"lines": [
+65
+],
+"set": "park",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.15
+],
+[
+"@0.999",
+0.2417
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "dog",
+"who": "dog",
+"x": [
+[
+0,
+0.05
+],
+[
+"@0.999",
+0.1417
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"alpha": 0
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": [
+[
+0,
+-0.05
+],
+[
+"@0.999",
+0.0333
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "dog",
+"x": [
+[
+0,
+0.07
+],
+[
+"@0.999",
+0.1617
+]
+],
+"size": 0.55,
+"dx": 0
+}
+],
+"text": [
+{
+"s": "A GOLDEN RETRIEVER, 3 BLOCKS",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.300",
+"size": 44
+}
+]
+},
+{
+"lines": [
+66,
+67
+],
+"set": "park",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.2417
+],
+[
+"@1.999",
+0.425
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "dog",
+"who": "dog",
+"x": [
+[
+0,
+0.1417
+],
+[
+"@1.999",
+0.325
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"alpha": 0
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": [
+[
+0,
+0.0333
+],
+[
+"@1.999",
+0.2
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "dog",
+"x": [
+[
+0,
+0.1617
+],
+[
+"@1.999",
+0.345
+]
+],
+"size": 0.55,
+"dx": 0
+}
+],
+"text": [
+{
+"s": "A GOLDEN RETRIEVER, 3 BLOCKS",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "WAG WAG",
+"x": 0.62,
+"y": 0.26,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+68,
+69
+],
+"set": "park",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.425
+],
+[
+"@1.999",
+0.6083
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "dog",
+"who": "dog",
+"x": [
+[
+0,
+0.325
+],
+[
+"@1.999",
+0.5083
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"alpha": 0
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": [
+[
+0,
+0.2
+],
+[
+"@1.999",
+0.3667
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "dog",
+"x": [
+[
+0,
+0.345
+],
+[
+"@1.999",
+0.5283
+]
+],
+"size": 0.55,
+"dx": 0
+}
+],
+"text": [
+{
+"s": "A GOLDEN RETRIEVER, 3 BLOCKS",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "WAG WAG",
+"x": 0.62,
+"y": 0.26,
+"at": -1,
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+70
+],
+"set": "park",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.6083
+],
+[
+"@0.999",
+0.7
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "dog",
+"who": "dog",
+"x": [
+[
+0,
+0.5083
+],
+[
+"@0.999",
+0.6
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"alpha": 0
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": [
+[
+0,
+0.3667
+],
+[
+"@0.999",
+0.45
+]
+],
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "dog",
+"x": [
+[
+0,
+0.5283
+],
+[
+"@0.999",
+0.62
+]
+],
+"size": 0.55,
+"dx": 0
+}
+],
+"text": [
+{
+"s": "A GOLDEN RETRIEVER, 3 BLOCKS",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "WAG WAG",
+"x": 0.62,
+"y": 0.26,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"WHO ARE YOU TALKING TO, BUDDY?\"",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 42
+}
+],
+"fx": []
+},
+{
+"lines": [
+71,
+72
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.1
+],
+[
+"@1.999",
+0.35
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"think"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": [
+[
+0,
+0.03
+],
+[
+"@1.000",
+0.03
+],
+[
+"@1.999",
+0.32
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "HOUR 5",
+"small": null,
+"at": "@0.200",
+"x": 0.75
+},
+"fx": [
+"rain"
+],
+"text": []
+},
+{
+"lines": [
+73
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.35
+],
+[
+"@0.999",
+0.475
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": [
+[
+0,
+0.32
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "HOUR 5",
+"small": null,
+"at": -1,
+"x": 0.75
+},
+"fx": [
+"rain"
+],
+"text": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-168.00000000000006,
+-168.00000000000006
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+74
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.475
+],
+[
+"@0.999",
+0.6
+]
+],
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": [
+[
+0,
+0.32
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "HOUR 5",
+"small": null,
+"at": -1,
+"x": 0.75
+},
+"fx": [
+"rain"
+],
+"text": [
+{
+"s": "A PERSON-SHAPED OUTLINE... OF WATER",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 42
+}
+],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+35.99999999999998,
+35.99999999999998
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+75,
+76
+],
+"set": "street",
+"actors": [
+{
+"id": "boy",
+"who": "boy",
+"x": 0.25,
+"pose": [
+[
+0,
+"point"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"talk": [
+"@0.000",
+"@1.900"
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.15,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.55
+],
+[
+"@1.999",
+0.6
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.32
+}
+],
+"items": [],
+"fx": [
+"rain"
+],
+"text": [
+{
+"s": "\"MOM! A GHOST!\"",
+"x": 0.3,
+"y": 0.16,
+"at": "@0.300"
+}
+]
+},
+{
+"lines": [
+77
+],
+"set": "street",
+"actors": [
+{
+"id": "boy",
+"who": "boy",
+"x": 0.25,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.15,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.6
+],
+[
+"@0.999",
+1.1
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.32
+}
+],
+"items": [],
+"fx": [
+"rain"
+],
+"text": [
+{
+"s": "\"MOM! A GHOST!\"",
+"x": 0.3,
+"y": 0.16,
+"at": -1
+},
+{
+"s": "SQUEAK. SQUEAK. SPLASH.",
+"x": 0.6,
+"y": 0.28,
+"at": "@0.000",
+"size": 50
+}
+]
+},
+{
+"lines": [
+78,
+79
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "shop",
+"x": 0.62,
+"s": "SHOP",
+"lit": true
+}
+],
+"card": {
+"big": "HOUR 6",
+"small": "no shadow, no reflection",
+"at": "@0.300",
+"x": 0.22,
+"w": 600
+},
+"text": []
+},
+{
+"lines": [
+80
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "shop",
+"x": 0.62,
+"s": "SHOP",
+"lit": true
+}
+],
+"card": {
+"big": "HOUR 6",
+"small": "no shadow, no reflection",
+"at": -1,
+"x": 0.22,
+"w": 600
+},
+"text": [
+{
+"s": "LIGHT FLOWS AROUND YOU",
+"x": 0.25,
+"y": 0.36,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+230.39999999999998,
+230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+81,
+82
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "shop",
+"x": 0.62,
+"s": "SHOP",
+"lit": true
+}
+],
+"card": {
+"big": "HOUR 6",
+"small": "no shadow, no reflection",
+"at": -1,
+"x": 0.22,
+"w": 600
+},
+"text": [
+{
+"s": "LIGHT FLOWS AROUND YOU",
+"x": 0.25,
+"y": 0.36,
+"at": -1,
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+115.19999999999999,
+115.19999999999999
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+83
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.62,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "shop",
+"x": 0.62,
+"s": "SHOP",
+"lit": true
+}
+],
+"card": {
+"big": "HOUR 6",
+"small": "no shadow, no reflection",
+"at": -1,
+"x": 0.22,
+"w": 600
+},
+"text": [
+{
+"s": "LIGHT FLOWS AROUND YOU",
+"x": 0.25,
+"y": 0.36,
+"at": -1,
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+230.39999999999998,
+230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+84
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "shop",
+"x": 0.45,
+"s": "SHOP",
+"lit": true
+}
+],
+"text": [
+{
+"s": "STARING AT NOTHING",
+"x": 0.5,
+"y": 0.72,
+"at": "@0.150",
+"size": 48
+}
+]
+},
+{
+"lines": [
+85
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "shop",
+"x": 0.45,
+"s": "SHOP",
+"lit": true
+}
+],
+"text": [
+{
+"s": "STARING AT NOTHING",
+"x": 0.5,
+"y": 0.72,
+"at": -1,
+"size": 48
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+86
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "shop",
+"x": 0.45,
+"s": "SHOP",
+"lit": true
+}
+],
+"text": [
+{
+"s": "STARING AT NOTHING",
+"x": 0.5,
+"y": 0.72,
+"at": -1,
+"size": 48
+},
+{
+"s": "A LITTLE LONELY",
+"x": 0.5,
+"y": 0.82,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+87,
+88
+],
+"set": "office",
+"actors": [
+{
+"id": "boss",
+"who": "boss",
+"x": 0.3,
+"pose": [
+[
+0,
+"explain"
+],
+[
+"@1.000",
+"talk"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.5,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.62,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.55,
+"w": 1.6
+}
+],
+"card": {
+"big": "HOUR 7",
+"small": "meetings you're never invited to",
+"at": "@0.200",
+"x": 0.68,
+"w": 640
+}
+},
+{
+"lines": [
+89
+],
+"set": "office",
+"actors": [
+{
+"id": "boss",
+"who": "boss",
+"x": 0.3,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.5,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.62,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.55,
+"w": 1.6
+}
+],
+"card": {
+"big": "HOUR 7",
+"small": "meetings you're never invited to",
+"at": -1,
+"x": 0.68,
+"w": 640
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+90
+],
+"set": "office",
+"actors": [
+{
+"id": "boss",
+"who": "boss",
+"x": 0.3,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.5,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.62,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.55,
+"w": 1.6
+}
+],
+"card": {
+"big": "HOUR 7",
+"small": "meetings you're never invited to",
+"at": -1,
+"x": 0.68,
+"w": 640
+},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-192.0,
+-192.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+91
+],
+"set": "office",
+"actors": [
+{
+"id": "boss",
+"who": "boss",
+"x": 0.3,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+"@0.950"
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.5,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.62,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.55,
+"w": 1.6
+}
+],
+"text": [
+{
+"s": "\"IT WORKED BECAUSE OF SAM\"",
+"x": 0.4,
+"y": 0.16,
+"at": "@0.100",
+"size": 46
+}
+]
+},
+{
+"lines": [
+92
+],
+"set": "office",
+"actors": [
+{
+"id": "boss",
+"who": "boss",
+"x": 0.3,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.5,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.62,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.55,
+"w": 1.6
+}
+],
+"text": [
+{
+"s": "\"IT WORKED BECAUSE OF SAM\"",
+"x": 0.4,
+"y": 0.16,
+"at": -1,
+"size": 46
+},
+{
+"s": "YOU DID MOST OF THE WORK",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+93
+],
+"set": "office",
+"actors": [
+{
+"id": "boss",
+"who": "boss",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.5,
+"pose": [
+[
+0,
+"sit"
+],
+[
+"@0.400",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.62,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.55,
+"w": 1.6
+}
+],
+"text": [
+{
+"s": "\"NO. RIO DID MOST OF IT.\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 46
+}
+]
+},
+{
+"lines": [
+94
+],
+"set": "office",
+"actors": [
+{
+"id": "boss",
+"who": "boss",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.5,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"talk": [
+"@0.000",
+"@0.900"
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.62,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.55,
+"w": 1.6
+}
+],
+"text": [
+{
+"s": "\"NO. RIO DID MOST OF IT.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"HE ALWAYS DOES.\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+95,
+96
+],
+"set": "office",
+"actors": [
+{
+"id": "boss",
+"who": "boss",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.5,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.62,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+],
+[
+"@1.000",
+"cry"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.55,
+"w": 1.6
+}
+],
+"text": [
+{
+"s": "\"NO. RIO DID MOST OF IT.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"HE ALWAYS DOES.\"",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "NOBODY NOTICES HIM",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+97,
+98
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.65,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+}
+],
+"items": [],
+"card": {
+"big": "HOUR 8",
+"small": "the world finds out",
+"at": "@0.200",
+"x": 0.5,
+"y": 0.14
+},
+"props": [],
+"text": []
+},
+{
+"lines": [
+99
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.65,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+}
+],
+"items": [],
+"card": {
+"big": "HOUR 8",
+"small": "the world finds out",
+"at": -1,
+"x": 0.5,
+"y": 0.14
+},
+"props": [
+{
+"k": "eye",
+"x": 0.5,
+"y": 0.42,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+100
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.65,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+}
+],
+"items": [],
+"card": {
+"big": "HOUR 8",
+"small": "the world finds out",
+"at": -1,
+"x": 0.5,
+"y": 0.14
+},
+"props": [
+{
+"k": "eye",
+"x": 0.5,
+"y": 0.42,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "20,000,000 VIEWS",
+"x": 0.5,
+"y": 0.56,
+"at": "@0.000",
+"size": 56
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-192.0,
+-192.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+101
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+},
+"ghost": 0.03
+}
+],
+"items": [],
+"props": [
+{
+"k": "letter",
+"x": 0.62,
+"y": 0.55,
+"r": 40,
+"at": "@0.250",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+102,
+103
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+},
+"ghost": 0.03
+}
+],
+"items": [],
+"props": [
+{
+"k": "letter",
+"x": 0.62,
+"y": 0.55,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "HOW DID SHE FIND YOU?",
+"x": 0.42,
+"y": 0.16,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+104,
+105
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+},
+"ghost": 0.03
+}
+],
+"items": [],
+"inset": {
+"who": "carla",
+"label": "CARLA DIAZ, TV",
+"at": "@0.000",
+"x": 0.75
+},
+"props": [
+{
+"k": "letter",
+"x": 0.62,
+"y": 0.55,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "HOW DID SHE FIND YOU?",
+"x": 0.42,
+"y": 0.16,
+"at": -1,
+"size": 46
+},
+{
+"s": "SHE'S FAMOUS",
+"x": 0.42,
+"y": 0.26,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+106,
+107
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+},
+"ghost": 0.03
+}
+],
+"items": [],
+"inset": {
+"who": "carla",
+"label": "CARLA DIAZ, TV",
+"at": "@0.000",
+"x": 0.78,
+"talk": true
+},
+"text": [
+{
+"s": "\"ARE YOU THE INVISIBLE MAN?\"",
+"x": 0.42,
+"y": 0.14,
+"at": "@1.000",
+"size": 44
+}
+]
+},
+{
+"lines": [
+108,
+109
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+},
+"ghost": 0.03
+}
+],
+"items": [],
+"inset": {
+"who": "carla",
+"label": "CARLA DIAZ, TV",
+"at": -1,
+"x": 0.78,
+"talk": true
+},
+"text": [
+{
+"s": "\"ARE YOU THE INVISIBLE MAN?\"",
+"x": 0.42,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"PROVE IT ON LIVE TV. 6 PM.\"",
+"x": 0.42,
+"y": 0.24,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+110,
+111
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+},
+"ghost": 0.03
+}
+],
+"items": [],
+"inset": {
+"who": "carla",
+"label": "CARLA DIAZ, TV",
+"at": -1,
+"x": 0.78,
+"talk": true
+},
+"text": [
+{
+"s": "\"ARE YOU THE INVISIBLE MAN?\"",
+"x": 0.42,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"PROVE IT ON LIVE TV. 6 PM.\"",
+"x": 0.42,
+"y": 0.24,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+112
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+},
+"ghost": 0.03
+}
+],
+"items": [],
+"inset": {
+"who": "carla",
+"label": "CARLA DIAZ, TV",
+"at": -1,
+"x": 0.78,
+"talk": true
+},
+"text": [
+{
+"s": "\"ARE YOU THE INVISIBLE MAN?\"",
+"x": 0.42,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"PROVE IT ON LIVE TV. 6 PM.\"",
+"x": 0.42,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"SAY HELLO TO THE WORLD\"",
+"x": 0.42,
+"y": 0.34,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+113
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+},
+"ghost": 0.03
+}
+],
+"items": [],
+"inset": {
+"who": "carla",
+"label": "CARLA DIAZ, TV",
+"at": -1,
+"x": 0.78,
+"talk": true
+},
+"text": [
+{
+"s": "\"ARE YOU THE INVISIBLE MAN?\"",
+"x": 0.42,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"PROVE IT ON LIVE TV. 6 PM.\"",
+"x": 0.42,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"SAY HELLO TO THE WORLD\"",
+"x": 0.42,
+"y": 0.34,
+"at": -1,
+"size": 44
+}
+],
+"card": {
+"big": "$1,000,000",
+"small": "the first invisible man in history",
+"at": "@0.000",
+"x": 0.42,
+"y": 0.55,
+"w": 700
+},
+"fx": []
+},
+{
+"lines": [
+114,
+115
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "phone",
+"to": 1
+},
+"ghost": 0.03
+}
+],
+"items": [],
+"text": [
+{
+"s": "ONE MILLION.",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.300"
+}
+]
+},
+{
+"lines": [
+116,
+117
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "phone",
+"to": "@1.900"
+},
+"ghost": 0.03
+}
+],
+"items": [],
+"text": [
+{
+"s": "ONE MILLION.",
+"x": 0.5,
+"y": 0.14,
+"at": -1
+},
+{
+"s": "COULD YOU STAY SILENT TILL SIX?",
+"x": 0.5,
+"y": 0.26,
+"at": "@1.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+118
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"text": [
+{
+"s": "ONE MILLION.",
+"x": 0.5,
+"y": 0.14,
+"at": -1
+},
+{
+"s": "COULD YOU STAY SILENT TILL SIX?",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+119
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.42,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"text": [
+{
+"s": "ONE MILLION.",
+"x": 0.5,
+"y": 0.14,
+"at": -1
+},
+{
+"s": "COULD YOU STAY SILENT TILL SIX?",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 44
+},
+{
+"s": "EASY. RIGHT?",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000"
+}
+],
+"fx": []
+},
+{
+"lines": [
+120,
+121
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.05
+],
+[
+"@1.999",
+0.4167
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"card": {
+"big": "HOUR 9",
+"small": "walking home",
+"at": "@0.150",
+"x": 0.75
+}
+},
+{
+"lines": [
+122
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.4167
+],
+[
+"@0.999",
+0.6
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"card": {
+"big": "HOUR 9",
+"small": "walking home",
+"at": -1,
+"x": 0.75
+},
+"fx": []
+},
+{
+"lines": [
+123
+],
+"set": "town",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.45,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.75,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "bird",
+"x": 0.55,
+"size": 0.25
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.6,
+"size": 0.25
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.35,
+"size": 0.25
+}
+],
+"card": {
+"big": "MRS. ROSA",
+"small": "81, tiny, feeds the pigeons",
+"at": "@0.250",
+"x": 0.3,
+"w": 600
+},
+"text": []
+},
+{
+"lines": [
+124
+],
+"set": "town",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.45,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.75,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "bird",
+"x": 0.55,
+"size": 0.25
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.6,
+"size": 0.25
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.35,
+"size": 0.25
+}
+],
+"card": {
+"big": "MRS. ROSA",
+"small": "81, tiny, feeds the pigeons",
+"at": -1,
+"x": 0.3,
+"w": 600
+},
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+480.0,
+480.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+125
+],
+"set": "town",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.45,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.75,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "bird",
+"x": 0.55,
+"size": 0.25
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.6,
+"size": 0.25
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.35,
+"size": 0.25
+}
+],
+"card": {
+"big": "MRS. ROSA",
+"small": "81, tiny, feeds the pigeons",
+"at": -1,
+"x": 0.3,
+"w": 600
+},
+"text": [
+{
+"s": "5 YEARS NEXT DOOR",
+"x": 0.62,
+"y": 0.36,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+240.0,
+240.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+126,
+127
+],
+"set": "town",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.45,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.75,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "bird",
+"x": 0.55,
+"size": 0.25
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.6,
+"size": 0.25
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.35,
+"size": 0.25
+}
+],
+"card": {
+"big": "MRS. ROSA",
+"small": "81, tiny, feeds the pigeons",
+"at": -1,
+"x": 0.3,
+"w": 600
+},
+"text": [
+{
+"s": "5 YEARS NEXT DOOR",
+"x": 0.62,
+"y": 0.36,
+"at": -1,
+"size": 46
+},
+{
+"s": "WORDS SAID: MAYBE 10",
+"x": 0.62,
+"y": 0.46,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+128
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"pour"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "pour",
+"to": 1
+},
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.92
+],
+[
+"@0.999",
+0.8
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.47,
+"food": "cocoa",
+"at": "@2"
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": "@2.3"
+},
+{
+"k": "housedoor",
+"x": 0.88,
+"open": 1
+}
+],
+"text": [],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a"
+},
+{
+"lines": [
+129
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"pour"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "pour",
+"to": "@0.900"
+},
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.8
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.47,
+"food": "cocoa",
+"at": "@2"
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": "@2.3"
+},
+{
+"k": "housedoor",
+"x": 0.88,
+"open": 1
+}
+],
+"text": [],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+520,
+520
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+130
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.8
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.47,
+"food": "cocoa",
+"at": "@2"
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": "@2.3"
+},
+{
+"k": "housedoor",
+"x": 0.88,
+"open": 1
+}
+],
+"text": [
+{
+"s": "TWO CUPS OF TEA",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+288.00000000000006,
+288.00000000000006
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+131
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.8
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.47,
+"food": "cocoa",
+"at": "@2"
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": "@2.3"
+},
+{
+"k": "housedoor",
+"x": 0.88,
+"open": 1
+}
+],
+"text": [
+{
+"s": "TWO CUPS OF TEA",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "ONE FOR AN EMPTY CHAIR",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+132,
+133
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@1.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.8
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.47,
+"food": "cocoa",
+"at": "@2"
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": "@2.3"
+},
+{
+"k": "housedoor",
+"x": 0.88,
+"open": 1
+}
+],
+"text": [
+{
+"s": "TWO CUPS OF TEA",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "ONE FOR AN EMPTY CHAIR",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+134
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.8
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.47,
+"food": "cocoa",
+"at": "@2"
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": "@2.3"
+},
+{
+"k": "housedoor",
+"x": 0.88,
+"open": 1
+}
+],
+"text": [
+{
+"s": "TWO CUPS OF TEA",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "ONE FOR AN EMPTY CHAIR",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"THE PIGEONS WERE NAUGHTY, LUIS\"",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 42
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+135,
+136
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.8,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@1.000",
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": -1
+}
+],
+"cam": {
+"z": [
+1.3,
+1.35
+],
+"x": [
+40.0,
+40.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "LUIS. HER HUSBAND.",
+"x": 0.5,
+"y": 0.14,
+"at": "@1.000",
+"size": 48
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a"
+},
+{
+"lines": [
+137
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.8,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": -1
+}
+],
+"cam": {
+"z": [
+1.35,
+1.375
+],
+"x": [
+40.0,
+40.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "LUIS. HER HUSBAND.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+138
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.8,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": -1
+}
+],
+"cam": {
+"z": [
+1.375,
+1.4
+],
+"x": [
+40.0,
+40.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "LUIS. HER HUSBAND.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "TEA FOR HIM, EVERY DAY",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+139,
+140
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+}
+],
+"props": [
+{
+"k": "family",
+"x": 0.55,
+"y": 0.42,
+"r": 60,
+"at": "@0.200",
+"disc": true
+}
+],
+"card": {
+"big": "AVA",
+"small": "her granddaughter... pink rain boots",
+"at": "@1.000",
+"x": 0.72,
+"w": 620
+},
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a"
+},
+{
+"lines": [
+141,
+142
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+}
+],
+"props": [
+{
+"k": "family",
+"x": 0.55,
+"y": 0.42,
+"r": 60,
+"at": -1,
+"disc": true
+}
+],
+"card": {
+"big": "AVA",
+"small": "her granddaughter... pink rain boots",
+"at": -1,
+"x": 0.72,
+"w": 620
+},
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+143
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.8,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": -1
+}
+],
+"text": [],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a"
+},
+{
+"lines": [
+144,
+145
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.8,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": -1
+}
+],
+"text": [
+{
+"s": "\"AVA'S COMING TOMORROW\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+146
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.8,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": -1
+}
+],
+"text": [
+{
+"s": "\"AVA'S COMING TOMORROW\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"ON THE TRAIN\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+147,
+148
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.42,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.8,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": -1
+}
+],
+"text": [
+{
+"s": "\"AVA'S COMING TOMORROW\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"ON THE TRAIN\"",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"BY THE BIG CLOCK. LIKE ALWAYS.\"",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+149
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.5,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.4,
+1.425
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a"
+},
+{
+"lines": [
+150
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.5,
+"pose": [
+[
+0,
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.425,
+1.45
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "INVISIBLE YOUR WHOLE LIFE",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 48
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+151
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.5,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.45,
+1.475
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "INVISIBLE YOUR WHOLE LIFE",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "NOT BECAUSE OF A CLOAK",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+152
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.5,
+"pose": [
+[
+0,
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.475,
+1.5
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "INVISIBLE YOUR WHOLE LIFE",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "NOT BECAUSE OF A CLOAK",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "YOU NEVER SAID HELLO",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 48
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+153,
+154
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.05
+],
+[
+"@1.999",
+0.2833
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.75,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.88,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"card": {
+"big": "HOUR 23",
+"small": "next day, 5:30 PM, Central Station",
+"at": "@0.300",
+"x": 0.6,
+"w": 680
+},
+"text": [],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+155,
+156
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.2833
+],
+[
+"@1.000",
+0.4
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.75,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.88,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"card": {
+"big": "HOUR 23",
+"small": "next day, 5:30 PM, Central Station",
+"at": -1,
+"x": 0.6,
+"w": 680
+},
+"text": [],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-304.032,
+-304.032
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+157
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.4
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.75,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.88,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"card": {
+"big": "HOUR 23",
+"small": "next day, 5:30 PM, Central Station",
+"at": -1,
+"x": 0.6,
+"w": 680
+},
+"text": [
+{
+"s": "TV STUDIO: RIGHT ABOVE",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+158
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.4
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.75,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.88,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"card": {
+"big": "HOUR 23",
+"small": "next day, 5:30 PM, Central Station",
+"at": -1,
+"x": 0.6,
+"w": 680
+},
+"text": [
+{
+"s": "TV STUDIO: RIGHT ABOVE",
+"x": 0.5,
+"y": 0.36,
+"at": -1,
+"size": 44
+},
+{
+"s": "30 MIN TO SHOWTIME",
+"x": 0.5,
+"y": 0.46,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+159,
+160
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.4,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+},
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"inset": {
+"who": "carla",
+"label": "CARLA",
+"at": "@0.000",
+"x": 0.75
+},
+"text": [
+{
+"s": "\"READY? WALK IN AT SIX.\"",
+"x": 0.45,
+"y": 0.16,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+161
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.4,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+},
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"inset": {
+"who": "carla",
+"label": "CARLA",
+"at": -1,
+"x": 0.75
+},
+"text": [
+{
+"s": "\"READY? WALK IN AT SIX.\"",
+"x": 0.45,
+"y": 0.16,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"STAY SILENT TILL THE STAGE.\"",
+"x": 0.45,
+"y": 0.26,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+162,
+163
+],
+"set": "room",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.12,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.22,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.32,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.58,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.82,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": [
+[
+0,
+1.3
+],
+[
+"@1.999",
+-1.15
+]
+],
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "RUSH HOUR. THOUSANDS OF PEOPLE.",
+"x": 0.5,
+"y": 0.14,
+"at": "@1.000",
+"size": 44
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+164,
+165
+],
+"set": "room",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.12,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.22,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.32,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.58,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.82,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": [
+[
+0,
+-1.15
+],
+[
+"@1.999",
+-3.6
+]
+],
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "RUSH HOUR. THOUSANDS OF PEOPLE.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+166
+],
+"set": "room",
+"actors": [
+{
+"id": "ava",
+"who": "ava",
+"x": 0.6,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"s": 1.6
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@0.500",
+"shocked"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+167,
+168
+],
+"set": "room",
+"actors": [
+{
+"id": "ava",
+"who": "ava",
+"x": 0.6,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"s": 1.6
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "PINK RAIN BOOTS",
+"x": 0.6,
+"y": 0.16,
+"at": "@0.000",
+"size": 48
+},
+{
+"s": "AVA. ALONE. CRYING.",
+"x": 0.6,
+"y": 0.26,
+"at": "@0.000",
+"size": 48
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+169,
+170
+],
+"set": "room",
+"actors": [
+{
+"id": "ava",
+"who": "ava",
+"x": 0.6,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"s": 1.6
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "PINK RAIN BOOTS",
+"x": 0.6,
+"y": 0.16,
+"at": -1,
+"size": 48
+},
+{
+"s": "AVA. ALONE. CRYING.",
+"x": 0.6,
+"y": 0.26,
+"at": -1,
+"size": 48
+},
+{
+"s": "HER MOM: NOWHERE",
+"x": 0.6,
+"y": 0.36,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+171,
+172
+],
+"set": "room",
+"actors": [
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.6
+]
+],
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": [
+[
+0,
+-1
+],
+[
+"@1.000",
+1
+]
+],
+"yk": [
+[
+0,
+0
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+173,
+174
+],
+"set": "room",
+"actors": [
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.6
+],
+[
+"@1.999",
+0.66
+]
+],
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": [
+[
+0,
+1
+]
+],
+"yk": [
+[
+0,
+0.0
+],
+[
+"@1.999",
+-0.06
+]
+]
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "TOWARD THE YELLOW LINE",
+"x": 0.6,
+"y": 0.16,
+"at": "@1.000",
+"size": 48,
+"color": "#f2c21a"
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+175,
+176
+],
+"set": "room",
+"actors": [
+{
+"id": "ava",
+"who": "ava",
+"x": 0.66,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"yk": -0.06
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": [
+[
+0,
+0.1
+],
+[
+"@1.999",
+0.3
+]
+]
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"fx": [
+"shake"
+],
+"text": [
+{
+"s": "HOOOONK",
+"x": 0.85,
+"y": 0.2,
+"at": "@0.150"
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+177
+],
+"set": "room",
+"actors": [
+{
+"id": "ava",
+"who": "ava",
+"x": 0.66,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"yk": -0.06
+},
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"ghost": 0.03
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": [
+[
+0,
+0.3
+],
+[
+"@0.999",
+0.4
+]
+]
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"fx": [
+"shake"
+],
+"text": [
+{
+"s": "HOOOONK",
+"x": 0.85,
+"y": 0.2,
+"at": -1
+},
+{
+"s": "A TRAIN IS COMING",
+"x": 0.5,
+"y": 0.3,
+"at": "@0.000",
+"size": 50
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+178
+],
+"set": "room",
+"actors": [],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0.5
+}
+],
+"card": {
+"big": "~100 METERS",
+"small": "for a subway train at speed to stop... maybe more",
+"at": "@0.100",
+"w": 880
+},
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+179
+],
+"set": "room",
+"actors": [],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0.5
+}
+],
+"card": {
+"big": "~100 METERS",
+"small": "for a subway train at speed to stop... maybe more",
+"at": -1,
+"w": 880
+},
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+180,
+181
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.38,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.46,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.66
+]
+],
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": [
+[
+0,
+-0.06
+]
+]
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": [
+[
+0,
+0.5
+],
+[
+"@1.999",
+0.58
+]
+]
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "20 METERS AWAY. INVISIBLE.",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.250",
+"size": 46
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+182
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.38,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.46,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.66
+]
+],
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": [
+[
+0,
+-0.06
+]
+]
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": [
+[
+0,
+0.58
+],
+[
+"@0.999",
+0.62
+]
+]
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "20 METERS AWAY. INVISIBLE.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "A WALL OF COATS AND BAGS",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+183,
+184
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.38,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.46,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.66
+],
+[
+"@0.500",
+0.68
+]
+],
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": [
+[
+0,
+-0.06
+],
+[
+"@0.500",
+-0.09
+]
+]
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": [
+[
+0,
+0.62
+],
+[
+"@1.999",
+0.7
+]
+]
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "20 METERS AWAY. INVISIBLE.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "A WALL OF COATS AND BAGS",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "WHAT CAN YOU DO?",
+"x": 0.5,
+"y": 0.34,
+"at": "@1.000"
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+185
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.68,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.09
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0.7
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+186
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.68,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.09
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0.7
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+187
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.68,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.09
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0.7
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "SHE CAN'T SEE YOU",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 48
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-192.0,
+-192.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+188
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.68,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.09
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0.7
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "SHE CAN'T SEE YOU",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "SHE NEEDS TO HEAR YOU",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 48
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+189,
+190
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.68,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.09
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": [
+[
+0,
+0.7
+],
+[
+"@1.999",
+0.75
+]
+]
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"thought": {
+"props": [
+"tv",
+"money",
+"star"
+],
+"x": 0.3,
+"y": 0.28,
+"at": "@0.300"
+},
+"text": [],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+191,
+192
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.68,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.09
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": [
+[
+0,
+0.75
+],
+[
+"@1.999",
+0.8
+]
+]
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"thought": {
+"props": [
+"tv",
+"money",
+"star"
+],
+"x": 0.3,
+"y": 0.28,
+"at": -1
+},
+"text": [],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+193
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.68,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.09
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": [
+[
+0,
+0.8
+],
+[
+"@0.999",
+0.825
+]
+]
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"thought": {
+"props": [
+"tv",
+"money",
+"star"
+],
+"x": 0.3,
+"y": 0.28,
+"at": -1
+},
+"text": [
+{
+"s": "SPEAK NOW = ALL GONE. FOREVER.",
+"x": 0.6,
+"y": 0.5,
+"at": "@0.000",
+"size": 42
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-192.0,
+-192.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+194
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.68,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.09
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": [
+[
+0,
+0.825
+],
+[
+"@0.999",
+0.85
+]
+]
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"thought": {
+"props": [
+"tv",
+"money",
+"star"
+],
+"x": 0.3,
+"y": 0.28,
+"at": -1
+},
+"text": [
+{
+"s": "SPEAK NOW = ALL GONE. FOREVER.",
+"x": 0.6,
+"y": 0.5,
+"at": -1,
+"size": 42
+},
+{
+"s": "THE CLOAK... OR THE GIRL",
+"x": 0.6,
+"y": 0.6,
+"at": "@0.000",
+"size": 48
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+195
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.68
+]
+],
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": [
+[
+0,
+-0.09
+]
+]
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": [
+[
+0,
+0.85
+],
+[
+"@0.999",
+0.9
+]
+]
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"fx": [
+"shake"
+],
+"text": [],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+196
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.68
+]
+],
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": [
+[
+0,
+-0.09
+]
+]
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": [
+[
+0,
+0.9
+],
+[
+"@0.999",
+0.95
+]
+]
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"fx": [
+"shake"
+],
+"text": [
+{
+"s": "THE RAILS HUM",
+"x": 0.5,
+"y": 0.18,
+"at": "@0.000",
+"size": 50
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+197
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"ghost": 0.03
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.68
+],
+[
+"@0.999",
+0.7
+]
+],
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": [
+[
+0,
+-0.09
+],
+[
+"@0.999",
+-0.105
+]
+]
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": [
+[
+0,
+0.95
+],
+[
+"@0.999",
+1
+]
+]
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"fx": [
+"shake"
+],
+"text": [
+{
+"s": "THE RAILS HUM",
+"x": 0.5,
+"y": 0.18,
+"at": -1,
+"size": 50
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-192.0,
+-192.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+198
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.3
+],
+[
+"@0.999",
+0.45
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.400",
+"point"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"ghost": [
+[
+0,
+0.03
+]
+],
+"talk": [
+"@0.200",
+1
+]
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.7,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"cry"
+],
+[
+"@0.800",
+"surprised"
+]
+],
+"yk": -0.105,
+"facing": [
+[
+0,
+1
+],
+[
+"@0.800",
+-1
+]
+]
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 1
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"fx": [],
+"text": [
+{
+"s": "\"AVA! STOP!\"",
+"x": 0.4,
+"y": 0.16,
+"at": "@0.200"
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+199
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"ghost": [
+[
+0,
+0.03
+],
+[
+"@0.400",
+1
+]
+],
+"talk": [
+"@0.000",
+"@0.400"
+]
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.7,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"yk": -0.105,
+"facing": [
+[
+0,
+-1
+]
+]
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 1
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"fx": [],
+"text": [
+{
+"s": "\"AVA! STOP!\"",
+"x": 0.4,
+"y": 0.16,
+"at": -1
+},
+{
+"s": "\"STAY RIGHT THERE!\"",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000"
+},
+{
+"s": "FLASH",
+"x": 0.45,
+"y": 0.36,
+"at": "@0.400",
+"size": 50
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+200
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.3,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"yk": -0.105,
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 1
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "THE CLOAK GOES HEAVY AND GRAY",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.250",
+"size": 44
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+201
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.3,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"yk": -0.105,
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 1
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "THE CLOAK GOES HEAVY AND GRAY",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+202
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.3,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"yk": -0.105,
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 1
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "THE CLOAK GOES HEAVY AND GRAY",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "A MAN IN A SILVER BLANKET",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+203,
+204
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "dad",
+"who": "dad",
+"x": 0.3,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.85,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"yk": -0.105,
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 1
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "THE CLOAK GOES HEAVY AND GRAY",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "A MAN IN A SILVER BLANKET",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "EVERYONE TURNS",
+"x": 0.5,
+"y": 0.34,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+205,
+206
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": [
+[
+0,
+0
+]
+],
+"walkArms": true
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.7
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"yk": [
+[
+0,
+-0.105
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": [
+[
+0,
+2
+]
+],
+"lamp": 1
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "FROZEN ON THE YELLOW LINE",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.300",
+"size": 44,
+"color": "#f2c21a"
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+207,
+208
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.45
+],
+[
+"@0.700",
+0.66
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": [
+[
+0,
+0.0
+],
+[
+"@0.700",
+0
+],
+[
+"@1.000",
+-0.09
+]
+],
+"walkArms": true
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.7
+],
+[
+"@1.000",
+0.7
+],
+[
+"@1.999",
+0.68
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"hug"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"yk": [
+[
+0,
+-0.105
+],
+[
+"@1.000",
+-0.105
+],
+[
+"@1.200",
+-0.2
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": [
+[
+0,
+2.0
+]
+],
+"lamp": 1
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "FROZEN ON THE YELLOW LINE",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44,
+"color": "#f2c21a"
+},
+{
+"s": "YOU RUN",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000"
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+209,
+210
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.66
+],
+[
+"@0.600",
+0.5
+]
+],
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": [
+[
+0,
+-0.09
+],
+[
+"@0.600",
+0
+]
+],
+"walkArms": true
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.68
+],
+[
+"@0.600",
+0.52
+]
+],
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"yk": [
+[
+0,
+-0.2
+],
+[
+"@0.600",
+-0.11
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": [
+[
+0,
+2.0
+],
+[
+"@0.500",
+2
+],
+[
+"@0.600",
+1.2
+],
+[
+"@1.999",
+-3
+]
+],
+"lamp": 1
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "FROZEN ON THE YELLOW LINE",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44,
+"color": "#f2c21a"
+},
+{
+"s": "YOU RUN",
+"x": 0.5,
+"y": 0.24,
+"at": -1
+},
+{
+"s": "WHOOSH",
+"x": 0.6,
+"y": 0.34,
+"at": "@0.600",
+"size": 70
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+211
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.5,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.52,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.11,
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": [
+[
+0,
+-1.5
+],
+[
+"@0.999",
+-2.2
+]
+],
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"cam": {
+"z": [
+1.4,
+1.433
+],
+"x": [
+20.0,
+20.0
+],
+"y": [
+-80.0,
+-80.0
+]
+},
+"text": [
+{
+"s": "HALF A METER FROM HER BOOTS",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.150",
+"size": 44
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+212,
+213
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.5,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.52,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.11,
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": [
+[
+0,
+-2.2
+],
+[
+"@1.999",
+-3.6
+]
+],
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"cam": {
+"z": [
+1.433,
+1.5
+],
+"x": [
+20.0,
+20.0
+],
+"y": [
+-80.0,
+-80.0
+]
+},
+"text": [
+{
+"s": "HALF A METER FROM HER BOOTS",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"WHO ARE YOU? A GHOST?\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+214
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.5,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.52,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.11,
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"cam": {
+"z": [
+1.4,
+1.417
+],
+"x": [
+20.0,
+20.0
+],
+"y": [
+-80.0,
+-80.0
+]
+},
+"text": [
+{
+"s": "\"I'M YOUR GRANDMA'S NEIGHBOR. RIO.\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.300",
+"size": 42
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+215,
+216
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.5,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+"@0.900"
+]
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.52,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.11,
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"cam": {
+"z": [
+1.417,
+1.45
+],
+"x": [
+20.0,
+20.0
+],
+"y": [
+-80.0,
+-80.0
+]
+},
+"text": [
+{
+"s": "\"I'M YOUR GRANDMA'S NEIGHBOR. RIO.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 42
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+217,
+218
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.5,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.52,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"yk": -0.11,
+"facing": -1,
+"talk": [
+"@0.000",
+"@0.900"
+]
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"cam": {
+"z": [
+1.45,
+1.483
+],
+"x": [
+20.0,
+20.0
+],
+"y": [
+-80.0,
+-80.0
+]
+},
+"text": [
+{
+"s": "\"I'M YOUR GRANDMA'S NEIGHBOR. RIO.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 42
+},
+{
+"s": "\"GRANDMA'S PIGEONS?\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 44
+},
+{
+"s": "\"THE NAUGHTY ONES.\"",
+"x": 0.5,
+"y": 0.34,
+"at": "@1.000",
+"size": 44
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+219
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.5,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "ava",
+"who": "ava",
+"x": 0.52,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"yk": -0.11,
+"facing": -1
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"cam": {
+"z": [
+1.483,
+1.5
+],
+"x": [
+20.0,
+20.0
+],
+"y": [
+-80.0,
+-80.0
+]
+},
+"text": [
+{
+"s": "\"I'M YOUR GRANDMA'S NEIGHBOR. RIO.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 42
+},
+{
+"s": "\"GRANDMA'S PIGEONS?\"",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"THE NAUGHTY ONES.\"",
+"x": 0.5,
+"y": 0.34,
+"at": -1,
+"size": 44
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+220
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.5
+],
+[
+"@0.999",
+0.4067
+]
+],
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"walkArms": true
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.52
+],
+[
+"@0.999",
+0.4267
+]
+],
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"yk": -0.11,
+"facing": -1
+},
+{
+"id": "worker",
+"who": "worker",
+"x": 0.1,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+221,
+222
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.4067
+],
+[
+"@1.999",
+0.22
+]
+],
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"walkArms": true
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.4267
+],
+[
+"@1.999",
+0.24
+]
+],
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"yk": -0.11,
+"facing": -1
+},
+{
+"id": "worker",
+"who": "worker",
+"x": 0.1,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"card": {
+"big": "IF A CHILD IS LOST",
+"small": "stay in one place... find a worker... wait",
+"at": "@0.000",
+"x": 0.62,
+"w": 760
+},
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+223
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.22
+]
+],
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"walkArms": true
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.24
+]
+],
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"yk": -0.11,
+"facing": -1
+},
+{
+"id": "worker",
+"who": "worker",
+"x": 0.1,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.500",
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.500",
+1
+]
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"card": {
+"big": "IF A CHILD IS LOST",
+"small": "stay in one place... find a worker... wait",
+"at": -1,
+"x": 0.62,
+"w": 760
+},
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-300,
+-300
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+224,
+225
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": [
+[
+0,
+0.22
+]
+],
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"walkArms": true
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.24
+]
+],
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"yk": -0.11,
+"facing": -1
+},
+{
+"id": "worker",
+"who": "worker",
+"x": 0.1,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"card": {
+"big": "IF A CHILD IS LOST",
+"small": "stay in one place... find a worker... wait",
+"at": -1,
+"x": 0.62,
+"w": 760
+},
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-520,
+-520
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+226
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.22,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.26
+],
+[
+"@0.500",
+0.4
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.600",
+"hug"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": [
+[
+0,
+1
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": [
+[
+0,
+0.95
+],
+[
+"@0.500",
+0.45
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.600",
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+},
+{
+"id": "rosa",
+"who": "rosa",
+"x": [
+[
+0,
+1.05
+],
+[
+"@0.999",
+0.8933
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1,
+"s": 1.5
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "2 MINUTES LATER",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 48
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+227,
+228
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.22,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.4
+]
+],
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": [
+[
+0,
+1
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+},
+{
+"id": "rosa",
+"who": "rosa",
+"x": [
+[
+0,
+0.8933
+],
+[
+"@1.999",
+0.58
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1,
+"s": 1.5
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "2 MINUTES LATER",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "MRS. ROSA... SLOWLY",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+229
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.22,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "ava",
+"who": "ava",
+"x": [
+[
+0,
+0.4
+]
+],
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": [
+[
+0,
+1
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+},
+{
+"id": "rosa",
+"who": "rosa",
+"x": [
+[
+0,
+0.58
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.200",
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1,
+"s": 1.5
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"text": [
+{
+"s": "2 MINUTES LATER",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "MRS. ROSA... SLOWLY",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+230
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.34,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+]
+},
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.46,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1,
+"talk": [
+"@0.500",
+1
+],
+"s": 1.5
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"cam": {
+"z": [
+1.4,
+1.414
+],
+"x": [
+-150.0,
+-150.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {}
+},
+{
+"lines": [
+231,
+232
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.34,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@1.000",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"talk": [
+"@1.000",
+"@1.900"
+]
+},
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.46,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+"@0.900"
+],
+"s": 1.5
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"cam": {
+"z": [
+1.414,
+1.443
+],
+"x": [
+-150.0,
+-150.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "\"RIO FROM NEXT DOOR.\"",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+233,
+234
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.34,
+"pose": [
+[
+0,
+"shrug"
+],
+[
+"@1.000",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+]
+},
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.46,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"facing": -1,
+"s": 1.5
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"cam": {
+"z": [
+1.443,
+1.471
+],
+"x": [
+-150.0,
+-150.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "\"RIO FROM NEXT DOOR.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"5 YEARS. YOU NEVER SAID HELLO.\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 42
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+235,
+236
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "cloak",
+"x": 0.34,
+"pose": [
+[
+0,
+"crossArms"
+],
+[
+"@1.000",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+],
+[
+"@1.000",
+"smile"
+]
+]
+},
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.46,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+],
+[
+"@1.000",
+"joy"
+]
+],
+"facing": -1,
+"s": 1.5
+}
+],
+"items": [
+{
+"k": "subway",
+"x": 0.5,
+"tx": 2,
+"lamp": 0
+},
+{
+"k": "stationclock",
+"x": 0.15
+}
+],
+"cam": {
+"z": [
+1.471,
+1.5
+],
+"x": [
+-150.0,
+-150.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "\"RIO FROM NEXT DOOR.\"",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"5 YEARS. YOU NEVER SAID HELLO.\"",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 42
+},
+{
+"s": "\"I'M SORRY... HELLO.\"",
+"x": 0.5,
+"y": 0.34,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#4a4a58",
+"wall2": "#22222a",
+"room": {},
+"fx": []
+},
+{
+"lines": [
+237
+],
+"set": "studio",
+"actors": [
+{
+"id": "carla",
+"who": "carla",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "stage",
+"x": 0.5,
+"w": 4
+}
+],
+"props": [
+{
+"k": "clock",
+"x": 0.8,
+"y": 0.3,
+"r": 45,
+"at": "@0.150",
+"disc": true
+}
+],
+"text": [
+{
+"s": "6 PM. NO INVISIBLE MAN.",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.150",
+"size": 48
+}
+]
+},
+{
+"lines": [
+238,
+239
+],
+"set": "studio",
+"actors": [
+{
+"id": "carla",
+"who": "carla",
+"x": 0.5,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"angry"
+]
+]
+}
+],
+"items": [
+{
+"k": "stage",
+"x": 0.5,
+"w": 4
+}
+],
+"props": [
+{
+"k": "clock",
+"x": 0.8,
+"y": 0.3,
+"r": 45,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "6 PM. NO INVISIBLE MAN.",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 48
+},
+{
+"s": "CARLA IS NOT HAPPY",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+240
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.6,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.75,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.5,
+"y": 0.35,
+"r": 90,
+"at": "@0.300",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+241
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.6,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.75,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.5,
+"y": 0.35,
+"r": 90,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A MAN APPEARS OUT OF THIN AIR",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 42
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+242
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.6,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.75,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.5,
+"y": 0.35,
+"r": 90,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A MAN APPEARS OUT OF THIN AIR",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 42
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-192.0,
+-192.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+243
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.6,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.75,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.5,
+"y": 0.35,
+"r": 90,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A MAN APPEARS OUT OF THIN AIR",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 42
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+244
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.6,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.75,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.5,
+"y": 0.35,
+"r": 90,
+"at": -1,
+"disc": true
+}
+],
+"card": {
+"big": "30,000,000",
+"small": "watch it by morning",
+"at": "@0.000",
+"x": 0.5,
+"y": 0.6,
+"w": 640
+},
+"text": [
+{
+"s": "A MAN APPEARS OUT OF THIN AIR",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 42
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-192.0,
+-192.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+245
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "phone"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.6,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.75,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "tv",
+"x": 0.5,
+"y": 0.35,
+"r": 90,
+"at": -1,
+"disc": true
+}
+],
+"card": {
+"big": "30,000,000",
+"small": "watch it by morning",
+"at": -1,
+"x": 0.5,
+"y": 0.6,
+"w": 640
+},
+"text": [
+{
+"s": "A MAN APPEARS OUT OF THIN AIR",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 42
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+246
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.2,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "cup"
+},
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.12,
+"open": 1
+}
+],
+"text": [
+{
+"s": "KNOCK KNOCK",
+"x": 0.15,
+"y": 0.16,
+"at": "@0.200",
+"size": 48
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+247,
+248
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.2,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "cup"
+},
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.12,
+"open": 1
+}
+],
+"text": [
+{
+"s": "KNOCK KNOCK",
+"x": 0.15,
+"y": 0.16,
+"at": -1,
+"size": 48
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-191.99999999999994,
+-191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+249
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.2,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "cup"
+},
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.12,
+"open": 1
+}
+],
+"text": [
+{
+"s": "KNOCK KNOCK",
+"x": 0.15,
+"y": 0.16,
+"at": -1,
+"size": 48
+},
+{
+"s": "\"SO. TEA?\"",
+"x": 0.3,
+"y": 0.26,
+"at": "@0.000"
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+250
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.64,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.46,
+"food": "cocoa",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": -1
+}
+],
+"text": [],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a"
+},
+{
+"lines": [
+251
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.64,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.46,
+"food": "cocoa",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": -1
+}
+],
+"text": [
+{
+"s": "LUIS'S CHAIR",
+"x": 0.64,
+"y": 0.16,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-191.99999999999994,
+-191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+252,
+253
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.64,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.46,
+"food": "cocoa",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": -1
+}
+],
+"text": [
+{
+"s": "LUIS'S CHAIR",
+"x": 0.64,
+"y": 0.16,
+"at": -1,
+"size": 46
+},
+{
+"s": "PIGEONS. LUIS. PINK BOOTS.",
+"x": 0.5,
+"y": 0.26,
+"at": "@1.000",
+"size": 44
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+254,
+255
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.64,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.46,
+"food": "cocoa",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": -1
+}
+],
+"text": [
+{
+"s": "LUIS'S CHAIR",
+"x": 0.64,
+"y": 0.16,
+"at": -1,
+"size": 46
+},
+{
+"s": "PIGEONS. LUIS. PINK BOOTS.",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 44
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+256
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.64,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.46,
+"food": "cocoa",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": -1
+}
+],
+"text": [
+{
+"s": "LUIS'S CHAIR",
+"x": 0.64,
+"y": 0.16,
+"at": -1,
+"size": 46
+},
+{
+"s": "PIGEONS. LUIS. PINK BOOTS.",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 44
+},
+{
+"s": "MORE THAN TEN WORDS",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+257
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "boss",
+"who": "boss",
+"x": 0.6,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.75,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.65,
+"w": 1.4
+}
+],
+"text": [
+{
+"s": "YOU SPEAK UP IN MEETINGS",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.150",
+"size": 46
+}
+]
+},
+{
+"lines": [
+258,
+259
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"talk"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "boss",
+"who": "boss",
+"x": 0.6,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+],
+[
+"@1.000",
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.75,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.65,
+"w": 1.4
+}
+],
+"text": [
+{
+"s": "YOU SPEAK UP IN MEETINGS",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 46
+},
+{
+"s": "THEY START LISTENING",
+"x": 0.5,
+"y": 0.26,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+260
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": 0.55,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"hold": {
+"k": "bagel"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "SAM BUYS YOU A DONUT",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.100",
+"size": 48
+}
+]
+},
+{
+"lines": [
+261
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": 0.55,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"hold": {
+"k": "bagel"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "SAM BUYS YOU A DONUT",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 48
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+262
+],
+"set": "park",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "bird",
+"x": 0.47,
+"size": 0.25
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.62,
+"size": 0.25
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.3,
+"size": 0.25
+}
+],
+"text": [
+{
+"s": "PIGEONS EVERY SATURDAY",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 46
+}
+]
+},
+{
+"lines": [
+263
+],
+"set": "park",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "bird",
+"x": 0.47,
+"size": 0.25
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.62,
+"size": 0.25
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.3,
+"size": 0.25
+}
+],
+"text": [
+{
+"s": "PIGEONS EVERY SATURDAY",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "THE CLOAK: IN A DRAWER",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+264,
+265
+],
+"set": "park",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.55,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "bird",
+"x": 0.47,
+"size": 0.25
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.62,
+"size": 0.25
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.3,
+"size": 0.25
+}
+],
+"text": [
+{
+"s": "PIGEONS EVERY SATURDAY",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "THE CLOAK: IN A DRAWER",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "NOT INVISIBLE ANYMORE",
+"x": 0.5,
+"y": 0.34,
+"at": "@1.000",
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+266
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "COULD INVISIBILITY BE REAL?",
+"x": 0.5,
+"y": 0.45,
+"at": 0.05,
+"size": 70
+}
+]
+},
+{
+"lines": [
+267
+],
+"set": "lab",
+"actors": [
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.35,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "2006",
+"small": "Duke University + John Pendry",
+"at": "@0.250",
+"x": 0.65,
+"w": 640
+},
+"props": [],
+"text": []
+},
+{
+"lines": [
+268
+],
+"set": "lab",
+"actors": [
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.35,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "2006",
+"small": "Duke University + John Pendry",
+"at": -1,
+"x": 0.65,
+"w": 640
+},
+"props": [
+{
+"k": "magnet",
+"x": 0.65,
+"y": 0.5,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "A CLOAK FOR MICROWAVES",
+"x": 0.65,
+"y": 0.38,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-288.00000000000006,
+-288.00000000000006
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+269,
+270
+],
+"set": "lab",
+"actors": [
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.35,
+"pose": [
+[
+0,
+"explain"
+],
+[
+"@1.000",
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "2006",
+"small": "Duke University + John Pendry",
+"at": -1,
+"x": 0.65,
+"w": 640
+},
+"props": [
+{
+"k": "magnet",
+"x": 0.65,
+"y": 0.5,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A CLOAK FOR MICROWAVES",
+"x": 0.65,
+"y": 0.38,
+"at": -1,
+"size": 44
+},
+{
+"s": "METAMATERIALS",
+"x": 0.65,
+"y": 0.62,
+"at": "@0.000",
+"size": 46
+},
+{
+"s": "IT WORKED... A LITTLE",
+"x": 0.65,
+"y": 0.72,
+"at": "@1.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+271
+],
+"set": "lab",
+"actors": [
+{
+"id": "doctor",
+"who": "doctor",
+"x": 0.35,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "2006",
+"small": "Duke University + John Pendry",
+"at": -1,
+"x": 0.65,
+"w": 640
+},
+"props": [
+{
+"k": "magnet",
+"x": 0.65,
+"y": 0.5,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A CLOAK FOR MICROWAVES",
+"x": 0.65,
+"y": 0.38,
+"at": -1,
+"size": 44
+},
+{
+"s": "METAMATERIALS",
+"x": 0.65,
+"y": 0.62,
+"at": -1,
+"size": 46
+},
+{
+"s": "IT WORKED... A LITTLE",
+"x": 0.65,
+"y": 0.72,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+272
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "VISIBLE LIGHT: MUCH HARDER",
+"x": 0.5,
+"y": 0.3,
+"at": "@0.200",
+"size": 52
+}
+],
+"props": []
+},
+{
+"lines": [
+273
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "VISIBLE LIGHT: MUCH HARDER",
+"x": 0.5,
+"y": 0.3,
+"at": -1,
+"size": 52
+},
+{
+"s": "TINY WAVES NEED TINIER MATERIALS",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.000",
+"size": 44
+}
+],
+"props": [],
+"fx": []
+},
+{
+"lines": [
+274
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "VISIBLE LIGHT: MUCH HARDER",
+"x": 0.5,
+"y": 0.3,
+"at": -1,
+"size": 52
+},
+{
+"s": "TINY WAVES NEED TINIER MATERIALS",
+"x": 0.5,
+"y": 0.42,
+"at": -1,
+"size": 44
+},
+{
+"s": "A TRULY INVISIBLE PERSON IS BLIND",
+"x": 0.5,
+"y": 0.54,
+"at": "@0.000",
+"size": 44
+}
+],
+"props": [
+{
+"k": "eye",
+"x": 0.5,
+"y": 0.74,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"fx": []
+},
+{
+"lines": [
+275
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "VISIBLE LIGHT: MUCH HARDER",
+"x": 0.5,
+"y": 0.3,
+"at": -1,
+"size": 52
+},
+{
+"s": "TINY WAVES NEED TINIER MATERIALS",
+"x": 0.5,
+"y": 0.42,
+"at": -1,
+"size": 44
+},
+{
+"s": "A TRULY INVISIBLE PERSON IS BLIND",
+"x": 0.5,
+"y": 0.54,
+"at": -1,
+"size": 44
+}
+],
+"props": [
+{
+"k": "eye",
+"x": 0.5,
+"y": 0.74,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"fx": []
+},
+{
+"lines": [
+276
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "towel"
+},
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.58,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.15,
+"open": 1
+}
+],
+"props": [],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+277
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "towel"
+},
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.58,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.15,
+"open": 1
+}
+],
+"props": [],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+153.5999999999999,
+153.5999999999999
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+278
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "towel"
+},
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.58,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.15,
+"open": 1
+}
+],
+"props": [
+{
+"k": "bag",
+"x": 0.45,
+"y": 0.4,
+"r": 45,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "AN OLD CLOTH BAG",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 48
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+76.79999999999995,
+76.79999999999995
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+279
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "towel"
+},
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.58,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.15,
+"open": 1
+}
+],
+"props": [
+{
+"k": "bag",
+"x": 0.45,
+"y": 0.4,
+"r": 45,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "AN OLD CLOTH BAG",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 48
+},
+{
+"s": "\"IT CAN GRAB ANYTHING ON EARTH\"",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+280,
+281
+],
+"set": "face",
+"actors": [],
+"items": [],
+"who": "rio",
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"lines": [
+282
+],
+"set": "end",
+"actors": [],
+"items": [],
+"tpl": "end"
+}
+]
