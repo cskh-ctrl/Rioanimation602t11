@@ -48,6 +48,7 @@ export const OUTFITS = {
   tom: { top: 'tshirt', color: '#5a7a4a', head: 'none' },
   tomOld: { top: 'tshirt', color: '#5a7a4a', head: 'none', face: 'glasses' },
   rioKid: { top: 'hoodie', color: '#2d7fe0', head: 'curly', headColor: '#0e0b12', kid: true },
+  helen: { top: 'suit', color: '#2a4a7a', head: 'bun', headColor: '#c8c8c8', face: 'glasses' },
   leo2: { top: 'tshirt', color: '#3aa876', head: 'beanie', headColor: '#1a5a3a' },
   rex: { top: 'trench', color: '#5a4a3a', head: 'fedora', headColor: '#3a2a1a' },
   girl: { top: 'dress', color: '#f2c21a', head: 'ponytail', headColor: '#2a1a12', kid: true },
@@ -379,7 +380,14 @@ function drawer(g, x, y, o, p) {   // kitchen drawer unit 0.9 m high with a blue
   for (let k = 1; k < 3; k++) { rr(g, x - w / 2 + 6, y - h + 10 + k * M_(0.27), w - 12, M_(0.22), 3); g.fillStyle = '#b89a78'; g.fill(); }
 }
 function drain(g, x, y) { /* storm drain grate in the curb */ rr(g, x - M_(0.4), y - 8, M_(0.8), 16, 3); g.fillStyle = '#2a2a30'; g.fill(); for (let k = 0; k < 8; k++) seg(g, [[x - M_(0.36) + k * M_(0.1), y - 7], [x - M_(0.36) + k * M_(0.1), y + 7]], 3, '#6a6a74'); }
-const ITEMS = { grabbag, drawer, drain, subway, stationclock, tmachine, wallphone, geyser, housedoor, hoop, bball, stove, cereal, billboard, cerealbox, tvset, mannequin, fence, bank: bankDesk, jet, puddle, stall, shop: shopFront, stairs, ship, cards, door: pinkDoor, alarm, bed, blanket, sink, counter, desk, sign, prop: propItem, house, chime, water, car, booth, table, dish, kite, float, sea, robot, glass: glassWall, stage, fridge, paper };
+
+function rubble(g, x, y, o, p, t) {   // collapsed garage: 2 m slab on chunks; o.n = chunks left (keys, 60 -> 0), o.lift = slab lift in m, o.jack = show the red car jack under the slab edge
+  const n = Math.round(track(o.n, p, 40)), lift = track(o.lift, p, 0), sw = M_(2.0);
+  const r = rng(11); for (let k = 0; k < 40; k++) { const px = x - M_(1.3) + r() * M_(2.6), sz = 10 + r() * 22, py = y - r() * M_(0.5); if (k < n * 40 / 60) { g.fillStyle = ['#9a948a', '#7a746a', '#a86a4a'][k % 3]; g.save(); g.translate(px, py); g.rotate(r() * 3); g.fillRect(-sz, -sz * 0.6, sz * 2, sz * 1.2); g.restore(); } }
+  g.save(); g.translate(x, y - M_(0.22) - M_(lift)); g.rotate(-0.06 - lift * 0.4); g.fillStyle = '#8a8a86'; g.fillRect(-sw / 2, -M_(0.12), sw, M_(0.18)); g.strokeStyle = 'rgba(0,0,0,.25)'; g.lineWidth = 2; g.strokeRect(-sw / 2, -M_(0.12), sw, M_(0.18)); g.restore();
+  if (track(o.jack, p, 0) > 0.5) { const jx = x + sw / 2 - 20, jy = y; rr(g, jx - 30, jy - 10, 60, 10, 2); g.fillStyle = '#c0302a'; g.fill(); seg(g, [[jx, jy - 10], [jx, jy - M_(0.22) - M_(lift)]], 9, '#c0302a'); seg(g, [[jx, jy - 14], [jx + 50, jy - 40]], 4, '#3a3a44'); }
+}
+const ITEMS = { rubble, grabbag, drawer, drain, subway, stationclock, tmachine, wallphone, geyser, housedoor, hoop, bball, stove, cereal, billboard, cerealbox, tvset, mannequin, fence, bank: bankDesk, jet, puddle, stall, shop: shopFront, stairs, ship, cards, door: pinkDoor, alarm, bed, blanket, sink, counter, desk, sign, prop: propItem, house, chime, water, car, booth, table, dish, kite, float, sea, robot, glass: glassWall, stage, fridge, paper };
 
 // held objects, drawn in pose units (1 m = 134) right at the hand --------------------
 function heldItem(g, k, h, p, o = {}) {
@@ -407,6 +415,8 @@ function heldItem(g, k, h, p, o = {}) {
   else if (k === 'remote') { rr(g, -2, -4, 14, 5, 1.5); g.fillStyle = '#22222e'; g.fill(); circle(g, 9, -1.5, 1.2, '#e0443a'); }
   else if (k === 'camera') { rr(g, -8, -16, 22, 15, 2); g.fillStyle = '#1a1a22'; g.fill(); circle(g, 9, -8, 5, '#3a3a48'); circle(g, 9, -8, 2.6, '#6fa8ff'); if (o.flash) { g.save(); g.globalCompositeOperation = 'lighter'; circle(g, -4, -20, 18 * o.flash, 'rgba(255,255,240,.9)'); g.restore(); } }
   else if (k === 'bowl') { g.fillStyle = '#f2efe8'; g.beginPath(); g.ellipse(6, -4, 9, 5, 0, 0, Math.PI); g.fill(); }
+  else if (k === 'carjack') { rr(g, -10, -4, 34, 8, 2); g.fillStyle = '#c0302a'; g.fill(); seg(g, [[6, -4], [6, -18]], 6, '#c0302a'); }
+  else if (k === 'pocketpatch') { rr(g, -6, -8, 14, 12, 2); g.fillStyle = '#c8a8e8'; g.fill(); g.save(); g.globalCompositeOperation = 'lighter'; circle(g, 1, -2, 12, 'rgba(200,160,255,.25)'); g.restore(); }
   else if (k === 'epipen') { rr(g, -4, -16, 8, 24, 3); g.fillStyle = '#f2c21a'; g.fill(); rr(g, -4, -16, 8, 6, 2); g.fillStyle = o.capOff ? '#e8641a' : '#3a6ad0'; g.fill(); }
   else if (k === 'croissant') { g.fillStyle = '#d8964a'; g.beginPath(); g.ellipse(8, -6, 12, 6, -0.2, 0, 7); g.fill(); for (let i = -1; i <= 1; i++) seg(g, [[8 + i * 6, -11], [8 + i * 6, -1]], 1.4, '#a8642a'); }
   else if (k === 'docbag') {   // old leather doctor's bag 30 x 20 cm with a brass clasp; o.glow 0..1 = soft green light

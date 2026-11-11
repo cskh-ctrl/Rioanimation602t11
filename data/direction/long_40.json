@@ -1,0 +1,16196 @@
+[
+{
+"lines": [
+0
+],
+"set": "room",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.25,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "suitcase"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.35,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "suitcase"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hold": null
+}
+],
+"items": [],
+"props": [
+{
+"k": "plane",
+"x": 0.8,
+"y": 0.2,
+"r": 50,
+"at": "@0.150",
+"disc": true
+}
+],
+"text": [],
+"wall": "#c8ccd4",
+"wall2": "#6a7080"
+},
+{
+"lines": [
+1
+],
+"set": "room",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.25,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "suitcase"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.35,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "suitcase"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hold": null
+}
+],
+"items": [],
+"props": [
+{
+"k": "plane",
+"x": 0.8,
+"y": 0.2,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "TWO GIANT SUITCASES",
+"x": 0.3,
+"y": 0.16,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8ccd4",
+"wall2": "#6a7080",
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+2
+],
+"set": "room",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.25,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "suitcase"
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.35,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "suitcase"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hold": null
+}
+],
+"items": [],
+"props": [
+{
+"k": "plane",
+"x": 0.8,
+"y": 0.2,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "sparkle",
+"x": 0.6,
+"y": 0.5,
+"r": 30,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "TWO GIANT SUITCASES",
+"x": 0.3,
+"y": 0.16,
+"at": -1,
+"size": 46
+},
+{
+"s": "YOU? A SMALL PATCH OF CLOTH",
+"x": 0.6,
+"y": 0.26,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8ccd4",
+"wall2": "#6a7080",
+"fx": []
+},
+{
+"lines": [
+3
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+],
+[
+"@0.300",
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": [
+[
+0,
+2.0
+]
+]
+}
+],
+"props": [
+{
+"k": "bike",
+"x": 0.55,
+"y": 0.62,
+"r": 60,
+"at": "@0.360",
+"disc": true
+}
+],
+"text": [
+{
+"s": "YOUR WHOLE BIKE",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.360",
+"size": 48
+}
+],
+"wall": "#c8ccd4",
+"wall2": "#6a7080"
+},
+{
+"lines": [
+4,
+5
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+],
+[
+"@0.100",
+"holdFront"
+],
+[
+"@1.000",
+"chest"
+],
+[
+"@1.100",
+"carry"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": [
+[
+0,
+2.0
+],
+[
+"@1.100",
+2.0
+],
+[
+"@1.120",
+0.62
+]
+]
+}
+],
+"props": [
+{
+"k": "bike",
+"x": 0.55,
+"y": 0.62,
+"r": 60,
+"at": -1,
+"disc": true
+},
+{
+"k": "wave",
+"x": 0.68,
+"y": 0.5,
+"r": 50,
+"at": "@0.100",
+"disc": true
+}
+],
+"text": [
+{
+"s": "YOUR WHOLE BIKE",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "A SURFBOARD",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.100",
+"size": 46
+},
+{
+"s": "A FULL-SIZE FRIDGE",
+"x": 0.5,
+"y": 0.34,
+"at": "@1.100",
+"size": 46
+}
+],
+"wall": "#c8ccd4",
+"wall2": "#6a7080",
+"fx": []
+},
+{
+"lines": [
+6
+],
+"set": "room",
+"actors": [
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.55
+}
+],
+"props": [
+{
+"k": "bike",
+"x": 0.3,
+"y": 0.62,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [],
+"wall": "#c8ccd4",
+"wall2": "#6a7080"
+},
+{
+"lines": [
+7,
+8
+],
+"set": "room",
+"actors": [
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@1.000",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+"@0.900"
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [
+{
+"k": "fridge",
+"x": 0.55
+}
+],
+"props": [
+{
+"k": "bike",
+"x": 0.3,
+"y": 0.62,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "\"IS THAT... ON THE ALLOWED LIST?\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8ccd4",
+"wall2": "#6a7080",
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+383.9999999999999,
+383.9999999999999
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+9,
+10
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "RIO, 33",
+"small": "can't throw anything away... ever",
+"at": "@0.150",
+"x": 0.68,
+"w": 640
+},
+"props": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+11
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "RIO, 33",
+"small": "can't throw anything away... ever",
+"at": -1,
+"x": 0.68,
+"w": 640
+},
+"props": [
+{
+"k": "gift",
+"x": 0.62,
+"y": 0.62,
+"r": 40,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "radio",
+"x": 0.7,
+"y": 0.62,
+"r": 40,
+"at": "@0.200",
+"disc": true
+},
+{
+"k": "bag",
+"x": 0.78,
+"y": 0.62,
+"r": 40,
+"at": "@0.400",
+"disc": true
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+12
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.3,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+"@0.900"
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.12,
+"open": 1
+}
+],
+"props": [
+{
+"k": "bag",
+"x": 0.4,
+"y": 0.42,
+"r": 26,
+"at": "@0.300",
+"disc": true
+}
+],
+"text": [
+{
+"s": "A LITTLE POCKET. PATCHED. OLD.",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.150",
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+13,
+14
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.3,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.12,
+"open": 1
+}
+],
+"props": [
+{
+"k": "sparkle",
+"x": 0.4,
+"y": 0.42,
+"r": 40,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "bag",
+"x": 0.4,
+"y": 0.42,
+"r": 26,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A LITTLE POCKET. PATCHED. OLD.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "BIGGER ON THE INSIDE",
+"x": 0.5,
+"y": 0.24,
+"at": "@1.000",
+"size": 48
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+15
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "balloon",
+"x": 0.62,
+"y": 0.42,
+"r": 40,
+"at": "@0.200",
+"disc": true
+}
+],
+"text": [
+{
+"s": "WEIGHS NOTHING",
+"x": 0.68,
+"y": 0.16,
+"at": "@0.200",
+"size": 46
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+16,
+17
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"talk"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "balloon",
+"x": 0.62,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "hourglass",
+"x": 0.72,
+"y": 0.42,
+"r": 40,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "cake",
+"x": 0.62,
+"y": 0.62,
+"r": 40,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "WEIGHS NOTHING",
+"x": 0.68,
+"y": 0.16,
+"at": -1,
+"size": 46
+},
+{
+"s": "TIME STANDS STILL",
+"x": 0.68,
+"y": 0.26,
+"at": "@0.000",
+"size": 46
+},
+{
+"s": "ICE CREAM STAYS FROZEN. SOUP STAYS HOT.",
+"x": 0.5,
+"y": 0.8,
+"at": "@1.000",
+"size": 40
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+18
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "balloon",
+"x": 0.62,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "hourglass",
+"x": 0.72,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "cake",
+"x": 0.62,
+"y": 0.62,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "coffee",
+"x": 0.72,
+"y": 0.62,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "WEIGHS NOTHING",
+"x": 0.68,
+"y": 0.16,
+"at": -1,
+"size": 46
+},
+{
+"s": "TIME STANDS STILL",
+"x": 0.68,
+"y": 0.26,
+"at": -1,
+"size": 46
+},
+{
+"s": "ICE CREAM STAYS FROZEN. SOUP STAYS HOT.",
+"x": 0.5,
+"y": 0.8,
+"at": -1,
+"size": 40
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+19
+],
+"set": "park",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "dog",
+"x": 0.55,
+"size": 0.5
+}
+],
+"props": [],
+"text": [
+{
+"s": "LIVING THINGS CAN'T GO IN",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.100",
+"size": 48
+}
+]
+},
+{
+"lines": [
+20
+],
+"set": "park",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "dog",
+"x": 0.55,
+"size": 0.5
+}
+],
+"props": [
+{
+"k": "cross",
+"x": 0.55,
+"y": 0.5,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "LIVING THINGS CAN'T GO IN",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 48
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-191.99999999999994,
+-191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+21
+],
+"set": "room",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.35,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "suitcase"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "~23 KG",
+"small": "a normal checked bag limit",
+"at": "@0.100",
+"x": 0.5
+},
+"props": [],
+"text": [],
+"wall": "#c8ccd4",
+"wall2": "#6a7080"
+},
+{
+"lines": [
+22
+],
+"set": "room",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.35,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "suitcase"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "~23 KG",
+"small": "a normal checked bag limit",
+"at": -1,
+"x": 0.5
+},
+"props": [
+{
+"k": "house",
+"x": 0.6,
+"y": 0.55,
+"r": 60,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "YOU? A WHOLE HOUSE",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.000",
+"size": 48
+}
+],
+"wall": "#c8ccd4",
+"wall2": "#6a7080",
+"fx": []
+},
+{
+"lines": [
+23
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "ONE RULE",
+"small": "exactly 100 things",
+"at": "@0.250",
+"x": 0.68
+},
+"props": [],
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+24,
+25
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "ONE RULE",
+"small": "exactly 100 things",
+"at": -1,
+"x": 0.68
+},
+"props": [],
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+26
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "ONE RULE",
+"small": "exactly 100 things",
+"at": -1,
+"x": 0.68
+},
+"props": [
+{
+"k": "gift",
+"x": 0.55,
+"y": 0.55,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "ITEM 101? WON'T GO IN.",
+"x": 0.68,
+"y": 0.42,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+27
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "ONE RULE",
+"small": "exactly 100 things",
+"at": -1,
+"x": 0.68
+},
+"props": [
+{
+"k": "gift",
+"x": 0.55,
+"y": 0.55,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "cross",
+"x": 0.55,
+"y": 0.55,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "ITEM 101? WON'T GO IN.",
+"x": 0.68,
+"y": 0.42,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+28
+],
+"set": "room",
+"actors": [],
+"items": [],
+"tpl": "title",
+"params": {
+"title": "What If You Had A Bottomless Pocket?"
+}
+},
+{
+"lines": [
+29,
+30
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "chair",
+"x": 0.62,
+"size": 0.9,
+"a": [
+[
+0,
+1
+]
+],
+"dx": [
+[
+0,
+0
+]
+]
+}
+],
+"card": {
+"big": "WEEK ONE",
+"small": "you test it",
+"at": "@0.200",
+"x": 0.25
+},
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+31
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "chair",
+"x": 0.62,
+"size": 0.9,
+"a": [
+[
+0,
+1.0
+]
+],
+"dx": [
+[
+0,
+0
+]
+]
+}
+],
+"card": {
+"big": "WEEK ONE",
+"small": "you test it",
+"at": -1,
+"x": 0.25
+},
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+32
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "chair",
+"x": 0.62,
+"size": 0.9,
+"a": [
+[
+0,
+1.0
+],
+[
+"@0.600",
+0
+]
+],
+"dx": [
+[
+0,
+0
+],
+[
+"@0.600",
+-0.2
+]
+]
+}
+],
+"card": {
+"big": "WEEK ONE",
+"small": "you test it",
+"at": -1,
+"x": 0.25
+},
+"text": [
+{
+"s": "LIKE WATER DOWN A DRAIN... GONE",
+"x": 0.6,
+"y": 0.3,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+33,
+34
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "chair",
+"x": 0.62,
+"size": 0.9,
+"a": [
+[
+0,
+0
+]
+],
+"dx": [
+[
+0,
+-0.2
+]
+]
+}
+],
+"thought": {
+"props": [
+"chair"
+],
+"x": 0.65,
+"y": 0.26,
+"at": "@1.000"
+},
+"props": [],
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+35,
+36
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+],
+[
+"@1.000",
+"carry"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "chair",
+"x": 0.62,
+"size": 0.9,
+"a": [
+[
+0,
+0.0
+],
+[
+"@1.800",
+0
+],
+[
+"@1.999",
+1
+]
+],
+"dx": [
+[
+0,
+-0.2
+],
+[
+"@1.800",
+-0.2
+],
+[
+"@1.999",
+-0.1429
+]
+]
+}
+],
+"thought": {
+"props": [
+"chair"
+],
+"x": 0.65,
+"y": 0.26,
+"at": -1
+},
+"props": [],
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+37
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "chair",
+"x": 0.62,
+"size": 0.9,
+"a": [
+[
+0,
+1
+]
+],
+"dx": [
+[
+0,
+-0.1429
+],
+[
+"@0.500",
+0
+]
+]
+}
+],
+"thought": {
+"props": [
+"chair"
+],
+"x": 0.65,
+"y": 0.26,
+"at": -1
+},
+"props": [],
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+38,
+39
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "chair",
+"x": 0.62,
+"size": 0.9,
+"a": [
+[
+0,
+1
+]
+],
+"dx": [
+[
+0,
+0
+]
+]
+}
+],
+"thought": {
+"props": [
+"chair"
+],
+"x": 0.65,
+"y": 0.26,
+"at": -1
+},
+"props": [
+{
+"k": "cake",
+"x": 0.66,
+"y": 0.58,
+"r": 26,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "EXACTLY AS IT WAS",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 46
+},
+{
+"s": "EVEN THE COOKIE CRUMBS",
+"x": 0.5,
+"y": 0.24,
+"at": "@1.000",
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+40,
+41
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "ITEM 1... BACK TO ZERO",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.150",
+"size": 48
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+42
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "ITEM 1... BACK TO ZERO",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 48
+},
+{
+"s": "SIMPLE, RIGHT?",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000"
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+43
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "DAY 3",
+"small": "a tub of ice cream",
+"at": "@0.450",
+"x": 0.78,
+"y": 0.55
+},
+"props": [],
+"text": []
+},
+{
+"lines": [
+44
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "DAY 3",
+"small": "a tub of ice cream",
+"at": -1,
+"x": 0.78,
+"y": 0.55
+},
+"props": [],
+"text": [],
+"fx": []
+},
+{
+"lines": [
+45
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "DAY 3",
+"small": "a tub of ice cream",
+"at": -1,
+"x": 0.78,
+"y": 0.55
+},
+"props": [
+{
+"k": "cake",
+"x": 0.55,
+"y": 0.45,
+"r": 40,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "snowflake",
+"x": 0.62,
+"y": 0.38,
+"r": 30,
+"at": "@0.200",
+"disc": true
+}
+],
+"text": [
+{
+"s": "ONE WEEK LATER... STILL FROZEN",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+46
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "DAY 3",
+"small": "a tub of ice cream",
+"at": -1,
+"x": 0.78,
+"y": 0.55
+},
+"props": [
+{
+"k": "cake",
+"x": 0.55,
+"y": 0.45,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "snowflake",
+"x": 0.62,
+"y": 0.38,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "ONE WEEK LATER... STILL FROZEN",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+47,
+48
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "DAY 3",
+"small": "a tub of ice cream",
+"at": -1,
+"x": 0.78,
+"y": 0.55
+},
+"props": [
+{
+"k": "cake",
+"x": 0.55,
+"y": 0.45,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "snowflake",
+"x": 0.62,
+"y": 0.38,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "ONE WEEK LATER... STILL FROZEN",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "TIME DOESN'T MOVE INSIDE",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+49,
+50
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"awe"
+],
+[
+"@1.000",
+"smirk"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "DAY 3",
+"small": "a tub of ice cream",
+"at": -1,
+"x": 0.78,
+"y": 0.55
+},
+"props": [
+{
+"k": "cake",
+"x": 0.55,
+"y": 0.45,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "snowflake",
+"x": 0.62,
+"y": 0.38,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "ONE WEEK LATER... STILL FROZEN",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "TIME DOESN'T MOVE INSIDE",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "WHO'S A GENIUS? YOU ARE.",
+"x": 0.5,
+"y": 0.34,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+51
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "DAY 3",
+"small": "a tub of ice cream",
+"at": -1,
+"x": 0.78,
+"y": 0.55
+},
+"props": [
+{
+"k": "cake",
+"x": 0.55,
+"y": 0.45,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "snowflake",
+"x": 0.62,
+"y": 0.38,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "ONE WEEK LATER... STILL FROZEN",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "TIME DOESN'T MOVE INSIDE",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "WHO'S A GENIUS? YOU ARE.",
+"x": 0.5,
+"y": 0.34,
+"at": -1,
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+52,
+53
+],
+"set": "room",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.45,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "gift",
+"x": 0.3,
+"y": 0.55,
+"r": 40,
+"at": "@0.300",
+"disc": true
+},
+{
+"k": "gift",
+"x": 0.45,
+"y": 0.55,
+"r": 40,
+"at": "@0.300",
+"disc": true
+}
+],
+"text": [
+{
+"s": "WEEK TWO: HELPING FRIENDS MOVE",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.300",
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+54
+],
+"set": "room",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.45,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"card": {
+"big": "11+ MOVES",
+"small": "the average American, in a lifetime",
+"at": "@0.000",
+"x": 0.5,
+"y": 0.36,
+"w": 700
+},
+"props": [
+{
+"k": "gift",
+"x": 0.3,
+"y": 0.55,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "gift",
+"x": 0.45,
+"y": 0.55,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "WEEK TWO: HELPING FRIENDS MOVE",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+55
+],
+"set": "room",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.45,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"card": {
+"big": "11+ MOVES",
+"small": "the average American, in a lifetime",
+"at": -1,
+"x": 0.5,
+"y": 0.36,
+"w": 700
+},
+"props": [
+{
+"k": "gift",
+"x": 0.3,
+"y": 0.55,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "gift",
+"x": 0.45,
+"y": 0.55,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "WEEK TWO: HELPING FRIENDS MOVE",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+56,
+57
+],
+"set": "room",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.45,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"card": {
+"big": "11+ MOVES",
+"small": "the average American, in a lifetime",
+"at": -1,
+"x": 0.5,
+"y": 0.36,
+"w": 700
+},
+"props": [
+{
+"k": "gift",
+"x": 0.3,
+"y": 0.55,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "gift",
+"x": 0.45,
+"y": 0.55,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "pizza",
+"x": 0.7,
+"y": 0.4,
+"r": 40,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "WEEK TWO: HELPING FRIENDS MOVE",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+58,
+59
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"push"
+],
+[
+0.5,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.25,
+"a": [
+[
+0,
+1
+],
+[
+0.3,
+0
+]
+]
+},
+{
+"k": "desk",
+"x": 0.75,
+"a": [
+[
+0,
+1
+],
+[
+0.6,
+0
+]
+]
+}
+],
+"props": [
+{
+"k": "book",
+"x": 0.5,
+"y": 0.3,
+"r": 40,
+"at": "@1",
+"disc": true
+}
+],
+"text": [
+{
+"s": "BED. DESK. BOOKSHELF.",
+"x": 0.5,
+"y": 0.14,
+"at": 0.05,
+"size": 48
+},
+{
+"s": "37 BOXES",
+"x": 0.5,
+"y": 0.24,
+"at": "@1"
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+60
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.1
+],
+[
+"@0.999",
+0.45
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"yk": [
+[
+0,
+0.06
+],
+[
+"@0.999",
+0
+]
+]
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": -0.05
+},
+{
+"k": "bed",
+"x": 0.65,
+"a": [
+[
+0,
+0
+]
+]
+},
+{
+"k": "desk",
+"x": 0.88,
+"a": [
+[
+0,
+0
+]
+]
+}
+],
+"props": [
+{
+"k": "note",
+"x": 0.3,
+"y": 0.3,
+"r": 30,
+"at": "@0.200",
+"disc": true
+}
+],
+"text": [
+{
+"s": "WHISTLING UP THE STAIRS",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.100",
+"size": 46
+}
+],
+"wall": "#d8c8a8",
+"wall2": "#8a7a5a"
+},
+{
+"lines": [
+61
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.200",
+"carry"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"yk": [
+[
+0,
+0
+]
+]
+}
+],
+"items": [
+{
+"k": "stairs",
+"x": -0.05
+},
+{
+"k": "bed",
+"x": 0.65,
+"a": [
+[
+0,
+0.0
+],
+[
+"@0.200",
+1
+]
+]
+},
+{
+"k": "desk",
+"x": 0.88,
+"a": [
+[
+0,
+0.0
+],
+[
+"@0.300",
+0
+],
+[
+"@0.500",
+1
+]
+]
+}
+],
+"props": [
+{
+"k": "note",
+"x": 0.3,
+"y": 0.3,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "WHISTLING UP THE STAIRS",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "UNPACKED IN 5 MINUTES",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#d8c8a8",
+"wall2": "#8a7a5a",
+"fx": []
+},
+{
+"lines": [
+62
+],
+"set": "room",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": 0.52,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.46,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.8
+}
+],
+"text": [],
+"wall": "#d8c8a8",
+"wall2": "#8a7a5a"
+},
+{
+"lines": [
+63
+],
+"set": "room",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": 0.52,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.46,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.8
+}
+],
+"text": [
+{
+"s": "\"YOU'RE NEVER ALLOWED TO LEAVE THIS CITY\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 40
+}
+],
+"wall": "#d8c8a8",
+"wall2": "#8a7a5a",
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+38.400000000000034,
+38.400000000000034
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+64,
+65
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "THE DOWNSIDE? COUNTING.",
+"small": null,
+"at": "@0.300",
+"x": 0.5,
+"w": 760,
+"size": 60
+},
+"props": [],
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+66
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "THE DOWNSIDE? COUNTING.",
+"small": null,
+"at": -1,
+"x": 0.5,
+"w": 760,
+"size": 60
+},
+"props": [
+{
+"k": "book",
+"x": 0.65,
+"y": 0.5,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "A BOX OF BOOKS = 1 THING",
+"x": 0.65,
+"y": 0.36,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+67
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "THE DOWNSIDE? COUNTING.",
+"small": null,
+"at": -1,
+"x": 0.5,
+"w": 760,
+"size": 60
+},
+"props": [
+{
+"k": "book",
+"x": 0.65,
+"y": 0.5,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A BOX OF BOOKS = 1 THING",
+"x": 0.65,
+"y": 0.36,
+"at": -1,
+"size": 44
+},
+{
+"s": "50 LOOSE BOOKS = 50 THINGS",
+"x": 0.65,
+"y": 0.66,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+68
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "THE DOWNSIDE? COUNTING.",
+"small": null,
+"at": -1,
+"x": 0.5,
+"w": 760,
+"size": 60
+},
+"props": [
+{
+"k": "book",
+"x": 0.65,
+"y": 0.5,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A BOX OF BOOKS = 1 THING",
+"x": 0.65,
+"y": 0.36,
+"at": -1,
+"size": 44
+},
+{
+"s": "50 LOOSE BOOKS = 50 THINGS",
+"x": 0.65,
+"y": 0.66,
+"at": -1,
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+69
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"card": {
+"big": "THE DOWNSIDE? COUNTING.",
+"small": null,
+"at": -1,
+"x": 0.5,
+"w": 760,
+"size": 60
+},
+"props": [
+{
+"k": "book",
+"x": 0.65,
+"y": 0.5,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "A BOX OF BOOKS = 1 THING",
+"x": 0.65,
+"y": 0.36,
+"at": -1,
+"size": 44
+},
+{
+"s": "50 LOOSE BOOKS = 50 THINGS",
+"x": 0.65,
+"y": 0.66,
+"at": -1,
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+70,
+71
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "pencil",
+"x": 0.55,
+"y": 0.42,
+"r": 30,
+"at": "@0.300",
+"disc": true
+}
+],
+"text": [
+{
+"s": "ITEM 44: STAMP COLLECTION",
+"x": 0.62,
+"y": 0.14,
+"at": "@1.000",
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+72,
+73
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@1.000",
+"confused"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "pencil",
+"x": 0.55,
+"y": 0.42,
+"r": 30,
+"at": -1,
+"disc": true
+},
+{
+"k": "bulb",
+"x": 0.68,
+"y": 0.5,
+"r": 40,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "ITEM 44: STAMP COLLECTION",
+"x": 0.62,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "ITEM 45: BROKEN LAMP... WAIT.",
+"x": 0.62,
+"y": 0.24,
+"at": "@1.000",
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+74
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "pencil",
+"x": 0.55,
+"y": 0.42,
+"r": 30,
+"at": -1,
+"disc": true
+},
+{
+"k": "bulb",
+"x": 0.68,
+"y": 0.5,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "ITEM 44: STAMP COLLECTION",
+"x": 0.62,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "ITEM 45: BROKEN LAMP... WAIT.",
+"x": 0.62,
+"y": 0.24,
+"at": -1,
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+75
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "pencil",
+"x": 0.55,
+"y": 0.42,
+"r": 30,
+"at": -1,
+"disc": true
+},
+{
+"k": "bulb",
+"x": 0.68,
+"y": 0.5,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "ITEM 44: STAMP COLLECTION",
+"x": 0.62,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "ITEM 45: BROKEN LAMP... WAIT.",
+"x": 0.62,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "WHY KEEP A BROKEN LAMP?",
+"x": 0.62,
+"y": 0.34,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+76,
+77
+],
+"set": "park",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.6,
+"w": 1.4,
+"cloth": true,
+"a": [
+[
+0,
+0
+]
+]
+},
+{
+"k": "dish",
+"x": 0.55,
+"food": "soup",
+"at": 9
+},
+{
+"k": "dish",
+"x": 0.66,
+"food": "milk",
+"at": 9
+}
+],
+"mood": "day",
+"props": [],
+"card": {
+"big": "WEEK THREE",
+"small": "more fun",
+"at": "@0.400",
+"x": 0.25
+},
+"text": []
+},
+{
+"lines": [
+78,
+79
+],
+"set": "park",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+],
+[
+"@1.000",
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.6,
+"w": 1.4,
+"cloth": true,
+"a": [
+[
+0,
+0
+]
+]
+},
+{
+"k": "dish",
+"x": 0.55,
+"food": "soup",
+"at": "@1.000"
+},
+{
+"k": "dish",
+"x": 0.66,
+"food": "milk",
+"at": 9
+}
+],
+"mood": "day",
+"props": [],
+"card": {
+"big": "WEEK THREE",
+"small": "more fun",
+"at": -1,
+"x": 0.25
+},
+"text": [
+{
+"s": "HOT SOUP. COLD LEMONADE.",
+"x": 0.6,
+"y": 0.3,
+"at": "@1.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+80,
+81
+],
+"set": "park",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"holdFront"
+],
+[
+"@1.000",
+"chest"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.6,
+"w": 1.4,
+"cloth": true,
+"a": [
+[
+0,
+0
+]
+]
+},
+{
+"k": "dish",
+"x": 0.55,
+"food": "soup",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.66,
+"food": "milk",
+"at": "@0.000"
+}
+],
+"mood": "day",
+"props": [],
+"card": {
+"big": "WEEK THREE",
+"small": "more fun",
+"at": -1,
+"x": 0.25
+},
+"text": [
+{
+"s": "HOT SOUP. COLD LEMONADE.",
+"x": 0.6,
+"y": 0.3,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+82
+],
+"set": "park",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.6,
+"w": 1.4,
+"cloth": true,
+"a": [
+[
+0,
+0
+]
+]
+},
+{
+"k": "dish",
+"x": 0.55,
+"food": "soup",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.66,
+"food": "milk",
+"at": -1
+}
+],
+"mood": "day",
+"props": [],
+"card": {
+"big": "WEEK THREE",
+"small": "more fun",
+"at": -1,
+"x": 0.25
+},
+"text": [
+{
+"s": "HOT SOUP. COLD LEMONADE.",
+"x": 0.6,
+"y": 0.3,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+83
+],
+"set": "park",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.6,
+"w": 1.4,
+"cloth": true,
+"a": [
+[
+0,
+0
+]
+]
+},
+{
+"k": "dish",
+"x": 0.55,
+"food": "soup",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.66,
+"food": "milk",
+"at": -1
+}
+],
+"mood": "day",
+"props": [
+{
+"k": "fire",
+"x": 0.82,
+"y": 0.6,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"card": {
+"big": "WEEK THREE",
+"small": "more fun",
+"at": -1,
+"x": 0.25
+},
+"text": [
+{
+"s": "HOT SOUP. COLD LEMONADE.",
+"x": 0.6,
+"y": 0.3,
+"at": -1,
+"size": 44
+},
+{
+"s": "A WHOLE BARBECUE",
+"x": 0.6,
+"y": 0.4,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+84
+],
+"set": "park",
+"actors": [
+{
+"id": "kid",
+"who": "kid",
+"x": 0.6,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"facing": -1
+},
+{
+"id": "boy",
+"who": "boy",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"facing": -1
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.78,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [],
+"mood": "day",
+"text": []
+},
+{
+"lines": [
+85,
+86
+],
+"set": "park",
+"actors": [
+{
+"id": "kid",
+"who": "kid",
+"x": 0.6,
+"pose": [
+[
+0,
+"explain"
+],
+[
+"@1.000",
+"point"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+"@0.900"
+]
+},
+{
+"id": "boy",
+"who": "boy",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"facing": -1
+},
+{
+"id": "lily",
+"who": "lily",
+"x": 0.78,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"bow"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"talk": [
+"@1.000",
+1
+]
+}
+],
+"items": [],
+"mood": "day",
+"text": [
+{
+"s": "\"ARE YOU A MAGICIAN?\"",
+"x": 0.6,
+"y": 0.16,
+"at": "@0.000",
+"size": 48
+},
+{
+"s": "\"YES.\"",
+"x": 0.42,
+"y": 0.26,
+"at": "@1.000"
+}
+],
+"fx": []
+},
+{
+"lines": [
+87,
+88
+],
+"set": "forest",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.35,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.75,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.85,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"facing": -1,
+"hold": {
+"k": "suitcase"
+}
+}
+],
+"items": [],
+"card": {
+"big": "CAMPING",
+"small": "no backpack",
+"at": "@0.350",
+"x": 0.5
+},
+"props": [],
+"text": []
+},
+{
+"lines": [
+89,
+90
+],
+"set": "forest",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.35,
+"pose": [
+[
+0,
+"chest"
+],
+[
+"@1.000",
+"carry"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.75,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.85,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"facing": -1,
+"hold": {
+"k": "suitcase"
+}
+}
+],
+"items": [],
+"card": {
+"big": "CAMPING",
+"small": "no backpack",
+"at": -1,
+"x": 0.5
+},
+"props": [
+{
+"k": "house",
+"x": 0.48,
+"y": 0.6,
+"r": 50,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "fire",
+"x": 0.56,
+"y": 0.62,
+"r": 40,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [],
+"fx": []
+},
+{
+"lines": [
+91
+],
+"set": "forest",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.35,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.75,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.85,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"facing": -1,
+"hold": {
+"k": "suitcase"
+}
+}
+],
+"items": [],
+"card": {
+"big": "CAMPING",
+"small": "no backpack",
+"at": -1,
+"x": 0.5
+},
+"props": [
+{
+"k": "house",
+"x": 0.48,
+"y": 0.6,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "fire",
+"x": 0.56,
+"y": 0.62,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "boat",
+"x": 0.64,
+"y": 0.6,
+"r": 50,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "ALL IN YOUR SHIRT",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+92
+],
+"set": "forest",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.35,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.75,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.85,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"facing": -1,
+"hold": {
+"k": "suitcase"
+}
+}
+],
+"items": [],
+"card": {
+"big": "CAMPING",
+"small": "no backpack",
+"at": -1,
+"x": 0.5
+},
+"props": [
+{
+"k": "house",
+"x": 0.48,
+"y": 0.6,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "fire",
+"x": 0.56,
+"y": 0.62,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "boat",
+"x": 0.64,
+"y": 0.6,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "ALL IN YOUR SHIRT",
+"x": 0.5,
+"y": 0.36,
+"at": -1,
+"size": 46
+},
+{
+"s": "THE STRONGEST PERSON ALIVE?",
+"x": 0.5,
+"y": 0.46,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+93
+],
+"set": "forest",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.35,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.75,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.85,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"facing": -1,
+"hold": {
+"k": "suitcase"
+}
+}
+],
+"items": [],
+"card": {
+"big": "CAMPING",
+"small": "no backpack",
+"at": -1,
+"x": 0.5
+},
+"props": [
+{
+"k": "house",
+"x": 0.48,
+"y": 0.6,
+"r": 50,
+"at": -1,
+"disc": true
+},
+{
+"k": "fire",
+"x": 0.56,
+"y": 0.62,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "boat",
+"x": 0.64,
+"y": 0.6,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "ALL IN YOUR SHIRT",
+"x": 0.5,
+"y": 0.36,
+"at": -1,
+"size": 46
+},
+{
+"s": "THE STRONGEST PERSON ALIVE?",
+"x": 0.5,
+"y": 0.46,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+94,
+95
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "WEEK FOUR",
+"small": "something strange",
+"at": "@0.400",
+"x": 0.72
+},
+"props": [],
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+96
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "WEEK FOUR",
+"small": "something strange",
+"at": -1,
+"x": 0.72
+},
+"props": [],
+"text": [
+{
+"s": "IN... AND NEVER OUT",
+"x": 0.4,
+"y": 0.42,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+97
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "WEEK FOUR",
+"small": "something strange",
+"at": -1,
+"x": 0.72
+},
+"props": [
+{
+"k": "shirt",
+"x": 0.6,
+"y": 0.45,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "IN... AND NEVER OUT",
+"x": 0.4,
+"y": 0.42,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+98,
+99
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"push"
+],
+[
+"@1.000",
+"push"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "WEEK FOUR",
+"small": "something strange",
+"at": -1,
+"x": 0.72
+},
+"props": [
+{
+"k": "shirt",
+"x": 0.6,
+"y": 0.45,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "card",
+"x": 0.68,
+"y": 0.45,
+"r": 40,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "gift",
+"x": 0.76,
+"y": 0.45,
+"r": 40,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "IN... AND NEVER OUT",
+"x": 0.4,
+"y": 0.42,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+100,
+101
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "WEEK FOUR",
+"small": "something strange",
+"at": -1,
+"x": 0.72
+},
+"props": [
+{
+"k": "shirt",
+"x": 0.6,
+"y": 0.45,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "card",
+"x": 0.68,
+"y": 0.45,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "gift",
+"x": 0.76,
+"y": 0.45,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "coffee",
+"x": 0.6,
+"y": 0.6,
+"r": 40,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "bag",
+"x": 0.7,
+"y": 0.6,
+"r": 40,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "IN... AND NEVER OUT",
+"x": 0.4,
+"y": 0.42,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+102
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [],
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+103,
+104
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@1.000",
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "WHY CAN'T YOU LET GO?",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 48
+},
+{
+"s": "\"JUST IN CASE.\"",
+"x": 0.5,
+"y": 0.26,
+"at": "@1.000"
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+105
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "WHY CAN'T YOU LET GO?",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 48
+},
+{
+"s": "\"JUST IN CASE.\"",
+"x": 0.5,
+"y": 0.26,
+"at": -1
+},
+{
+"s": "WHAT YOUR DAD ALWAYS SAID",
+"x": 0.5,
+"y": 0.36,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+106
+],
+"set": "street",
+"actors": [
+{
+"id": "dad",
+"who": "dad",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#7a8a9a"
+}
+],
+"card": {
+"big": "MARTIN",
+"small": "your dad, a mechanic... gone 3 years",
+"at": "@0.200",
+"x": 0.5,
+"w": 720
+},
+"text": []
+},
+{
+"lines": [
+107,
+108
+],
+"set": "street",
+"actors": [
+{
+"id": "dad",
+"who": "dad",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#7a8a9a"
+}
+],
+"card": {
+"big": "MARTIN",
+"small": "your dad, a mechanic... gone 3 years",
+"at": -1,
+"x": 0.5,
+"w": 720
+},
+"text": [
+{
+"s": "BIG HANDS. BIGGER LAUGH.",
+"x": 0.5,
+"y": 0.36,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+109
+],
+"set": "street",
+"actors": [
+{
+"id": "dad",
+"who": "dad",
+"x": 0.45,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#7a8a9a"
+}
+],
+"card": {
+"big": "MARTIN",
+"small": "your dad, a mechanic... gone 3 years",
+"at": -1,
+"x": 0.5,
+"w": 720
+},
+"text": [
+{
+"s": "BIG HANDS. BIGGER LAUGH.",
+"x": 0.5,
+"y": 0.36,
+"at": -1,
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+110
+],
+"set": "room",
+"actors": [
+{
+"id": "dad",
+"who": "dad",
+"x": 0.55,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+111
+],
+"set": "room",
+"actors": [
+{
+"id": "dad",
+"who": "dad",
+"x": 0.55,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+"@0.900"
+]
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"KEEP IT, KIDDO...\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 48
+},
+{
+"s": "\"...JUST IN CASE.\"",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.500",
+"size": 48
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+112
+],
+"set": "room",
+"actors": [
+{
+"id": "dad",
+"who": "dad",
+"x": 0.55,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"KEEP IT, KIDDO...\"",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 48
+},
+{
+"s": "\"...JUST IN CASE.\"",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 48
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+113
+],
+"set": "room",
+"actors": [
+{
+"id": "dad",
+"who": "dad",
+"x": 0.55,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "rioKid",
+"who": "rioKid",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"text": [
+{
+"s": "\"KEEP IT, KIDDO...\"",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 48
+},
+{
+"s": "\"...JUST IN CASE.\"",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 48
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+114,
+115
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "wrench",
+"x": 0.58,
+"y": 0.55,
+"r": 40,
+"at": "@0.200",
+"disc": true
+},
+{
+"k": "radio",
+"x": 0.66,
+"y": 0.55,
+"r": 40,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "HIS TOOLBOX. HIS RADIO. HIS LETTERS.",
+"x": 0.6,
+"y": 0.16,
+"at": "@0.200",
+"size": 42
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+116
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "wrench",
+"x": 0.58,
+"y": 0.55,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "radio",
+"x": 0.66,
+"y": 0.55,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "letter",
+"x": 0.74,
+"y": 0.55,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "HIS TOOLBOX. HIS RADIO. HIS LETTERS.",
+"x": 0.6,
+"y": 0.16,
+"at": -1,
+"size": 42
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-191.99999999999994,
+-191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+117
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "wrench",
+"x": 0.58,
+"y": 0.55,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "radio",
+"x": 0.66,
+"y": 0.55,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "letter",
+"x": 0.74,
+"y": 0.55,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "shirt",
+"x": 0.82,
+"y": 0.55,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "HIS TOOLBOX. HIS RADIO. HIS LETTERS.",
+"x": 0.6,
+"y": 0.16,
+"at": -1,
+"size": 42
+},
+{
+"s": "A JACKET THAT SMELLS LIKE MOTOR OIL",
+"x": 0.6,
+"y": 0.26,
+"at": "@0.000",
+"size": 40
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+118
+],
+"set": "street",
+"actors": [
+{
+"id": "dad",
+"who": "dad",
+"x": 0.55,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "carjack"
+}
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8a040"
+}
+],
+"text": []
+},
+{
+"lines": [
+119
+],
+"set": "street",
+"actors": [
+{
+"id": "dad",
+"who": "dad",
+"x": 0.55,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "carjack"
+}
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8a040"
+}
+],
+"card": {
+"big": "~2 TONNES",
+"small": "his old red car jack can lift",
+"at": "@0.000",
+"x": 0.3,
+"w": 600
+},
+"text": [],
+"fx": []
+},
+{
+"lines": [
+120
+],
+"set": "street",
+"actors": [
+{
+"id": "dad",
+"who": "dad",
+"x": 0.55,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "carjack"
+}
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8a040"
+}
+],
+"card": {
+"big": "~2 TONNES",
+"small": "his old red car jack can lift",
+"at": -1,
+"x": 0.3,
+"w": 600
+},
+"text": [
+{
+"s": "FIXED EVERY CAR ON THE STREET",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+121,
+122
+],
+"set": "street",
+"actors": [
+{
+"id": "dad",
+"who": "dad",
+"x": 0.55,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "carjack"
+}
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8a040"
+}
+],
+"card": {
+"big": "~2 TONNES",
+"small": "his old red car jack can lift",
+"at": -1,
+"x": 0.3,
+"w": 600
+},
+"text": [
+{
+"s": "FIXED EVERY CAR ON THE STREET",
+"x": 0.5,
+"y": 0.42,
+"at": -1,
+"size": 44
+},
+{
+"s": "FOR FREE",
+"x": 0.5,
+"y": 0.52,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+123
+],
+"set": "street",
+"actors": [
+{
+"id": "dad",
+"who": "dad",
+"x": 0.55,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "carjack"
+}
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#c8a040"
+}
+],
+"card": {
+"big": "~2 TONNES",
+"small": "his old red car jack can lift",
+"at": -1,
+"x": 0.3,
+"w": 600
+},
+"text": [
+{
+"s": "FIXED EVERY CAR ON THE STREET",
+"x": 0.5,
+"y": 0.42,
+"at": -1,
+"size": 44
+},
+{
+"s": "FOR FREE",
+"x": 0.5,
+"y": 0.52,
+"at": -1,
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+124,
+125
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"props": [],
+"text": [
+{
+"s": "98... 99... 100. FULL.",
+"x": 0.5,
+"y": 0.16,
+"at": "@1.000",
+"size": 50
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+126
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "check",
+"x": 0.62,
+"y": 0.42,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "98... 99... 100. FULL.",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 50
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+127
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"props": [
+{
+"k": "check",
+"x": 0.62,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "98... 99... 100. FULL.",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "DAD'S THINGS FILL MOST OF IT",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+128,
+129
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.4,
+1.44
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "HEAVY STOMACH. LIGHT SHIRT.",
+"x": 0.5,
+"y": 0.14,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+130,
+131
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.44,
+1.48
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "HEAVY STOMACH. LIGHT SHIRT.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "IT FEELS STRANGE",
+"x": 0.5,
+"y": 0.24,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+132
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"hold": {
+"k": "note"
+}
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.48,
+1.5
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "HEAVY STOMACH. LIGHT SHIRT.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "IT FEELS STRANGE",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+133,
+134
+],
+"set": "lake",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+],
+[
+"@0.500",
+"carry"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.7,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "camera"
+},
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "boat",
+"x": 0.5,
+"y": 0.55,
+"r": 60,
+"at": "@0.500",
+"disc": true
+}
+],
+"text": [
+{
+"s": "WEEK FIVE: THE WORLD FINDS OUT",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 44
+}
+]
+},
+{
+"lines": [
+135,
+136
+],
+"set": "lake",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.7,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "camera"
+},
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "boat",
+"x": 0.5,
+"y": 0.55,
+"r": 60,
+"at": -1,
+"disc": true
+}
+],
+"card": {
+"big": "50,000,000 VIEWS",
+"small": "a kayak from a shirt",
+"at": "@1.000",
+"x": 0.5,
+"w": 640
+},
+"text": [
+{
+"s": "WEEK FIVE: THE WORLD FINDS OUT",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+137,
+138
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "helen",
+"label": "DR. HELEN WARD",
+"talk": true,
+"at": "@1.000",
+"x": 0.75
+},
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+139
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "helen",
+"label": "DR. HELEN WARD",
+"talk": true,
+"at": -1,
+"x": 0.75
+},
+"card": {
+"big": "NATIONAL SCIENCE FOUNDATION",
+"small": "its president",
+"at": "@0.000",
+"x": 0.4,
+"y": 0.14,
+"w": 780
+},
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+140
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "helen",
+"label": "DR. HELEN WARD",
+"talk": true,
+"at": -1,
+"x": 0.75
+},
+"card": {
+"big": "NATIONAL SCIENCE FOUNDATION",
+"small": "its president",
+"at": -1,
+"x": 0.4,
+"y": 0.14,
+"w": 780
+},
+"text": [
+{
+"s": "\"WE WANT TO STUDY YOUR POCKET\"",
+"x": 0.42,
+"y": 0.3,
+"at": "@0.000",
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+141
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "helen",
+"label": "DR. HELEN WARD",
+"talk": true,
+"at": -1,
+"x": 0.75
+},
+"card": {
+"big": "NATIONAL SCIENCE FOUNDATION",
+"small": "its president",
+"at": -1,
+"x": 0.4,
+"y": 0.14,
+"w": 780
+},
+"text": [
+{
+"s": "\"WE WANT TO STUDY YOUR POCKET\"",
+"x": 0.42,
+"y": 0.3,
+"at": -1,
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+142
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "helen",
+"label": "DR. HELEN WARD",
+"talk": true,
+"at": "@0.000",
+"x": 0.75
+},
+"props": [
+{
+"k": "trophy",
+"x": 0.42,
+"y": 0.4,
+"r": 50,
+"at": "@0.300",
+"disc": true
+}
+],
+"text": [
+{
+"s": "THE NATIONAL SCIENCE GALA",
+"x": 0.42,
+"y": 0.16,
+"at": "@0.150",
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+143
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "helen",
+"label": "DR. HELEN WARD",
+"talk": true,
+"at": -1,
+"x": 0.75
+},
+"props": [
+{
+"k": "trophy",
+"x": 0.42,
+"y": 0.4,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "THE NATIONAL SCIENCE GALA",
+"x": 0.42,
+"y": 0.16,
+"at": -1,
+"size": 44
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-191.99999999999994,
+-191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+144
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "helen",
+"label": "DR. HELEN WARD",
+"talk": true,
+"at": -1,
+"x": 0.75
+},
+"props": [
+{
+"k": "trophy",
+"x": 0.42,
+"y": 0.4,
+"r": 50,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "THE NATIONAL SCIENCE GALA",
+"x": 0.42,
+"y": 0.16,
+"at": -1,
+"size": 44
+},
+{
+"s": "YOUR NAME IN HISTORY",
+"x": 0.42,
+"y": 0.26,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+145,
+146
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "helen",
+"label": "DR. HELEN WARD",
+"talk": true,
+"at": "@0.000",
+"x": 0.75
+},
+"card": {
+"big": "THE CATCH",
+"small": "bring the pocket full and untouched",
+"at": "@0.200",
+"x": 0.4,
+"w": 700
+},
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+147
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "helen",
+"label": "DR. HELEN WARD",
+"talk": true,
+"at": -1,
+"x": 0.75
+},
+"card": {
+"big": "THE CATCH",
+"small": "bring the pocket full and untouched",
+"at": -1,
+"x": 0.4,
+"w": 700
+},
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+148
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"inset": {
+"who": "helen",
+"label": "DR. HELEN WARD",
+"talk": true,
+"at": -1,
+"x": 0.75
+},
+"card": {
+"big": "THE CATCH",
+"small": "bring the pocket full and untouched",
+"at": -1,
+"x": 0.4,
+"w": 700
+},
+"text": [
+{
+"s": "TAKE ANYTHING OUT = SCAN RUINED",
+"x": 0.4,
+"y": 0.42,
+"at": "@0.000",
+"size": 42,
+"color": "#ff6a5a"
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+149
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"hold": {
+"k": "phone",
+"to": 1
+}
+}
+],
+"items": [],
+"thought": {
+"props": [
+"trophy",
+"book"
+],
+"x": 0.7,
+"y": 0.28,
+"at": "@0.200"
+},
+"text": [],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+150,
+151
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "phone",
+"to": "@1.900"
+}
+}
+],
+"items": [],
+"thought": {
+"props": [
+"trophy",
+"book"
+],
+"x": 0.7,
+"y": 0.28,
+"at": -1
+},
+"text": [
+{
+"s": "DAD WOULD BE SO PROUD",
+"x": 0.5,
+"y": 0.54,
+"at": "@0.000",
+"size": 46
+},
+{
+"s": "WOULDN'T HE?",
+"x": 0.5,
+"y": 0.64,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+152
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [],
+"thought": {
+"props": [
+"trophy",
+"book"
+],
+"x": 0.7,
+"y": 0.28,
+"at": -1
+},
+"text": [
+{
+"s": "DAD WOULD BE SO PROUD",
+"x": 0.5,
+"y": 0.54,
+"at": -1,
+"size": 46
+},
+{
+"s": "WOULDN'T HE?",
+"x": 0.5,
+"y": 0.64,
+"at": -1,
+"size": 46
+},
+{
+"s": "YOU SAY YES",
+"x": 0.5,
+"y": 0.74,
+"at": "@0.000",
+"size": 48
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+153,
+154
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.2
+],
+[
+"@1.999",
+0.325
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "mug"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#3a8ad0"
+}
+],
+"smood": "dusk",
+"card": {
+"big": "THURSDAY, 6:20 PM",
+"small": "flight to the gala at 9",
+"at": "@1.000",
+"x": 0.5,
+"w": 640
+}
+},
+{
+"lines": [
+155
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.325
+],
+[
+"@0.999",
+0.3875
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "mug"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#3a8ad0"
+}
+],
+"smood": "dusk",
+"card": {
+"big": "THURSDAY, 6:20 PM",
+"small": "flight to the gala at 9",
+"at": -1,
+"x": 0.5,
+"w": 640
+},
+"fx": []
+},
+{
+"lines": [
+156
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.3875
+],
+[
+"@0.999",
+0.45
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "mug"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#3a8ad0"
+}
+],
+"smood": "dusk",
+"card": {
+"big": "THURSDAY, 6:20 PM",
+"small": "flight to the gala at 9",
+"at": -1,
+"x": 0.5,
+"w": 640
+},
+"fx": []
+},
+{
+"lines": [
+157
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "mug",
+"drop": 2
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#3a8ad0"
+}
+],
+"smood": "dusk",
+"fx": [
+"shake"
+],
+"text": [
+{
+"s": "RUMBLE",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.200",
+"size": 60
+}
+]
+},
+{
+"lines": [
+158,
+159
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "mug",
+"drop": 2
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#3a8ad0"
+}
+],
+"smood": "dusk",
+"fx": [
+"shake"
+],
+"text": [
+{
+"s": "RUMBLE",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 60
+},
+{
+"s": "CAR ALARMS SCREAM",
+"x": 0.5,
+"y": 0.26,
+"at": "@1.000",
+"size": 46
+}
+]
+},
+{
+"lines": [
+160
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"hold": {
+"k": "mug",
+"drop": "@0.200"
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#3a8ad0"
+}
+],
+"smood": "dusk",
+"fx": [
+"shake"
+],
+"text": [
+{
+"s": "RUMBLE",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 60
+},
+{
+"s": "CAR ALARMS SCREAM",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 46
+}
+]
+},
+{
+"lines": [
+161
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#3a8ad0"
+}
+],
+"smood": "dusk",
+"fx": [
+"shake"
+],
+"card": {
+"big": "DROP. COVER. HOLD ON.",
+"small": null,
+"at": "@0.250",
+"x": 0.5,
+"w": 720,
+"size": 60
+},
+"text": []
+},
+{
+"lines": [
+162,
+163
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"handsOnHead"
+],
+[
+"@1.000",
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#3a8ad0"
+}
+],
+"smood": "dusk",
+"fx": [
+"shake"
+],
+"card": {
+"big": "DROP. COVER. HOLD ON.",
+"small": null,
+"at": -1,
+"x": 0.5,
+"w": 720,
+"size": 60
+},
+"text": [
+{
+"s": "DROP",
+"x": 0.3,
+"y": 0.42,
+"at": "@1.000",
+"size": 50
+}
+]
+},
+{
+"lines": [
+164,
+165
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#3a8ad0"
+}
+],
+"smood": "dusk",
+"fx": [
+"shake"
+],
+"card": {
+"big": "DROP. COVER. HOLD ON.",
+"small": null,
+"at": -1,
+"x": 0.5,
+"w": 720,
+"size": 60
+},
+"text": [
+{
+"s": "DROP",
+"x": 0.3,
+"y": 0.42,
+"at": -1,
+"size": 50
+},
+{
+"s": "COVER",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.000",
+"size": 50
+},
+{
+"s": "HOLD ON",
+"x": 0.7,
+"y": 0.42,
+"at": "@1.000",
+"size": 50
+}
+]
+},
+{
+"lines": [
+166
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#3a8ad0"
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "~20 SECONDS",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.200",
+"size": 50
+}
+]
+},
+{
+"lines": [
+167,
+168
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"crouch"
+],
+[
+"@1.000",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+],
+[
+"@1.000",
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#3a8ad0"
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "~20 SECONDS",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "FEELS LIKE 20 MINUTES",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 46
+},
+{
+"s": "SILENCE. DUST.",
+"x": 0.5,
+"y": 0.36,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+169
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.75,
+"color": "#3a8ad0"
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "~20 SECONDS",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "FEELS LIKE 20 MINUTES",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 46
+},
+{
+"s": "SILENCE. DUST.",
+"x": 0.5,
+"y": 0.36,
+"at": -1,
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+170
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.3,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": 1
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "dog",
+"x": 0.72,
+"size": 0.5
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "WOOF! WOOF!",
+"x": 0.72,
+"y": 0.3,
+"at": "@0.150",
+"size": 50
+}
+]
+},
+{
+"lines": [
+171,
+172
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.3,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@1.000",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": 1
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "dog",
+"x": 0.72,
+"size": 0.5
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "WOOF! WOOF!",
+"x": 0.72,
+"y": 0.3,
+"at": -1,
+"size": 50
+},
+{
+"s": "PEPPER. MRS. ROSA'S DOG.",
+"x": 0.5,
+"y": 0.16,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+173,
+174
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"think"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+},
+{
+"k": "prop",
+"p": "dog",
+"x": 0.88,
+"size": 0.5
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "HER GARAGE. THE ROOF COLLAPSED.",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.250",
+"size": 44
+}
+]
+},
+{
+"lines": [
+175,
+176
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+},
+{
+"k": "prop",
+"p": "dog",
+"x": 0.88,
+"size": 0.5
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "HER GARAGE. THE ROOF COLLAPSED.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "A CONCRETE SLAB. BRICKS. METAL.",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 42
+}
+],
+"fx": []
+},
+{
+"lines": [
+177
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+},
+{
+"k": "prop",
+"p": "dog",
+"x": 0.88,
+"size": 0.5
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "HER GARAGE. THE ROOF COLLAPSED.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "A CONCRETE SLAB. BRICKS. METAL.",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 42
+}
+],
+"fx": []
+},
+{
+"lines": [
+178
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [
+{
+"k": "hand",
+"x": 0.62,
+"y": 0.68,
+"r": 30,
+"at": "@0.150",
+"disc": true
+}
+],
+"text": [
+{
+"s": "\"HELP. PLEASE. I'M STUCK.\"",
+"x": 0.6,
+"y": 0.3,
+"at": "@0.300",
+"size": 46
+}
+]
+},
+{
+"lines": [
+179,
+180
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.25,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@1.000",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [
+{
+"k": "hand",
+"x": 0.62,
+"y": 0.68,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "\"HELP. PLEASE. I'M STUCK.\"",
+"x": 0.6,
+"y": 0.3,
+"at": -1,
+"size": 46
+},
+{
+"s": "MRS. ROSA",
+"x": 0.6,
+"y": 0.4,
+"at": "@1.000",
+"size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+181,
+182
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.2
+],
+[
+"@1.500",
+0.45
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": [
+[
+0,
+0
+],
+[
+"@1.500",
+0
+],
+[
+"@1.999",
+-0.03
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [],
+"text": [
+{
+"s": "WHAT CAN YOU DO?",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.250"
+}
+]
+},
+{
+"lines": [
+183
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": [
+[
+0,
+-0.03
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [],
+"text": [
+{
+"s": "WHAT CAN YOU DO?",
+"x": 0.5,
+"y": 0.14,
+"at": -1
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+184
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": [
+[
+0,
+-0.03
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [
+{
+"k": "hand",
+"x": 0.62,
+"y": 0.68,
+"r": 30,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "WHAT CAN YOU DO?",
+"x": 0.5,
+"y": 0.14,
+"at": -1
+},
+{
+"s": "JUST HER HAND. MOVING.",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+185
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": [
+[
+0,
+-0.03
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [
+{
+"k": "hand",
+"x": 0.62,
+"y": 0.68,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "WHAT CAN YOU DO?",
+"x": 0.5,
+"y": 0.14,
+"at": -1
+},
+{
+"s": "JUST HER HAND. MOVING.",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+186,
+187
+],
+"set": "town",
+"actors": [],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"text": []
+},
+{
+"lines": [
+188
+],
+"set": "town",
+"actors": [],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"card": {
+"big": "~2,400 KG",
+"small": "in every cubic meter of concrete",
+"at": "@0.000",
+"x": 0.5,
+"w": 700
+},
+"text": [],
+"fx": []
+},
+{
+"lines": [
+189
+],
+"set": "town",
+"actors": [],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"card": {
+"big": "~2,400 KG",
+"small": "in every cubic meter of concrete",
+"at": -1,
+"x": 0.5,
+"w": 700
+},
+"text": [
+{
+"s": "A MICROWAVE-SIZED CHUNK: 50+ KG",
+"x": 0.5,
+"y": 0.42,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+190
+],
+"set": "town",
+"actors": [],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"card": {
+"big": "~2,400 KG",
+"small": "in every cubic meter of concrete",
+"at": -1,
+"x": 0.5,
+"w": 700
+},
+"text": [
+{
+"s": "A MICROWAVE-SIZED CHUNK: 50+ KG",
+"x": 0.5,
+"y": 0.42,
+"at": -1,
+"size": 44
+},
+{
+"s": "NOBODY CAN LIFT THOSE",
+"x": 0.5,
+"y": 0.52,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+191
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "BUT YOUR POCKET CAN",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.100",
+"size": 50
+}
+]
+},
+{
+"lines": [
+192
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "BUT YOUR POCKET CAN",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 50
+},
+{
+"s": "INSIDE, IT WEIGHS NOTHING",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+193
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"kneel"
+],
+[
+"@0.500",
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [],
+"text": []
+},
+{
+"lines": [
+194
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [],
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+195
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [
+{
+"k": "cross",
+"x": 0.55,
+"y": 0.42,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "IT DOESN'T GO IN",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-47.999999999999986,
+-47.999999999999986
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+196,
+197
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [
+{
+"k": "cross",
+"x": 0.55,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "IT DOESN'T GO IN",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 48
+},
+{
+"s": "THE POCKET IS FULL. 100 THINGS.",
+"x": 0.5,
+"y": 0.26,
+"at": "@1.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+198
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [
+{
+"k": "cross",
+"x": 0.55,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "IT DOESN'T GO IN",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 48
+},
+{
+"s": "THE POCKET IS FULL. 100 THINGS.",
+"x": 0.5,
+"y": 0.26,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+199
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"text": []
+},
+{
+"lines": [
+200
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "60 PIECES OF RUBBLE... MAYBE MORE",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 42
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+201
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "60 PIECES OF RUBBLE... MAYBE MORE",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 42
+},
+{
+"s": "MAKE ROOM = TAKE OUT DAD'S THINGS",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 42
+}
+],
+"fx": []
+},
+{
+"lines": [
+202,
+203
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "60 PIECES OF RUBBLE... MAYBE MORE",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 42
+},
+{
+"s": "MAKE ROOM = TAKE OUT DAD'S THINGS",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 42
+},
+{
+"s": "HERE. IN THE DUST.",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+204
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "60 PIECES OF RUBBLE... MAYBE MORE",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 42
+},
+{
+"s": "MAKE ROOM = TAKE OUT DAD'S THINGS",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 42
+},
+{
+"s": "HERE. IN THE DUST.",
+"x": 0.5,
+"y": 0.34,
+"at": -1,
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+205,
+206
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [
+{
+"k": "letter",
+"x": 0.25,
+"y": 0.3,
+"r": 40,
+"at": "@0.300",
+"disc": true
+},
+{
+"k": "radio",
+"x": 0.35,
+"y": 0.3,
+"r": 40,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+207
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [
+{
+"k": "letter",
+"x": 0.25,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "radio",
+"x": 0.35,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "shirt",
+"x": 0.45,
+"y": 0.3,
+"r": 40,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+208
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [
+{
+"k": "letter",
+"x": 0.25,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "radio",
+"x": 0.35,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "shirt",
+"x": 0.45,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "SCAN RUINED. NO PRIZE. NO GALA.",
+"x": 0.5,
+"y": 0.48,
+"at": "@0.000",
+"size": 44,
+"color": "#ff6a5a"
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-47.999999999999986,
+-47.999999999999986
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+209,
+210
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"props": [
+{
+"k": "letter",
+"x": 0.25,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "radio",
+"x": 0.35,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "shirt",
+"x": 0.45,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "SCAN RUINED. NO PRIZE. NO GALA.",
+"x": 0.5,
+"y": 0.48,
+"at": -1,
+"size": 44,
+"color": "#ff6a5a"
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+211,
+212
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"inset": {
+"who": "helen",
+"label": "DR. WARD",
+"talk": true,
+"at": "@1.000",
+"x": 0.18
+},
+"text": []
+},
+{
+"lines": [
+213,
+214
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"inset": {
+"who": "helen",
+"label": "DR. WARD",
+"talk": true,
+"at": -1,
+"x": 0.18
+},
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+215
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"inset": {
+"who": "helen",
+"label": "DR. WARD",
+"talk": true,
+"at": -1,
+"x": 0.18
+},
+"text": [
+{
+"s": "\"PLEASE TELL ME THE POCKET IS SAFE\"",
+"x": 0.55,
+"y": 0.16,
+"at": "@0.000",
+"size": 42
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-47.999999999999986,
+-47.999999999999986
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+216
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"inset": {
+"who": "helen",
+"label": "DR. WARD",
+"talk": true,
+"at": -1,
+"x": 0.18
+},
+"text": [
+{
+"s": "\"PLEASE TELL ME THE POCKET IS SAFE\"",
+"x": 0.55,
+"y": 0.16,
+"at": -1,
+"size": 42
+},
+{
+"s": "IS SHE STILL THERE?",
+"x": 0.55,
+"y": 0.26,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+217
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+},
+{
+"k": "prop",
+"p": "dog",
+"x": 0.75,
+"size": 0.5
+}
+],
+"smood": "dusk",
+"props": [
+{
+"k": "hand",
+"x": 0.62,
+"y": 0.68,
+"r": 30,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "\"RIO? IS THAT YOU?\"",
+"x": 0.6,
+"y": 0.3,
+"at": "@0.300",
+"size": 46
+}
+]
+},
+{
+"lines": [
+218
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+},
+{
+"k": "prop",
+"p": "dog",
+"x": 0.75,
+"size": 0.5
+}
+],
+"smood": "dusk",
+"props": [
+{
+"k": "hand",
+"x": 0.62,
+"y": 0.68,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "\"RIO? IS THAT YOU?\"",
+"x": 0.6,
+"y": 0.3,
+"at": -1,
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+219
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+},
+{
+"k": "prop",
+"p": "dog",
+"x": 0.75,
+"size": 0.5
+}
+],
+"smood": "dusk",
+"props": [
+{
+"k": "hand",
+"x": 0.62,
+"y": 0.68,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "\"RIO? IS THAT YOU?\"",
+"x": 0.6,
+"y": 0.3,
+"at": -1,
+"size": 46
+},
+{
+"s": "PEPPER CLAWS AT THE BRICKS",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+220
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "pilot",
+"who": "pilot",
+"x": 0.5,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "ambulance",
+"x": 0.8,
+"size": 1.6
+}
+],
+"fx": [
+"dark"
+],
+"text": [
+{
+"s": "CREWS STRETCHED ACROSS THE CITY",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 44
+}
+]
+},
+{
+"lines": [
+221
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "pilot",
+"who": "pilot",
+"x": 0.5,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "ambulance",
+"x": 0.8,
+"size": 1.6
+}
+],
+"fx": [
+"dark"
+],
+"text": [
+{
+"s": "CREWS STRETCHED ACROSS THE CITY",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "MOST SURVIVORS ARE FOUND IN THE FIRST DAY",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 40
+}
+]
+},
+{
+"lines": [
+222,
+223
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "pilot",
+"who": "pilot",
+"x": 0.5,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "ambulance",
+"x": 0.8,
+"size": 1.6
+}
+],
+"fx": [
+"dark"
+],
+"text": [
+{
+"s": "CREWS STRETCHED ACROSS THE CITY",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "MOST SURVIVORS ARE FOUND IN THE FIRST DAY",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 40
+},
+{
+"s": "EVERY HOUR. EVERY MINUTE.",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 46
+}
+]
+},
+{
+"lines": [
+224
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "DAD'S THINGS... OR MRS. ROSA",
+"x": 0.55,
+"y": 0.14,
+"at": "@0.250",
+"size": 44
+}
+]
+},
+{
+"lines": [
+225,
+226
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"inset": {
+"who": "dad",
+"label": "DAD (MEMORY)",
+"talk": true,
+"at": "@1.000",
+"x": 0.2
+},
+"text": [
+{
+"s": "DAD'S THINGS... OR MRS. ROSA",
+"x": 0.55,
+"y": 0.14,
+"at": -1,
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+227,
+228
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"inset": {
+"who": "dad",
+"label": "DAD (MEMORY)",
+"talk": true,
+"at": -1,
+"x": 0.2
+},
+"text": [
+{
+"s": "DAD'S THINGS... OR MRS. ROSA",
+"x": 0.55,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"KEEP IT, KIDDO. JUST IN CASE.\"",
+"x": 0.55,
+"y": 0.24,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+229,
+230,
+231
+],
+"set": "face",
+"actors": [],
+"items": [],
+"who": "rio",
+"expr": [
+[
+0,
+"cry"
+],
+[
+"@2",
+"determined"
+]
+]
+},
+{
+"lines": [
+232
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"fx": [
+"dark"
+],
+"mood": "dusk",
+"props": [],
+"text": []
+},
+{
+"lines": [
+233,
+234
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+],
+[
+"@1.000",
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"fx": [
+"dark"
+],
+"mood": "dusk",
+"props": [
+{
+"k": "radio",
+"x": 0.22,
+"y": 0.75,
+"r": 34,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "THE RADIO. THE LETTERS.",
+"x": 0.55,
+"y": 0.14,
+"at": "@1.000",
+"size": 44
+}
+],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-191.99999999999994,
+-191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+235,
+236
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+],
+[
+"@1.000",
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"fx": [
+"dark"
+],
+"mood": "dusk",
+"props": [
+{
+"k": "radio",
+"x": 0.22,
+"y": 0.75,
+"r": 34,
+"at": -1,
+"disc": true
+},
+{
+"k": "letter",
+"x": 0.27,
+"y": 0.78,
+"r": 30,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "bulb",
+"x": 0.17,
+"y": 0.78,
+"r": 30,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "THE RADIO. THE LETTERS.",
+"x": 0.55,
+"y": 0.14,
+"at": -1,
+"size": 44
+}
+],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+237,
+238
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+],
+[
+"@1.000",
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"determined"
+],
+[
+"@1.000",
+"cry"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"fx": [
+"dark"
+],
+"mood": "dusk",
+"props": [
+{
+"k": "radio",
+"x": 0.22,
+"y": 0.75,
+"r": 34,
+"at": -1,
+"disc": true
+},
+{
+"k": "letter",
+"x": 0.27,
+"y": 0.78,
+"r": 30,
+"at": -1,
+"disc": true
+},
+{
+"k": "bulb",
+"x": 0.17,
+"y": 0.78,
+"r": 30,
+"at": -1,
+"disc": true
+},
+{
+"k": "card",
+"x": 0.24,
+"y": 0.82,
+"r": 26,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "shirt",
+"x": 0.3,
+"y": 0.82,
+"r": 34,
+"at": "@1.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "THE RADIO. THE LETTERS.",
+"x": 0.55,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "THE JACKET... INTO THE DUST",
+"x": 0.55,
+"y": 0.24,
+"at": "@1.000",
+"size": 44
+}
+]
+},
+{
+"lines": [
+239
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"fx": [
+"dark"
+],
+"mood": "dusk",
+"props": [
+{
+"k": "radio",
+"x": 0.22,
+"y": 0.75,
+"r": 34,
+"at": -1,
+"disc": true
+},
+{
+"k": "letter",
+"x": 0.27,
+"y": 0.78,
+"r": 30,
+"at": -1,
+"disc": true
+},
+{
+"k": "bulb",
+"x": 0.17,
+"y": 0.78,
+"r": 30,
+"at": -1,
+"disc": true
+},
+{
+"k": "card",
+"x": 0.24,
+"y": 0.82,
+"r": 26,
+"at": -1,
+"disc": true
+},
+{
+"k": "shirt",
+"x": 0.3,
+"y": 0.82,
+"r": 34,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "THE RADIO. THE LETTERS.",
+"x": 0.55,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "THE JACKET... INTO THE DUST",
+"x": 0.55,
+"y": 0.24,
+"at": -1,
+"size": 44
+}
+]
+},
+{
+"lines": [
+240
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"fx": [
+"dark"
+],
+"mood": "dusk",
+"props": [
+{
+"k": "radio",
+"x": 0.22,
+"y": 0.75,
+"r": 34,
+"at": -1,
+"disc": true
+},
+{
+"k": "letter",
+"x": 0.27,
+"y": 0.78,
+"r": 30,
+"at": -1,
+"disc": true
+},
+{
+"k": "bulb",
+"x": 0.17,
+"y": 0.78,
+"r": 30,
+"at": -1,
+"disc": true
+},
+{
+"k": "card",
+"x": 0.24,
+"y": 0.82,
+"r": 26,
+"at": -1,
+"disc": true
+},
+{
+"k": "shirt",
+"x": 0.3,
+"y": 0.82,
+"r": 34,
+"at": -1,
+"disc": true
+},
+{
+"k": "wrench",
+"x": 0.14,
+"y": 0.82,
+"r": 30,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "gift",
+"x": 0.2,
+"y": 0.86,
+"r": 30,
+"at": "@0.400",
+"disc": true
+}
+],
+"text": [
+{
+"s": "THE RADIO. THE LETTERS.",
+"x": 0.55,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "THE JACKET... INTO THE DUST",
+"x": 0.55,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "99 THINGS. YOUR WHOLE PAST.",
+"x": 0.55,
+"y": 0.34,
+"at": "@0.000",
+"size": 44
+}
+]
+},
+{
+"lines": [
+241,
+242
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"cry"
+],
+[
+"@1.000",
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6
+}
+],
+"smood": "dusk",
+"fx": [
+"dark"
+],
+"mood": "dusk",
+"props": [
+{
+"k": "radio",
+"x": 0.22,
+"y": 0.75,
+"r": 34,
+"at": -1,
+"disc": true
+},
+{
+"k": "letter",
+"x": 0.27,
+"y": 0.78,
+"r": 30,
+"at": -1,
+"disc": true
+},
+{
+"k": "bulb",
+"x": 0.17,
+"y": 0.78,
+"r": 30,
+"at": -1,
+"disc": true
+},
+{
+"k": "card",
+"x": 0.24,
+"y": 0.82,
+"r": 26,
+"at": -1,
+"disc": true
+},
+{
+"k": "shirt",
+"x": 0.3,
+"y": 0.82,
+"r": 34,
+"at": -1,
+"disc": true
+},
+{
+"k": "wrench",
+"x": 0.14,
+"y": 0.82,
+"r": 30,
+"at": -1,
+"disc": true
+},
+{
+"k": "gift",
+"x": 0.2,
+"y": 0.86,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "THE RADIO. THE LETTERS.",
+"x": 0.55,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "THE JACKET... INTO THE DUST",
+"x": 0.55,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "99 THINGS. YOUR WHOLE PAST.",
+"x": 0.55,
+"y": 0.34,
+"at": -1,
+"size": 44
+},
+{
+"s": "NOW THERE'S ROOM",
+"x": 0.55,
+"y": 0.44,
+"at": "@1.000",
+"size": 48
+}
+]
+},
+{
+"lines": [
+243
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"carry"
+],
+[
+"@0.500",
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": [
+[
+0,
+60
+],
+[
+"@0.999",
+52.5
+]
+]
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "ONE. GONE. TWO. GONE.",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 46
+}
+]
+},
+{
+"lines": [
+244
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"carry"
+],
+[
+"@0.500",
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": [
+[
+0,
+52.5
+],
+[
+"@0.999",
+45.0
+]
+]
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "ONE. GONE. TWO. GONE.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "TEN. TWENTY. THIRTY.",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+245,
+246
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"carry"
+],
+[
+"@1.000",
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": -0.03
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": [
+[
+0,
+45.0
+],
+[
+"@1.999",
+30
+]
+]
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "ONE. GONE. TWO. GONE.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "TEN. TWENTY. THIRTY.",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 48
+},
+{
+"s": "YOUR HANDS ARE BLEEDING",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+247
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"carry"
+],
+[
+"@0.500",
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": -0.03
+},
+{
+"id": "sam",
+"who": "sam",
+"x": [
+[
+0,
+0.95
+],
+[
+"@0.500",
+0.32
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.600",
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": [
+[
+0,
+1.05
+],
+[
+"@0.700",
+0.25
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.800",
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": [
+[
+0,
+1.1
+],
+[
+"@0.900",
+0.18
+]
+],
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": [
+[
+0,
+30
+],
+[
+"@0.999",
+16.0
+]
+]
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "NEIGHBORS COME RUNNING",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.100",
+"size": 46
+}
+]
+},
+{
+"lines": [
+248
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"carry"
+],
+[
+"@0.500",
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"yk": -0.03
+},
+{
+"id": "sam",
+"who": "sam",
+"x": [
+[
+0,
+0.32
+]
+],
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": [
+[
+0,
+0.25
+]
+],
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": [
+[
+0,
+0.18
+]
+],
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": [
+[
+0,
+16.0
+],
+[
+"@0.999",
+2
+]
+]
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "NEIGHBORS COME RUNNING",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "FORTY. FIFTY. SIXTY.",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+249,
+250
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.3,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.22,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "THE BIG SLAB. 2 METERS.",
+"x": 0.55,
+"y": 0.14,
+"at": "@1.000",
+"size": 46
+}
+]
+},
+{
+"lines": [
+251,
+252
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.3,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.22,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "THE BIG SLAB. 2 METERS.",
+"x": 0.55,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "ACROSS MRS. ROSA'S LEGS",
+"x": 0.55,
+"y": 0.24,
+"at": "@1.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+253
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.3,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.22,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "THE BIG SLAB. 2 METERS.",
+"x": 0.55,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "ACROSS MRS. ROSA'S LEGS",
+"x": 0.55,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "TOO BIG. TOO HEAVY.",
+"x": 0.55,
+"y": 0.34,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+254,
+255
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.3,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.22,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "THE BIG SLAB. 2 METERS.",
+"x": 0.55,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "ACROSS MRS. ROSA'S LEGS",
+"x": 0.55,
+"y": 0.24,
+"at": -1,
+"size": 44
+},
+{
+"s": "TOO BIG. TOO HEAVY.",
+"x": 0.55,
+"y": 0.34,
+"at": -1,
+"size": 46
+},
+{
+"s": "WHAT NOW?",
+"x": 0.55,
+"y": 0.44,
+"at": "@1.000"
+}
+],
+"fx": []
+},
+{
+"lines": [
+256
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2
+}
+],
+"smood": "dusk",
+"text": []
+},
+{
+"lines": [
+257
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "SOMETHING THAT CAN LIFT A LOT",
+"x": 0.55,
+"y": 0.14,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-191.99999999999994,
+-191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+258
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "SOMETHING THAT CAN LIFT A LOT",
+"x": 0.55,
+"y": 0.14,
+"at": -1,
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+259
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "SOMETHING THAT CAN LIFT A LOT",
+"x": 0.55,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "ONE THING LEFT INSIDE",
+"x": 0.55,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+260,
+261
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "SOMETHING THAT CAN LIFT A LOT",
+"x": 0.55,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "ONE THING LEFT INSIDE",
+"x": 0.55,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "ITEM 100",
+"x": 0.55,
+"y": 0.34,
+"at": "@1.000"
+}
+],
+"fx": []
+},
+{
+"lines": [
+262
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2
+}
+],
+"smood": "dusk",
+"cam": {
+"z": [
+1.4,
+1.425
+],
+"x": [
+-180.0,
+-180.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": []
+},
+{
+"lines": [
+263
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "carjack",
+"from": "@0.000"
+}
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2
+}
+],
+"smood": "dusk",
+"cam": {
+"z": [
+1.425,
+1.45
+],
+"x": [
+-180.0,
+-180.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "HEAVY. SCRATCHED. RED.",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+264
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "carjack",
+"from": 0
+}
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2
+}
+],
+"smood": "dusk",
+"cam": {
+"z": [
+1.45,
+1.475
+],
+"x": [
+-180.0,
+-180.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "HEAVY. SCRATCHED. RED.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "DAD'S OLD CAR JACK",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 50,
+"color": "#ff6a5a"
+}
+],
+"fx": []
+},
+{
+"lines": [
+265
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"hold": {
+"k": "carjack",
+"from": 0
+}
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2
+}
+],
+"smood": "dusk",
+"cam": {
+"z": [
+1.475,
+1.5
+],
+"x": [
+-180.0,
+-180.0
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "HEAVY. SCRATCHED. RED.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "DAD'S OLD CAR JACK",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 50,
+"color": "#ff6a5a"
+},
+{
+"s": "2 TONNES",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000"
+}
+],
+"fx": []
+},
+{
+"lines": [
+266
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.78,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"yk": -0.02
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2,
+"jack": 1,
+"lift": [
+[
+0,
+0
+]
+]
+}
+],
+"smood": "dusk",
+"text": []
+},
+{
+"lines": [
+267,
+268
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.78,
+"pose": [
+[
+0,
+"push"
+],
+[
+"@0.500",
+"kneel"
+],
+[
+"@1.000",
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"yk": -0.02
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2,
+"jack": 1,
+"lift": [
+[
+0,
+0.0
+],
+[
+"@1.999",
+0.1
+]
+]
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "PUMP. ONCE. TWICE.",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.000",
+"size": 48
+},
+{
+"s": "THE SLAB GROANS",
+"x": 0.5,
+"y": 0.24,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+269
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.78,
+"pose": [
+[
+0,
+"push"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"yk": -0.02
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2,
+"jack": 1,
+"lift": [
+[
+0,
+0.1
+]
+]
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "PUMP. ONCE. TWICE.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "THE SLAB GROANS",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "1 CM... 5... 10",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+270
+],
+"set": "town",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": [
+[
+0,
+0.62
+],
+[
+"@0.900",
+0.4
+]
+],
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": [
+[
+0,
+1.5708
+],
+[
+"@0.900",
+1.5708
+],
+[
+"@0.999",
+0.7854
+]
+],
+"yk": [
+[
+0,
+0.126
+],
+[
+"@0.900",
+0.126
+],
+[
+"@0.999",
+0.063
+]
+],
+"s": 1.5,
+"chair": false
+},
+{
+"id": "sam",
+"who": "sam",
+"x": [
+[
+0,
+0.5
+],
+[
+"@0.900",
+0.3
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": 1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": [
+[
+0,
+0.56
+],
+[
+"@0.900",
+0.34
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.78,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1,
+"yk": -0.02
+},
+{
+"id": "pepper",
+"who": "pepper",
+"x": 0,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"alpha": 0
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2,
+"jack": 1,
+"lift": 0.1
+},
+{
+"k": "prop",
+"p": "dog",
+"x": [
+[
+0,
+0.95
+]
+],
+"size": 0.4
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "SLOWLY. CAREFULLY.",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.250",
+"size": 46
+}
+]
+},
+{
+"lines": [
+271,
+272
+],
+"set": "town",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": [
+[
+0,
+0.4
+]
+],
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+],
+[
+"@1.000",
+"neutral"
+]
+],
+"rot": [
+[
+0,
+0.7854
+],
+[
+"@0.100",
+0
+]
+],
+"yk": [
+[
+0,
+0.063
+],
+[
+"@0.100",
+0
+]
+],
+"s": 1.5,
+"chair": false
+},
+{
+"id": "sam",
+"who": "sam",
+"x": [
+[
+0,
+0.3
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": 1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": [
+[
+0,
+0.34
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.78,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1,
+"yk": -0.02
+},
+{
+"id": "pepper",
+"who": "pepper",
+"x": 0,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"alpha": 0
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2,
+"jack": 1,
+"lift": 0.1
+},
+{
+"k": "prop",
+"p": "dog",
+"x": [
+[
+0,
+0.95
+]
+],
+"size": 0.4
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "SLOWLY. CAREFULLY.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "BRUISED... BUT BREATHING",
+"x": 0.5,
+"y": 0.24,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+273,
+274
+],
+"set": "town",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": [
+[
+0,
+0.4
+]
+],
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"rot": [
+[
+0,
+0
+]
+],
+"yk": [
+[
+0,
+0
+]
+],
+"s": 1.5,
+"chair": false
+},
+{
+"id": "sam",
+"who": "sam",
+"x": [
+[
+0,
+0.3
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": 1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": [
+[
+0,
+0.34
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.78,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1,
+"yk": -0.02
+},
+{
+"id": "pepper",
+"who": "pepper",
+"x": 0,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"alpha": 0
+}
+],
+"items": [
+{
+"k": "rubble",
+"x": 0.6,
+"n": 2,
+"jack": 1,
+"lift": 0.1
+},
+{
+"k": "prop",
+"p": "dog",
+"x": [
+[
+0,
+0.95
+],
+[
+"@1.000",
+0.95
+],
+[
+"@1.500",
+0.44
+]
+],
+"size": 0.4
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "SLOWLY. CAREFULLY.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "BRUISED... BUT BREATHING",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "AND SMILING",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 48
+}
+],
+"fx": []
+},
+{
+"lines": [
+275,
+276
+],
+"set": "town",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5,
+"chair": false
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.5,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1,
+"talk": false
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "dog",
+"x": 0.33,
+"size": 0.4
+}
+],
+"smood": "dusk",
+"cam": {
+"z": [
+1.4,
+1.44
+],
+"x": [
+-100.0,
+-100.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": []
+},
+{
+"lines": [
+277,
+278
+],
+"set": "town",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5,
+"chair": false,
+"talk": [
+"@0.000",
+"@0.900"
+]
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.5,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1,
+"talk": false
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "dog",
+"x": 0.33,
+"size": 0.4
+}
+],
+"smood": "dusk",
+"cam": {
+"z": [
+1.44,
+1.48
+],
+"x": [
+-100.0,
+-100.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": [
+{
+"s": "\"WAS THAT YOUR FATHER'S JACK?\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+279
+],
+"set": "town",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5,
+"chair": false
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.5,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1,
+"talk": false
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "dog",
+"x": 0.33,
+"size": 0.4
+}
+],
+"smood": "dusk",
+"cam": {
+"z": [
+1.48,
+1.5
+],
+"x": [
+-100.0,
+-100.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": [
+{
+"s": "\"WAS THAT YOUR FATHER'S JACK?\"",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 44
+}
+],
+"fx": []
+},
+{
+"lines": [
+280
+],
+"set": "town",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"s": 1.5,
+"chair": false,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.5,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"smood": "dusk",
+"cam": {
+"z": [
+1.4,
+1.45
+],
+"x": [
+-100.0,
+-100.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": [
+{
+"s": "\"HE FIXED MY CAR THREE TIMES\"",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.100",
+"size": 44
+}
+]
+},
+{
+"lines": [
+281
+],
+"set": "town",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"s": 1.5,
+"chair": false,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.5,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"smood": "dusk",
+"cam": {
+"z": [
+1.45,
+1.5
+],
+"x": [
+-100.0,
+-100.0
+],
+"y": [
+-20.0,
+-20.0
+]
+},
+"text": [
+{
+"s": "\"HE FIXED MY CAR THREE TIMES\"",
+"x": 0.5,
+"y": 0.16,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"HE NEVER LET ME PAY.\"",
+"x": 0.5,
+"y": 0.26,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+282,
+283
+],
+"set": "town",
+"actors": [
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.3,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5,
+"chair": false
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "ambulance",
+"x": 0.85,
+"size": 1.6
+}
+],
+"smood": "dusk",
+"text": []
+},
+{
+"lines": [
+284,
+285
+],
+"set": "town",
+"actors": [
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.3,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5,
+"chair": false
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "ambulance",
+"x": 0.85,
+"size": 1.6
+}
+],
+"smood": "dusk",
+"text": [
+{
+"s": "A BROKEN ANKLE. THAT'S ALL.",
+"x": 0.5,
+"y": 0.16,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+286,
+287
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"chair": false,
+"yk": 0.03
+}
+],
+"items": [],
+"smood": "dusk",
+"text": [
+{
+"s": "ON THE CURB. COVERED IN DUST.",
+"x": 0.45,
+"y": 0.14,
+"at": "@0.350",
+"size": 44
+}
+]
+},
+{
+"lines": [
+288,
+289
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"sit"
+],
+[
+"@1.000",
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"chair": false,
+"yk": 0.03,
+"hold": {
+"k": "phone",
+"from": "@1.000"
+}
+}
+],
+"items": [],
+"smood": "dusk",
+"inset": {
+"who": "helen",
+"label": "DR. WARD",
+"at": "@1.000",
+"x": 0.78
+},
+"text": [
+{
+"s": "ON THE CURB. COVERED IN DUST.",
+"x": 0.45,
+"y": 0.14,
+"at": -1,
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+290,
+291
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"chair": false,
+"yk": 0.03,
+"hold": {
+"k": "phone",
+"from": 0
+},
+"talk": [
+"@1.000",
+1
+]
+}
+],
+"items": [],
+"smood": "dusk",
+"inset": {
+"who": "helen",
+"label": "DR. WARD",
+"at": -1,
+"x": 0.78
+},
+"text": [
+{
+"s": "ON THE CURB. COVERED IN DUST.",
+"x": 0.45,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"THE POCKET ISN'T FULL ANYMORE.\"",
+"x": 0.45,
+"y": 0.24,
+"at": "@1.000",
+"size": 42
+}
+],
+"fx": []
+},
+{
+"lines": [
+292
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"chair": false,
+"yk": 0.03,
+"hold": {
+"k": "phone",
+"from": 0
+},
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"smood": "dusk",
+"inset": {
+"who": "helen",
+"label": "DR. WARD",
+"at": -1,
+"x": 0.78
+},
+"text": [
+{
+"s": "ON THE CURB. COVERED IN DUST.",
+"x": 0.45,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"THE POCKET ISN'T FULL ANYMORE.\"",
+"x": 0.45,
+"y": 0.24,
+"at": -1,
+"size": 42
+},
+{
+"s": "\"I'M SORRY.\"",
+"x": 0.45,
+"y": 0.34,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+293
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"chair": false,
+"yk": 0.03,
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"smood": "dusk",
+"inset": {
+"who": "helen",
+"label": "DR. WARD",
+"talk": true,
+"at": "@0.000",
+"x": 0.78,
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+"text": []
+},
+{
+"lines": [
+294
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"chair": false,
+"yk": 0.03,
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"smood": "dusk",
+"inset": {
+"who": "helen",
+"label": "DR. WARD",
+"talk": true,
+"at": -1,
+"x": 0.78,
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+"text": [
+{
+"s": "\"I JUST SAW THE NEWS\"",
+"x": 0.45,
+"y": 0.14,
+"at": "@0.000",
+"size": 44
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+295,
+296
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"sad"
+],
+[
+"@1.000",
+"surprised"
+]
+],
+"chair": false,
+"yk": 0.03,
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"smood": "dusk",
+"inset": {
+"who": "helen",
+"label": "DR. WARD",
+"talk": true,
+"at": -1,
+"x": 0.78,
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+"text": [
+{
+"s": "\"I JUST SAW THE NEWS\"",
+"x": 0.45,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"FORGET THE SCAN.\"",
+"x": 0.45,
+"y": 0.24,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+297,
+298
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+],
+[
+"@1.000",
+"cry"
+]
+],
+"chair": false,
+"yk": 0.03,
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"smood": "dusk",
+"inset": {
+"who": "helen",
+"label": "DR. WARD",
+"talk": true,
+"at": -1,
+"x": 0.78,
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+"text": [
+{
+"s": "\"I JUST SAW THE NEWS\"",
+"x": 0.45,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "\"FORGET THE SCAN.\"",
+"x": 0.45,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"KEEP THE PRIZE.\"",
+"x": 0.45,
+"y": 0.34,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+299
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+},
+{
+"id": "kid",
+"who": "kid",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "house",
+"x": 0.85,
+"chime": false
+}
+],
+"props": [],
+"text": [
+{
+"s": "NO GALA. YOU STAY.",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.150",
+"size": 48
+}
+]
+},
+{
+"lines": [
+300
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"carry"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+},
+{
+"id": "kid",
+"who": "kid",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "house",
+"x": 0.85,
+"chime": false
+}
+],
+"props": [],
+"text": [
+{
+"s": "NO GALA. YOU STAY.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-191.99999999999994,
+-191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+301
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "mom2",
+"who": "mom2",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"facing": -1
+},
+{
+"id": "kid",
+"who": "kid",
+"x": 0.7,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "house",
+"x": 0.85,
+"chime": false
+}
+],
+"props": [
+{
+"k": "water",
+"x": 0.5,
+"y": 0.5,
+"r": 40,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "bed",
+"x": 0.56,
+"y": 0.5,
+"r": 40,
+"at": "@0.200",
+"disc": true
+},
+{
+"k": "house",
+"x": 0.62,
+"y": 0.5,
+"r": 40,
+"at": "@0.400",
+"disc": true
+}
+],
+"text": [
+{
+"s": "NO GALA. YOU STAY.",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 48
+},
+{
+"s": "WATER. BLANKETS. TENTS.",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+302
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "carjack"
+}
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.25,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5,
+"facing": -1
+}
+],
+"items": [],
+"smood": "dusk",
+"props": [],
+"text": [
+{
+"s": "NEIGHBORS PICK UP DAD'S THINGS",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 44
+}
+]
+},
+{
+"lines": [
+303,
+304
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "carjack"
+}
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.25,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5,
+"facing": -1
+}
+],
+"items": [],
+"smood": "dusk",
+"props": [
+{
+"k": "letter",
+"x": 0.45,
+"y": 0.42,
+"r": 40,
+"at": "@1.000",
+"disc": true
+},
+{
+"k": "shirt",
+"x": 0.55,
+"y": 0.42,
+"r": 40,
+"at": "@1.400",
+"disc": true
+}
+],
+"text": [
+{
+"s": "NEIGHBORS PICK UP DAD'S THINGS",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "YOU KEEP ONLY A FEW",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+305
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "carjack"
+}
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.25,
+"pose": [
+[
+0,
+"crouch"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"s": 1.5,
+"facing": -1
+}
+],
+"items": [],
+"smood": "dusk",
+"props": [
+{
+"k": "letter",
+"x": 0.45,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "shirt",
+"x": 0.55,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "NEIGHBORS PICK UP DAD'S THINGS",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 44
+},
+{
+"s": "YOU KEEP ONLY A FEW",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+306
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "note"
+}
+},
+{
+"id": "boy",
+"who": "boy",
+"x": 0.55,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"smood": "dusk",
+"props": [
+{
+"k": "radio",
+"x": 0.5,
+"y": 0.42,
+"r": 40,
+"at": "@0.100",
+"disc": true
+}
+],
+"text": [
+{
+"s": "THE RADIO: A KID WHO LOVES FIXING THINGS",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.100",
+"size": 40
+}
+]
+},
+{
+"lines": [
+307
+],
+"set": "town",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.4,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"hold": {
+"k": "note"
+}
+},
+{
+"id": "boy",
+"who": "boy",
+"x": 0.55,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"smood": "dusk",
+"props": [
+{
+"k": "radio",
+"x": 0.5,
+"y": 0.42,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "wrench",
+"x": 0.75,
+"y": 0.42,
+"r": 40,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "fire",
+"x": 0.82,
+"y": 0.3,
+"r": 36,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "THE RADIO: A KID WHO LOVES FIXING THINGS",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 40
+},
+{
+"s": "THE TOOLBOX: THE FIRE STATION",
+"x": 0.5,
+"y": 0.22,
+"at": "@0.000",
+"size": 40
+}
+],
+"fx": []
+},
+{
+"lines": [
+308
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [],
+"props": [],
+"text": [
+{
+"s": "ROOM FOR THINGS PEOPLE NEED",
+"x": 0.55,
+"y": 0.16,
+"at": "@0.100",
+"size": 46
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+309
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"chest"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "water",
+"x": 0.6,
+"y": 0.45,
+"r": 40,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "bandage",
+"x": 0.68,
+"y": 0.45,
+"r": 40,
+"at": "@0.200",
+"disc": true
+},
+{
+"k": "carrot",
+"x": 0.76,
+"y": 0.45,
+"r": 40,
+"at": "@0.400",
+"disc": true
+}
+],
+"text": [
+{
+"s": "ROOM FOR THINGS PEOPLE NEED",
+"x": 0.55,
+"y": 0.16,
+"at": -1,
+"size": 46
+},
+{
+"s": "JUST IN CASE",
+"x": 0.55,
+"y": 0.26,
+"at": "@0.000",
+"size": 50
+}
+],
+"wall": "#c8c0b0",
+"wall2": "#7a7060",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": []
+},
+{
+"lines": [
+310
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "sign",
+"x": 0.5,
+"y": 0.4,
+"s": "MARTIN'S JACK",
+"bg": "#c0302a",
+"color": "#fff"
+}
+],
+"text": [
+{
+"s": "THE GARAGE, REBUILT",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.200",
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a"
+},
+{
+"lines": [
+311
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "sign",
+"x": 0.5,
+"y": 0.4,
+"s": "MARTIN'S JACK",
+"bg": "#c0302a",
+"color": "#fff"
+}
+],
+"text": [
+{
+"s": "THE GARAGE, REBUILT",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-191.99999999999994,
+-191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+312,
+313
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"point"
+],
+[
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "sign",
+"x": 0.5,
+"y": 0.4,
+"s": "MARTIN'S JACK",
+"bg": "#c0302a",
+"color": "#fff"
+}
+],
+"text": [
+{
+"s": "THE GARAGE, REBUILT",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"ASK IF YOU NEED IT.\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@1.000",
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+314
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"s": 1.5,
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.64,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.46,
+"food": "cocoa",
+"at": "@0.500"
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": 9
+}
+],
+"text": [
+{
+"s": "TWO CUPS OF TEA",
+"x": 0.5,
+"y": 0.14,
+"at": "@0.250",
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a"
+},
+{
+"lines": [
+315,
+316
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"s": 1.5,
+"talk": [
+"@0.000",
+"@0.900"
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.64,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.46,
+"food": "cocoa",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": "@0.500"
+}
+],
+"text": [
+{
+"s": "TWO CUPS OF TEA",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-191.99999999999994,
+-191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+317
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.64,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.46,
+"food": "cocoa",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": -1
+}
+],
+"text": [
+{
+"s": "TWO CUPS OF TEA",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"KEEP IT, JUST IN CASE.\"",
+"x": 0.5,
+"y": 0.24,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+318
+],
+"set": "room",
+"actors": [
+{
+"id": "rosa",
+"who": "rosa",
+"x": 0.4,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"s": 1.5
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.64,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.52,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.46,
+"food": "cocoa",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.58,
+"food": "cocoa",
+"at": -1
+}
+],
+"text": [
+{
+"s": "TWO CUPS OF TEA",
+"x": 0.5,
+"y": 0.14,
+"at": -1,
+"size": 46
+},
+{
+"s": "\"KEEP IT, JUST IN CASE.\"",
+"x": 0.5,
+"y": 0.24,
+"at": -1,
+"size": 46
+},
+{
+"s": "NOW YOU KNOW WHAT FOR",
+"x": 0.5,
+"y": 0.34,
+"at": "@0.000",
+"size": 46
+}
+],
+"wall": "#c8b8a0",
+"wall2": "#7a6a5a",
+"fx": []
+},
+{
+"lines": [
+319,
+320
+],
+"set": "face",
+"actors": [],
+"items": [],
+"who": "rio",
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"lines": [
+321
+],
+"set": "end",
+"actors": [],
+"items": [],
+"tpl": "end"
+}
+]

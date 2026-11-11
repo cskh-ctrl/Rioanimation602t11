@@ -49,7 +49,7 @@ def _scal(t, n, s0, L, before=-0.5):   # a one-off time ('at', 'from', 'drop'): 
     u = _u(t, n)
     if u >= s0 + L: return None
     return _at(u - s0) if u >= s0 else before
-TRACK_KEYS = ("x", "pose", "expr", "alpha", "up", "rot", "yk", "facing", "open", "a", "dx", "upk", "bx", "bup", "level", "ghost", "tx", "lamp", "lever", "reach")
+TRACK_KEYS = ("x", "pose", "expr", "alpha", "up", "rot", "yk", "facing", "open", "a", "dx", "upk", "bx", "bup", "level", "ghost", "tx", "lamp", "lever", "reach", "n", "lift", "jack")
 def _remap_obj(o, n, s0, L):
     o = dict(o)
     for k in TRACK_KEYS:
