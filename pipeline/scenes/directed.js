@@ -8,7 +8,7 @@
 //   text:   [{ s, x, y, at, size, color }]
 // Times are fractions of the shot (0..1) so the board survives small changes in voice timing.
 import { E, V, S, mood, layer, backdrop, ease, prog, clamp, lerp, seg, circle, ring, rr, poly, glow, alpha, shade, mix, text, linGrad, radGrad, rng, FONTS } from '/engine/core.js';
-import { drawFigure, POSES, posesAt, breathe, walkPose, bigFace } from '/engine/rig2d.js';
+import { drawFigure, POSES, posesAt, breathe, walkPose, bigFace, blendPose } from '/engine/rig2d.js';
 import * as FX from '/engine/fx2d.js';
 import { drawSet } from './sets.js';
 import { drawProp } from './props.js';
@@ -365,12 +365,24 @@ export function directed(g, t, info) {
     for (const it of (d.items || [])) if (!it.front) ITEMS[it.k]?.(g, it.x * E.W, it.y ? it.y * E.H : Y, it, p, t);
     for (const a of (d.actors || [])) {
       const of = OUTFITS[a.who || a.id] || a.outfit || OUTFITS.rio, s = a.s || 1.6;
-      const xf = track(a.x, p, 0.5), xPrev = track(a.x, Math.max(0, p - 0.01), xf), moving = Math.abs(xf - xPrev) > 0.0004;
-      const facing = a.facing != null ? (Array.isArray(a.facing) ? stepVal(a.facing, p, 1) : a.facing) : (moving ? Math.sign(xf - xPrev) : 1);
+      // position = storyboard keys + optional walk-in / walk-out + pacing (small walks back and forth)
+      const xAt = (pp) => {
+        let x = track(a.x, pp, 0.5);
+        if (a.enter) { const u = a.enterUntil ?? 0.22; if (pp < u) { const from = a.enter === 'left' ? -0.08 : 1.08; x = lerp(from, track(a.x, u, 0.5), ease.inOut(pp / u)); } }
+        if (a.exit) { const u0 = a.exitFrom ?? 0.8; if (pp > u0) { const to = a.exit === 'left' ? -0.08 : 1.08; x = lerp(track(a.x, u0, 0.5), to, ease.inOut((pp - u0) / (1 - u0))); } }
+        if (a.pace) { const T = a.paceT || 4.2, u = (((pp * info.dur + (a.seed || 0) * 1.3) % T) + T) % T / T; const k = u < 0.28 ? ease.inOut(u / 0.28) : u < 0.5 ? 1 : u < 0.78 ? 1 - ease.inOut((u - 0.5) / 0.28) : 0; x += a.pace * k; }
+        return x;
+      };
+      const xf = xAt(p), xPrev = xAt(Math.max(0, p - 0.008)), moving = Math.abs(xf - xPrev) > 0.0003;
+      const facing = moving && !a.lockFacing ? Math.sign(xf - xPrev) : a.facing != null ? (Array.isArray(a.facing) ? stepVal(a.facing, p, 1) : a.facing) : 1;
       const up = track(a.up, p, 0), fly = up > 0.05 || a.fly;
       const X = xf * E.W, Yy = Y + (a.dy || 0) + track(a.yk, p, 0) * E.H - M_(up) + (fly ? Math.sin(t * 2.4 + (a.seed || 0)) * 6 : 0);
+      const bounce = (!moving && !fly && /^(cheer|jump)$/.test(stepVal(a.pose, p, ''))) ? Math.abs(Math.sin(t * 6 + (a.seed || 0))) * 16 : 0;
       let pz = moving ? walkPose(info.globalT * 9, {}) : poseOf(stepVal(a.pose, p, 'relaxed'), p);
       if (moving && a.hold && a.hold.k !== 'pour') { const hc = EXTRA_POSES.holdCup(), dx = pz.sh[0] - hc.sh[0], dy = pz.sh[1] - hc.sh[1]; pz = { ...pz, eF: [hc.eF[0] + dx, hc.eF[1] + dy], hF: [hc.hF[0] + dx, hc.hF[1] + dy] }; }
+      // talking people gesture: cycle through natural talk poses while their line plays
+      const pn0 = stepVal(a.pose, p, 'relaxed'), talkNow = a.talk && p >= a.talk[0] && p <= a.talk[1];
+      if (!moving && talkNow && ['talk', 'explain', 'relaxed', 'point', 'shrug', 'stand', 'crossArms'].includes(pn0)) { const G = ['talk', 'explain', 'talk', 'point', 'shrug'], q = info.globalT * 0.8 + (a.seed || 0), i = Math.floor(q) % G.length, f = q - Math.floor(q); pz = blendPose(G[i], G[(i + 1) % G.length], clamp((f - 0.75) * 4)); }
       if (!moving) pz = breathe(pz, t);
       const al = track(a.alpha, p, 1);
       if (al <= 0) continue;
@@ -381,7 +393,7 @@ export function directed(g, t, info) {
       const pn = stepVal(a.pose, p, 'relaxed');
       if (!moving && !fly && a.chair !== false && a.clip == null && /^(sit|sitTable|eat|type|sitPhone|sitBack)$/.test(pn)) FX.chair(g, X - facing * 6 * s, Y, s * 0.62, '#3a2a2a');   // something to sit on
       if (a.clip != null) { g.save(); g.beginPath(); g.rect(-E.W, -E.H * 2, E.W * 3, Y - M_(a.clip) + E.H * 2); g.clip(); }   // e.g. seated in a car: hide legs below the door line
-      drawFigure(g, { x: X, y: Yy, s, facing, outfit: of, pose: pz, expr, rot: track(a.rot, p, 0) || 0, shadow: !fly, alpha: al, talk: talking ? 0.5 + 0.5 * Math.sin(t * 22) : 0, look: [facing * 0.6, 0], rim: { color: M.rim || '#ffc68a', dir: [0, -1], w: 4 } });
+      drawFigure(g, { x: X, y: Yy - bounce, s, facing, outfit: of, pose: pz, expr, rot: track(a.rot, p, 0) || 0, shadow: !fly, alpha: al, talk: talking ? 0.5 + 0.5 * Math.sin(t * 22) : 0, look: [facing * 0.6, 0], rim: { color: M.rim || '#ffc68a', dir: [0, -1], w: 4 } });
       if (a.clip != null) g.restore();
       const A = { X, Y: Yy, s, facing, hold: a.hold };
       if (!(a.hold?.drop != null && p >= a.hold.drop)) drawHeld(g, A, pz, p); else dropFall(g, A, pz, p, info);

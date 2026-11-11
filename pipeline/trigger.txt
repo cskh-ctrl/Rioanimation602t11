@@ -1,2 +1,2 @@
-Doraemon set - video 35 (hand-directed storyboard)
-ONLY:long_35
+Rio video 32 - more movement and interaction (walks, entrances, gestures)
+FORCE:long_32

@@ -115,6 +115,58 @@ S([283, 284, 285, 286], "kitchen", [A("rio", 0.45, "hug", "happy"), A("zoe", 0.5
 S([287, 288, 289, 290], "room", [A("rio", [[0, 0.2], ["@1", 0.45]], [[0, "relaxed"], ["@2", "holdFront"]], [[0, "neutral"], ["@2", "surprised"]])], [door(0.8)], props=[P("gift", 0.55, 0.62, 40, "@1"), P("letter", 0.55, 0.35, 50, "@3")], text=[T("NAME ANY FOOD", 0.55, 0.2, "@3")], **APT)
 S([291, 292], "face", [], [], who="rio", expr=[[0, "smile"]])
 S([293], "end", [], [], tpl="end")
+
+# ---- more life: walks, entrances, pacing and a new gesture on each sentence (user asked for more movement) ----
+import random
+VAR = {"relaxed": ["think", "crossArms", "shrug", "point"], "think": ["relaxed", "crossArms"], "crossArms": ["think", "relaxed"], "sad": ["facepalm", "chest"], "nervous": ["handsOnHead", "think"],
+       "talk": ["explain", "point"], "explain": ["talk", "point"], "worried": ["think", "handsOnHead"], "stand": ["think", "shrug"], "point": ["explain", "relaxed"], "shrug": ["relaxed", "think"]}
+STATIC = ("lie", "sit", "sitTable", "sitBack", "eat", "type", "cpr", "kneel", "crouch", "phoneEar", "phone", "jump", "hug", "carry", "fall", "flyUp")
+CALLSTART = {32, 46, 67, 85, 100, 118, 235, 244}
+rnd = random.Random(32)
+for b in B:
+    if b.get("tpl") in ("title", "end", "science") or b["set"] in ("face", "space"): continue
+    n = len(b["lines"]); acts = b["actors"]
+    booth = any(i.get("k") == "booth" for i in b["items"])
+    if booth and b["lines"][0] in CALLSTART:
+        for a in acts:
+            if a["id"] == "rio":
+                a["x"] = [[0, 0.3], ["@0.55", 0.6]]; a["pose"] = [[0, "relaxed"], ["@0.6", "phoneEar"]]; a["hold"] = {"k": "phone", "from": "@0.6"}; a["lockFacing"] = False
+    for k, a in enumerate(acts):
+        a["seed"] = rnd.randint(0, 9)
+        poses = a["pose"]; p0 = poses[0][1]
+        if a.get("rot") or a.get("up") or p0 in STATIC or (booth and a["id"] == "rio"): continue
+        # a new gesture on every sentence (and halfway through one-sentence shots)
+        if len(poses) == 1 and p0 in VAR:
+            v = VAR[p0]; keys = [[0, p0]]
+            marks = [f"@{i}" for i in range(1, n)] if n > 1 else ["@0.5"]
+            for j, m in enumerate(marks): keys.append([m, v[j % len(v)] if j % 2 == 0 else p0])
+            a["pose"] = keys
+        static_x = isinstance(a["x"], (int, float))
+        if static_x and not a.get("hold"):
+            if len(acts) >= 2 and k == len(acts) - 1 and n >= 2:
+                a["enter"] = "right" if a["x"] > 0.5 else "left"; a["enterUntil"] = 0.18
+            else:
+                a["pace"] = rnd.choice([-1, 1]) * rnd.choice([0.04, 0.05, 0.06]); a["paceT"] = rnd.choice([3.6, 4.2, 5.0])
+
+# ---- hand-placed interactions ----
+def actor(b, id_): return next(a for a in b["actors"] if a["id"] == id_)
+for b in B:
+    L = b["lines"][0]
+    if L == 57: r = actor(b, "rio"); r["x"] = [[0, 0.1], ["@0.8", 0.35]]; r.pop("pace", None)
+    if L == 139: r = actor(b, "rio"); r["x"] = [[0, 0.22], ["@0.7", 0.38]]; r.pop("pace", None)
+    if L == 158: r = actor(b, "rio"); r["x"] = [[0, 0.2], ["@0.6", 0.38]]; r.pop("pace", None)
+    if L == 189: z = actor(b, "zoe"); z["x"] = [[0, 0.1], ["@0.6", 0.32]]; z.pop("pace", None); z.pop("enter", None)
+    if L == 208: s = actor(b, "sam"); s["x"] = [[0, 0.2], ["@0.6", 0.52]]; s["pose"] = [[0, "relaxed"], ["@0.7", "kneel"]]; s.pop("enter", None)
+    if L == 262: [a.pop("pace", None) for a in b["actors"]]; o = actor(b, "oldman"); o["pose"] = [[0, "relaxed"], [0.3, "chest"]]; o["expr"] = [[0, "neutral"], [0.3, "scared"]]
+    if L == 263:
+        c1 = actor(b, "crowd1"); c1["x"] = [[0, 0.05], ["@0.5", 0.25]]; c2 = actor(b, "crowd2"); c2["x"] = [[0, 0.75], ["@0.5", 0.47]]; s = actor(b, "sam"); s["x"] = [[0, -0.05], ["@0.8", 0.2]]
+        for a in (c1, c2, s): a.pop("pace", None); a.pop("enter", None)
+    if L == 245: r = actor(b, "rio"); r["pose"] = [[0, "sitBack"], ["@1", "stand"], ["@2", "handsOnHead"]]; r["x"] = [[0, 0.42], ["@1.2", 0.42], ["@2", 0.5]]
+    if L == 12:
+        for a in b["actors"]: a.pop("pace", None)
+    if L in (183, 193):
+        for a in b["actors"]:
+            if a["id"] == "crowd1": a["pace"] = 0.06; a["paceT"] = 2.4
 for b in B:
     if b["lines"][0] in (3, 5): b["fx"] = ["greensky"]
     if b["lines"][0] in (38, 43): b["fx"] = ["drought"]
