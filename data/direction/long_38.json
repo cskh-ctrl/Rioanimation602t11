@@ -6989,13 +6989,13 @@
 "k": "dish",
 "x": 0.47,
 "food": "cocoa",
-"at": "@2"
+"at": 9
 },
 {
 "k": "dish",
 "x": 0.58,
 "food": "cocoa",
-"at": "@2.3"
+"at": 9
 },
 {
 "k": "housedoor",
@@ -7069,13 +7069,13 @@
 "k": "dish",
 "x": 0.47,
 "food": "cocoa",
-"at": "@2"
+"at": 9
 },
 {
 "k": "dish",
 "x": 0.58,
 "food": "cocoa",
-"at": "@2.3"
+"at": 9
 },
 {
 "k": "housedoor",
@@ -7160,13 +7160,13 @@
 "k": "dish",
 "x": 0.47,
 "food": "cocoa",
-"at": "@2"
+"at": "@0.000"
 },
 {
 "k": "dish",
 "x": 0.58,
 "food": "cocoa",
-"at": "@2.3"
+"at": "@0.300"
 },
 {
 "k": "housedoor",
@@ -7259,13 +7259,13 @@
 "k": "dish",
 "x": 0.47,
 "food": "cocoa",
-"at": "@2"
+"at": -1
 },
 {
 "k": "dish",
 "x": 0.58,
 "food": "cocoa",
-"at": "@2.3"
+"at": -1
 },
 {
 "k": "housedoor",
@@ -7356,13 +7356,13 @@
 "k": "dish",
 "x": 0.47,
 "food": "cocoa",
-"at": "@2"
+"at": -1
 },
 {
 "k": "dish",
 "x": 0.58,
 "food": "cocoa",
-"at": "@2.3"
+"at": -1
 },
 {
 "k": "housedoor",
@@ -7452,13 +7452,13 @@
 "k": "dish",
 "x": 0.47,
 "food": "cocoa",
-"at": "@2"
+"at": -1
 },
 {
 "k": "dish",
 "x": 0.58,
 "food": "cocoa",
-"at": "@2.3"
+"at": -1
 },
 {
 "k": "housedoor",

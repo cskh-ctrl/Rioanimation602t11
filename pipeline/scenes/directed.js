@@ -48,6 +48,9 @@ export const OUTFITS = {
   tom: { top: 'tshirt', color: '#5a7a4a', head: 'none' },
   tomOld: { top: 'tshirt', color: '#5a7a4a', head: 'none', face: 'glasses' },
   rioKid: { top: 'hoodie', color: '#2d7fe0', head: 'curly', headColor: '#0e0b12', kid: true },
+  leo2: { top: 'tshirt', color: '#3aa876', head: 'beanie', headColor: '#1a5a3a' },
+  rex: { top: 'trench', color: '#5a4a3a', head: 'fedora', headColor: '#3a2a1a' },
+  girl: { top: 'dress', color: '#f2c21a', head: 'ponytail', headColor: '#2a1a12', kid: true },
   cloak: { top: 'trench', color: '#b8bcc8', head: 'curly', headColor: '#0e0b12' },
   carla: { top: 'suit', color: '#c0304a', head: 'bun', headColor: '#2a1a1a' },
   rosa: { top: 'dress', color: '#8a6aa8', head: 'bun', headColor: '#e0e0e0', face: 'glasses' },
@@ -361,7 +364,22 @@ function subway(g, x, y, o, p, t) {   // side view of a platform: track bed behi
   g.fillStyle = '#5a5a64'; g.fillRect(-E.W, edge, E.W * 3, 6); g.fillStyle = '#f2c21a'; g.fillRect(-E.W, edge + 10, E.W * 3, 14);
 }
 function stationclock(g, x, y) { const cy = y - M_(3.2); seg(g, [[x, y], [x, cy]], 10, '#3a3a44'); circle(g, x, cy, M_(0.45), '#2a2a34'); circle(g, x, cy, M_(0.4), '#f4f2ea'); seg(g, [[x, cy], [x, cy - M_(0.3)]], 5, '#1a1a22'); seg(g, [[x, cy], [x + M_(0.22), cy + M_(0.05)]], 5, '#1a1a22'); }
-const ITEMS = { subway, stationclock, tmachine, wallphone, geyser, housedoor, hoop, bball, stove, cereal, billboard, cerealbox, tvset, mannequin, fence, bank: bankDesk, jet, puddle, stall, shop: shopFront, stairs, ship, cards, door: pinkDoor, alarm, bed, blanket, sink, counter, desk, sign, prop: propItem, house, chime, water, car, booth, table, dish, kite, float, sea, robot, glass: glassWall, stage, fridge, paper };
+
+function grabbag(g, x, y, o, p, t) {   // the old cloth bag (35 x 30 cm) on a 0.75 m table; o.reach 0..1 = how deep the arm is in (draws the swirl at the mouth)
+  const top = y - M_(o.on ?? 0.75), w = M_(0.35), h = M_(0.3);
+  g.fillStyle = '#8a6a4a'; g.beginPath(); g.moveTo(x - w / 2, top); g.quadraticCurveTo(x - w / 2 - 10, top - h * 0.6, x - w * 0.35, top - h); g.lineTo(x + w * 0.35, top - h); g.quadraticCurveTo(x + w / 2 + 10, top - h * 0.6, x + w / 2, top); g.closePath(); g.fill();
+  for (let k = 0; k < 4; k++) seg(g, [[x - w * 0.3 + k * w * 0.2, top - h * 0.2], [x - w * 0.28 + k * w * 0.2, top - h * 0.8]], 2, 'rgba(60,40,20,.4)');
+  g.fillStyle = '#1a1020'; g.beginPath(); g.ellipse(x, top - h, w * 0.36, 9, 0, 0, 7); g.fill();
+  const r = track(o.reach, p, 0); if (r > 0.05) { g.save(); g.globalCompositeOperation = 'lighter'; for (let k = 0; k < 3; k++) { g.strokeStyle = `rgba(160,120,255,${0.35 * r})`; g.lineWidth = 3; g.beginPath(); g.ellipse(x, top - h, w * 0.3 + k * 8, 6 + k * 3, t * 3 + k, 0, 5); g.stroke(); } g.restore(); }
+  if (o.out && p >= (o.at ?? 0)) { const q = clamp((p - (o.at ?? 0)) * 8); drawProp(g, o.out, x + 20, top - h - 30 - q * 40, 34, t, { disc: false, bob: false, a: q }); }
+}
+function drawer(g, x, y, o, p) {   // kitchen drawer unit 0.9 m high with a blue top drawer; o.open slides it out
+  const w = M_(0.6), h = M_(0.9); rr(g, x - w / 2, y - h, w, h, 4); g.fillStyle = '#c8b090'; g.fill();
+  const op = track(o.open, p, 0) * 40; rr(g, x - w / 2 + 6 + op, y - h + 10, w - 12, M_(0.2), 3); g.fillStyle = '#3a6ad0'; g.fill(); circle(g, x + op, y - h + 10 + M_(0.1), 5, '#f2efe8');
+  for (let k = 1; k < 3; k++) { rr(g, x - w / 2 + 6, y - h + 10 + k * M_(0.27), w - 12, M_(0.22), 3); g.fillStyle = '#b89a78'; g.fill(); }
+}
+function drain(g, x, y) { /* storm drain grate in the curb */ rr(g, x - M_(0.4), y - 8, M_(0.8), 16, 3); g.fillStyle = '#2a2a30'; g.fill(); for (let k = 0; k < 8; k++) seg(g, [[x - M_(0.36) + k * M_(0.1), y - 7], [x - M_(0.36) + k * M_(0.1), y + 7]], 3, '#6a6a74'); }
+const ITEMS = { grabbag, drawer, drain, subway, stationclock, tmachine, wallphone, geyser, housedoor, hoop, bball, stove, cereal, billboard, cerealbox, tvset, mannequin, fence, bank: bankDesk, jet, puddle, stall, shop: shopFront, stairs, ship, cards, door: pinkDoor, alarm, bed, blanket, sink, counter, desk, sign, prop: propItem, house, chime, water, car, booth, table, dish, kite, float, sea, robot, glass: glassWall, stage, fridge, paper };
 
 // held objects, drawn in pose units (1 m = 134) right at the hand --------------------
 function heldItem(g, k, h, p, o = {}) {
@@ -389,6 +407,8 @@ function heldItem(g, k, h, p, o = {}) {
   else if (k === 'remote') { rr(g, -2, -4, 14, 5, 1.5); g.fillStyle = '#22222e'; g.fill(); circle(g, 9, -1.5, 1.2, '#e0443a'); }
   else if (k === 'camera') { rr(g, -8, -16, 22, 15, 2); g.fillStyle = '#1a1a22'; g.fill(); circle(g, 9, -8, 5, '#3a3a48'); circle(g, 9, -8, 2.6, '#6fa8ff'); if (o.flash) { g.save(); g.globalCompositeOperation = 'lighter'; circle(g, -4, -20, 18 * o.flash, 'rgba(255,255,240,.9)'); g.restore(); } }
   else if (k === 'bowl') { g.fillStyle = '#f2efe8'; g.beginPath(); g.ellipse(6, -4, 9, 5, 0, 0, Math.PI); g.fill(); }
+  else if (k === 'epipen') { rr(g, -4, -16, 8, 24, 3); g.fillStyle = '#f2c21a'; g.fill(); rr(g, -4, -16, 8, 6, 2); g.fillStyle = o.capOff ? '#e8641a' : '#3a6ad0'; g.fill(); }
+  else if (k === 'croissant') { g.fillStyle = '#d8964a'; g.beginPath(); g.ellipse(8, -6, 12, 6, -0.2, 0, 7); g.fill(); for (let i = -1; i <= 1; i++) seg(g, [[8 + i * 6, -11], [8 + i * 6, -1]], 1.4, '#a8642a'); }
   else if (k === 'docbag') {   // old leather doctor's bag 30 x 20 cm with a brass clasp; o.glow 0..1 = soft green light
     if (o.glow > 0) { g.save(); g.globalCompositeOperation = 'lighter'; circle(g, 10, -8, 70 * o.glow, 'rgba(90,255,140,.18)'); circle(g, 10, -8, 38 * o.glow, 'rgba(120,255,160,.28)'); g.restore(); }
     g.strokeStyle = '#3a2214'; g.lineWidth = 2.4; g.beginPath(); g.arc(10, -14, 7, Math.PI, 0); g.stroke(); rr(g, -6, -14, 32, 20, 4); g.fillStyle = '#6a3a1e'; g.fill(); seg(g, [[-6, -10], [26, -10]], 1.6, '#4a2412'); rr(g, 7, -13, 6, 5, 1); g.fillStyle = '#d8b040'; g.fill(); }

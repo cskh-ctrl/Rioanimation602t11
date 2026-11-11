@@ -91,7 +91,7 @@
 "front": true,
 "food": "lasagna",
 "x": 0.55,
-"at": "@1"
+"at": 9
 }
 ],
 "cam": {
@@ -161,7 +161,7 @@
 "front": true,
 "food": "lasagna",
 "x": 0.55,
-"at": "@1"
+"at": "@0.000"
 }
 ],
 "cam": {
@@ -232,7 +232,7 @@
 "front": true,
 "food": "lasagna",
 "x": 0.55,
-"at": "@1"
+"at": -1
 }
 ],
 "cam": {
@@ -330,7 +330,7 @@
 "front": true,
 "food": "lasagna",
 "x": 0.55,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "wall": "#e8c890",
@@ -416,7 +416,7 @@
 "front": true,
 "food": "lasagna",
 "x": 0.55,
-"at": 0.0
+"at": -1
 }
 ],
 "wall": "#e8c890",
@@ -502,7 +502,7 @@
 "front": true,
 "food": "lasagna",
 "x": 0.55,
-"at": 0.0
+"at": -1
 }
 ],
 "wall": "#e8c890",
@@ -587,7 +587,7 @@
 "front": true,
 "food": "lasagna",
 "x": 0.55,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "text": [
@@ -680,7 +680,7 @@
 "front": true,
 "food": "lasagna",
 "x": 0.55,
-"at": 0.0
+"at": -1
 }
 ],
 "text": [
@@ -1214,7 +1214,7 @@
 "front": true,
 "food": "pasta",
 "x": 0.55,
-"at": 0.05
+"at": "@0.100"
 }
 ],
 "card": {
@@ -1283,7 +1283,7 @@
 "front": true,
 "food": "pasta",
 "x": 0.55,
-"at": 0.05
+"at": -1
 }
 ],
 "card": {
@@ -1480,7 +1480,7 @@
 "front": true,
 "food": "pizza",
 "x": 0.55,
-"at": 0
+"at": "@0.000"
 }
 ],
 "card": {
@@ -1548,7 +1548,7 @@
 "front": true,
 "food": "pizza",
 "x": 0.55,
-"at": 0
+"at": -1
 }
 ],
 "card": {
@@ -1630,35 +1630,35 @@
 "front": true,
 "food": "pancakes",
 "x": 0.46,
-"at": "@2"
+"at": 9
 },
 {
 "k": "dish",
 "front": true,
 "food": "taco",
 "x": 0.53,
-"at": "@3"
+"at": 9
 },
 {
 "k": "dish",
 "front": true,
 "food": "sushi",
 "x": 0.6,
-"at": "@4"
+"at": 9
 },
 {
 "k": "dish",
 "front": true,
 "food": "pizza",
 "x": 0.67,
-"at": "@4.4"
+"at": 9
 },
 {
 "k": "dish",
 "front": true,
 "food": "cake",
 "x": 0.74,
-"at": "@4.8"
+"at": 9
 }
 ],
 "card": {
@@ -1727,35 +1727,35 @@
 "front": true,
 "food": "pancakes",
 "x": 0.46,
-"at": "@2"
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "taco",
 "x": 0.53,
-"at": "@3"
+"at": "@1.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "sushi",
 "x": 0.6,
-"at": "@4"
+"at": 9
 },
 {
 "k": "dish",
 "front": true,
 "food": "pizza",
 "x": 0.67,
-"at": "@4.4"
+"at": 9
 },
 {
 "k": "dish",
 "front": true,
 "food": "cake",
 "x": 0.74,
-"at": "@4.8"
+"at": 9
 }
 ],
 "card": {
@@ -1825,35 +1825,35 @@
 "front": true,
 "food": "pancakes",
 "x": 0.46,
-"at": "@2"
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "taco",
 "x": 0.53,
-"at": "@3"
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "sushi",
 "x": 0.6,
-"at": "@4"
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "pizza",
 "x": 0.67,
-"at": "@4.4"
+"at": "@0.400"
 },
 {
 "k": "dish",
 "front": true,
 "food": "cake",
 "x": 0.74,
-"at": "@4.8"
+"at": "@0.800"
 }
 ],
 "card": {
@@ -1942,28 +1942,28 @@
 "front": true,
 "food": "pancakes",
 "x": 0.5,
-"at": 0.0
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "taco",
 "x": 0.57,
-"at": 0.0
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "sushi",
 "x": 0.64,
-"at": 0.0
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "cake",
 "x": 0.72,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "text": [
@@ -2053,28 +2053,28 @@
 "front": true,
 "food": "pancakes",
 "x": 0.5,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "taco",
 "x": 0.57,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "sushi",
 "x": 0.64,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "cake",
 "x": 0.72,
-"at": 0.0
+"at": -1
 }
 ],
 "text": [
@@ -2147,14 +2147,14 @@
 "front": true,
 "food": "steak",
 "x": 0.5,
-"at": "@2"
+"at": 9
 },
 {
 "k": "dish",
 "front": true,
 "food": "pasta",
 "x": 0.62,
-"at": "@3"
+"at": 9
 }
 ],
 "card": {
@@ -2224,14 +2224,14 @@
 "front": true,
 "food": "steak",
 "x": 0.5,
-"at": "@2"
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "pasta",
 "x": 0.62,
-"at": "@3"
+"at": "@1.000"
 }
 ],
 "card": {
@@ -2438,21 +2438,7 @@
 "size": 54
 }
 ],
-"fx": [],
-"cam": {
-"z": [
-1.12,
-1.16
-],
-"x": [
--192.0,
--192.0
-],
-"y": [
--10,
--10
-]
-}
+"fx": []
 },
 {
 "lines": [
@@ -2493,7 +2479,7 @@
 "front": true,
 "food": "pepper",
 "x": 0.56,
-"at": "@3"
+"at": 9
 }
 ],
 "card": {
@@ -2570,7 +2556,7 @@
 "front": true,
 "food": "pepper",
 "x": 0.56,
-"at": "@3"
+"at": "@1.000"
 }
 ],
 "card": {
@@ -3124,7 +3110,7 @@
 "front": true,
 "food": "milk",
 "x": 0.56,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "wall": "#e8c890",
@@ -3207,7 +3193,7 @@
 "front": true,
 "food": "milk",
 "x": 0.56,
-"at": 0.0
+"at": -1
 }
 ],
 "card": {
@@ -3477,21 +3463,21 @@
 "front": true,
 "food": "cake",
 "x": 0.5,
-"at": 0.0
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "pizza",
 "x": 0.58,
-"at": 0.2
+"at": "@0.400"
 },
 {
 "k": "dish",
 "front": true,
 "food": "pancakes",
 "x": 0.66,
-"at": 0.4
+"at": "@0.800"
 }
 ],
 "text": [
@@ -3562,21 +3548,21 @@
 "front": true,
 "food": "cake",
 "x": 0.5,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pizza",
 "x": 0.58,
-"at": 0.2
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pancakes",
 "x": 0.66,
-"at": 0.4
+"at": -1
 }
 ],
 "text": [
@@ -3668,7 +3654,7 @@
 "front": true,
 "food": "cake",
 "x": 0.56,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "text": [],
@@ -3740,7 +3726,7 @@
 "front": true,
 "food": "cake",
 "x": 0.56,
-"at": 0.0
+"at": -1
 }
 ],
 "text": [
@@ -3820,7 +3806,7 @@
 "front": true,
 "food": "soup",
 "x": 0.56,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "card": {
@@ -3887,7 +3873,7 @@
 "front": true,
 "food": "soup",
 "x": 0.56,
-"at": 0.0
+"at": -1
 }
 ],
 "card": {
@@ -4143,28 +4129,28 @@
 "front": true,
 "food": "spaghetti",
 "x": 0.36,
-"at": "@0.3"
+"at": "@0.300"
 },
 {
 "k": "dish",
 "front": true,
 "food": "pho",
 "x": 0.47,
-"at": "@1.3"
+"at": "@1.300"
 },
 {
 "k": "dish",
 "front": true,
 "food": "curry",
 "x": 0.58,
-"at": "@2.3"
+"at": 9
 },
 {
 "k": "dish",
 "front": true,
 "food": "taco",
 "x": 0.69,
-"at": "@3.5"
+"at": 9
 }
 ],
 "wall": "#e8c890",
@@ -4281,28 +4267,28 @@
 "front": true,
 "food": "spaghetti",
 "x": 0.36,
-"at": "@0.3"
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pho",
 "x": 0.47,
-"at": "@1.3"
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "curry",
 "x": 0.58,
-"at": "@2.3"
+"at": "@0.300"
 },
 {
 "k": "dish",
 "front": true,
 "food": "taco",
 "x": 0.69,
-"at": "@3.5"
+"at": "@1.500"
 }
 ],
 "card": {
@@ -4427,28 +4413,28 @@
 "front": true,
 "food": "spaghetti",
 "x": 0.36,
-"at": "@0.3"
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pho",
 "x": 0.47,
-"at": "@1.3"
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "curry",
 "x": 0.58,
-"at": "@2.3"
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "taco",
 "x": 0.69,
-"at": "@3.5"
+"at": -1
 }
 ],
 "card": {
@@ -4573,28 +4559,28 @@
 "front": true,
 "food": "spaghetti",
 "x": 0.36,
-"at": 0.0
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "pho",
 "x": 0.47,
-"at": 0.0
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "curry",
 "x": 0.58,
-"at": 0.0
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "taco",
 "x": 0.69,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "text": [],
@@ -4711,28 +4697,28 @@
 "front": true,
 "food": "spaghetti",
 "x": 0.36,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pho",
 "x": 0.47,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "curry",
 "x": 0.58,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "taco",
 "x": 0.69,
-"at": 0.0
+"at": -1
 }
 ],
 "text": [
@@ -4858,28 +4844,28 @@
 "front": true,
 "food": "spaghetti",
 "x": 0.36,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pho",
 "x": 0.47,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "curry",
 "x": 0.58,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "taco",
 "x": 0.69,
-"at": 0.0
+"at": -1
 }
 ],
 "text": [
@@ -6399,21 +6385,7 @@
 "tiles": true,
 "window": 1250
 },
-"fx": [],
-"cam": {
-"z": [
-1.34,
-1.42
-],
-"x": [
--153.60000000000002,
--153.60000000000002
-],
-"y": [
--40,
--40
-]
-}
+"fx": []
 },
 {
 "lines": [
@@ -6762,21 +6734,21 @@
 "front": true,
 "food": "soup",
 "x": 0.38,
-"at": 0.0
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "pasta",
 "x": 0.5,
-"at": 0.0
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "pizza",
 "x": 0.62,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "text": [],
@@ -6894,21 +6866,21 @@
 "front": true,
 "food": "soup",
 "x": 0.38,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pasta",
 "x": 0.5,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pizza",
 "x": 0.62,
-"at": 0.0
+"at": -1
 }
 ],
 "text": [
@@ -7311,7 +7283,7 @@
 "front": true,
 "food": "steak",
 "x": 0.56,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "text": [
@@ -7383,7 +7355,7 @@
 "front": true,
 "food": "steak",
 "x": 0.56,
-"at": 0.0
+"at": -1
 }
 ],
 "text": [
@@ -7462,7 +7434,7 @@
 "front": true,
 "food": "steak",
 "x": 0.56,
-"at": 0.0
+"at": -1
 }
 ],
 "text": [
@@ -7541,7 +7513,7 @@
 "front": true,
 "food": "soup",
 "x": 0.56,
-"at": 0.6
+"at": 9
 }
 ],
 "text": [],
@@ -7604,7 +7576,7 @@
 "front": true,
 "food": "soup",
 "x": 0.56,
-"at": 0.6
+"at": "@0.200"
 }
 ],
 "text": [
@@ -7890,7 +7862,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.4,
-"at": "@1"
+"at": 9
 }
 ],
 "wall": "#c84a3a",
@@ -7974,7 +7946,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.4,
-"at": "@1"
+"at": "@0.000"
 }
 ],
 "card": {
@@ -8157,7 +8129,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.4,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "text": [],
@@ -8243,7 +8215,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.4,
-"at": 0.0
+"at": -1
 }
 ],
 "text": [
@@ -10482,28 +10454,28 @@
 "front": true,
 "food": "soup",
 "x": 0.3,
-"at": "@0.6"
+"at": "@0.600"
 },
 {
 "k": "dish",
 "front": true,
 "food": "cocoa",
 "x": 0.4,
-"at": "@1"
+"at": "@1.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "mac",
 "x": 0.5,
-"at": "@2"
+"at": 9
 },
 {
 "k": "dish",
 "front": true,
 "food": "soup",
 "x": 0.6,
-"at": "@2.5"
+"at": 9
 }
 ],
 "fx": [
@@ -10642,28 +10614,28 @@
 "front": true,
 "food": "soup",
 "x": 0.3,
-"at": "@0.6"
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "cocoa",
 "x": 0.4,
-"at": "@1"
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "mac",
 "x": 0.5,
-"at": "@2"
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "soup",
 "x": 0.6,
-"at": "@2.5"
+"at": "@0.500"
 }
 ],
 "fx": [
@@ -11808,20 +11780,6 @@
 "window": 1300,
 "sky": "night",
 "night": true
-},
-"cam": {
-"z": [
-1.34,
-1.42
-],
-"x": [
--384.0,
--384.0
-],
-"y": [
--40,
--40
-]
 }
 },
 {
@@ -13676,7 +13634,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.6,
-"at": "@2.2"
+"at": 9
 }
 ],
 "text": [
@@ -13775,7 +13733,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.6,
-"at": "@2.2"
+"at": "@0.200"
 }
 ],
 "text": [
@@ -13866,7 +13824,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.6,
-"at": "@2.2"
+"at": -1
 }
 ],
 "text": [
@@ -13958,7 +13916,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.6,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "cam": {
@@ -14053,7 +14011,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.6,
-"at": 0.0
+"at": -1
 }
 ],
 "cam": {
@@ -14199,7 +14157,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.6,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "text": [
@@ -14344,7 +14302,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.6,
-"at": 0.0
+"at": -1
 }
 ],
 "text": [
@@ -15294,28 +15252,28 @@
 "front": true,
 "food": "soup",
 "x": 0.3,
-"at": 0.0
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "pancakes",
 "x": 0.4,
-"at": 0.0
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "mac",
 "x": 0.5,
-"at": 0.0
+"at": "@0.000"
 },
 {
 "k": "dish",
 "front": true,
 "food": "pasta",
 "x": 0.6,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "card": {
@@ -15461,28 +15419,28 @@
 "front": true,
 "food": "soup",
 "x": 0.3,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pancakes",
 "x": 0.4,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "mac",
 "x": 0.5,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pasta",
 "x": 0.6,
-"at": 0.0
+"at": -1
 }
 ],
 "card": {
@@ -15629,28 +15587,28 @@
 "front": true,
 "food": "soup",
 "x": 0.3,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pancakes",
 "x": 0.4,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "mac",
 "x": 0.5,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pasta",
 "x": 0.6,
-"at": 0.0
+"at": -1
 }
 ],
 "card": {
@@ -15798,28 +15756,28 @@
 "front": true,
 "food": "soup",
 "x": 0.3,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pancakes",
 "x": 0.4,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "mac",
 "x": 0.5,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pasta",
 "x": 0.6,
-"at": 0.0
+"at": -1
 }
 ],
 "card": {
@@ -15974,28 +15932,28 @@
 "front": true,
 "food": "soup",
 "x": 0.3,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pancakes",
 "x": 0.4,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "mac",
 "x": 0.5,
-"at": 0.0
+"at": -1
 },
 {
 "k": "dish",
 "front": true,
 "food": "pasta",
 "x": 0.6,
-"at": 0.0
+"at": -1
 }
 ],
 "card": {
@@ -16333,7 +16291,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.5,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "text": [
@@ -16427,7 +16385,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.5,
-"at": 0.0
+"at": -1
 }
 ],
 "text": [
@@ -16542,7 +16500,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.5,
-"at": 0.0
+"at": "@0.000"
 }
 ],
 "text": [],
@@ -16627,7 +16585,7 @@
 "front": true,
 "food": "pancakes",
 "x": 0.5,
-"at": 0.0
+"at": -1
 }
 ],
 "text": [

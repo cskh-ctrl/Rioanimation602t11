@@ -49,7 +49,7 @@ def _scal(t, n, s0, L, before=-0.5):   # a one-off time ('at', 'from', 'drop'): 
     u = _u(t, n)
     if u >= s0 + L: return None
     return _at(u - s0) if u >= s0 else before
-TRACK_KEYS = ("x", "pose", "expr", "alpha", "up", "rot", "yk", "facing", "open", "a", "dx", "upk", "bx", "bup", "level", "ghost", "tx", "lamp", "lever")
+TRACK_KEYS = ("x", "pose", "expr", "alpha", "up", "rot", "yk", "facing", "open", "a", "dx", "upk", "bx", "bup", "level", "ghost", "tx", "lamp", "lever", "reach")
 def _remap_obj(o, n, s0, L):
     o = dict(o)
     for k in TRACK_KEYS:
@@ -62,6 +62,8 @@ def _remap_obj(o, n, s0, L):
         a0, a1 = _u(o["dribble"][0], n), _u(o["dribble"][1], n); a0, a1 = max(a0, s0), min(a1, s0 + L)
         if a1 > a0: o["dribble"] = [_at(a0 - s0), _at(a1 - s0) if a1 < s0 + L else 1] + o["dribble"][2:]
         else: o.pop("dribble")
+    if "at" in o and "id" not in o and isinstance(o["at"], (str, int, float)) and not isinstance(o["at"], bool):
+        u = _u(o["at"], n); o["at"] = -1 if u < s0 else (9 if u >= s0 + L else _at(u - s0))
     if "spill" in o:
         u = _u(o["spill"], n); o["spill"] = 0 if u < s0 else (9 if u >= s0 + L else _at(u - s0))
     if "hold" in o and isinstance(o["hold"], dict):
@@ -141,7 +143,7 @@ def _frame(c, j):
     if j == 0 or c.get("tpl") or c["set"] in ("face", "space", "map") or "cam" in c or not c["actors"]: return
     acts = c["actors"]
     if any(a.get("up") or a.get("rot") or a.get("alpha") or a.get("clip") is not None or a.get("fly") for a in acts): return
-    if len(c.get("text") or []) >= 2: return   # text-heavy shots keep the wide frame so the words never sit on a face
+    if len(c.get("text") or []) >= 2 or c.get("thought") or c.get("card"): return   # text-heavy shots keep the wide frame so the words never sit on a face
     f = ([a for a in acts if a.get("talk")] or [a for a in acts if a["id"] == "rio"] or acts)[0]; X = _xs(f)
     if not all(isinstance(v, (int, float)) for v in X) or max(X) - min(X) > 0.15: return
     xm = sum(X) / len(X)
