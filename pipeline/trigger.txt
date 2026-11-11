@@ -1,2 +1,2 @@
-Rio video 32 - more movement and interaction (walks, entrances, gestures)
+Rio video 32 v3 - purposeful blocking, more cuts, real activities, text fit
 FORCE:long_32

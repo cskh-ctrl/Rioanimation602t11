@@ -2,8 +2,7 @@
 {
 "lines": [
 0,
-1,
-2
+1
 ],
 "set": "street",
 "actors": [
@@ -23,22 +22,17 @@
 "smile"
 ],
 [
-"@1",
+"@1.000",
 "smirk"
-],
-[
-"@2",
-"awe"
 ]
 ],
 "hold": {
 "k": "phone"
 },
 "talk": [
-"@1",
-"@1.9"
-],
-"seed": 1
+"@1.000",
+"@1.900"
+]
 }
 ],
 "items": [
@@ -57,7 +51,7 @@
 "cam": {
 "z": [
 1.3,
-1.1
+1.167
 ]
 },
 "sfx": [
@@ -67,6 +61,53 @@
 "gain": -12
 }
 ]
+},
+{
+"lines": [
+2
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.6
+},
+{
+"k": "booth",
+"x": 0.6,
+"part": "front",
+"front": true
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.167,
+1.1
+]
+}
 },
 {
 "lines": [
@@ -83,10 +124,6 @@
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
 ]
 ],
 "expr": [
@@ -94,10 +131,7 @@
 0,
 "surprised"
 ]
-],
-"seed": 3,
-"pace": -0.05,
-"paceT": 5.0
+]
 },
 {
 "id": "rio",
@@ -107,10 +141,6 @@
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
 ]
 ],
 "expr": [
@@ -118,10 +148,7 @@
 0,
 "nervous"
 ]
-],
-"seed": 3,
-"enter": "left",
-"enterUntil": 0.18
+]
 }
 ],
 "items": [
@@ -154,8 +181,7 @@
 },
 {
 "lines": [
-5,
-6
+5
 ],
 "set": "park",
 "actors": [
@@ -169,7 +195,7 @@
 "holdCup"
 ],
 [
-"@0.4",
+"@0.400",
 "drop"
 ]
 ],
@@ -181,13 +207,8 @@
 ],
 "hold": {
 "k": "cup",
-"drop": "@0.4"
-},
-"talk": [
-"@1",
-1
-],
-"seed": 7
+"drop": "@0.400"
+}
 },
 {
 "id": "rio",
@@ -197,10 +218,6 @@
 [
 0,
 "nervous"
-],
-[
-"@1",
-"handsOnHead"
 ]
 ],
 "expr": [
@@ -208,10 +225,59 @@
 0,
 "nervous"
 ]
+]
+}
 ],
-"seed": 0,
-"enter": "left",
-"enterUntil": 0.18
+"items": [],
+"props": [],
+"text": [],
+"fx": [
+"greensky"
+]
+},
+{
+"lines": [
+6
+],
+"set": "park",
+"actors": [
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.3,
+"pose": [
+[
+0,
+"drop"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"nervous"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+]
 }
 ],
 "items": [],
@@ -221,7 +287,7 @@
 "x": 0.62,
 "y": 0.15,
 "r": 40,
-"at": "@1",
+"at": "@0.000",
 "disc": true
 },
 {
@@ -229,7 +295,7 @@
 "x": 0.66,
 "y": 0.17,
 "r": 30,
-"at": "@1",
+"at": "@0.000",
 "disc": true
 }
 ],
@@ -238,12 +304,26 @@
 "s": "THE MAILMAN?!",
 "x": 0.65,
 "y": 0.3,
-"at": "@1"
+"at": "@0.000"
 }
 ],
 "fx": [
 "greensky"
+],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
 ]
+}
 },
 {
 "lines": [
@@ -274,8 +354,7 @@
 ],
 "hold": {
 "k": "phone"
-},
-"seed": 0
+}
 }
 ],
 "items": [
@@ -302,8 +381,7 @@
 {
 "lines": [
 9,
-10,
-11
+10
 ],
 "set": "studio",
 "actors": [
@@ -317,12 +395,8 @@
 "talk"
 ],
 [
-"@1",
+"@1.000",
 "explain"
-],
-[
-"@2",
-"talk"
 ]
 ],
 "expr": [
@@ -331,15 +405,10 @@
 "smile"
 ]
 ],
-"hold": {
-"k": "phone",
-"to": 0
-},
 "talk": [
-0,
+"@0.000",
 1
-],
-"seed": 1
+]
 }
 ],
 "items": [
@@ -355,22 +424,89 @@
 "x": 0.56,
 "y": 0.5,
 "r": 30,
-"at": 0,
+"at": "@0.000",
 "disc": true
 }
 ],
 "card": {
 "big": "RIO",
 "small": "stand-up comedian... a small one",
-"at": "@1",
+"at": "@1.000",
 "y": 0.15,
 "w": 760
 }
 },
 {
 "lines": [
-12,
-13
+11
+],
+"set": "studio",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "stage",
+"x": 0.5,
+"w": 3
+}
+],
+"props": [
+{
+"k": "mic",
+"x": 0.56,
+"y": 0.5,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"card": {
+"big": "RIO",
+"small": "stand-up comedian... a small one",
+"at": -1,
+"y": 0.15,
+"w": 760
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+12
 ],
 "set": "cafe",
 "actors": [
@@ -382,10 +518,6 @@
 [
 0,
 "talk"
-],
-[
-"@1",
-"explain"
 ]
 ],
 "expr": [
@@ -395,11 +527,9 @@
 ]
 ],
 "talk": [
-0,
+"@0.000",
 1
-],
-"seed": 5,
-"paceT": 5.0
+]
 },
 {
 "id": "crowd1",
@@ -417,8 +547,7 @@
 "sleepy"
 ]
 ],
-"zzz": true,
-"seed": 7
+"zzz": true
 },
 {
 "id": "crowd2",
@@ -437,8 +566,7 @@
 ]
 ],
 "facing": -1,
-"zzz": true,
-"seed": 5
+"zzz": true
 },
 {
 "id": "sam",
@@ -456,22 +584,126 @@
 "neutral"
 ]
 ],
-"facing": -1,
-"seed": 9
+"facing": -1
 }
 ],
 "items": [],
 "card": {
 "big": "9 PEOPLE",
 "small": "2 asleep",
-"at": 0.05,
+"at": "@0.100",
 "y": 0.14
 }
 },
 {
 "lines": [
-14,
-15
+13
+],
+"set": "cafe",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.25,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"zzz": true
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.78,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"facing": -1,
+"zzz": true
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.65,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"card": {
+"big": "9 PEOPLE",
+"small": "2 asleep",
+"at": -1,
+"y": 0.14
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+14
 ],
 "set": "street",
 "actors": [
@@ -484,8 +716,8 @@
 0.2
 ],
 [
-0.6,
-0.45
+"@0.999",
+0.4083
 ]
 ],
 "pose": [
@@ -498,13 +730,8 @@
 [
 0,
 "sad"
-],
-[
-"@1",
-"surprised"
 ]
-],
-"seed": 0
+]
 }
 ],
 "items": [
@@ -525,8 +752,70 @@
 },
 {
 "lines": [
-16,
-17
+15
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.4083
+],
+[
+"@0.200",
+0.45
+]
+],
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.6
+},
+{
+"k": "booth",
+"x": 0.6,
+"part": "front",
+"front": true
+}
+],
+"fx": [
+"night"
+],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-136.03199999999993,
+-136.03199999999993
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+16
 ],
 "set": "street",
 "actors": [
@@ -545,8 +834,7 @@
 0,
 "thinking"
 ]
-],
-"seed": 8
+]
 }
 ],
 "items": [
@@ -573,15 +861,75 @@
 "cam": {
 "z": [
 1.4,
+1.45
+],
+"x": [
+80.0,
+90.0
+],
+"y": [
+-80.0,
+-80.0
+]
+}
+},
+{
+"lines": [
+17
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.6
+},
+{
+"k": "booth",
+"x": 0.6,
+"part": "front",
+"front": true
+},
+{
+"k": "paper",
+"x": 0.6,
+"up": 1.5,
+"s": "SAY WHAT IF..."
+}
+],
+"fx": [
+"night"
+],
+"cam": {
+"z": [
+1.45,
 1.5
 ],
 "x": [
-80,
-100
+90.0,
+100.0
 ],
 "y": [
--80,
--80
+-80.0,
+-80.0
 ]
 }
 },
@@ -610,8 +958,7 @@
 ],
 "hold": {
 "k": "phone"
-},
-"seed": 2
+}
 }
 ],
 "items": [
@@ -646,7 +993,58 @@
 },
 {
 "lines": [
-20,
+20
+],
+"set": "office",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.62,
+"pose": [
+[
+0,
+"type"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.34
+},
+{
+"k": "desk",
+"x": 0.66
+}
+]
+},
+{
+"lines": [
 21,
 22
 ],
@@ -667,8 +1065,7 @@
 0,
 "sleepy"
 ]
-],
-"seed": 8
+]
 },
 {
 "id": "crowd2",
@@ -685,8 +1082,7 @@
 0,
 "sad"
 ]
-],
-"seed": 0
+]
 }
 ],
 "items": [
@@ -702,7 +1098,22 @@
 "card": {
 "big": "YEARS",
 "small": "sometimes decades",
-"at": "@1"
+"at": "@0.000"
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
 }
 },
 {
@@ -730,8 +1141,7 @@
 ],
 "hold": {
 "k": "phone"
-},
-"seed": 7
+}
 }
 ],
 "items": [
@@ -755,7 +1165,46 @@
 },
 {
 "lines": [
-25,
+25
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.6
+},
+{
+"k": "booth",
+"x": 0.6,
+"part": "front",
+"front": true
+}
+]
+},
+{
+"lines": [
 26
 ],
 "set": "street",
@@ -778,8 +1227,7 @@
 ],
 "hold": {
 "k": "phone"
-},
-"seed": 3
+}
 }
 ],
 "items": [
@@ -797,9 +1245,24 @@
 "card": {
 "big": "ONE RULE",
 "small": "one change at a time",
-"at": "@1",
+"at": "@0.000",
 "x": 0.28,
 "w": 640
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
 }
 },
 {
@@ -826,8 +1289,7 @@
 ],
 "hold": {
 "k": "phone"
-},
-"seed": 4
+}
 }
 ],
 "items": [
@@ -853,7 +1315,85 @@
 },
 {
 "lines": [
-28,
+28
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.25,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": 0.8,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": []
+},
+{
+"lines": [
 29,
 30
 ],
@@ -867,14 +1407,6 @@
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
-"relaxed"
 ]
 ],
 "expr": [
@@ -882,10 +1414,7 @@
 0,
 "neutral"
 ]
-],
-"seed": 3,
-"pace": 0.04,
-"paceT": 4.2
+]
 },
 {
 "id": "crowd2",
@@ -895,14 +1424,6 @@
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
-"relaxed"
 ]
 ],
 "expr": [
@@ -910,10 +1431,7 @@
 0,
 "neutral"
 ]
-],
-"seed": 1,
-"pace": -0.06,
-"paceT": 3.6
+]
 },
 {
 "id": "rio",
@@ -923,14 +1441,6 @@
 [
 0,
 "think"
-],
-[
-"@1",
-"relaxed"
-],
-[
-"@2",
-"think"
 ]
 ],
 "expr": [
@@ -939,13 +1449,10 @@
 "neutral"
 ],
 [
-"@2",
+"@1.000",
 "awe"
 ]
-],
-"seed": 2,
-"pace": 0.04,
-"paceT": 4.2
+]
 },
 {
 "id": "sam",
@@ -955,14 +1462,6 @@
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
-"relaxed"
 ]
 ],
 "expr": [
@@ -971,10 +1470,7 @@
 "neutral"
 ]
 ],
-"facing": -1,
-"seed": 0,
-"enter": "right",
-"enterUntil": 0.18
+"facing": -1
 }
 ],
 "items": [],
@@ -983,16 +1479,31 @@
 "s": "EVERYONE FORGETS",
 "x": 0.5,
 "y": 0.15,
-"at": "@1"
+"at": "@0.000"
 },
 {
 "s": "EXCEPT YOU",
 "x": 0.5,
 "y": 0.25,
-"at": "@2",
+"at": "@1.000",
 "color": "#ff8a5a"
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
 ]
+}
 },
 {
 "lines": [
@@ -1009,8 +1520,7 @@
 {
 "lines": [
 32,
-33,
-34
+33
 ],
 "set": "street",
 "actors": [
@@ -1023,7 +1533,7 @@
 0.3
 ],
 [
-"@0.55",
+"@0.550",
 0.6
 ]
 ],
@@ -1033,7 +1543,7 @@
 "relaxed"
 ],
 [
-"@0.6",
+"@0.600",
 "phoneEar"
 ]
 ],
@@ -1041,22 +1551,12 @@
 [
 0,
 "smile"
-],
-[
-"@2",
-"happy"
 ]
 ],
 "hold": {
 "k": "phone",
-"from": "@0.6"
-},
-"talk": [
-"@2",
-"@2.7"
-],
-"lockFacing": false,
-"seed": 0
+"from": "@0.600"
+}
 }
 ],
 "items": [
@@ -1074,7 +1574,7 @@
 "card": {
 "big": "CALL 1",
 "small": "\"what if it never rained on my street?\"",
-"at": 0.05,
+"at": "@0.150",
 "x": 0.3,
 "w": 760,
 "size": 60
@@ -1082,40 +1582,100 @@
 },
 {
 "lines": [
-35,
-36,
-37
+34
 ],
-"set": "park",
+"set": "street",
 "actors": [
 {
 "id": "rio",
 "who": "rio",
-"x": 0.3,
+"x": [
+[
+0,
+0.6
+]
+],
 "pose": [
 [
 0,
-"cheer"
+"phoneEar"
 ]
 ],
 "expr": [
 [
 0,
-"joy"
+"happy"
 ]
 ],
-"seed": 8,
-"pace": 0.04,
-"paceT": 3.6
+"hold": {
+"k": "phone",
+"from": 0
 },
+"talk": [
+"@0.000",
+"@0.700"
+]
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.6
+},
+{
+"k": "booth",
+"x": 0.6,
+"part": "front",
+"front": true
+}
+],
+"card": {
+"big": "CALL 1",
+"small": "\"what if it never rained on my street?\"",
+"at": -1,
+"x": 0.3,
+"w": 760,
+"size": 60
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+35,
+36
+],
+"set": "park",
+"actors": [
 {
 "id": "crowd1",
 "who": "crowd1",
-"x": 0.5,
+"x": 0.42,
 "pose": [
 [
 0,
-"cheer"
+"holdCup"
+],
+[
+"@1.000",
+"sip"
+],
+[
+"@1.500",
+"holdCup"
 ]
 ],
 "expr": [
@@ -1124,47 +1684,22 @@
 "happy"
 ]
 ],
-"seed": 7,
-"pace": 0.06,
-"paceT": 4.2
-},
-{
-"id": "crowd2",
-"who": "crowd2",
-"x": 0.66,
-"pose": [
-[
-0,
-"wave"
-]
-],
-"expr": [
-[
-0,
-"happy"
-]
-],
-"facing": -1,
-"seed": 2,
-"pace": 0.06,
-"paceT": 5.0
+"hold": {
+"k": "cup"
+}
 },
 {
 "id": "zoe",
 "who": "zoe",
-"x": 0.8,
+"x": 0.72,
 "pose": [
 [
 0,
-"relaxed"
+"talk"
 ],
 [
-"@1",
-"think"
-],
-[
-"@2",
-"relaxed"
+"@1.000",
+"explain"
 ]
 ],
 "expr": [
@@ -1174,28 +1709,238 @@
 ]
 ],
 "facing": -1,
-"seed": 9,
-"enter": "right",
-"enterUntil": 0.18
+"talk": [
+"@0.300",
+"@1.600"
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.82,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.12
+],
+[
+"@0.900",
+0.3
+]
+],
+"pose": [
+[
+0,
+"carry"
+],
+[
+"@1.000",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"walkArms": true
 }
 ],
-"items": [],
+"items": [
+{
+"k": "table",
+"x": 0.58,
+"w": 1.6
+},
+{
+"k": "dish",
+"x": 0.54,
+"food": "pizza",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.62,
+"food": "taco",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.31,
+"food": "cake",
+"at": "@0.95"
+}
+],
 "mood": "day",
 "props": [
 {
 "k": "sun",
-"x": 0.8,
-"y": 0.15,
+"x": 0.85,
+"y": 0.12,
 "r": 60,
-"at": 0,
+"at": "@0.000",
 "disc": true
 },
 {
 "k": "balloon",
-"x": 0.5,
-"y": 0.3,
+"x": 0.2,
+"y": 0.22,
 "r": 40,
-"at": "@1",
+"at": "@0.150",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+37
+],
+"set": "park",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.42,
+"pose": [
+[
+0,
+"holdCup"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"hold": {
+"k": "cup"
+}
+},
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.72,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.82,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.3
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"walkArms": true
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.58,
+"w": 1.6
+},
+{
+"k": "dish",
+"x": 0.54,
+"food": "pizza",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.62,
+"food": "taco",
+"at": -1
+},
+{
+"k": "dish",
+"x": 0.31,
+"food": "cake",
+"at": "@0.95"
+}
+],
+"mood": "day",
+"props": [
+{
+"k": "sun",
+"x": 0.85,
+"y": 0.12,
+"r": 60,
+"at": -1,
+"disc": true
+},
+{
+"k": "balloon",
+"x": 0.2,
+"y": 0.22,
+"r": 40,
+"at": -1,
 "disc": true
 }
 ],
@@ -1204,46 +1949,61 @@
 "s": "WHAT COULD GO WRONG?",
 "x": 0.5,
 "y": 0.15,
-"at": "@2",
+"at": "@0.000",
 "size": 56
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
 ]
+}
 },
 {
 "lines": [
-38,
-39,
-40
+38
 ],
 "set": "park",
 "actors": [
 {
 "id": "rio",
 "who": "rio",
-"x": 0.4,
+"x": [
+[
+0,
+0.1
+],
+[
+"@0.800",
+0.4
+]
+],
 "pose": [
 [
 0,
-"sad"
-],
-[
-"@1",
-"facepalm"
-],
-[
-"@2",
-"sad"
+"relaxed"
 ]
 ],
 "expr": [
 [
 0,
+"neutral"
+],
+[
+"@0.700",
 "nervous"
 ]
-],
-"seed": 1,
-"pace": -0.06,
-"paceT": 4.2
+]
 }
 ],
 "items": [
@@ -1273,7 +2033,98 @@
 0
 ],
 [
-1,
+"@0.999",
+0.3
+]
+]
+}
+],
+"mood": "desert",
+"fx": [
+"drought"
+],
+"card": {
+"big": "2 WEEKS LATER",
+"small": null,
+"at": "@0.150",
+"y": 0.14
+},
+"text": []
+},
+{
+"lines": [
+39,
+40
+],
+"set": "park",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.4
+],
+[
+"@1.000",
+0.4
+],
+[
+"@1.300",
+0.52
+]
+],
+"pose": [
+[
+0,
+"sad"
+],
+[
+"@1.400",
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+],
+[
+"@1.000",
+"sad"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "tree",
+"x": 0.2,
+"size": 3.0,
+"up": 0.0
+},
+{
+"k": "prop",
+"p": "tree",
+"x": 0.75,
+"size": 3.0,
+"up": 0.0
+},
+{
+"k": "prop",
+"p": "flower",
+"x": 0.6,
+"size": 0.5,
+"up": 0.0,
+"rot": [
+[
+0,
+0.3
+],
+[
+"@1.999",
 0.9
 ]
 ]
@@ -1286,7 +2137,7 @@
 "card": {
 "big": "2 WEEKS LATER",
 "small": null,
-"at": 0.05,
+"at": -1,
 "y": 0.14
 },
 "text": [
@@ -1294,15 +2145,28 @@
 "s": "THE LAWNS CRACK",
 "x": 0.5,
 "y": 0.3,
-"at": "@1",
+"at": "@0.000",
 "size": 50
 }
+],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-115.19999999999999,
+-115.19999999999999
+],
+"y": [
+-40,
+-40
 ]
+}
 },
 {
 "lines": [
-41,
-42
+41
 ],
 "set": "desert",
 "actors": [
@@ -1314,10 +2178,6 @@
 [
 0,
 "sad"
-],
-[
-"@1",
-"facepalm"
 ]
 ],
 "expr": [
@@ -1325,10 +2185,7 @@
 0,
 "sad"
 ]
-],
-"seed": 3,
-"pace": 0.05,
-"paceT": 3.6
+]
 }
 ],
 "items": [
@@ -1343,7 +2200,48 @@
 "card": {
 "big": "100s OF LITERS",
 "small": "a tree can drink on a hot day",
-"at": 0.05,
+"at": "@0.100",
+"w": 760
+},
+"text": []
+},
+{
+"lines": [
+42
+],
+"set": "desert",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"facepalm"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "tree",
+"x": 0.7,
+"size": 3.0,
+"up": 0.0
+}
+],
+"card": {
+"big": "100s OF LITERS",
+"small": "a tree can drink on a hot day",
+"at": -1,
 "w": 760
 },
 "text": [
@@ -1351,35 +2249,40 @@
 "s": "A TINY DESERT",
 "x": 0.5,
 "y": 0.36,
-"at": "@1",
+"at": "@0.000",
 "size": 56
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
 ]
+}
 },
 {
 "lines": [
-43,
-44,
-45
+43
 ],
 "set": "park",
 "actors": [
 {
 "id": "zoe",
 "who": "zoe",
-"x": 0.4,
+"x": 0.36,
 "pose": [
 [
 0,
-"think"
-],
-[
-"@1",
-"relaxed"
-],
-[
-"@2",
-"think"
+"kneel"
 ]
 ],
 "expr": [
@@ -1388,13 +2291,16 @@
 "confused"
 ]
 ],
-"talk": [
-"@0.5",
-"@1.9"
+"facing": [
+[
+0,
+-1
 ],
-"seed": 3,
-"pace": 0.05,
-"paceT": 4.2
+[
+"@0.999",
+1
+]
+]
 },
 {
 "id": "rio",
@@ -1404,26 +2310,188 @@
 [
 0,
 "relaxed"
-],
-[
-"@2",
-"crossArms"
 ]
 ],
 "expr": [
 [
 0,
 "nervous"
+]
+],
+"facing": [
+[
+0,
+-1
 ],
 [
-"@2",
+"@0.999",
+0.0
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "flower",
+"x": 0.3,
+"size": 0.5,
+"up": 0.0,
+"rot": 0.9
+}
+],
+"mood": "desert",
+"text": [],
+"fx": [
+"drought"
+]
+},
+{
+"lines": [
+44
+],
+"set": "park",
+"actors": [
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.36,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@0.400",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"facing": [
+[
+0,
+1
+]
+],
+"talk": [
+"@0.000",
+"@0.950"
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"facing": [
+[
+0,
+0.0
+],
+[
+"@0.999",
+1
+]
+]
+}
+],
+"items": [
+{
+"k": "prop",
+"p": "flower",
+"x": 0.3,
+"size": 0.5,
+"up": 0.0,
+"rot": 0.9
+}
+],
+"mood": "desert",
+"text": [],
+"fx": [
+"drought"
+],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-268.8,
+-268.8
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+45
+],
+"set": "park",
+"actors": [
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.36,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+],
+"facing": [
+[
+0,
+1
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
 "smirk"
 ]
 ],
-"facing": -1,
-"seed": 1,
-"enter": "right",
-"enterUntil": 0.18
+"facing": [
+[
+0,
+1
+]
+]
 }
 ],
 "items": [
@@ -1440,21 +2508,34 @@
 "text": [
 {
 "s": "~ whistle ~",
-"x": 0.65,
+"x": 0.72,
 "y": 0.3,
-"at": "@2",
+"at": "@0.000",
 "size": 46
 }
 ],
 "fx": [
 "drought"
+],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+95.99999999999997,
+95.99999999999997
+],
+"y": [
+-10,
+-10
 ]
+}
 },
 {
 "lines": [
 46,
-47,
-48
+47
 ],
 "set": "street",
 "actors": [
@@ -1467,7 +2548,7 @@
 0.3
 ],
 [
-"@0.55",
+"@0.550",
 0.6
 ]
 ],
@@ -1477,7 +2558,7 @@
 "relaxed"
 ],
 [
-"@0.6",
+"@0.600",
 "phoneEar"
 ]
 ],
@@ -1489,14 +2570,8 @@
 ],
 "hold": {
 "k": "phone",
-"from": "@0.6"
-},
-"talk": [
-"@2",
-1
-],
-"lockFacing": false,
-"seed": 7
+"from": "@0.600"
+}
 }
 ],
 "items": [
@@ -1514,7 +2589,7 @@
 "card": {
 "big": "CALL 2",
 "small": "\"what if everyone spoke the same language?\"",
-"at": 0.05,
+"at": "@0.150",
 "x": 0.3,
 "w": 800,
 "size": 60
@@ -1522,38 +2597,138 @@
 },
 {
 "lines": [
+48
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.6
+]
+],
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "phone",
+"from": 0
+},
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.6
+},
+{
+"k": "booth",
+"x": 0.6,
+"part": "front",
+"front": true
+}
+],
+"card": {
+"big": "CALL 2",
+"small": "\"what if everyone spoke the same language?\"",
+"at": -1,
+"x": 0.3,
+"w": 800,
+"size": 60
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
 49,
-50,
-51,
-52,
-53
+50
 ],
 "set": "home",
 "actors": [
 {
 "id": "rio",
 "who": "rio",
-"x": 0.3,
+"x": 0.7,
 "pose": [
 [
 0,
-"relaxed"
+"phone"
 ],
 [
-"@1",
-"think"
+"@0.800",
+"remote"
+]
 ],
+"expr": [
 [
-"@2",
-"relaxed"
+0,
+"neutral"
+]
 ],
-[
-"@3",
-"shrug"
+"facing": -1,
+"hold": {
+"k": "remote",
+"from": "@0.800"
+}
+}
 ],
+"items": [
+{
+"k": "tvset",
+"x": 0.33,
+"on": "@1.1",
+"show": "news",
+"who": "crowd2",
+"s": "EVERY COUNTRY NOW SPEAKS ONE LANGUAGE"
+}
+],
+"text": []
+},
+{
+"lines": [
+51,
+52
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.7,
+"pose": [
 [
-"@4",
-"relaxed"
+0,
+"remote"
 ]
 ],
 "expr": [
@@ -1562,64 +2737,132 @@
 "surprised"
 ]
 ],
-"seed": 0,
-"pace": -0.05,
-"paceT": 3.6
+"facing": -1,
+"hold": {
+"k": "remote",
+"from": 0
+}
 }
 ],
-"items": [],
-"props": [
+"items": [
 {
-"k": "tv",
-"x": 0.62,
-"y": 0.42,
-"r": 150,
-"at": "@1",
-"disc": true
+"k": "tvset",
+"x": 0.33,
+"on": "@1.1",
+"show": "news",
+"who": "crowd2",
+"s": "EVERY COUNTRY NOW SPEAKS ONE LANGUAGE"
+}
+],
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+383.9999999999999,
+383.9999999999999
+],
+"y": [
+-40,
+-40
+]
+}
 },
 {
-"k": "globe",
-"x": 0.62,
-"y": 0.42,
-"r": 60,
-"at": "@2",
-"disc": true
+"lines": [
+53
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.7,
+"pose": [
+[
+0,
+"remote"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1,
+"hold": {
+"k": "remote",
+"from": 0
+}
+}
+],
+"items": [
+{
+"k": "tvset",
+"x": 0.33,
+"on": "@1.1",
+"show": "news",
+"who": "crowd2",
+"s": "EVERY COUNTRY NOW SPEAKS ONE LANGUAGE"
 }
 ],
 "text": [
 {
 "s": "EVERY WORD... ENGLISH",
-"x": 0.6,
+"x": 0.5,
 "y": 0.15,
-"at": "@4",
+"at": "@0.000",
 "size": 54
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-10,
+-10
 ]
+}
 },
 {
 "lines": [
 54,
-55,
-56
+55
 ],
 "set": "city",
 "actors": [
 {
 "id": "rio",
 "who": "rio",
-"x": 0.4,
+"x": [
+[
+0,
+0.08
+],
+[
+"@0.9",
+0.4
+]
+],
 "pose": [
 [
 0,
-"shrug"
-],
-[
-"@1",
 "relaxed"
 ],
 [
-"@2",
-"shrug"
+"@1.1",
+"talk"
 ]
 ],
 "expr": [
@@ -1628,26 +2871,26 @@
 "smile"
 ]
 ],
-"seed": 1,
-"pace": -0.04,
-"paceT": 5.0
+"hold": {
+"k": "suitcase"
+},
+"talk": [
+"@1",
+"@1.5"
+]
 },
 {
 "id": "crowd1",
 "who": "crowd1",
-"x": 0.62,
+"x": 0.55,
 "pose": [
 [
 0,
-"talk"
+"relaxed"
 ],
 [
-"@1",
-"explain"
-],
-[
-"@2",
-"talk"
+"@1.4",
+"point"
 ]
 ],
 "expr": [
@@ -1658,30 +2901,19 @@
 ],
 "facing": -1,
 "talk": [
-0,
+"@1.4",
 1
-],
-"seed": 4,
-"enter": "right",
-"enterUntil": 0.18
+]
 }
 ],
 "items": [],
 "props": [
 {
 "k": "plane",
-"x": 0.25,
-"y": 0.18,
+"x": 0.8,
+"y": 0.15,
 "r": 50,
 "at": "@1",
-"disc": true
-},
-{
-"k": "money",
-"x": 0.75,
-"y": 0.18,
-"r": 50,
-"at": "@2",
 "disc": true
 }
 ],
@@ -1692,14 +2924,85 @@
 "y": 0.3,
 "at": 0.05,
 "size": 56
+},
+{
+"s": "TRAVEL IS EASY",
+"x": 0.5,
+"y": 0.15,
+"at": "@1",
+"size": 50
 }
 ]
 },
 {
 "lines": [
-57,
-58,
-59
+56
+],
+"set": "office",
+"actors": [
+{
+"id": "investor",
+"who": "investor",
+"x": 0.455,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+0.25,
+"shake"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.545,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+0.25,
+"shake"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.8
+}
+],
+"text": [
+{
+"s": "BUSINESS IS EASY",
+"x": 0.5,
+"y": 0.18,
+"at": 0.1,
+"size": 56
+}
+]
+},
+{
+"lines": [
+57
 ],
 "set": "home",
 "actors": [
@@ -1712,21 +3015,13 @@
 0.1
 ],
 [
-"@0.8",
+"@0.800",
 0.35
 ]
 ],
 "pose": [
 [
 0,
-"talk"
-],
-[
-"@1",
-"explain"
-],
-[
-"@2",
 "talk"
 ]
 ],
@@ -1735,13 +3030,7 @@
 0,
 "smile"
 ]
-],
-"talk": [
-"@1",
-1
-],
-"seed": 0,
-"paceT": 4.2
+]
 },
 {
 "id": "grandma",
@@ -1759,8 +3048,62 @@
 "smile"
 ]
 ],
-"facing": -1,
-"seed": 0
+"facing": -1
+}
+],
+"items": [],
+"props": [],
+"text": []
+},
+{
+"lines": [
+58
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.35
+]
+],
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "grandma",
+"who": "grandma",
+"x": 0.6,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
 }
 ],
 "items": [],
@@ -1770,7 +3113,86 @@
 "x": 0.48,
 "y": 0.3,
 "r": 40,
-"at": "@1",
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-288.00000000000006,
+-288.00000000000006
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+59
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.35
+]
+],
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "grandma",
+"who": "grandma",
+"x": 0.6,
+"pose": [
+[
+0,
+"sit"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "note",
+"x": 0.48,
+"y": 0.3,
+"r": 40,
+"at": -1,
 "disc": true
 },
 {
@@ -1778,7 +3200,7 @@
 "x": 0.7,
 "y": 0.18,
 "r": 40,
-"at": "@2",
+"at": "@0.000",
 "disc": true
 }
 ],
@@ -1787,10 +3209,25 @@
 "s": "THE OLD SPANISH LULLABY",
 "x": 0.5,
 "y": 0.12,
-"at": "@2",
+"at": "@0.000",
 "size": 46
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-144.00000000000003,
+-144.00000000000003
+],
+"y": [
+-10,
+-10
 ]
+}
 },
 {
 "lines": [
@@ -1807,10 +3244,6 @@
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
 ]
 ],
 "expr": [
@@ -1818,10 +3251,7 @@
 0,
 "worried"
 ]
-],
-"seed": 3,
-"pace": -0.05,
-"paceT": 3.6
+]
 },
 {
 "id": "grandma",
@@ -1843,8 +3273,7 @@
 "talk": [
 "@1",
 1
-],
-"seed": 8
+]
 }
 ],
 "items": [],
@@ -1860,7 +3289,31 @@
 },
 {
 "lines": [
-62,
+62
+],
+"set": "space",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "earth",
+"x": 0.5,
+"y": 0.52,
+"r": 190,
+"at": "@0.000",
+"disc": false
+}
+],
+"card": {
+"big": "~7,000 LANGUAGES",
+"small": "songs, jokes, words found nowhere else",
+"at": "@0.100",
+"w": 860,
+"y": 0.15
+}
+},
+{
+"lines": [
 63
 ],
 "set": "space",
@@ -1872,21 +3325,65 @@
 "x": 0.5,
 "y": 0.52,
 "r": 190,
-"at": 0,
+"at": -1,
 "disc": false
 }
 ],
 "card": {
 "big": "~7,000 LANGUAGES",
 "small": "songs, jokes, words found nowhere else",
-"at": 0.05,
+"at": -1,
 "w": 860,
 "y": 0.15
-}
+},
+"fx": []
 },
 {
 "lines": [
-64,
+64
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"sad"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+]
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.3,
+1.35
+],
+"y": [
+-60.0,
+-60.0
+]
+},
+"text": [
+{
+"s": "ALL GONE",
+"x": 0.5,
+"y": 0.15,
+"at": "@0.150"
+}
+]
+},
+{
+"lines": [
 65,
 66
 ],
@@ -1902,7 +3399,7 @@
 "sad"
 ],
 [
-"@2",
+"@1.000",
 "chest"
 ]
 ],
@@ -1911,21 +3408,18 @@
 0,
 "sad"
 ]
-],
-"seed": 8,
-"pace": 0.05,
-"paceT": 4.2
+]
 }
 ],
 "items": [],
 "cam": {
 "z": [
-1.3,
+1.35,
 1.45
 ],
 "y": [
--60,
--60
+-60.0,
+-60.0
 ]
 },
 "text": [
@@ -1933,22 +3427,22 @@
 "s": "ALL GONE",
 "x": 0.5,
 "y": 0.15,
-"at": 0.05
+"at": -1
 },
 {
 "s": "ONLY YOU REMEMBER",
 "x": 0.5,
 "y": 0.25,
-"at": "@1",
+"at": "@0.000",
 "size": 50
 }
-]
+],
+"fx": []
 },
 {
 "lines": [
 67,
-68,
-69
+68
 ],
 "set": "street",
 "actors": [
@@ -1961,7 +3455,7 @@
 0.3
 ],
 [
-"@0.55",
+"@0.550",
 0.6
 ]
 ],
@@ -1971,7 +3465,7 @@
 "relaxed"
 ],
 [
-"@0.6",
+"@0.600",
 "phoneEar"
 ]
 ],
@@ -1979,22 +3473,12 @@
 [
 0,
 "determined"
-],
-[
-"@2",
-"smile"
 ]
 ],
 "hold": {
 "k": "phone",
-"from": "@0.6"
-},
-"talk": [
-"@2",
-"@2.6"
-],
-"lockFacing": false,
-"seed": 7
+"from": "@0.600"
+}
 }
 ],
 "items": [
@@ -2012,10 +3496,83 @@
 "card": {
 "big": "CALL 3",
 "small": "\"what if mosquitoes disappeared?\"",
-"at": 0.05,
+"at": "@0.150",
 "x": 0.3,
 "w": 760,
 "size": 60
+}
+},
+{
+"lines": [
+69
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.6
+]
+],
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"hold": {
+"k": "phone",
+"from": 0
+},
+"talk": [
+"@0.000",
+"@0.600"
+]
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.6
+},
+{
+"k": "booth",
+"x": 0.6,
+"part": "front",
+"front": true
+}
+],
+"card": {
+"big": "CALL 3",
+"small": "\"what if mosquitoes disappeared?\"",
+"at": -1,
+"x": 0.3,
+"w": 760,
+"size": 60
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
 }
 },
 {
@@ -2040,8 +3597,7 @@
 0,
 "happy"
 ]
-],
-"seed": 3
+]
 },
 {
 "id": "zoe",
@@ -2059,8 +3615,7 @@
 "smile"
 ]
 ],
-"facing": -1,
-"seed": 9
+"facing": -1
 }
 ],
 "items": [],
@@ -2086,8 +3641,116 @@
 },
 {
 "lines": [
-72,
-73,
+72
+],
+"set": "hospital",
+"actors": [
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "kid",
+"who": "kid",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": []
+},
+{
+"lines": [
+73
+],
+"set": "hospital",
+"actors": [
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+},
+{
+"id": "kid",
+"who": "kid",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "~600,000",
+"small": "malaria deaths in 2022... most of them young children",
+"at": "@0.000",
+"w": 880,
+"y": 0.15
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
 74
 ],
 "set": "hospital",
@@ -2100,14 +3763,6 @@
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
-"relaxed"
 ]
 ],
 "expr": [
@@ -2116,10 +3771,7 @@
 "smile"
 ]
 ],
-"facing": -1,
-"seed": 5,
-"pace": -0.04,
-"paceT": 4.2
+"facing": -1
 },
 {
 "id": "kid",
@@ -2129,14 +3781,6 @@
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
-"relaxed"
 ]
 ],
 "expr": [
@@ -2144,24 +3788,87 @@
 0,
 "smile"
 ]
-],
-"seed": 6,
-"enter": "left",
-"enterUntil": 0.18
+]
 }
 ],
 "items": [],
 "card": {
 "big": "~600,000",
 "small": "malaria deaths in 2022... most of them young children",
-"at": "@1",
+"at": -1,
 "w": 880,
 "y": 0.15
+},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+95.99999999999997,
+95.99999999999997
+],
+"y": [
+-10,
+-10
+]
 }
 },
 {
 "lines": [
-75,
+75
+],
+"set": "hospital",
+"actors": [
+{
+"id": "kid",
+"who": "kid",
+"x": 0.4,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.6,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"text": [
+{
+"s": "FALLING TO ZERO",
+"x": 0.5,
+"y": 0.15,
+"at": "@0.100"
+}
+]
+},
+{
+"lines": [
 76
 ],
 "set": "hospital",
@@ -2181,10 +3888,7 @@
 0,
 "joy"
 ]
-],
-"seed": 9,
-"pace": 0.04,
-"paceT": 5.0
+]
 },
 {
 "id": "rio",
@@ -2194,10 +3898,6 @@
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
 ]
 ],
 "expr": [
@@ -2206,10 +3906,7 @@
 "cry"
 ]
 ],
-"facing": -1,
-"seed": 2,
-"enter": "right",
-"enterUntil": 0.18
+"facing": -1
 }
 ],
 "items": [],
@@ -2218,34 +3915,39 @@
 "s": "FALLING TO ZERO",
 "x": 0.5,
 "y": 0.15,
-"at": 0.05
+"at": -1
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
 ]
+}
 },
 {
 "lines": [
-77,
-78,
-79
+77
 ],
 "set": "home",
 "actors": [
 {
 "id": "rio",
 "who": "rio",
-"x": 0.3,
+"x": 0.7,
 "pose": [
 [
 0,
-"relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
-"relaxed"
+"remote"
 ]
 ],
 "expr": [
@@ -2254,42 +3956,188 @@
 "worried"
 ]
 ],
-"seed": 9,
-"pace": 0.06,
-"paceT": 4.2
+"facing": -1,
+"hold": {
+"k": "remote"
+}
 }
 ],
-"items": [],
-"props": [
+"items": [
 {
-"k": "tv",
-"x": 0.62,
-"y": 0.42,
-"r": 150,
-"at": 0,
-"disc": true
+"k": "tvset",
+"x": 0.33,
+"show": "news",
+"who": "doctor",
+"expr": "worried",
+"s": "MOSQUITO EXPERTS WARN"
+}
+]
 },
 {
-"k": "magnifier",
-"x": 0.62,
-"y": 0.42,
-"r": 50,
-"at": "@1",
-"disc": true
+"lines": [
+78
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.7,
+"pose": [
+[
+0,
+"remote"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"facing": -1,
+"hold": {
+"k": "remote"
+}
+}
+],
+"items": [
+{
+"k": "tvset",
+"x": 0.33,
+"show": "news",
+"who": "doctor",
+"expr": "worried",
+"s": "MOSQUITO EXPERTS WARN"
 }
 ],
 "card": {
 "big": "~3,500 KINDS",
 "small": "only a few bite humans",
-"at": "@1",
-"x": 0.62,
+"at": "@0.000",
+"x": 0.5,
 "y": 0.15,
 "w": 640
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+383.9999999999999,
+383.9999999999999
+],
+"y": [
+-40,
+-40
+]
 }
 },
 {
 "lines": [
-80,
+79
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.7,
+"pose": [
+[
+0,
+"remote"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"facing": -1,
+"hold": {
+"k": "remote"
+}
+}
+],
+"items": [
+{
+"k": "tvset",
+"x": 0.33,
+"show": "news",
+"who": "doctor",
+"expr": "worried",
+"s": "MOSQUITO EXPERTS WARN"
+}
+],
+"card": {
+"big": "~3,500 KINDS",
+"small": "only a few bite humans",
+"at": -1,
+"x": 0.5,
+"y": 0.15,
+"w": 640
+},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+80
+],
+"set": "lake",
+"actors": [],
+"items": [
+{
+"k": "prop",
+"p": "fish",
+"x": 0.3,
+"size": 0.5,
+"up": 0.0
+},
+{
+"k": "prop",
+"p": "bird",
+"x": 0.6,
+"size": 0.4,
+"up": 1.5
+},
+{
+"k": "prop",
+"p": "flower",
+"x": 0.8,
+"size": 0.5,
+"up": 0.0
+}
+],
+"text": [
+{
+"s": "FOOD FOR BIRDS, FROGS AND FISH",
+"x": 0.5,
+"y": 0.15,
+"at": "@0.100",
+"size": 50
+}
+]
+},
+{
+"lines": [
 81
 ],
 "set": "lake",
@@ -2322,21 +4170,55 @@
 "s": "FOOD FOR BIRDS, FROGS AND FISH",
 "x": 0.5,
 "y": 0.15,
-"at": 0.05,
+"at": -1,
 "size": 50
 },
 {
 "s": "SOME EVEN POLLINATE FLOWERS",
 "x": 0.5,
 "y": 0.25,
-"at": "@1",
+"at": "@0.000",
 "size": 46
+}
+],
+"fx": []
+},
+{
+"lines": [
+82
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "MIRACLE?",
+"x": 0.3,
+"y": 0.2,
+"at": "@0.150"
 }
 ]
 },
 {
 "lines": [
-82,
 83,
 84
 ],
@@ -2352,7 +4234,7 @@
 "think"
 ],
 [
-"@2",
+"@1.000",
 "crossArms"
 ]
 ],
@@ -2362,13 +4244,10 @@
 "thinking"
 ],
 [
-"@2",
+"@1.000",
 "scared"
 ]
-],
-"seed": 2,
-"pace": -0.04,
-"paceT": 4.2
+]
 }
 ],
 "items": [],
@@ -2377,22 +4256,36 @@
 "s": "MIRACLE?",
 "x": 0.3,
 "y": 0.2,
-"at": 0.05
+"at": -1
 },
 {
 "s": "OR A HOLE IN NATURE?",
 "x": 0.62,
 "y": 0.3,
-"at": 0.4,
+"at": "@0.200",
 "size": 50
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
 ]
+}
 },
 {
 "lines": [
 85,
-86,
-87
+86
 ],
 "set": "street",
 "actors": [
@@ -2405,7 +4298,7 @@
 0.3
 ],
 [
-"@0.55",
+"@0.550",
 0.6
 ]
 ],
@@ -2415,7 +4308,7 @@
 "relaxed"
 ],
 [
-"@0.6",
+"@0.600",
 "phoneEar"
 ]
 ],
@@ -2423,22 +4316,12 @@
 [
 0,
 "smirk"
-],
-[
-"@2",
-"happy"
 ]
 ],
 "hold": {
 "k": "phone",
-"from": "@0.6"
-},
-"talk": [
-"@2",
-"@2.6"
-],
-"lockFacing": false,
-"seed": 0
+"from": "@0.600"
+}
 }
 ],
 "items": [
@@ -2456,10 +4339,83 @@
 "card": {
 "big": "CALL 4",
 "small": "\"what if gravity were half as strong?\"",
-"at": 0.05,
+"at": "@0.150",
 "x": 0.3,
 "w": 760,
 "size": 60
+}
+},
+{
+"lines": [
+87
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.6
+]
+],
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"hold": {
+"k": "phone",
+"from": 0
+},
+"talk": [
+"@0.000",
+"@0.600"
+]
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.6
+},
+{
+"k": "booth",
+"x": 0.6,
+"part": "front",
+"front": true
+}
+],
+"card": {
+"big": "CALL 4",
+"small": "\"what if gravity were half as strong?\"",
+"at": -1,
+"x": 0.3,
+"w": 760,
+"size": 60
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
 }
 },
 {
@@ -2497,8 +4453,7 @@
 1,
 0
 ]
-],
-"seed": 1
+]
 }
 ],
 "items": [],
@@ -2512,19 +4467,43 @@
 },
 {
 "lines": [
-89,
-90
+89
 ],
 "set": "gym",
 "actors": [
 {
 "id": "kid",
 "who": "kid",
-"x": 0.35,
+"x": [
+[
+0,
+0.22
+],
+[
+0.32,
+0.42
+],
+[
+0.62,
+0.557
+],
+[
+0.95,
+0.6
+]
+],
 "pose": [
 [
 0,
-"jump"
+"dribble"
+],
+[
+0.32,
+"dunk"
+],
+[
+0.85,
+"cheer"
 ]
 ],
 "expr": [
@@ -2533,30 +4512,141 @@
 "joy"
 ]
 ],
+"walkArms": true,
+"lockFacing": true,
 "up": [
 [
 0,
 0
 ],
 [
-0.5,
-1.4
+0.32,
+0
 ],
 [
-1,
+0.62,
+1.65
+],
+[
+0.88,
+0
+]
+]
+},
+{
+"id": "boy",
+"who": "boy",
+"x": 0.2,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+0.6,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+0.6,
+"joy"
+]
+]
+}
+],
+"items": [
+{
+"k": "hoop",
+"x": 0.62,
+"dir": -1
+},
+{
+"k": "bball",
+"x": 0.25,
+"bx": [
+[
+0,
+0.246
+],
+[
+0.32,
+0.446
+],
+[
+0.62,
+0.578
+],
+[
+0.7,
+0.578
+],
+[
+0.9,
+0.59
+]
+],
+"bup": [
+[
+0,
+0
+],
+[
+0.32,
+1.1
+],
+[
+0.62,
+3.25
+],
+[
+0.7,
+2.75
+],
+[
+0.9,
 0
 ]
 ],
-"seed": 0
+"dribble": [
+0,
+0.3,
+0.75
+]
+}
+],
+"cam": {
+"z": 1.12,
+"x": -100,
+"y": -70
+}
 },
+{
+"lines": [
+90
+],
+"set": "park",
+"actors": [
 {
 "id": "oldman",
 "who": "oldman",
-"x": 0.68,
+"x": 0.5,
 "pose": [
 [
 0,
-"jump"
+"relaxed"
+],
+[
+0.15,
+"tuck"
+],
+[
+0.8,
+"cheer"
 ]
 ],
 "expr": [
@@ -2571,38 +4661,88 @@
 0
 ],
 [
-"@1.5",
-0.9
+0.15,
+0
 ],
 [
-1,
+0.45,
+1.4
+],
+[
+0.75,
 0
 ]
 ],
 "rot": [
 [
-"@1",
+0,
 0
 ],
 [
-"@1.9",
-6.28
+0.15,
+0
+],
+[
+0.75,
+-6.283
+]
+]
+},
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.28,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+0.75,
+"cheer"
 ]
 ],
-"seed": 9
+"expr": [
+[
+0,
+"surprised"
+],
+[
+0.75,
+"joy"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.75,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+0.75,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1
 }
 ],
 "items": [],
-"props": [
-{
-"k": "ball",
-"x": 0.38,
-"y": 0.3,
-"r": 30,
-"at": 0,
-"disc": true
+"mood": "day",
+"follow": false,
+"cam": {
+"z": 0.9,
+"y": -80
 }
-]
 },
 {
 "lines": [
@@ -2613,66 +4753,114 @@
 {
 "id": "rio",
 "who": "rio",
-"x": 0.45,
+"x": 0.4,
 "pose": [
 [
 0,
-"drop"
+"sitTable"
 ]
 ],
 "expr": [
 [
 0,
+"neutral"
+],
+[
+0.3,
 "shocked"
 ]
-],
-"seed": 2,
-"pace": 0.05,
-"paceT": 3.6
+]
 }
 ],
 "items": [
 {
-"k": "prop",
-"p": "pizza",
-"x": 0.55,
-"size": 0.15,
-"up": 1.2,
-"upk": [
-[
-0,
-1.2
-],
-[
-1,
-0.9
-]
-],
-"rot": [
-[
-0,
-0
-],
-[
-1,
-1.5
-]
-]
+"k": "table",
+"x": 0.52,
+"w": 1.2
+},
+{
+"k": "cereal",
+"x": 0.445,
+"spill": 0.25
 }
 ],
+"cam": {
+"z": [
+1.6,
+1.75
+],
+"x": [
+-115,
+-115
+],
+"y": [
+140,
+150
+]
+},
 "text": [
 {
 "s": "SLOW MOTION",
 "x": 0.5,
-"y": 0.2,
+"y": 0.15,
 "at": 0.05
 }
 ]
 },
 {
 "lines": [
-92,
-93,
+92
+],
+"set": "space",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "astronaut",
+"x": 0.35,
+"y": 0.5,
+"r": 110,
+"at": "@0.000",
+"disc": true
+}
+]
+},
+{
+"lines": [
+93
+],
+"set": "space",
+"actors": [],
+"items": [],
+"props": [
+{
+"k": "astronaut",
+"x": 0.35,
+"y": 0.5,
+"r": 110,
+"at": -1,
+"disc": true
+},
+{
+"k": "bone",
+"x": 0.68,
+"y": 0.5,
+"r": 80,
+"at": "@0.000",
+"disc": true
+}
+],
+"card": {
+"big": "-1% BONE MASS",
+"small": "per month for astronauts in space",
+"at": "@0.000",
+"w": 760,
+"y": 0.15
+},
+"fx": []
+},
+{
+"lines": [
 94
 ],
 "set": "space",
@@ -2684,7 +4872,7 @@
 "x": 0.35,
 "y": 0.5,
 "r": 110,
-"at": 0,
+"at": -1,
 "disc": true
 },
 {
@@ -2692,38 +4880,162 @@
 "x": 0.68,
 "y": 0.5,
 "r": 80,
-"at": "@1",
+"at": -1,
 "disc": true
 }
 ],
 "card": {
 "big": "-1% BONE MASS",
 "small": "per month for astronauts in space",
-"at": "@1",
+"at": -1,
 "w": 760,
 "y": 0.15
-}
+},
+"fx": []
 },
 {
 "lines": [
 95,
-96,
+96
+],
+"set": "hospital",
+"actors": [
+{
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.25,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"rot": -1.5708,
+"dy": 41
+},
+{
+"id": "zoe",
+"who": "zoe",
+"x": [
+[
+0,
+0.36
+],
+[
+"@1.500",
+0.36
+],
+[
+"@1.999",
+0.5
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+"@1.000",
+"worried"
+]
+],
+"facing": [
+[
+0,
+-1
+],
+[
+"@1.900",
+1
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.85
+],
+[
+"@1.600",
+0.64
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.25
+}
+]
+},
+{
+"lines": [
 97,
 98
 ],
 "set": "hospital",
 "actors": [
 {
-"id": "zoe",
-"who": "zoe",
-"x": 0.45,
+"id": "oldwoman",
+"who": "oldwoman",
+"x": 0.25,
 "pose": [
 [
 0,
-"relaxed"
+"lie"
+]
 ],
+"expr": [
 [
-"@2",
+0,
+"sad"
+]
+],
+"rot": -1.5708,
+"dy": 41
+},
+{
+"id": "zoe",
+"who": "zoe",
+"x": [
+[
+0,
+0.5
+]
+],
+"pose": [
+[
+0,
 "explain"
 ]
 ],
@@ -2733,34 +5045,30 @@
 "worried"
 ]
 ],
-"talk": [
-"@2",
+"facing": [
+[
+0,
 1
+]
 ],
-"seed": 7,
-"pace": 0.04,
-"paceT": 4.2
+"talk": [
+"@0.000",
+1
+]
 },
 {
 "id": "rio",
 "who": "rio",
-"x": 0.64,
+"x": [
+[
+0,
+0.64
+]
+],
 "pose": [
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
-"relaxed"
-],
-[
-"@3",
-"shrug"
 ]
 ],
 "expr": [
@@ -2769,19 +5077,22 @@
 "nervous"
 ]
 ],
-"facing": -1,
-"seed": 6,
-"enter": "right",
-"enterUntil": 0.18
+"facing": -1
 }
 ],
-"items": [],
+"items": [
+{
+"k": "bed",
+"x": 0.25
+}
+],
 "card": {
 "big": "3 BROKEN HIPS",
 "small": "this week",
-"at": "@2",
+"at": "@0.000",
 "y": 0.15
-}
+},
+"fx": []
 },
 {
 "lines": [
@@ -2813,8 +5124,7 @@
 0,
 "determined"
 ]
-],
-"seed": 2
+]
 }
 ],
 "items": [
@@ -2876,9 +5186,7 @@
 "talk": [
 "@1",
 "@1.7"
-],
-"lockFacing": false,
-"seed": 5
+]
 }
 ],
 "items": [
@@ -2915,7 +5223,7 @@
 {
 "id": "rio",
 "who": "rio",
-"x": 0.35,
+"x": 0.6,
 "pose": [
 [
 0,
@@ -2928,12 +5236,12 @@
 "happy"
 ]
 ],
-"seed": 4
+"facing": -1
 },
 {
 "id": "zoe",
 "who": "zoe",
-"x": 0.5,
+"x": 0.74,
 "pose": [
 [
 0,
@@ -2946,23 +5254,21 @@
 "happy"
 ]
 ],
-"facing": -1,
-"seed": 1
+"facing": -1
 }
 ],
-"items": [],
+"items": [
+{
+"k": "tvset",
+"x": 0.28,
+"show": "movie",
+"bg": "#1a1a2a"
+}
+],
 "props": [
 {
-"k": "tv",
-"x": 0.72,
-"y": 0.42,
-"r": 120,
-"at": 0,
-"disc": true
-},
-{
 "k": "clock",
-"x": 0.72,
+"x": 0.5,
 "y": 0.15,
 "r": 40,
 "at": "@1",
@@ -2989,15 +5295,28 @@
 {
 "id": "crowd1",
 "who": "crowd1",
-"x": 0.5,
+"x": [
+[
+0,
+0.32
+],
+[
+0.35,
+0.44
+]
+],
 "pose": [
 [
 0,
-"shrug"
+"relaxed"
+],
+[
+0.38,
+"reach"
 ],
 [
 "@1",
-"relaxed"
+"shrug"
 ]
 ],
 "expr": [
@@ -3005,10 +5324,7 @@
 0,
 "smirk"
 ]
-],
-"seed": 8,
-"pace": -0.04,
-"paceT": 5.0
+]
 }
 ],
 "items": [
@@ -3047,28 +5363,48 @@
 },
 {
 "lines": [
-110,
-111,
-112
+110
 ],
-"set": "home",
+"set": "kitchen",
 "actors": [
 {
-"id": "zoe",
-"who": "zoe",
-"x": 0.4,
+"id": "rio",
+"who": "rio",
+"x": 0.3,
 "pose": [
 [
 0,
-"sad"
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+},
+{
+"id": "zoe",
+"who": "zoe",
+"x": [
+[
+0,
+0.95
 ],
 [
-"@1",
-"facepalm"
+"@0.700",
+0.62
 ],
 [
-"@2",
-"sad"
+"@0.999",
+0.5471
+]
+],
+"pose": [
+[
+0,
+"phone"
 ]
 ],
 "expr": [
@@ -3077,61 +5413,24 @@
 "sleepy"
 ]
 ],
-"seed": 9,
-"pace": 0.05,
-"paceT": 5.0
+"hold": {
+"k": "phone"
 },
-{
-"id": "rio",
-"who": "rio",
-"x": 0.6,
-"pose": [
-[
-0,
-"relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
-"relaxed"
-]
-],
-"expr": [
-[
-0,
-"neutral"
-],
-[
-"@1",
-"sad"
-]
-],
 "facing": -1,
-"seed": 5,
-"enter": "right",
-"enterUntil": 0.18
+"lockFacing": false
 }
 ],
-"items": [],
-"props": [
+"items": [
 {
-"k": "cake",
-"x": 0.62,
-"y": 0.35,
-"r": 45,
-"at": "@1",
-"disc": true
+"k": "table",
+"x": 0.42,
+"w": 1.0
 },
 {
-"k": "calendar",
-"x": 0.38,
-"y": 0.35,
-"r": 45,
-"at": "@1",
-"disc": true
+"k": "dish",
+"x": 0.42,
+"food": "cake",
+"at": -1
 }
 ],
 "text": [
@@ -3139,15 +5438,203 @@
 "s": "CRANKY. FORGETFUL.",
 "x": 0.5,
 "y": 0.15,
-"at": 0.05,
+"at": "@0.150",
 "size": 56
 }
 ]
 },
 {
 "lines": [
-113,
-114,
+111,
+112
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"present"
+]
+],
+"expr": [
+[
+0,
+"smile"
+],
+[
+"@0.500",
+"sad"
+]
+]
+},
+{
+"id": "zoe",
+"who": "zoe",
+"x": [
+[
+0,
+0.5471
+],
+[
+"@0.400",
+0.45
+],
+[
+"@1.600",
+0.05
+]
+],
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"hold": {
+"k": "phone"
+},
+"facing": -1,
+"lockFacing": false
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.42,
+"w": 1.0
+},
+{
+"k": "dish",
+"x": 0.42,
+"food": "cake",
+"at": -1
+}
+],
+"text": [
+{
+"s": "CRANKY. FORGETFUL.",
+"x": 0.5,
+"y": 0.15,
+"at": -1,
+"size": 56
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+113
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"think"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"props": [],
+"text": []
+},
+{
+"lines": [
+114
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "letter",
+"x": 0.6,
+"y": 0.35,
+"r": 60,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "EVERY WISH HAS A PRICE TAG",
+"x": 0.5,
+"y": 0.15,
+"at": "@0.000",
+"size": 52
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
 115
 ],
 "set": "home",
@@ -3160,14 +5647,6 @@
 [
 0,
 "think"
-],
-[
-"@1",
-"relaxed"
-],
-[
-"@2",
-"think"
 ]
 ],
 "expr": [
@@ -3175,10 +5654,7 @@
 0,
 "thinking"
 ]
-],
-"seed": 6,
-"pace": -0.04,
-"paceT": 5.0
+]
 }
 ],
 "items": [],
@@ -3188,7 +5664,7 @@
 "x": 0.6,
 "y": 0.35,
 "r": 60,
-"at": "@1",
+"at": -1,
 "disc": true
 }
 ],
@@ -3197,14 +5673,59 @@
 "s": "EVERY WISH HAS A PRICE TAG",
 "x": 0.5,
 "y": 0.15,
-"at": "@1",
+"at": -1,
 "size": 52
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-47.999999999999986,
+-47.999999999999986
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+116
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"rot": -1.5708,
+"dy": 38
+}
+],
+"items": [],
+"fx": [
+"night"
 ]
 },
 {
 "lines": [
-116,
 117
 ],
 "set": "home",
@@ -3226,8 +5747,7 @@
 ]
 ],
 "rot": -1.5708,
-"dy": 38,
-"seed": 2
+"dy": 38
 }
 ],
 "items": [],
@@ -3238,8 +5758,7 @@
 {
 "lines": [
 118,
-119,
-120
+119
 ],
 "set": "street",
 "actors": [
@@ -3252,7 +5771,7 @@
 0.3
 ],
 [
-"@0.55",
+"@0.550",
 0.6
 ]
 ],
@@ -3262,7 +5781,7 @@
 "relaxed"
 ],
 [
-"@0.6",
+"@0.600",
 "phoneEar"
 ]
 ],
@@ -3270,22 +5789,65 @@
 [
 0,
 "smirk"
+]
 ],
+"hold": {
+"k": "phone",
+"from": "@0.600"
+}
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.6
+},
+{
+"k": "booth",
+"x": 0.6,
+"part": "front",
+"front": true
+}
+],
+"fx": [
+"night"
+]
+},
+{
+"lines": [
+120
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
 [
-"@2",
+0,
+0.6
+]
+],
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
 "smirk"
 ]
 ],
 "hold": {
 "k": "phone",
-"from": "@0.6"
+"from": 0
 },
 "talk": [
-"@2",
-"@2.8"
-],
-"lockFacing": false,
-"seed": 0
+"@0.000",
+"@0.800"
+]
 }
 ],
 "items": [
@@ -3306,23 +5868,36 @@
 "card": {
 "big": "CALL 6",
 "small": "\"what if I were the most famous person on Earth?\"",
-"at": "@2",
+"at": "@0.000",
 "x": 0.3,
 "w": 880,
 "size": 60
+},
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
 }
 },
 {
 "lines": [
-121,
-122
+121
 ],
 "set": "rooftop",
 "actors": [
 {
 "id": "rio",
 "who": "rio",
-"x": 0.4,
+"x": 0.3,
 "pose": [
 [
 0,
@@ -3334,54 +5909,155 @@
 0,
 "awe"
 ]
-],
-"seed": 0,
-"pace": -0.06,
-"paceT": 5.0
+]
 }
 ],
-"items": [],
-"props": [
+"items": [
 {
-"k": "star",
-"x": 0.7,
-"y": 0.3,
-"r": 120,
-"at": "@1",
-"disc": true
+"k": "billboard",
+"x": 0.72,
+"sc": 0.55,
+"up": 3
 }
 ],
 "text": [
 {
 "s": "PENTHOUSE",
-"x": 0.5,
+"x": 0.3,
 "y": 0.15,
-"at": 0.05
-},
-{
-"s": "YOUR FACE ON A BILLBOARD",
-"x": 0.62,
-"y": 0.48,
-"at": "@1",
-"size": 44
+"at": "@0.100"
 }
 ]
 },
 {
 "lines": [
-123,
-124
+122
+],
+"set": "rooftop",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.3,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+}
+],
+"items": [
+{
+"k": "billboard",
+"x": 0.72,
+"sc": 0.55,
+"up": 3
+}
+],
+"text": [
+{
+"s": "PENTHOUSE",
+"x": 0.3,
+"y": 0.15,
+"at": -1
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-384.0,
+-384.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+123
 ],
 "set": "kitchen",
 "actors": [
 {
 "id": "rio",
 "who": "rio",
-"x": 0.42,
+"x": 0.44,
 "pose": [
 [
 0,
-"holdCup"
+"relaxed"
+],
+[
+0.35,
+"point"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+],
+[
+0.35,
+"shocked"
+]
+]
+}
+],
+"items": [
+{
+"k": "table",
+"x": 0.55,
+"w": 1.0
+},
+{
+"k": "cerealbox",
+"x": 0.55,
+"on": 0.75
+}
+],
+"cam": {
+"z": [
+1.4,
+1.6
+],
+"x": [
+80,
+90
+],
+"y": [
+60,
+60
+]
+}
+},
+{
+"lines": [
+124
+],
+"set": "rooftop",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
+[
+0,
+"phone"
 ]
 ],
 "expr": [
@@ -3390,45 +6066,57 @@
 "joy"
 ]
 ],
-"seed": 5,
-"pace": 0.04,
-"paceT": 3.6
+"hold": {
+"k": "phone"
+}
 }
 ],
 "items": [],
 "props": [
 {
-"k": "phone",
-"x": 0.65,
-"y": 0.4,
-"r": 70,
-"at": "@1",
+"k": "heart",
+"x": 0.62,
+"y": 0.42,
+"r": 40,
+"at": 0.2,
 "disc": true
 }
 ],
 "card": {
 "big": "400,000,000",
 "small": "followers",
-"at": "@1",
-"x": 0.65,
-"y": 0.15,
+"at": 0.15,
+"x": 0.7,
+"y": 0.2,
 "w": 640
 }
 },
 {
 "lines": [
-125,
-126
+125
 ],
 "set": "stadium",
 "actors": [
 {
 "id": "rio",
 "who": "rio",
-"x": 0.5,
+"x": [
+[
+0,
+0.3
+],
+[
+"@0.600",
+0.5
+]
+],
 "pose": [
 [
 0,
+"relaxed"
+],
+[
+"@0.700",
 "cheer"
 ]
 ],
@@ -3437,33 +6125,98 @@
 0,
 "joy"
 ]
-],
-"seed": 6,
-"pace": 0.04,
-"paceT": 5.0
+]
 }
 ],
 "items": [],
+"props": [],
 "text": [
 {
 "s": "SOLD OUT",
 "x": 0.5,
 "y": 0.15,
-"at": 0.05
-},
-{
-"s": "HA HA HA",
-"x": 0.5,
-"y": 0.3,
-"at": "@1",
-"size": 60
+"at": "@0.100"
 }
 ]
 },
 {
 "lines": [
-127,
-128
+126
+],
+"set": "stadium",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.5
+]
+],
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "mic",
+"x": 0.56,
+"y": 0.5,
+"r": 30,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [
+{
+"s": "SOLD OUT",
+"x": 0.5,
+"y": 0.15,
+"at": -1
+},
+{
+"s": "HA HA HA",
+"x": 0.5,
+"y": 0.3,
+"at": "@0.500",
+"size": 60
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+127
 ],
 "set": "rooftop",
 "actors": [
@@ -3475,25 +6228,41 @@
 [
 0,
 "cheer"
-],
-[
-"@1",
-"relaxed"
 ]
 ],
 "expr": [
 [
 0,
 "joy"
+]
+]
+}
 ],
+"items": [],
+"text": []
+},
+{
+"lines": [
+128
+],
+"set": "rooftop",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.45,
+"pose": [
 [
-"@1",
-"thinking"
+0,
+"relaxed"
 ]
 ],
-"seed": 2,
-"pace": -0.06,
-"paceT": 4.2
+"expr": [
+[
+0,
+"thinking"
+]
+]
 }
 ],
 "items": [],
@@ -3502,9 +6271,24 @@
 "s": "RIGHT?",
 "x": 0.55,
 "y": 0.2,
-"at": "@1"
+"at": "@0.000"
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
 ]
+}
 },
 {
 "lines": [
@@ -3532,10 +6316,7 @@
 0,
 "worried"
 ]
-],
-"seed": 0,
-"pace": 0.06,
-"paceT": 3.6
+]
 }
 ],
 "items": [],
@@ -3552,7 +6333,65 @@
 },
 {
 "lines": [
-131,
+131
+],
+"set": "hospital",
+"actors": [
+{
+"id": "zoe",
+"who": "zoe",
+"x": [
+[
+0,
+0.1
+],
+[
+"@0.999",
+0.4125
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.78,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"rot": -1.5708,
+"dy": 41
+}
+],
+"items": [
+{
+"k": "bed",
+"x": 0.78
+}
+]
+},
+{
+"lines": [
 132
 ],
 "set": "hospital",
@@ -3563,11 +6402,11 @@
 "x": [
 [
 0,
-0.2
+0.4125
 ],
 [
-1,
-0.7
+"@0.600",
+0.6
 ]
 ],
 "pose": [
@@ -3576,8 +6415,8 @@
 "relaxed"
 ],
 [
-"@1",
-"think"
+"@0.700",
+"explain"
 ]
 ],
 "expr": [
@@ -3586,16 +6425,44 @@
 "determined"
 ]
 ],
-"seed": 0
+"talk": [
+"@0.700",
+1
+]
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.78,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sad"
+]
+],
+"rot": -1.5708,
+"dy": 41
 }
 ],
-"items": [],
+"items": [
+{
+"k": "bed",
+"x": 0.78
+}
+],
 "card": {
 "big": "12-HOUR SHIFTS",
 "small": "in the emergency room",
-"at": "@1",
+"at": "@0.000",
 "y": 0.15
-}
+},
+"fx": []
 },
 {
 "lines": [
@@ -3607,15 +6474,24 @@
 {
 "id": "zoe",
 "who": "zoe",
-"x": 0.45,
+"x": [
+[
+0,
+0.88
+],
+[
+0.5,
+0.55
+]
+],
 "pose": [
 [
 0,
-"sad"
+"relaxed"
 ],
 [
-"@1",
-"facepalm"
+0.6,
+"sad"
 ]
 ],
 "expr": [
@@ -3624,17 +6500,20 @@
 "sleepy"
 ]
 ],
-"seed": 7,
-"pace": 0.04,
-"paceT": 5.0
+"facing": -1
 }
 ],
-"items": [],
+"items": [
+{
+"k": "housedoor",
+"x": 0.9
+}
+],
 "text": [
 {
 "s": "TIRED. HAIR A MESS.",
 "x": 0.5,
-"y": 0.2,
+"y": 0.15,
 "at": 0.05,
 "size": 56
 }
@@ -3642,21 +6521,18 @@
 },
 {
 "lines": [
-135,
-136,
-137,
-138
+135
 ],
 "set": "kitchen",
 "actors": [
 {
 "id": "zoe",
 "who": "zoe",
-"x": 0.5,
+"x": 0.553,
 "pose": [
 [
 0,
-"carry"
+"stir"
 ]
 ],
 "expr": [
@@ -3665,16 +6541,199 @@
 "happy"
 ]
 ],
+"hold": {
+"k": "spoon"
+},
 "talk": [
-0,
+"@0.000",
 1
-],
-"seed": 1
+]
 },
 {
 "id": "rio",
 "who": "rio",
-"x": 0.25,
+"x": 0.22,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "stove",
+"x": 0.59
+},
+{
+"k": "table",
+"x": 0.3,
+"w": 1.0
+}
+],
+"props": [
+{
+"k": "note",
+"x": 0.62,
+"y": 0.3,
+"r": 40,
+"at": "@0.400",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+136,
+137
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.553,
+"pose": [
+[
+0,
+"stir"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"hold": {
+"k": "spoon"
+},
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.22,
+"pose": [
+[
+0,
+"sitTable"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "stove",
+"x": 0.59
+},
+{
+"k": "table",
+"x": 0.3,
+"w": 1.0
+}
+],
+"props": [
+{
+"k": "note",
+"x": 0.62,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "note",
+"x": 0.68,
+"y": 0.24,
+"r": 30,
+"at": "@0.200",
+"disc": true
+}
+],
+"text": [
+{
+"s": "STAYIN' ALIVE...",
+"x": 0.6,
+"y": 0.15,
+"at": "@0.000",
+"size": 56
+},
+{
+"s": "OVER AND OVER",
+"x": 0.6,
+"y": 0.25,
+"at": "@1.000",
+"size": 46
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+101.76000000000009,
+101.76000000000009
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+138
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.553,
+"pose": [
+[
+0,
+"stir"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"hold": {
+"k": "spoon"
+},
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.22,
 "pose": [
 [
 0,
@@ -3686,28 +6745,35 @@
 0,
 "smirk"
 ]
-],
-"seed": 2,
-"enter": "left",
-"enterUntil": 0.18
+]
 }
 ],
-"items": [],
+"items": [
+{
+"k": "stove",
+"x": 0.59
+},
+{
+"k": "table",
+"x": 0.3,
+"w": 1.0
+}
+],
 "props": [
 {
 "k": "note",
-"x": 0.6,
+"x": 0.62,
 "y": 0.3,
 "r": 40,
-"at": 0.1,
+"at": -1,
 "disc": true
 },
 {
 "k": "note",
-"x": 0.66,
+"x": 0.68,
 "y": 0.24,
 "r": 30,
-"at": 0.3,
+"at": -1,
 "disc": true
 }
 ],
@@ -3716,23 +6782,37 @@
 "s": "STAYIN' ALIVE...",
 "x": 0.6,
 "y": 0.15,
-"at": "@1",
+"at": -1,
 "size": 56
 },
 {
 "s": "OVER AND OVER",
 "x": 0.6,
 "y": 0.25,
-"at": "@2",
+"at": -1,
 "size": 46
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+50.880000000000045,
+50.880000000000045
+],
+"y": [
+-10,
+-10
 ]
+}
 },
 {
 "lines": [
 139,
-140,
-141
+140
 ],
 "set": "kitchen",
 "actors": [
@@ -3745,21 +6825,17 @@
 0.22
 ],
 [
-"@0.7",
-0.38
+"@0.700",
+0.42
 ]
 ],
 "pose": [
 [
 0,
-"talk"
+"relaxed"
 ],
 [
-"@1",
-"explain"
-],
-[
-"@2",
+"@0.800",
 "talk"
 ]
 ],
@@ -3770,27 +6846,92 @@
 ]
 ],
 "talk": [
-0,
-"@0.9"
-],
-"seed": 5,
-"paceT": 3.6
+"@0.400",
+"@0.950"
+]
 },
 {
 "id": "zoe",
 "who": "zoe",
-"x": 0.56,
+"x": 0.553,
 "pose": [
 [
 0,
-"relaxed"
+"stir"
 ],
 [
-"@1",
+"@1.000",
 "cheer"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"hold": {
+"k": "spoon"
+},
+"facing": [
+[
+0,
+1
 ],
 [
-"@2",
+"@0.900",
+-1
+]
+],
+"talk": [
+"@1.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "stove",
+"x": 0.59
+}
+],
+"text": []
+},
+{
+"lines": [
+141
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.42
+]
+],
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"confused"
+]
+]
+},
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.553,
+"pose": [
+[
+0,
 "explain"
 ]
 ],
@@ -3800,30 +6941,69 @@
 "happy"
 ]
 ],
-"facing": -1,
-"talk": [
-"@1",
-1
+"hold": {
+"k": "spoon"
+},
+"facing": [
+[
+0,
+-1
+]
 ],
-"seed": 8,
-"enter": "right",
-"enterUntil": 0.18
+"talk": [
+"@0.000",
+1
+]
 }
 ],
-"items": [],
+"items": [
+{
+"k": "stove",
+"x": 0.59
+}
+],
 "text": [
 {
 "s": "\"IT'S THE BEAT FOR CPR\"",
 "x": 0.5,
 "y": 0.18,
-"at": "@2",
+"at": "@0.000",
 "size": 54
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+101.76000000000009,
+101.76000000000009
+],
+"y": [
+-40,
+-40
 ]
+}
 },
 {
 "lines": [
-142,
+142
+],
+"set": "kitchen",
+"actors": [],
+"items": [],
+"card": {
+"big": "~104 BEATS / MIN",
+"small": "the tempo of Stayin' Alive",
+"at": "@0.100",
+"w": 760
+},
+"props": []
+},
+{
+"lines": [
 143
 ],
 "set": "kitchen",
@@ -3832,7 +7012,7 @@
 "card": {
 "big": "~104 BEATS / MIN",
 "small": "the tempo of Stayin' Alive",
-"at": 0.05,
+"at": -1,
 "w": 760
 },
 "props": [
@@ -3841,15 +7021,95 @@
 "x": 0.5,
 "y": 0.58,
 "r": 90,
-"at": "@1",
+"at": "@0.000",
 "disc": true
 }
-]
+],
+"fx": []
 },
 {
 "lines": [
 144,
-145,
+145
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.43,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"think"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+],
+[
+"@1.000",
+"nervous"
+]
+],
+"talk": [
+"@1.000",
+"@1.900"
+]
+},
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.49,
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.300",
+"tap"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "stove",
+"x": 0.75
+}
+],
+"cam": {
+"z": [
+1.35,
+1.417
+],
+"y": [
+-60.0,
+-60.0
+],
+"x": [
+-20.0,
+-20.0
+]
+},
+"text": []
+},
+{
+"lines": [
 146
 ],
 "set": "kitchen",
@@ -3857,47 +7117,28 @@
 {
 "id": "rio",
 "who": "rio",
-"x": 0.42,
+"x": 0.43,
 "pose": [
 [
 0,
-"relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
 "relaxed"
 ]
 ],
 "expr": [
 [
 0,
-"surprised"
+"nervous"
 ]
-],
-"seed": 3,
-"pace": 0.06,
-"paceT": 3.6
+]
 },
 {
 "id": "zoe",
 "who": "zoe",
-"x": 0.52,
+"x": 0.49,
 "pose": [
 [
 0,
-"point"
-],
-[
-"@1",
-"explain"
-],
-[
-"@2",
-"point"
+"tap"
 ]
 ],
 "expr": [
@@ -3908,23 +7149,29 @@
 ],
 "facing": -1,
 "talk": [
-"@1",
+"@0.000",
 1
-],
-"seed": 4,
-"enter": "right",
-"enterUntil": 0.18
+]
 }
 ],
-"items": [],
+"items": [
+{
+"k": "stove",
+"x": 0.75
+}
+],
 "cam": {
 "z": [
-1.35,
+1.417,
 1.45
 ],
 "y": [
--60,
--60
+-60.0,
+-60.0
+],
+"x": [
+-20.0,
+-20.0
 ]
 },
 "text": [
@@ -3932,13 +7179,37 @@
 "s": "HARD AND FAST",
 "x": 0.5,
 "y": 0.18,
-"at": "@2"
+"at": "@0.000"
+}
+],
+"fx": []
+},
+{
+"lines": [
+147
+],
+"set": "kitchen",
+"actors": [],
+"items": [],
+"card": {
+"big": "5 CM DEEP",
+"small": "100-120 pushes per minute",
+"at": "@0.150",
+"w": 720
+},
+"props": [
+{
+"k": "heart",
+"x": 0.5,
+"y": 0.58,
+"r": 80,
+"at": "@0.600",
+"disc": true
 }
 ]
 },
 {
 "lines": [
-147,
 148,
 149
 ],
@@ -3948,7 +7219,7 @@
 "card": {
 "big": "5 CM DEEP",
 "small": "100-120 pushes per minute",
-"at": 0.05,
+"at": -1,
 "w": 720
 },
 "props": [
@@ -3957,10 +7228,11 @@
 "x": 0.5,
 "y": 0.58,
 "r": 80,
-"at": 0.2,
+"at": -1,
 "disc": true
 }
-]
+],
+"fx": []
 },
 {
 "lines": [
@@ -3992,10 +7264,7 @@
 "talk": [
 "@1",
 1
-],
-"seed": 9,
-"pace": -0.04,
-"paceT": 5.0
+]
 },
 {
 "id": "zoe",
@@ -4005,10 +7274,6 @@
 [
 0,
 "crossArms"
-],
-[
-"@1",
-"think"
 ]
 ],
 "expr": [
@@ -4017,21 +7282,46 @@
 "smile"
 ]
 ],
-"facing": -1,
-"seed": 1,
-"enter": "right",
-"enterUntil": 0.18
+"facing": -1
 }
 ],
 "items": []
 },
 {
 "lines": [
-152,
+152
+],
+"set": "office",
+"actors": [
+{
+"id": "zoe",
+"who": "zoeRich",
+"x": 0.5,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.72
+}
+]
+},
+{
+"lines": [
 153,
-154,
-155,
-156
+154
 ],
 "set": "office",
 "actors": [
@@ -4045,7 +7335,72 @@
 "crossArms"
 ],
 [
-"@3",
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.72
+}
+],
+"card": {
+"big": "MANAGER",
+"small": "a big office",
+"at": "@0.000",
+"y": 0.14
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+155
+],
+"set": "street",
+"actors": [
+{
+"id": "zoe",
+"who": "zoeRich",
+"x": [
+[
+0,
+0.9
+],
+[
+0.6,
+0.7
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+0.65,
 "phone"
 ]
 ],
@@ -4055,31 +7410,79 @@
 "smirk"
 ]
 ],
+"facing": -1,
 "hold": {
 "k": "phone",
-"from": "@3"
+"from": 0.65
+}
+}
+],
+"items": [
+{
+"k": "car",
+"x": 0.38,
+"color": "#c8a040",
+"a": 1
+}
+],
+"text": [
+{
+"s": "A SHINY CAR",
+"x": 0.5,
+"y": 0.15,
+"at": 0.1
+}
+]
 },
-"seed": 1
+{
+"lines": [
+156
+],
+"set": "office",
+"actors": [
+{
+"id": "zoe",
+"who": "zoeRich",
+"x": 0.5,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+]
 }
 ],
 "items": [
 {
 "k": "desk",
 "x": 0.72
-},
-{
-"k": "car",
-"x": 0.2,
-"color": "#c8a040",
-"a": 1
 }
 ],
-"card": {
-"big": "MANAGER",
-"small": "big office, shiny car",
-"at": "@1",
-"y": 0.14
+"cam": {
+"z": [
+1.5,
+1.6
+],
+"y": [
+-90,
+-90
+]
+},
+"text": [
+{
+"s": "SUNGLASSES INDOORS",
+"x": 0.5,
+"y": 0.15,
+"at": 0.1,
+"size": 52
 }
+]
 },
 {
 "lines": [
@@ -4095,10 +7498,6 @@
 [
 0,
 "crossArms"
-],
-[
-"@0.5",
-"think"
 ]
 ],
 "expr": [
@@ -4106,10 +7505,7 @@
 0,
 "neutral"
 ]
-],
-"seed": 2,
-"pace": -0.04,
-"paceT": 3.6
+]
 }
 ],
 "items": [
@@ -4140,10 +7536,7 @@
 },
 {
 "lines": [
-158,
-159,
-160,
-161
+158
 ],
 "set": "office",
 "actors": [
@@ -4156,7 +7549,7 @@
 0.2
 ],
 [
-"@0.6",
+"@0.600",
 0.38
 ]
 ],
@@ -4164,18 +7557,6 @@
 [
 0,
 "explain"
-],
-[
-"@1",
-"talk"
-],
-[
-"@2",
-"explain"
-],
-[
-"@3",
-"talk"
 ]
 ],
 "expr": [
@@ -4185,11 +7566,9 @@
 ]
 ],
 "talk": [
-0,
-"@0.9"
-],
-"seed": 5,
-"paceT": 5.0
+"@0.000",
+"@0.900"
+]
 },
 {
 "id": "zoe",
@@ -4199,17 +7578,143 @@
 [
 0,
 "crossArms"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.8
+}
+],
+"text": []
+},
+{
+"lines": [
+159,
+160
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.38
+]
+],
+"pose": [
+[
+0,
+"talk"
 ],
 [
-"@1",
+"@1.000",
+"explain"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "zoe",
+"who": "zoeRich",
+"x": 0.58,
+"pose": [
+[
+0,
 "think"
 ],
 [
-"@2",
+"@1.000",
 "crossArms"
+]
 ],
+"expr": [
 [
-"@3",
+0,
+"smile"
+]
+],
+"facing": -1,
+"talk": [
+"@1.000",
+1
+]
+}
+],
+"items": [
+{
+"k": "desk",
+"x": 0.8
+}
+],
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+153.5999999999999,
+153.5999999999999
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+161
+],
+"set": "office",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.38
+]
+],
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "zoe",
+"who": "zoeRich",
+"x": 0.58,
+"pose": [
+[
+0,
 "think"
 ]
 ],
@@ -4221,12 +7726,9 @@
 ],
 "facing": -1,
 "talk": [
-"@2",
+"@0.000",
 1
-],
-"seed": 8,
-"enter": "right",
-"enterUntil": 0.18
+]
 }
 ],
 "items": [
@@ -4240,10 +7742,25 @@
 "s": "\"WHO WOULD WANT THAT JOB?\"",
 "x": 0.5,
 "y": 0.18,
-"at": "@3",
+"at": "@0.000",
 "size": 50
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+76.79999999999995,
+76.79999999999995
+],
+"y": [
+-10,
+-10
 ]
+}
 },
 {
 "lines": [
@@ -4271,10 +7788,7 @@
 0,
 "sad"
 ]
-],
-"seed": 5,
-"pace": -0.06,
-"paceT": 3.6
+]
 }
 ],
 "items": [
@@ -4305,9 +7819,7 @@
 },
 {
 "lines": [
-164,
-165,
-166
+164
 ],
 "set": "hospital",
 "actors": [
@@ -4318,14 +7830,6 @@
 "pose": [
 [
 0,
-"relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
 "relaxed"
 ]
 ],
@@ -4341,13 +7845,47 @@
 1
 ],
 [
-0.7,
-0
+"@0.999",
+0.5238
+]
+]
+}
+],
+"items": [],
+"text": []
+},
+{
+"lines": [
+165
+],
+"set": "hospital",
+"actors": [
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.5,
+"pose": [
+[
+0,
+"think"
 ]
 ],
-"seed": 9,
-"pace": 0.04,
-"paceT": 3.6
+"expr": [
+[
+0,
+"smile"
+]
+],
+"alpha": [
+[
+0,
+0.5238
+],
+[
+"@0.999",
+0.0476
+]
+]
 }
 ],
 "items": [],
@@ -4356,16 +7894,162 @@
 "s": "YOU WISHED HER AWAY",
 "x": 0.5,
 "y": 0.18,
-"at": "@1",
+"at": "@0.000",
 "size": 56
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
 ]
+}
 },
 {
 "lines": [
-167,
+166
+],
+"set": "hospital",
+"actors": [
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.5,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"alpha": [
+[
+0,
+0.0476
+],
+[
+"@0.100",
+0
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "YOU WISHED HER AWAY",
+"x": 0.5,
+"y": 0.18,
+"at": -1,
+"size": 56
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+167
+],
+"set": "stadium",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": []
+},
+{
+"lines": [
 168,
-169,
+169
+],
+"set": "stadium",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [],
+"card": {
+"big": "80,000 FANS",
+"small": "live in 40 countries",
+"at": "@0.000",
+"y": 0.14
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
 170
 ],
 "set": "stadium",
@@ -4385,24 +8069,35 @@
 0,
 "smile"
 ]
-],
-"seed": 8,
-"pace": -0.04,
-"paceT": 3.6
+]
 }
 ],
 "items": [],
 "card": {
 "big": "80,000 FANS",
 "small": "live in 40 countries",
-"at": "@1",
+"at": -1,
 "y": 0.14
+},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-10,
+-10
+]
 }
 },
 {
 "lines": [
-171,
-172
+171
 ],
 "set": "room",
 "actors": [
@@ -4414,10 +8109,6 @@
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
 ]
 ],
 "expr": [
@@ -4425,10 +8116,7 @@
 0,
 "nervous"
 ]
-],
-"seed": 1,
-"pace": -0.05,
-"paceT": 5.0
+]
 },
 {
 "id": "zoe",
@@ -4449,8 +8137,7 @@
 "facing": -1,
 "hold": {
 "k": "phone"
-},
-"seed": 7
+}
 }
 ],
 "items": [],
@@ -4459,15 +8146,84 @@
 "card": {
 "big": "5 MIN",
 "small": "until showtime",
-"at": 0.05,
+"at": "@0.100",
 "x": 0.75
 }
 },
 {
 "lines": [
+172
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+]
+},
+{
+"id": "zoe",
+"who": "zoeRich",
+"x": 0.55,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"card": {
+"big": "5 MIN",
+"small": "until showtime",
+"at": -1,
+"x": 0.75
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-191.99999999999994,
+-191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
 173,
-174,
-175
+174
 ],
 "set": "room",
 "actors": [
@@ -4480,7 +8236,7 @@
 0.7
 ],
 [
-"@0.6",
+"@0.600",
 0.7
 ]
 ],
@@ -4490,7 +8246,7 @@
 "relaxed"
 ],
 [
-"@0.4",
+"@0.400",
 "fall"
 ]
 ],
@@ -4500,23 +8256,26 @@
 "neutral"
 ],
 [
-"@0.4",
+"@0.400",
 "scared"
 ]
 ],
 "facing": -1,
 "rot": [
 [
-"@0.4",
+0,
 0
 ],
 [
-"@1",
+"@0.400",
+0
+],
+[
+"@1.000",
 1.5708
 ]
 ],
-"dy": 0,
-"seed": 0
+"dy": 0
 },
 {
 "id": "rio",
@@ -4526,14 +8285,6 @@
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
-"relaxed"
 ]
 ],
 "expr": [
@@ -4542,13 +8293,10 @@
 "neutral"
 ],
 [
-"@0.5",
+"@0.500",
 "shocked"
 ]
-],
-"seed": 8,
-"enter": "left",
-"enterUntil": 0.18
+]
 }
 ],
 "items": [],
@@ -4557,8 +8305,148 @@
 },
 {
 "lines": [
+175
+],
+"set": "room",
+"actors": [
+{
+"id": "guard",
+"who": "guard",
+"x": [
+[
+0,
+0.7
+]
+],
+"pose": [
+[
+0,
+"fall"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"rot": [
+[
+0,
+1.5708
+]
+],
+"dy": 0
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.4,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+]
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"fx": []
+},
+{
+"lines": [
 176,
-177,
+177
+],
+"set": "room",
+"actors": [
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"facing": 1,
+"dy": 136
+},
+{
+"id": "zoe",
+"who": "zoeRich",
+"x": 0.5,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"talk": [
+"@1.000",
+"@1.900"
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.85,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1,
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"text": [
+{
+"s": "CALL AN AMBULANCE!",
+"x": 0.5,
+"y": 0.18,
+"at": "@1.000",
+"size": 56
+}
+]
+},
+{
+"lines": [
 178
 ],
 "set": "room",
@@ -4581,8 +8469,7 @@
 ],
 "rot": 1.5708,
 "facing": 1,
-"dy": 136,
-"seed": 2
+"dy": 136
 },
 {
 "id": "zoe",
@@ -4599,14 +8486,7 @@
 0,
 "scared"
 ]
-],
-"talk": [
-"@1",
-"@1.9"
-],
-"seed": 7,
-"pace": 0.06,
-"paceT": 3.6
+]
 },
 {
 "id": "crowd1",
@@ -4629,10 +8509,9 @@
 "k": "phone"
 },
 "talk": [
-"@2",
+"@0.000",
 1
-],
-"seed": 3
+]
 }
 ],
 "items": [],
@@ -4643,14 +8522,54 @@
 "s": "CALL AN AMBULANCE!",
 "x": 0.5,
 "y": 0.18,
-"at": "@1",
+"at": -1,
 "size": 56
 }
+],
+"fx": []
+},
+{
+"lines": [
+179
+],
+"set": "city",
+"actors": [],
+"items": [
+{
+"k": "prop",
+"p": "ambulance",
+"x": 0.5,
+"size": 1.6,
+"up": 0.0
+},
+{
+"k": "prop",
+"p": "car",
+"x": 0.2,
+"size": 1.2,
+"up": 0.0
+},
+{
+"k": "prop",
+"p": "car",
+"x": 0.8,
+"size": 1.2,
+"up": 0.0
+},
+{
+"k": "prop",
+"p": "bus",
+"x": 0.35,
+"size": 1.6,
+"up": 0.0
+}
+],
+"fx": [
+"night"
 ]
 },
 {
 "lines": [
-179,
 180,
 181
 ],
@@ -4692,7 +8611,7 @@
 "card": {
 "big": "12 MINUTES AWAY",
 "small": "stuck in stadium traffic",
-"at": "@1",
+"at": "@0.000",
 "y": 0.15
 }
 },
@@ -4725,7 +8644,98 @@
 {
 "lines": [
 183,
-184,
+184
+],
+"set": "room",
+"actors": [
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"facing": 1,
+"dy": 136
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.88,
+"pose": [
+[
+0,
+"handsOnHead"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+],
+"facing": -1
+},
+{
+"id": "zoe",
+"who": "zoeRich",
+"x": 0.5,
+"pose": [
+[
+0,
+"crossArms"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.35,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"text": [
+{
+"s": "NOBODY KNOWS WHAT TO DO",
+"x": 0.5,
+"y": 0.15,
+"at": "@1.000",
+"size": 50
+}
+]
+},
+{
+"lines": [
 185
 ],
 "set": "room",
@@ -4748,8 +8758,7 @@
 ],
 "rot": 1.5708,
 "facing": 1,
-"dy": 136,
-"seed": 4
+"dy": 136
 },
 {
 "id": "crowd1",
@@ -4767,10 +8776,7 @@
 "scared"
 ]
 ],
-"facing": -1,
-"seed": 1,
-"pace": 0.06,
-"paceT": 2.4
+"facing": -1
 },
 {
 "id": "zoe",
@@ -4780,14 +8786,6 @@
 [
 0,
 "crossArms"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
-"crossArms"
 ]
 ],
 "expr": [
@@ -4795,10 +8793,7 @@
 0,
 "worried"
 ]
-],
-"seed": 5,
-"pace": 0.06,
-"paceT": 4.2
+]
 },
 {
 "id": "rio",
@@ -4808,29 +8803,14 @@
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
-"relaxed"
 ]
 ],
 "expr": [
 [
 0,
-"scared"
-],
-[
-"@2",
 "determined"
 ]
-],
-"seed": 2,
-"enter": "left",
-"enterUntil": 0.18
+]
 }
 ],
 "items": [],
@@ -4841,15 +8821,62 @@
 "s": "NOBODY KNOWS WHAT TO DO",
 "x": 0.5,
 "y": 0.15,
-"at": "@1",
+"at": -1,
 "size": 50
+}
+],
+"fx": []
+},
+{
+"lines": [
+186,
+187
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"think"
+],
+[
+"@1.000",
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"inset": {
+"who": "zoe",
+"label": "ZOE (MEMORY)",
+"talk": true,
+"at": "@0.000",
+"x": 0.25
+},
+"text": [
+{
+"s": "HARD AND FAST",
+"x": 0.62,
+"y": 0.2,
+"at": "@1.000"
 }
 ]
 },
 {
 "lines": [
-186,
-187,
 188
 ],
 "set": "room",
@@ -4862,14 +8889,6 @@
 [
 0,
 "think"
-],
-[
-"@1",
-"relaxed"
-],
-[
-"@2",
-"think"
 ]
 ],
 "expr": [
@@ -4877,10 +8896,7 @@
 0,
 "determined"
 ]
-],
-"seed": 9,
-"pace": -0.05,
-"paceT": 4.2
+]
 }
 ],
 "items": [],
@@ -4890,7 +8906,7 @@
 "who": "zoe",
 "label": "ZOE (MEMORY)",
 "talk": true,
-"at": 0,
+"at": -1,
 "x": 0.25
 },
 "text": [
@@ -4898,22 +8914,34 @@
 "s": "HARD AND FAST",
 "x": 0.62,
 "y": 0.2,
-"at": "@1"
+"at": -1
 },
 {
 "s": "5 CM DEEP",
 "x": 0.62,
 "y": 0.32,
-"at": "@2"
+"at": "@0.000"
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
 ]
+}
 },
 {
 "lines": [
-189,
-190,
-191,
-192
+189
 ],
 "set": "room",
 "actors": [
@@ -4925,18 +8953,6 @@
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
-"relaxed"
-],
-[
-"@3",
-"shrug"
 ]
 ],
 "expr": [
@@ -4944,10 +8960,7 @@
 0,
 "worried"
 ]
-],
-"seed": 8,
-"pace": -0.04,
-"paceT": 5.0
+]
 },
 {
 "id": "zoe",
@@ -4958,7 +8971,58 @@
 0.1
 ],
 [
-"@0.6",
+"@0.600",
+0.32
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"angry"
+]
+]
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"text": []
+},
+{
+"lines": [
+190
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+]
+},
+{
+"id": "zoe",
+"who": "zoeRich",
+"x": [
+[
+0,
 0.32
 ]
 ],
@@ -4975,11 +9039,9 @@
 ]
 ],
 "talk": [
-"@1",
+"@0.000",
 1
-],
-"seed": 5,
-"enterUntil": 0.18
+]
 }
 ],
 "items": [],
@@ -4990,16 +9052,30 @@
 "s": "\"YOU'RE ON IN 4 MINUTES\"",
 "x": 0.55,
 "y": 0.15,
-"at": "@1",
+"at": "@0.000",
 "size": 50
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-345.59999999999997,
+-345.59999999999997
+],
+"y": [
+-40,
+-40
 ]
+}
 },
 {
 "lines": [
-193,
-194,
-195
+191,
+192
 ],
 "set": "room",
 "actors": [
@@ -5011,9 +9087,83 @@
 [
 0,
 "relaxed"
+]
 ],
+"expr": [
 [
-"@1",
+0,
+"worried"
+]
+]
+},
+{
+"id": "zoe",
+"who": "zoeRich",
+"x": [
+[
+0,
+0.32
+]
+],
+"pose": [
+[
+0,
+"reach"
+]
+],
+"expr": [
+[
+0,
+"angry"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"text": [
+{
+"s": "\"YOU'RE ON IN 4 MINUTES\"",
+"x": 0.55,
+"y": 0.15,
+"at": -1,
+"size": 50
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-172.79999999999998,
+-172.79999999999998
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+193
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
 "relaxed"
 ]
 ],
@@ -5029,13 +9179,10 @@
 -1
 ],
 [
-"@1",
+"@0.999",
 1
 ]
-],
-"seed": 7,
-"pace": -0.05,
-"paceT": 4.2
+]
 },
 {
 "id": "guard",
@@ -5055,8 +9202,130 @@
 ],
 "rot": 1.5708,
 "facing": 1,
-"dy": 136,
-"seed": 4
+"dy": 136
+}
+],
+"items": [
+{
+"k": "stage",
+"x": 0.08,
+"w": 3
+}
+],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"text": []
+},
+{
+"lines": [
+194
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": [
+[
+0,
+1
+]
+]
+},
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"facing": 1,
+"dy": 136
+}
+],
+"items": [
+{
+"k": "stage",
+"x": 0.08,
+"w": 3
+}
+],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"text": [],
+"fx": []
+},
+{
+"lines": [
+195
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": [
+[
+0,
+1
+]
+]
+},
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"facing": 1,
+"dy": 136
 }
 ],
 "items": [
@@ -5073,22 +9342,22 @@
 "s": "THE SPOTLIGHT...",
 "x": 0.25,
 "y": 0.18,
-"at": "@2",
+"at": "@0.000",
 "size": 50
 },
 {
 "s": "OR THE FLOOR",
 "x": 0.72,
 "y": 0.18,
-"at": "@2.5",
+"at": "@0.500",
 "size": 50
 }
-]
+],
+"fx": []
 },
 {
 "lines": [
-196,
-197
+196
 ],
 "set": "room",
 "actors": [
@@ -5100,10 +9369,6 @@
 [
 0,
 "kneel"
-],
-[
-"@1",
-"cpr"
 ]
 ],
 "expr": [
@@ -5111,8 +9376,7 @@
 0,
 "determined"
 ]
-],
-"seed": 3
+]
 },
 {
 "id": "guard",
@@ -5132,8 +9396,7 @@
 ],
 "rot": 1.5708,
 "facing": 1,
-"dy": 136,
-"seed": 0
+"dy": 136
 }
 ],
 "items": [],
@@ -5142,17 +9405,80 @@
 "cam": {
 "z": [
 1.3,
+1.35
+],
+"x": [
+180.0,
+190.0
+],
+"y": [
+80.0,
+80.0
+]
+}
+},
+{
+"lines": [
+197
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.725,
+"pose": [
+[
+0,
+"cpr"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"facing": 1,
+"dy": 136
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"cam": {
+"z": [
+1.35,
 1.4
 ],
 "x": [
-180,
-200
+190.0,
+200.0
 ],
 "y": [
-80,
-80
+80.0,
+80.0
 ]
-}
+},
+"fx": []
 },
 {
 "lines": [
@@ -5175,8 +9501,7 @@
 0,
 "determined"
 ]
-],
-"seed": 7
+]
 },
 {
 "id": "guard",
@@ -5196,8 +9521,7 @@
 ],
 "rot": 1.5708,
 "facing": 1,
-"dy": 136,
-"seed": 2
+"dy": 136
 }
 ],
 "items": [],
@@ -5228,10 +9552,7 @@
 },
 {
 "lines": [
-199,
-200,
-201,
-202
+199
 ],
 "set": "room",
 "actors": [
@@ -5249,13 +9570,8 @@
 [
 0,
 "determined"
-],
-[
-"@2",
-"nervous"
 ]
-],
-"seed": 2
+]
 },
 {
 "id": "guard",
@@ -5275,8 +9591,7 @@
 ],
 "rot": 1.5708,
 "facing": 1,
-"dy": 136,
-"seed": 0
+"dy": 136
 }
 ],
 "items": [],
@@ -5285,15 +9600,143 @@
 "cam": {
 "z": [
 1.45,
+1.475
+],
+"x": [
+200.0,
+202.5
+],
+"y": [
+100.0,
+100.0
+]
+},
+"text": []
+},
+{
+"lines": [
+200
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.725,
+"pose": [
+[
+0,
+"cpr"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"facing": 1,
+"dy": 136
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"cam": {
+"z": [
+1.475,
+1.5
+],
+"x": [
+202.5,
+205.0
+],
+"y": [
+100.0,
+100.0
+]
+},
+"text": [],
+"fx": []
+},
+{
+"lines": [
+201,
+202
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.725,
+"pose": [
+[
+0,
+"cpr"
+]
+],
+"expr": [
+[
+0,
+"nervous"
+]
+]
+},
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"facing": 1,
+"dy": 136
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"cam": {
+"z": [
+1.5,
 1.55
 ],
 "x": [
-200,
-210
+205.0,
+210.0
 ],
 "y": [
-100,
-100
+100.0,
+100.0
 ]
 },
 "text": [
@@ -5301,16 +9744,160 @@
 "s": "KEEP GOING",
 "x": 0.6,
 "y": 0.18,
-"at": "@3"
+"at": "@1.000"
+}
+],
+"fx": []
+},
+{
+"lines": [
+203,
+204
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.725,
+"pose": [
+[
+0,
+"cpr"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"facing": 1,
+"dy": 136
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"props": [],
+"text": [
+{
+"s": "WHAT WAS THE SONG?",
+"x": 0.5,
+"y": 0.15,
+"at": "@0.250",
+"size": 50
 }
 ]
 },
 {
 "lines": [
-203,
-204,
 205,
-206,
+206
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.725,
+"pose": [
+[
+0,
+"cpr"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"facing": 1,
+"dy": 136
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"props": [
+{
+"k": "note",
+"x": 0.5,
+"y": 0.3,
+"r": 40,
+"at": "@0.000",
+"disc": true
+},
+{
+"k": "note",
+"x": 0.55,
+"y": 0.22,
+"r": 30,
+"at": "@0.500",
+"disc": true
+}
+],
+"text": [
+{
+"s": "WHAT WAS THE SONG?",
+"x": 0.5,
+"y": 0.15,
+"at": -1,
+"size": 50
+},
+{
+"s": "STAYIN' ALIVE",
+"x": 0.5,
+"y": 0.25,
+"at": "@1.000",
+"size": 60
+}
+],
+"fx": []
+},
+{
+"lines": [
 207
 ],
 "set": "room",
@@ -5332,10 +9919,29 @@
 ]
 ],
 "talk": [
-"@2",
+"@0.000",
 1
+]
+},
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
 ],
-"seed": 3
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"facing": 1,
+"dy": 136
 }
 ],
 "items": [],
@@ -5347,7 +9953,7 @@
 "x": 0.5,
 "y": 0.3,
 "r": 40,
-"at": "@2",
+"at": -1,
 "disc": true
 },
 {
@@ -5355,7 +9961,7 @@
 "x": 0.55,
 "y": 0.22,
 "r": 30,
-"at": "@2.5",
+"at": -1,
 "disc": true
 }
 ],
@@ -5364,22 +9970,112 @@
 "s": "WHAT WAS THE SONG?",
 "x": 0.5,
 "y": 0.15,
-"at": 0.05,
+"at": -1,
 "size": 50
 },
 {
 "s": "STAYIN' ALIVE",
 "x": 0.5,
 "y": 0.25,
-"at": "@3",
+"at": -1,
 "size": 60
+}
+],
+"fx": []
+},
+{
+"lines": [
+208,
+209
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.725,
+"pose": [
+[
+0,
+"cpr"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": [
+[
+0,
+0.2
+],
+[
+"@0.600",
+0.52
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.700",
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"talk": [
+"@1.000",
+"@1.900"
+]
+},
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"facing": 1,
+"dy": 136
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"text": [
+{
+"s": "\"SHOW ME\"",
+"x": 0.45,
+"y": 0.2,
+"at": "@1.000"
 }
 ]
 },
 {
 "lines": [
-208,
-209,
 210
 ],
 "set": "room",
@@ -5399,8 +10095,7 @@
 0,
 "determined"
 ]
-],
-"seed": 6
+]
 },
 {
 "id": "sam",
@@ -5408,20 +10103,12 @@
 "x": [
 [
 0,
-0.2
-],
-[
-"@0.6",
 0.52
 ]
 ],
 "pose": [
 [
 0,
-"relaxed"
-],
-[
-"@0.7",
 "kneel"
 ]
 ],
@@ -5430,12 +10117,7 @@
 0,
 "worried"
 ]
-],
-"talk": [
-"@1",
-"@1.9"
-],
-"seed": 3
+]
 },
 {
 "id": "guard",
@@ -5455,8 +10137,7 @@
 ],
 "rot": 1.5708,
 "facing": 1,
-"dy": 136,
-"seed": 1
+"dy": 136
 }
 ],
 "items": [],
@@ -5467,14 +10148,90 @@
 "s": "\"SHOW ME\"",
 "x": 0.45,
 "y": 0.2,
-"at": "@1"
+"at": -1
 }
-]
+],
+"fx": []
 },
 {
 "lines": [
 211,
-212,
+212
+],
+"set": "room",
+"actors": [
+{
+"id": "sam",
+"who": "sam",
+"x": 0.725,
+"pose": [
+[
+0,
+"cpr"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.48,
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"facing": 1,
+"dy": 136
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"card": {
+"big": "2 MIN EACH",
+"small": "take turns",
+"at": "@0.150",
+"x": 0.3,
+"y": 0.15
+}
+},
+{
+"lines": [
 213
 ],
 "set": "room",
@@ -5494,8 +10251,7 @@
 0,
 "determined"
 ]
-],
-"seed": 9
+]
 },
 {
 "id": "rio",
@@ -5514,10 +10270,9 @@
 ]
 ],
 "talk": [
-0,
+"@0.000",
 1
-],
-"seed": 0
+]
 },
 {
 "id": "guard",
@@ -5537,8 +10292,7 @@
 ],
 "rot": 1.5708,
 "facing": 1,
-"dy": 136,
-"seed": 9
+"dy": 136
 }
 ],
 "items": [],
@@ -5547,14 +10301,28 @@
 "card": {
 "big": "2 MIN EACH",
 "small": "take turns",
-"at": 0.05,
+"at": -1,
 "x": 0.3,
 "y": 0.15
-}
+},
+"fx": []
 },
 {
 "lines": [
-214,
+214
+],
+"set": "stadium",
+"actors": [],
+"items": [],
+"card": {
+"big": "10... 9... 8...",
+"small": null,
+"at": "@0.150"
+},
+"text": []
+},
+{
+"lines": [
 215,
 216
 ],
@@ -5564,17 +10332,18 @@
 "card": {
 "big": "10... 9... 8...",
 "small": null,
-"at": 0.05
+"at": -1
 },
 "text": [
 {
 "s": "RIO! RIO! RIO!",
 "x": 0.5,
 "y": 0.4,
-"at": "@1",
+"at": "@0.000",
 "size": 70
 }
-]
+],
+"fx": []
 },
 {
 "lines": [
@@ -5597,8 +10366,7 @@
 0,
 "determined"
 ]
-],
-"seed": 9
+]
 },
 {
 "id": "guard",
@@ -5618,8 +10386,7 @@
 ],
 "rot": 1.5708,
 "facing": 1,
-"dy": 136,
-"seed": 1
+"dy": 136
 }
 ],
 "items": [],
@@ -5635,7 +10402,78 @@
 },
 {
 "lines": [
-218,
+218
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.725,
+"pose": [
+[
+0,
+"cpr"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"facing": 1,
+"dy": 136
+}
+],
+"items": [],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"props": [
+{
+"k": "heart",
+"x": 0.3,
+"y": 0.3,
+"r": 60,
+"at": "@0.000",
+"disc": true
+}
+],
+"cam": {
+"z": [
+1.4,
+1.45
+],
+"x": [
+200.0,
+200.0
+],
+"y": [
+90.0,
+90.0
+]
+}
+},
+{
+"lines": [
 219
 ],
 "set": "room",
@@ -5655,8 +10493,7 @@
 0,
 "determined"
 ]
-],
-"seed": 4
+]
 },
 {
 "id": "guard",
@@ -5676,8 +10513,7 @@
 ],
 "rot": 1.5708,
 "facing": 1,
-"dy": 136,
-"seed": 2
+"dy": 136
 }
 ],
 "items": [],
@@ -5689,7 +10525,7 @@
 "x": 0.3,
 "y": 0.3,
 "r": 60,
-"at": 0,
+"at": -1,
 "disc": true
 },
 {
@@ -5697,30 +10533,29 @@
 "x": 0.3,
 "y": 0.55,
 "r": 50,
-"at": "@1",
+"at": "@0.000",
 "disc": true
 }
 ],
 "cam": {
 "z": [
-1.4,
+1.45,
 1.5
 ],
 "x": [
-200,
-200
+200.0,
+200.0
 ],
 "y": [
-90,
-90
+90.0,
+90.0
 ]
-}
+},
+"fx": []
 },
 {
 "lines": [
-220,
-221,
-222
+220
 ],
 "set": "room",
 "actors": [
@@ -5730,17 +10565,17 @@
 "x": [
 [
 0,
-0.95
+1.0
 ],
 [
-0.4,
-0.82
+"@0.999",
+0.85
 ]
 ],
 "pose": [
 [
 0,
-"kneel"
+"relaxed"
 ]
 ],
 "expr": [
@@ -5749,8 +10584,7 @@
 "determined"
 ]
 ],
-"facing": -1,
-"seed": 4
+"facing": -1
 },
 {
 "id": "nurse",
@@ -5758,24 +10592,16 @@
 "x": [
 [
 0,
-1.05
+1.08
 ],
 [
-0.4,
-0.9
+"@0.999",
+0.9467
 ]
 ],
 "pose": [
 [
 0,
-"relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
 "relaxed"
 ]
 ],
@@ -5785,16 +10611,32 @@
 "worried"
 ]
 ],
-"facing": -1,
-"seed": 6
+"facing": -1
 },
 {
 "id": "rio",
 "who": "rioSuit",
-"x": 0.5,
+"x": [
+[
+0,
+0.725
+],
+[
+"@0.900",
+0.725
+],
+[
+"@0.999",
+0.6861
+]
+],
 "pose": [
 [
 0,
+"cpr"
+],
+[
+"@0.900",
 "kneel"
 ]
 ],
@@ -5803,8 +10645,7 @@
 0,
 "sleepy"
 ]
-],
-"seed": 8
+]
 },
 {
 "id": "guard",
@@ -5824,19 +10665,155 @@
 ],
 "rot": 1.5708,
 "facing": 1,
-"dy": 136,
-"seed": 7
+"dy": 136
 }
 ],
-"items": [],
+"items": [
+{
+"k": "housedoor",
+"x": 0.96
+}
+],
 "wall": "#3a3040",
 "wall2": "#1a1420",
 "card": {
 "big": "11 MINUTES LATER",
 "small": null,
-"at": 0.05,
+"at": "@0.150",
 "y": 0.14
 }
+},
+{
+"lines": [
+221,
+222
+],
+"set": "room",
+"actors": [
+{
+"id": "doctor",
+"who": "doctor",
+"x": [
+[
+0,
+0.85
+],
+[
+"@0.200",
+0.82
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.260",
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1
+},
+{
+"id": "nurse",
+"who": "nurse",
+"x": [
+[
+0,
+0.9467
+],
+[
+"@0.350",
+0.9
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@1.000",
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"worried"
+]
+],
+"facing": -1
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.6861
+],
+[
+"@0.350",
+0.55
+]
+],
+"pose": [
+[
+0,
+"kneel"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+]
+},
+{
+"id": "guard",
+"who": "guard",
+"x": 0.7,
+"pose": [
+[
+0,
+"lie"
+]
+],
+"expr": [
+[
+0,
+"sleepy"
+]
+],
+"rot": 1.5708,
+"facing": 1,
+"dy": 136
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.96
+}
+],
+"wall": "#3a3040",
+"wall2": "#1a1420",
+"card": {
+"big": "11 MINUTES LATER",
+"small": null,
+"at": -1,
+"y": 0.14
+},
+"fx": []
 },
 {
 "lines": [
@@ -5865,8 +10842,7 @@
 "talk": [
 "@1",
 1
-],
-"seed": 5
+]
 },
 {
 "id": "rio",
@@ -5883,8 +10859,7 @@
 0,
 "cry"
 ]
-],
-"seed": 7
+]
 },
 {
 "id": "guard",
@@ -5904,8 +10879,7 @@
 ],
 "rot": 1.5708,
 "facing": 1,
-"dy": 136,
-"seed": 9
+"dy": 136
 }
 ],
 "items": [],
@@ -5923,10 +10897,7 @@
 },
 {
 "lines": [
-225,
-226,
-227,
-228
+225
 ],
 "set": "city",
 "actors": [
@@ -5938,33 +10909,50 @@
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
-"relaxed"
-],
-[
-"@3",
-"shrug"
 ]
 ],
 "expr": [
 [
 0,
 "neutral"
+]
+]
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"props": [],
+"text": []
+},
+{
+"lines": [
+226,
+227
+],
+"set": "city",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"think"
 ],
 [
-"@3",
-"smile"
+"@1.000",
+"relaxed"
 ]
 ],
-"seed": 0,
-"pace": 0.05,
-"paceT": 4.2
+"expr": [
+[
+0,
+"neutral"
+]
+]
 }
 ],
 "items": [],
@@ -5977,7 +10965,7 @@
 "x": 0.7,
 "y": 0.35,
 "r": 80,
-"at": "@1",
+"at": "@0.000",
 "disc": true
 }
 ],
@@ -5986,39 +10974,153 @@
 "s": "\"DISASTER!\"",
 "x": 0.7,
 "y": 0.2,
-"at": "@1"
+"at": "@0.000"
+}
+],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+228
+],
+"set": "city",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.45,
+"pose": [
+[
+0,
+"shrug"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+]
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"props": [
+{
+"k": "newspaper",
+"x": 0.7,
+"y": 0.35,
+"r": 80,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "\"DISASTER!\"",
+"x": 0.7,
+"y": 0.2,
+"at": -1
 },
 {
 "s": "NOT ONE BIT",
 "x": 0.3,
 "y": 0.2,
-"at": "@3",
+"at": "@0.000",
 "size": 56
 }
+],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-47.999999999999986,
+-47.999999999999986
+],
+"y": [
+-10,
+-10
 ]
+}
 },
 {
 "lines": [
-229,
-230,
-231,
-232,
-233,
-234
+229
 ],
-"set": "street",
+"set": "city",
 "actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": 1,
+"hold": {
+"k": "camera",
+"flash": 70
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.72,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"hold": {
+"k": "camera",
+"flash": 90
+}
+},
 {
 "id": "rio",
 "who": "rioSuit",
 "x": [
 [
 0,
-0.1
+0.05
 ],
 [
-"@4",
-0.45
+"@0.999",
+0.35
 ]
 ],
 "pose": [
@@ -6032,8 +11134,139 @@
 0,
 "determined"
 ]
+]
+}
 ],
-"seed": 2
+"items": [],
+"fx": [
+"night"
+],
+"text": []
+},
+{
+"lines": [
+230,
+231
+],
+"set": "city",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.3,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": 1,
+"hold": {
+"k": "camera",
+"flash": 70
+}
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.72,
+"pose": [
+[
+0,
+"photo"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+],
+"facing": -1,
+"hold": {
+"k": "camera",
+"flash": 90
+}
+},
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.35
+],
+[
+"@1.999",
+0.95
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+}
+],
+"items": [],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "NO COMMENT",
+"x": 0.5,
+"y": 0.18,
+"at": "@1.000",
+"size": 50
+}
+]
+},
+{
+"lines": [
+232,
+233
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.02
+],
+[
+"@1.600",
+0.38
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
 }
 ],
 "items": [
@@ -6056,17 +11289,82 @@
 "s": "6 BLOCKS",
 "x": 0.3,
 "y": 0.2,
-"at": "@3",
+"at": "@0.300",
 "size": 50
 }
 ]
 },
 {
 "lines": [
-235,
-236,
-237,
-238
+234
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.38
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"awe"
+]
+]
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.6
+},
+{
+"k": "booth",
+"x": 0.6,
+"part": "front",
+"front": true
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "6 BLOCKS",
+"x": 0.3,
+"y": 0.2,
+"at": -1,
+"size": 50
+}
+],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-230.39999999999998,
+-230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+235
 ],
 "set": "street",
 "actors": [
@@ -6079,7 +11377,7 @@
 0.3
 ],
 [
-"@0.55",
+"@0.550",
 0.6
 ]
 ],
@@ -6089,7 +11387,7 @@
 "relaxed"
 ],
 [
-"@0.6",
+"@0.600",
 "phoneEar"
 ]
 ],
@@ -6101,10 +11399,58 @@
 ],
 "hold": {
 "k": "phone",
-"from": "@0.6"
+"from": "@0.600"
+}
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.6
 },
-"lockFacing": false,
-"seed": 5
+{
+"k": "booth",
+"x": 0.6,
+"part": "front",
+"front": true
+}
+],
+"fx": [
+"night"
+]
+},
+{
+"lines": [
+236,
+237
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.6
+]
+],
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "phone",
+"from": 0
+}
 }
 ],
 "items": [
@@ -6130,16 +11476,100 @@
 ],
 "x": 0.3,
 "y": 0.25,
-"at": "@1"
+"at": "@0.000"
+},
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+238
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": [
+[
+0,
+0.6
+]
+],
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "phone",
+"from": 0
+}
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.6
+},
+{
+"k": "booth",
+"x": 0.6,
+"part": "front",
+"front": true
+}
+],
+"fx": [
+"night"
+],
+"thought": {
+"props": [
+"star",
+"phone",
+"crown"
+],
+"x": 0.3,
+"y": 0.25,
+"at": -1
+},
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+95.99999999999997,
+95.99999999999997
+],
+"y": [
+-10,
+-10
+]
 }
 },
 {
 "lines": [
 239,
-240,
-241,
-242,
-243
+240
 ],
 "set": "street",
 "actors": [
@@ -6157,16 +11587,55 @@
 [
 0,
 "thinking"
-],
-[
-"@4",
-"determined"
 ]
 ],
 "hold": {
 "k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.6
 },
-"seed": 5
+{
+"k": "booth",
+"x": 0.6,
+"part": "front",
+"front": true
+}
+],
+"fx": [
+"night"
+],
+"text": []
+},
+{
+"lines": [
+241
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.6,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+]
+],
+"hold": {
+"k": "phone"
+}
 }
 ],
 "items": [
@@ -6189,17 +11658,102 @@
 "s": "KEEP THE FAME...",
 "x": 0.3,
 "y": 0.2,
-"at": "@2",
+"at": "@0.000",
+"size": 50
+}
+],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+191.99999999999994,
+191.99999999999994
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+242,
+243
+],
+"set": "street",
+"actors": [
+{
+"id": "rio",
+"who": "rioSuit",
+"x": 0.6,
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"thinking"
+],
+[
+"@1.000",
+"determined"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [
+{
+"k": "booth",
+"x": 0.6
+},
+{
+"k": "booth",
+"x": 0.6,
+"part": "front",
+"front": true
+}
+],
+"fx": [
+"night"
+],
+"text": [
+{
+"s": "KEEP THE FAME...",
+"x": 0.3,
+"y": 0.2,
+"at": -1,
 "size": 50
 },
 {
 "s": "OR ONE LAST CALL",
 "x": 0.3,
 "y": 0.3,
-"at": "@3",
+"at": "@0.000",
 "size": 50
 }
+],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+95.99999999999997,
+95.99999999999997
+],
+"y": [
+-10,
+-10
 ]
+}
 },
 {
 "lines": [
@@ -6243,9 +11797,7 @@
 "talk": [
 0,
 0.85
-],
-"lockFacing": false,
-"seed": 8
+]
 }
 ],
 "items": [
@@ -6281,9 +11833,42 @@
 },
 {
 "lines": [
-245,
-246,
-247
+245
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.42
+]
+],
+"pose": [
+[
+0,
+"sitBack"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+}
+],
+"items": [],
+"fx": [
+"flash"
+],
+"text": []
+},
+{
+"lines": [
+246
 ],
 "set": "home",
 "actors": [
@@ -6296,25 +11881,64 @@
 0.42
 ],
 [
-"@1.2",
+"@0.200",
 0.42
 ],
 [
-"@2",
+"@0.999",
 0.5
 ]
 ],
 "pose": [
 [
 0,
-"sitBack"
-],
-[
-"@1",
 "stand"
+]
 ],
+"expr": [
 [
-"@2",
+0,
+"surprised"
+]
+]
+}
+],
+"items": [],
+"fx": [],
+"text": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-102.40000000000012,
+-102.40000000000012
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+247
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.5
+]
+],
+"pose": [
+[
+0,
 "handsOnHead"
 ]
 ],
@@ -6323,28 +11947,38 @@
 0,
 "surprised"
 ]
-],
-"seed": 1
+]
 }
 ],
 "items": [],
-"fx": [
-"flash"
-],
+"fx": [],
 "text": [
 {
 "s": "NO BILLBOARD",
 "x": 0.5,
 "y": 0.18,
-"at": "@2"
+"at": "@0.000"
 }
+],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-10,
+-10
 ]
+}
 },
 {
 "lines": [
 248,
-249,
-250
+249
 ],
 "set": "home",
 "actors": [
@@ -6362,46 +11996,88 @@
 [
 0,
 "neutral"
-],
-[
-"@2",
-"smirk"
 ]
 ],
 "hold": {
 "k": "phone"
-},
-"seed": 5
+}
 }
 ],
 "items": [],
 "card": {
 "big": "300 FOLLOWERS",
 "small": "2 are your cousins",
-"at": "@1",
+"at": "@1.000",
 "x": 0.68,
 "w": 640
 }
 },
 {
 "lines": [
+250
+],
+"set": "home",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.42,
+"pose": [
+[
+0,
+"phone"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"hold": {
+"k": "phone"
+}
+}
+],
+"items": [],
+"card": {
+"big": "300 FOLLOWERS",
+"small": "2 are your cousins",
+"at": -1,
+"x": 0.68,
+"w": 640
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-153.60000000000002,
+-153.60000000000002
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
 251,
-252,
-253,
-254,
-255,
-256
+252
 ],
 "set": "kitchen",
 "actors": [
 {
 "id": "zoe",
 "who": "zoe",
-"x": 0.55,
+"x": 0.553,
 "pose": [
 [
 0,
-"carry"
+"stir"
 ]
 ],
 "expr": [
@@ -6410,11 +12086,13 @@
 "happy"
 ]
 ],
+"hold": {
+"k": "spoon"
+},
 "talk": [
-0,
+"@0.000",
 1
-],
-"seed": 6
+]
 },
 {
 "id": "rio",
@@ -6422,60 +12100,40 @@
 "x": [
 [
 0,
-0.15
+0.05
 ],
 [
-"@3",
-0.38
+"@1.999",
+0.33
 ]
 ],
 "pose": [
 [
 0,
 "relaxed"
-],
-[
-"@1",
-"think"
-],
-[
-"@2",
-"relaxed"
-],
-[
-"@3",
-"shrug"
-],
-[
-"@4",
-"relaxed"
-],
-[
-"@5",
-"think"
 ]
 ],
 "expr": [
 [
 0,
 "surprised"
-],
-[
-"@3",
-"cry"
 ]
-],
-"seed": 9
+]
 }
 ],
-"items": [],
+"items": [
+{
+"k": "stove",
+"x": 0.59
+}
+],
 "props": [
 {
 "k": "note",
 "x": 0.62,
 "y": 0.3,
 "r": 40,
-"at": 0.05,
+"at": "@0.300",
 "disc": true
 },
 {
@@ -6483,7 +12141,7 @@
 "x": 0.68,
 "y": 0.24,
 "r": 30,
-"at": 0.2,
+"at": "@1.200",
 "disc": true
 }
 ],
@@ -6492,30 +12150,355 @@
 "s": "STAYIN' ALIVE",
 "x": 0.6,
 "y": 0.15,
-"at": "@1",
+"at": "@1.000",
 "size": 56
-},
-{
-"s": "NURSE SCRUBS",
-"x": 0.62,
-"y": 0.42,
-"at": "@3",
-"size": 40
 }
 ]
 },
 {
 "lines": [
-257,
-258,
-259
+253
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.553,
+"pose": [
+[
+0,
+"stir"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"hold": {
+"k": "spoon"
+},
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.33
+],
+[
+"@0.500",
+0.4
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+}
+],
+"items": [
+{
+"k": "stove",
+"x": 0.59
+}
+],
+"props": [
+{
+"k": "note",
+"x": 0.62,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "note",
+"x": 0.68,
+"y": 0.24,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "STAYIN' ALIVE",
+"x": 0.6,
+"y": 0.15,
+"at": -1,
+"size": 56
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+101.76000000000009,
+101.76000000000009
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+254,
+255
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.553,
+"pose": [
+[
+0,
+"stir"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"hold": {
+"k": "spoon"
+},
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.4
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [
+{
+"k": "stove",
+"x": 0.59
+}
+],
+"props": [
+{
+"k": "note",
+"x": 0.62,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "note",
+"x": 0.68,
+"y": 0.24,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "STAYIN' ALIVE",
+"x": 0.6,
+"y": 0.15,
+"at": -1,
+"size": 56
+},
+{
+"s": "NURSE SCRUBS",
+"x": 0.5,
+"y": 0.25,
+"at": "@0.000",
+"size": 40
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+50.880000000000045,
+50.880000000000045
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+256
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.553,
+"pose": [
+[
+0,
+"stir"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"hold": {
+"k": "spoon"
+},
+"talk": [
+"@0.000",
+1
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.4
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+}
+],
+"items": [
+{
+"k": "stove",
+"x": 0.59
+}
+],
+"props": [
+{
+"k": "note",
+"x": 0.62,
+"y": 0.3,
+"r": 40,
+"at": -1,
+"disc": true
+},
+{
+"k": "note",
+"x": 0.68,
+"y": 0.24,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [
+{
+"s": "STAYIN' ALIVE",
+"x": 0.6,
+"y": 0.15,
+"at": -1,
+"size": 56
+},
+{
+"s": "NURSE SCRUBS",
+"x": 0.5,
+"y": 0.25,
+"at": -1,
+"size": 40
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+101.76000000000009,
+101.76000000000009
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+257
 ],
 "set": "kitchen",
 "actors": [
 {
 "id": "rio",
 "who": "rio",
-"x": 0.45,
+"x": [
+[
+0,
+0.4
+],
+[
+"@0.360",
+0.47
+]
+],
 "pose": [
 [
 0,
@@ -6527,13 +12510,87 @@
 0,
 "cry"
 ]
-],
-"seed": 3
+]
 },
 {
 "id": "zoe",
 "who": "zoe",
-"x": 0.54,
+"x": 0.53,
+"pose": [
+[
+0,
+"stir"
+],
+[
+"@0.300",
+"hug"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+],
+"facing": -1,
+"hold": {
+"k": "spoon",
+"drop": "@0.420"
+},
+"talk": [
+"@0.600",
+1
+]
+}
+],
+"items": [
+{
+"k": "stove",
+"x": 0.75
+}
+],
+"text": [
+{
+"s": "\"RIO!\"",
+"x": 0.55,
+"y": 0.2,
+"at": "@0.600"
+}
+]
+},
+{
+"lines": [
+258,
+259
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.47
+]
+],
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"cry"
+]
+]
+},
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.53,
 "pose": [
 [
 0,
@@ -6548,21 +12605,40 @@
 ],
 "facing": -1,
 "talk": [
-"@0.6",
-"@1.6"
-],
-"seed": 1
+"@0.000",
+"@0.600"
+]
 }
 ],
-"items": [],
+"items": [
+{
+"k": "stove",
+"x": 0.75
+}
+],
 "text": [
 {
 "s": "\"RIO!\"",
 "x": 0.55,
 "y": 0.2,
-"at": "@0.6"
+"at": -1
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+57.60000000000005,
+57.60000000000005
+],
+"y": [
+-40,
+-40
 ]
+}
 },
 {
 "lines": [
@@ -6594,10 +12670,7 @@
 "talk": [
 0,
 1
-],
-"seed": 9,
-"pace": -0.06,
-"paceT": 4.2
+]
 },
 {
 "id": "crowd1",
@@ -6614,8 +12687,7 @@
 0,
 "smile"
 ]
-],
-"seed": 9
+]
 },
 {
 "id": "crowd2",
@@ -6633,8 +12705,7 @@
 "smile"
 ]
 ],
-"facing": -1,
-"seed": 9
+"facing": -1
 }
 ],
 "items": [],
@@ -6664,31 +12735,33 @@
 {
 "id": "rio",
 "who": "rio",
-"x": 0.62,
+"x": 0.7,
 "pose": [
 [
 0,
-"relaxed"
+"talk"
 ],
 [
-"@0.5",
-"think"
+0.4,
+"relaxed"
 ]
 ],
 "expr": [
 [
 0,
+"smile"
+],
+[
+0.4,
 "shocked"
 ]
 ],
-"facing": -1,
-"seed": 0,
-"paceT": 3.6
+"facing": -1
 },
 {
 "id": "oldman",
 "who": "oldman",
-"x": 0.35,
+"x": 0.36,
 "pose": [
 [
 0,
@@ -6696,7 +12769,7 @@
 ],
 [
 0.3,
-"chest"
+"choke"
 ]
 ],
 "expr": [
@@ -6708,26 +12781,32 @@
 0.3,
 "scared"
 ]
-],
-"seed": 3,
-"paceT": 4.2
+]
 }
 ],
 "items": [],
+"props": [
+{
+"k": "mic",
+"x": 0.75,
+"y": 0.5,
+"r": 30,
+"at": 0,
+"disc": true
+}
+],
 "text": [
 {
 "s": "CHOKING!",
-"x": 0.35,
+"x": 0.36,
 "y": 0.2,
-"at": 0.2
+"at": 0.3
 }
 ]
 },
 {
 "lines": [
-263,
-264,
-265
+263
 ],
 "set": "cafe",
 "actors": [
@@ -6737,17 +12816,21 @@
 "x": [
 [
 0,
-0.05
+0.12
 ],
 [
-"@0.5",
-0.25
+"@0.400",
+0.325
 ]
 ],
 "pose": [
 [
 0,
-"hug"
+"relaxed"
+],
+[
+"@0.450",
+"heimlich"
 ]
 ],
 "expr": [
@@ -6756,16 +12839,16 @@
 "determined"
 ]
 ],
-"seed": 0
+"lockFacing": true
 },
 {
 "id": "oldman",
 "who": "oldman",
-"x": 0.35,
+"x": 0.36,
 "pose": [
 [
 0,
-"bow"
+"choke"
 ]
 ],
 "expr": [
@@ -6773,11 +12856,7 @@
 0,
 "scared"
 ]
-],
-"facing": -1,
-"seed": 1,
-"pace": 0.05,
-"paceT": 5.0
+]
 },
 {
 "id": "crowd2",
@@ -6785,24 +12864,20 @@
 "x": [
 [
 0,
-0.75
+0.62
 ],
 [
-"@0.5",
-0.47
+"@0.500",
+0.46
 ]
 ],
 "pose": [
 [
 0,
-"explain"
+"relaxed"
 ],
 [
-"@1",
-"talk"
-],
-[
-"@2",
+"@0.600",
 "explain"
 ]
 ],
@@ -6813,8 +12888,10 @@
 ]
 ],
 "facing": -1,
-"seed": 0,
-"paceT": 5.0
+"talk": [
+"@0.600",
+1
+]
 },
 {
 "id": "sam",
@@ -6822,11 +12899,158 @@
 "x": [
 [
 0,
--0.05
+0.0
 ],
 [
-"@0.8",
-0.2
+"@0.600",
+0.18
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+],
+[
+"@0.700",
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "phone",
+"from": "@0.700"
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.75,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.45,
+1.417
+],
+"x": [
+-260.0,
+-240.0
+],
+"y": [
+-40.0,
+-40.0
+]
+},
+"text": [
+{
+"s": "CALM. FAST.",
+"x": 0.5,
+"y": 0.15,
+"at": "@0.600",
+"size": 56
+}
+]
+},
+{
+"lines": [
+264
+],
+"set": "cafe",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": [
+[
+0,
+0.325
+]
+],
+"pose": [
+[
+0,
+"heimlich"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"lockFacing": true
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.36,
+"pose": [
+[
+0,
+"choke"
+]
+],
+"expr": [
+[
+0,
+"scared"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": [
+[
+0,
+0.46
+]
+],
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+"@0.500"
+]
+},
+{
+"id": "sam",
+"who": "sam",
+"x": [
+[
+0,
+0.18
 ]
 ],
 "pose": [
@@ -6842,33 +13066,333 @@
 ]
 ],
 "hold": {
-"k": "phone"
+"k": "phone",
+"from": 0
+}
 },
-"seed": 0
+{
+"id": "rio",
+"who": "rio",
+"x": 0.75,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1
 }
 ],
 "items": [],
+"cam": {
+"z": [
+1.417,
+1.383
+],
+"x": [
+-240.0,
+-220.0
+],
+"y": [
+-40.0,
+-40.0
+]
+},
 "text": [
 {
 "s": "CALM. FAST.",
 "x": 0.5,
 "y": 0.15,
-"at": "@0.6",
+"at": -1,
+"size": 56
+}
+],
+"fx": []
+},
+{
+"lines": [
+265
+],
+"set": "cafe",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": [
+[
+0,
+0.325
+]
+],
+"pose": [
+[
+0,
+"heimlich"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"lockFacing": true
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.36,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": [
+[
+0,
+0.46
+]
+],
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"facing": -1
+},
+{
+"id": "sam",
+"who": "sam",
+"x": [
+[
+0,
+0.18
+]
+],
+"pose": [
+[
+0,
+"phoneEar"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+],
+"hold": {
+"k": "phone",
+"from": 0
+}
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.75,
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"shocked"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"cam": {
+"z": [
+1.383,
+1.35
+],
+"x": [
+-220.0,
+-200.0
+],
+"y": [
+-40.0,
+-40.0
+]
+},
+"text": [
+{
+"s": "CALM. FAST.",
+"x": 0.5,
+"y": 0.15,
+"at": -1,
 "size": 56
 },
 {
 "s": "EVERYONE KNOWS HOW",
 "x": 0.5,
 "y": 0.25,
-"at": "@2",
+"at": "@0.000",
 "size": 50
 }
-]
+],
+"fx": []
 },
 {
 "lines": [
-266,
-267,
+266
+],
+"set": "cafe",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.35,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"talk"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"facing": -1
+}
+],
+"items": [],
+"props": [
+{
+"k": "mic",
+"x": 0.58,
+"y": 0.5,
+"r": 30,
+"at": "@0.000",
+"disc": true
+}
+],
+"text": []
+},
+{
+"lines": [
+267
+],
+"set": "cafe",
+"actors": [
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.35,
+"pose": [
+[
+0,
+"wave"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+]
+},
+{
+"id": "rio",
+"who": "rio",
+"x": 0.62,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smirk"
+]
+],
+"facing": -1,
+"talk": [
+"@0.000",
+1
+]
+}
+],
+"items": [],
+"props": [
+{
+"k": "mic",
+"x": 0.58,
+"y": 0.5,
+"r": 30,
+"at": -1,
+"disc": true
+}
+],
+"text": [],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+230.39999999999998,
+230.39999999999998
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
 268
 ],
 "set": "cafe",
@@ -6888,10 +13412,7 @@
 0,
 "happy"
 ]
-],
-"seed": 5,
-"pace": 0.04,
-"paceT": 5.0
+]
 },
 {
 "id": "rio",
@@ -6900,14 +13421,6 @@
 "pose": [
 [
 0,
-"talk"
-],
-[
-"@1",
-"explain"
-],
-[
-"@2",
 "talk"
 ]
 ],
@@ -6919,12 +13432,9 @@
 ],
 "facing": -1,
 "talk": [
-"@1",
+"@0.000",
 1
-],
-"seed": 2,
-"enter": "right",
-"enterUntil": 0.18
+]
 }
 ],
 "items": [],
@@ -6934,7 +13444,7 @@
 "x": 0.58,
 "y": 0.5,
 "r": 30,
-"at": 0,
+"at": -1,
 "disc": true
 }
 ],
@@ -6943,14 +13453,115 @@
 "s": "\"THAT'S A TOUGH CROWD\"",
 "x": 0.55,
 "y": 0.18,
-"at": "@2",
+"at": "@0.000",
 "size": 50
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+115.19999999999999,
+115.19999999999999
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+269
+],
+"set": "cafe",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.5,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.25,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.78,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+],
+"facing": -1
+},
+{
+"id": "oldman",
+"who": "oldman",
+"x": 0.35,
+"pose": [
+[
+0,
+"cheer"
+]
+],
+"expr": [
+[
+0,
+"joy"
+]
+]
+}
+],
+"items": [],
+"text": [
+{
+"s": "HA HA HA",
+"x": 0.5,
+"y": 0.18,
+"at": "@0.100",
+"size": 70
 }
 ]
 },
 {
 "lines": [
-269,
 270
 ],
 "set": "cafe",
@@ -6970,10 +13581,7 @@
 0,
 "joy"
 ]
-],
-"seed": 1,
-"pace": -0.06,
-"paceT": 5.0
+]
 },
 {
 "id": "crowd1",
@@ -6990,10 +13598,7 @@
 0,
 "joy"
 ]
-],
-"seed": 2,
-"pace": 0.04,
-"paceT": 5.0
+]
 },
 {
 "id": "crowd2",
@@ -7011,10 +13616,7 @@
 "joy"
 ]
 ],
-"facing": -1,
-"seed": 2,
-"pace": -0.04,
-"paceT": 3.6
+"facing": -1
 },
 {
 "id": "oldman",
@@ -7031,10 +13633,7 @@
 0,
 "joy"
 ]
-],
-"seed": 6,
-"enter": "left",
-"enterUntil": 0.18
+]
 }
 ],
 "items": [],
@@ -7043,15 +13642,86 @@
 "s": "HA HA HA",
 "x": 0.5,
 "y": 0.18,
-"at": 0.05,
+"at": -1,
 "size": 70
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+271,
+272
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.47,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+]
+},
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.53,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "stove",
+"x": 0.75
+}
+],
+"text": [
+{
+"s": "ONE CALL",
+"x": 0.5,
+"y": 0.15,
+"at": "@0.150"
 }
 ]
 },
 {
 "lines": [
-271,
-272,
 273
 ],
 "set": "kitchen",
@@ -7059,7 +13729,7 @@
 {
 "id": "rio",
 "who": "rio",
-"x": 0.45,
+"x": 0.47,
 "pose": [
 [
 0,
@@ -7071,13 +13741,12 @@
 0,
 "happy"
 ]
-],
-"seed": 7
+]
 },
 {
 "id": "zoe",
 "who": "zoe",
-"x": 0.54,
+"x": 0.53,
 "pose": [
 [
 0,
@@ -7090,26 +13759,45 @@
 "happy"
 ]
 ],
-"facing": -1,
-"seed": 8
+"facing": -1
 }
 ],
-"items": [],
+"items": [
+{
+"k": "stove",
+"x": 0.75
+}
+],
 "text": [
 {
 "s": "ONE CALL",
 "x": 0.5,
 "y": 0.15,
-"at": 0.05
+"at": -1
 },
 {
 "s": "THE ONE THAT BROUGHT HER BACK",
 "x": 0.5,
 "y": 0.25,
-"at": "@2",
+"at": "@0.000",
 "size": 46
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-57.60000000000005,
+-57.60000000000005
+],
+"y": [
+-40,
+-40
 ]
+}
 },
 {
 "lines": [
@@ -7130,7 +13818,22 @@
 },
 {
 "lines": [
-275,
+275
+],
+"set": "space",
+"actors": [],
+"items": [],
+"card": {
+"big": "1972",
+"small": "Edward Lorenz: the butterfly effect",
+"at": "@0.100",
+"w": 780,
+"y": 0.15
+},
+"props": []
+},
+{
+"lines": [
 276
 ],
 "set": "space",
@@ -7139,7 +13842,7 @@
 "card": {
 "big": "1972",
 "small": "Edward Lorenz: the butterfly effect",
-"at": 0.05,
+"at": -1,
 "w": 780,
 "y": 0.15
 },
@@ -7149,7 +13852,7 @@
 "x": 0.3,
 "y": 0.55,
 "r": 50,
-"at": "@1",
+"at": "@0.000",
 "disc": true
 },
 {
@@ -7157,15 +13860,50 @@
 "x": 0.72,
 "y": 0.55,
 "r": 80,
-"at": "@1.5",
+"at": "@0.500",
 "disc": true
 }
-]
+],
+"fx": []
 },
 {
 "lines": [
-277,
-278,
+277
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [],
+"props": []
+},
+{
+"lines": [
+278
+],
+"set": "space",
+"actors": [],
+"items": [],
+"text": [
+{
+"s": "TINY CHANGE",
+"x": 0.3,
+"y": 0.45,
+"at": "@0.000",
+"size": 60
+},
+{
+"s": "HUGE RESULT",
+"x": 0.72,
+"y": 0.45,
+"at": "@0.500",
+"size": 70
+}
+],
+"props": [],
+"fx": []
+},
+{
+"lines": [
 279
 ],
 "set": "space",
@@ -7176,14 +13914,14 @@
 "s": "TINY CHANGE",
 "x": 0.3,
 "y": 0.45,
-"at": "@1",
+"at": -1,
 "size": 60
 },
 {
 "s": "HUGE RESULT",
 "x": 0.72,
 "y": 0.45,
-"at": "@1.5",
+"at": -1,
 "size": 70
 }
 ],
@@ -7193,23 +13931,22 @@
 "x": 0.5,
 "y": 0.7,
 "r": 70,
-"at": "@2",
+"at": "@0.000",
 "disc": true
 }
-]
+],
+"fx": []
 },
 {
 "lines": [
-280,
-281,
-282
+280
 ],
-"set": "hospital",
+"set": "classroom",
 "actors": [
 {
 "id": "crowd1",
 "who": "crowd1",
-"x": 0.4,
+"x": 0.314,
 "pose": [
 [
 0,
@@ -7221,17 +13958,33 @@
 0,
 "determined"
 ]
-],
-"seed": 8
+]
 },
 {
 "id": "crowd2",
 "who": "crowd2",
-"x": 0.6,
+"x": 0.664,
 "pose": [
 [
 0,
-"kneel"
+"cpr"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.5,
+"pose": [
+[
+0,
+"explain"
 ]
 ],
 "expr": [
@@ -7240,22 +13993,352 @@
 "smile"
 ]
 ],
-"facing": -1,
-"seed": 6
+"talk": [
+"@0.000",
+1
+],
+"facing": [
+[
+0,
+-1
+],
+[
+"@0.999",
+1
+]
+]
 }
 ],
-"items": [],
-"card": {
-"big": "A FEW HOURS",
-"small": "to learn CPR",
-"at": "@2",
-"y": 0.15
+"items": [
+{
+"k": "mannequin",
+"x": 0.35
+},
+{
+"k": "mannequin",
+"x": 0.7
+}
+]
+},
+{
+"lines": [
+281
+],
+"set": "classroom",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.314,
+"pose": [
+[
+0,
+"cpr"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.664,
+"pose": [
+[
+0,
+"cpr"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.5,
+"pose": [
+[
+0,
+"point"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"facing": [
+[
+0,
+1
+]
+]
+}
+],
+"items": [
+{
+"k": "mannequin",
+"x": 0.35
+},
+{
+"k": "mannequin",
+"x": 0.7
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-40,
+-40
+]
 }
 },
 {
 "lines": [
-283,
-284,
+282
+],
+"set": "classroom",
+"actors": [
+{
+"id": "crowd1",
+"who": "crowd1",
+"x": 0.314,
+"pose": [
+[
+0,
+"cpr"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "crowd2",
+"who": "crowd2",
+"x": 0.664,
+"pose": [
+[
+0,
+"cpr"
+]
+],
+"expr": [
+[
+0,
+"determined"
+]
+]
+},
+{
+"id": "nurse",
+"who": "nurse",
+"x": 0.5,
+"pose": [
+[
+0,
+"explain"
+]
+],
+"expr": [
+[
+0,
+"smile"
+]
+],
+"talk": [
+"@0.000",
+1
+],
+"facing": [
+[
+0,
+1
+]
+]
+}
+],
+"items": [
+{
+"k": "mannequin",
+"x": 0.35
+},
+{
+"k": "mannequin",
+"x": 0.7
+}
+],
+"card": {
+"big": "A FEW HOURS",
+"small": "to learn CPR",
+"at": "@0.000",
+"y": 0.15
+},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+0.0,
+0.0
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+283
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.47,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+]
+},
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.53,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "stove",
+"x": 0.75
+}
+],
+"text": []
+},
+{
+"lines": [
+284
+],
+"set": "kitchen",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": 0.47,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+]
+},
+{
+"id": "zoe",
+"who": "zoe",
+"x": 0.53,
+"pose": [
+[
+0,
+"hug"
+]
+],
+"expr": [
+[
+0,
+"happy"
+]
+],
+"facing": -1
+}
+],
+"items": [
+{
+"k": "stove",
+"x": 0.75
+}
+],
+"text": [
+{
+"s": "MAYBE SOMEONE YOU LOVE",
+"x": 0.5,
+"y": 0.18,
+"at": "@0.000",
+"size": 52
+}
+],
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-57.60000000000005,
+-57.60000000000005
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
 285,
 286
 ],
@@ -7264,7 +14347,7 @@
 {
 "id": "rio",
 "who": "rio",
-"x": 0.45,
+"x": 0.47,
 "pose": [
 [
 0,
@@ -7276,13 +14359,12 @@
 0,
 "happy"
 ]
-],
-"seed": 2
+]
 },
 {
 "id": "zoe",
 "who": "zoe",
-"x": 0.54,
+"x": 0.53,
 "pose": [
 [
 0,
@@ -7295,33 +14377,49 @@
 "happy"
 ]
 ],
-"facing": -1,
-"seed": 2
+"facing": -1
 }
 ],
-"items": [],
+"items": [
+{
+"k": "stove",
+"x": 0.75
+}
+],
 "text": [
 {
 "s": "MAYBE SOMEONE YOU LOVE",
 "x": 0.5,
 "y": 0.18,
-"at": "@1",
+"at": -1,
 "size": 52
 },
 {
 "s": "WOULD YOU?",
 "x": 0.5,
 "y": 0.3,
-"at": "@2.5"
+"at": "@0.500"
 }
+],
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-28.800000000000026,
+-28.800000000000026
+],
+"y": [
+-10,
+-10
 ]
+}
 },
 {
 "lines": [
-287,
-288,
-289,
-290
+287
 ],
 "set": "room",
 "actors": [
@@ -7334,7 +14432,7 @@
 0.2
 ],
 [
-"@1",
+"@0.999",
 0.45
 ]
 ],
@@ -7342,28 +14440,63 @@
 [
 0,
 "relaxed"
-],
-[
-"@2",
-"holdFront"
 ]
 ],
 "expr": [
 [
 0,
 "neutral"
-],
-[
-"@2",
-"surprised"
 ]
-],
-"seed": 4
+]
 }
 ],
 "items": [
 {
-"k": "door",
+"k": "housedoor",
+"x": 0.8
+}
+],
+"props": [],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+}
+},
+{
+"lines": [
+288
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"relaxed"
+]
+],
+"expr": [
+[
+0,
+"neutral"
+]
+]
+}
+],
+"items": [
+{
+"k": "housedoor",
 "x": 0.8
 }
 ],
@@ -7373,7 +14506,143 @@
 "x": 0.55,
 "y": 0.62,
 "r": 40,
-"at": "@1",
+"at": "@0.000",
+"disc": true
+}
+],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
+}
+},
+{
+"lines": [
+289
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.8
+}
+],
+"props": [
+{
+"k": "gift",
+"x": 0.55,
+"y": 0.62,
+"r": 40,
+"at": -1,
+"disc": true
+}
+],
+"text": [],
+"wall": "#c8b0a0",
+"wall2": "#7a6070",
+"room": {
+"frames": 260,
+"window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.12,
+1.16
+],
+"x": [
+-47.999999999999986,
+-47.999999999999986
+],
+"y": [
+-10,
+-10
+]
+}
+},
+{
+"lines": [
+290
+],
+"set": "room",
+"actors": [
+{
+"id": "rio",
+"who": "rio",
+"x": [
+[
+0,
+0.45
+]
+],
+"pose": [
+[
+0,
+"holdFront"
+]
+],
+"expr": [
+[
+0,
+"surprised"
+]
+]
+}
+],
+"items": [
+{
+"k": "housedoor",
+"x": 0.8
+}
+],
+"props": [
+{
+"k": "gift",
+"x": 0.55,
+"y": 0.62,
+"r": 40,
+"at": -1,
 "disc": true
 },
 {
@@ -7381,7 +14650,7 @@
 "x": 0.55,
 "y": 0.35,
 "r": 50,
-"at": "@3",
+"at": "@0.000",
 "disc": true
 }
 ],
@@ -7390,7 +14659,7 @@
 "s": "NAME ANY FOOD",
 "x": 0.55,
 "y": 0.2,
-"at": "@3"
+"at": "@0.000"
 }
 ],
 "wall": "#c8b0a0",
@@ -7398,6 +14667,21 @@
 "room": {
 "frames": 260,
 "window": 1250
+},
+"fx": [],
+"cam": {
+"z": [
+1.34,
+1.42
+],
+"x": [
+-95.99999999999997,
+-95.99999999999997
+],
+"y": [
+-40,
+-40
+]
 }
 },
 {

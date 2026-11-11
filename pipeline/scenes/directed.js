@@ -7,7 +7,7 @@
 //   items:  [{ k, x, ...options }]   world objects drawn on the floor line (door, bed, sink, desk, bagel ...)
 //   text:   [{ s, x, y, at, size, color }]
 // Times are fractions of the shot (0..1) so the board survives small changes in voice timing.
-import { E, V, S, mood, layer, backdrop, ease, prog, clamp, lerp, seg, circle, ring, rr, poly, glow, alpha, shade, mix, text, linGrad, radGrad, rng, FONTS } from '/engine/core.js';
+import { E, V, S, mood, layer, backdrop, ease, prog, clamp, lerp, seg, circle, ring, rr, poly, glow, alpha, shade, mix, text, measure, linGrad, radGrad, rng, FONTS } from '/engine/core.js';
 import { drawFigure, POSES, posesAt, breathe, walkPose, bigFace, blendPose } from '/engine/rig2d.js';
 import * as FX from '/engine/fx2d.js';
 import { drawSet } from './sets.js';
@@ -71,10 +71,24 @@ const EXTRA_POSES = {
   present: () => ({ ...POSES.explain }),
   bow: () => ({ ...POSES.stand, head: [20, -190], sh: [12, -164] }),
   kick2: () => ({ ...POSES.kick }),
+  stir: (p) => ({ ...POSES.stand, eF: [26, -150], hF: [42 + 5 * Math.sin(p * 60), -150 + 3 * Math.cos(p * 60)] }),   // spoon in a pot on a 0.9 m stove
+  dribble: (p) => { const b = Math.abs(Math.sin(p * 40)); return { ...POSES.stand, sh: [6, -168], eF: [26, -124], hF: [40, -100 + 10 * b] }; },
+  dunk: () => ({ ...POSES.stand, eF: [22, -214], hF: [30, -262], eB: [8, -206], hB: [16, -250], kF: [12, -60], fF: [4, -10], kB: [-6, -56], fB: [-14, -8] }),
+  shoot: () => ({ ...POSES.stand, eF: [24, -200], hF: [30, -238], eB: [14, -196], hB: [22, -232] }),
+  tuck: () => ({ ...POSES.stand, head: [6, -170], sh: [4, -150], eF: [24, -120], hF: [30, -96], eB: [18, -118], hB: [24, -94], hip: [0, -100], kF: [30, -110], fF: [20, -70], kB: [26, -106], fB: [16, -66] }),
+  heimlich: () => ({ ...POSES.stand, head: [10, -206], eF: [34, -128], hF: [52, -122], eB: [30, -130], hB: [50, -126] }),   // standing behind someone, fist under their ribs
+  choke: () => ({ ...POSES.stand, head: [14, -200], sh: [8, -172], eF: [24, -160], hF: [12, -182], eB: [20, -158], hB: [8, -178] }),   // both hands at the throat
+  shake: () => ({ ...POSES.stand, eF: [30, -136], hF: [52, -136] }),
+  tap: () => ({ ...POSES.stand, eF: [30, -156], hF: [50, -164] }),
+  remote: () => ({ ...POSES.sit, eF: [24, -128], hF: [44, -136] }),
+  photo: () => ({ ...POSES.stand, eF: [24, -176], hF: [26, -196], eB: [18, -174], hB: [24, -194] }),
   drop: () => ({ ...POSES.shrug, eF: [26, -150], hF: [44, -136], eB: [-20, -150], hB: [-36, -170] }),
 };
 const poseOf = (name, p) => EXTRA_POSES[name] ? EXTRA_POSES[name](p) : (POSES[name] || POSES.relaxed);
 
+// text that always fits inside the 1920 x 1080 frame: shrink to maxW, then keep the box inside the safe margins
+const fitSize = (g, str, size, font, weight, maxW) => { const w = measure(g, String(str), size, font, weight); return w > maxW ? size * maxW / w : size; };
+const SAFE = 60;
 // keyframe helpers ---------------------------------------------------------
 function track(keys, p, def) {
   if (keys == null) return def;
@@ -150,7 +164,7 @@ function desk(g, x, y) {
   const mw = M_(0.55), mh = M_(0.33); FX.screen(g, { x: x - mw / 2, y: y - M_(0.75) - mh - M_(0.14), w: mw, h: mh, glowC: '#7fd0ff', a: 0.12 }, (g, X, Y, w2) => { for (let i = 0; i < 3; i++) { g.fillStyle = '#7fd0d6'; g.fillRect(X + 10, Y + 12 + i * 18, 40 + (i * 37) % 50, 6); } });
   seg(g, [[x, y - M_(0.75) - M_(0.14)], [x, y - M_(0.75)]], 8, '#2a2a36');
 }
-function sign(g, x, y, o) { rr(g, x - 90, y - 40, 180, 50, 8); g.fillStyle = o.bg || '#f2efe8'; g.fill(); text(g, o.s, x, y - 14, { size: o.size || 26, color: o.color || '#2a2230', font: FONTS.ui, weight: 900 }); }
+function sign(g, x, y, o) { rr(g, x - 90, y - 40, 180, 50, 8); g.fillStyle = o.bg || '#f2efe8'; g.fill(); text(g, o.s, x, y - 14, { size: fitSize(g, o.s, o.size || 26, FONTS.ui, 900, 160), color: o.color || '#2a2230', font: FONTS.ui, weight: 900 }); }
 // generic illustrated prop placed in the world at real size: { k:'prop', p:'cat', x, up: metres above floor, size: metres }
 function propItem(g, x, y, o, p, t) { const a = track(o.a, p, 1); if (a <= 0) return; const X = x + track(o.dx, p, 0) * E.W, up = track(o.upk, p, o.up || 0), r = track(o.rot, p, 0); g.save(); g.translate(X, y - M_(up) - M_(o.size || 0.5) / 2); g.rotate(r); drawProp(g, o.p, 0, 0, M_(o.size || 0.5) / 2, t, { start: 0, disc: !!o.disc, bob: !!o.bob, a }); g.restore(); }
 function house(g, x, y, o, p, t) {   // two-storey house 8 m wide, 6 m tall, porch on the left, flat roof part
@@ -248,7 +262,65 @@ function fence(g, x, y, o, p, t) {   // garden fence 1 m high with a gate that c
   for (let k = 0; k < 5; k++) { const tx = x + M_(1.2) + k * 60; seg(g, [[tx, y], [tx, y - 60]], 3, '#3a7a3a'); circle(g, tx, y - 66, 10, '#e0443a'); }
 }
 function bankDesk(g, x, y) { FX.counter(g, { x: x - M_(1.2), y, w: M_(2.4), h: M_(1.1), color: '#4a5a6a', top: '#c8d0d8', doors: 3 }); rr(g, x - 90, y - M_(2.6), 180, 50, 8); g.fillStyle = '#2a4a7a'; g.fill(); text(g, 'BANK', x, y - M_(2.6) + 25, { size: 30, color: '#fff', font: FONTS.ui, weight: 900 }); }
-const ITEMS = { fence, bank: bankDesk, jet, puddle, stall, shop: shopFront, stairs, ship, cards, door: pinkDoor, alarm, bed, blanket, sink, counter, desk, sign, prop: propItem, house, chime, water, car, booth, table, dish, kite, float, sea, robot, glass: glassWall, stage, fridge, paper };
+
+// --- real-size props added for video 32 redo -------------------------------------------------------
+function hoop(g, x, y, o) {   // basketball hoop: rim 3.05 m high, 45 cm ring, board 1.8 x 1.05 m (seen from the side), rim points o.dir
+  const d = o.dir || -1, bx = x, rimY = y - M_(3.05);
+  seg(g, [[bx + d * -M_(0.9), y], [bx + d * -M_(0.9), y - M_(3.2)], [bx, y - M_(3.2)]], 12, '#5a5f6a');
+  g.fillStyle = '#f2f4f8'; g.fillRect(bx - 7, rimY - M_(0.8), 14, M_(1.05)); g.fillStyle = '#e0443a'; g.fillRect(bx - 8, rimY - M_(0.3), 16, M_(0.3));
+  const rx = bx + d * M_(0.38); g.strokeStyle = '#e8641a'; g.lineWidth = 6; g.beginPath(); g.ellipse(rx, rimY, M_(0.225), 8, 0, 0, 7); g.stroke();
+  seg(g, [[bx, rimY], [rx - d * M_(0.225), rimY]], 5, '#e8641a');
+  g.strokeStyle = 'rgba(245,245,250,.85)'; g.lineWidth = 2; for (let k = 0; k <= 4; k++) { const u = k / 4; g.beginPath(); g.moveTo(rx - M_(0.225) + u * M_(0.45), rimY + 4); g.lineTo(rx - M_(0.15) + u * M_(0.3), rimY + M_(0.4)); g.stroke(); }
+}
+function bball(g, x, y, o, p, t) {   // basketball 24 cm; o.bx = x keys (screen fraction), o.bup = height keys (m), o.a = alpha keys
+  const a = track(o.a, p, 1); if (a <= 0) return; const X = track(o.bx, p, x / E.W) * E.W; let up = track(o.bup, p, 0); if (o.dribble && p >= o.dribble[0] && p < o.dribble[1]) up = (o.dribble[2] ?? 0.75) * Math.abs(Math.cos(t * 5.5)); const Yb = y - M_(up) - M_(0.12);
+  g.save(); g.globalAlpha *= a; g.translate(X, Yb); g.rotate(t * 4); circle(g, 0, 0, M_(0.12), '#e8701a');
+  g.strokeStyle = '#3a1a0a'; g.lineWidth = 2; g.beginPath(); g.arc(0, 0, M_(0.12), 0, 7); g.moveTo(-M_(0.12), 0); g.lineTo(M_(0.12), 0); g.moveTo(0, -M_(0.12)); g.lineTo(0, M_(0.12)); g.stroke(); g.restore();
+}
+function stove(g, x, y, o, p, t) {   // 0.9 m kitchen stove with a 30 cm soup pot; actor stands ~0.33 m to the side and stirs
+  FX.counter(g, { x: x - M_(0.45), y, w: M_(0.9), h: M_(0.9), color: '#5a5a66', top: '#2a2a30', doors: 1 });
+  const px = x + (o.pot || 0) * 214, top = y - M_(0.9); rr(g, px - M_(0.16), top - M_(0.22), M_(0.32), M_(0.22), 6); g.fillStyle = '#9aa0ae'; g.fill(); g.fillStyle = '#6a7080'; g.fillRect(px - M_(0.18), top - M_(0.23), M_(0.36), 8);
+  seg(g, [[px - M_(0.2), top - M_(0.17)], [px - M_(0.16), top - M_(0.17)]], 5, '#3a3a44'); seg(g, [[px + M_(0.16), top - M_(0.17)], [px + M_(0.2), top - M_(0.17)]], 5, '#3a3a44');
+  for (let k = 0; k < 3; k++) { const q = (t * 0.5 + k / 3) % 1; g.strokeStyle = `rgba(255,255,255,${0.35 * (1 - q)})`; g.lineWidth = 5; g.beginPath(); g.moveTo(px - 20 + k * 20, top - M_(0.26) - q * 120); g.quadraticCurveTo(px - 30 + k * 20, top - M_(0.26) - q * 120 - 30, px - 20 + k * 20 + Math.sin(t * 2 + k) * 10, top - M_(0.26) - q * 120 - 60); g.stroke(); }
+}
+function cereal(g, x, y, o, p, t) {   // bowl on a 0.75 m table; at o.spill the bowl tips and the cereal floats down in slow motion
+  const top = y - M_(0.75), sp = o.spill ?? 2, k = clamp((p - sp) * (o._dur || 6) * 1.2), tilt = k * 1.4;
+  g.save(); g.translate(x, top - 4); g.rotate(-tilt); g.fillStyle = '#f2efe8'; g.beginPath(); g.ellipse(0, -10, M_(0.08), 22, 0, 0, Math.PI); g.fill(); g.fillStyle = '#f2efe8'; g.fillRect(-M_(0.08), -14, M_(0.16), 6);
+  if (k < 0.5) for (let i = 0; i < 6; i++) circle(g, -12 + i * 5, -16 - (i % 2) * 4, 4, '#e0a040'); g.restore();
+  if (p > sp) { const T = (p - sp) * (o._dur || 6) * 0.3; for (let i = 0; i < 18; i++) { const r = rng(i * 7 + 3), vx = (r() - 0.6) * 300, vy = -260 - r() * 260; const px = x - 20 + vx * T, py = top - 30 + vy * T + 0.5 * 2097 * T * T; if (py < y - 6) circle(g, px, py, i % 3 ? 5 : 7, i % 3 ? '#e0a040' : 'rgba(250,250,255,.9)'); else circle(g, px, y - 4, 5, '#e0a040'); } }
+}
+function billboard(g, x, y, o, p, t) {   // 6 x 3 m billboard on a 4 m post (far across the street, drawn at o.sc)
+  const sc = o.sc || 0.5, w = M_(6) * sc, h = M_(3) * sc, by = y - M_(o.up ?? 4) * sc; seg(g, [[x, y], [x, by]], 16 * sc, '#4a4a58');
+  rr(g, x - w / 2 - 10, by - h - 10, w + 20, h + 20, 8); g.fillStyle = '#2a2a36'; g.fill(); rr(g, x - w / 2, by - h, w, h, 6); g.fillStyle = '#f2c21a'; g.fill();
+  bigFace(g, x - w * 0.22, by - h * 0.42, h * 0.36, { outfit: OUTFITS[o.who || 'rio'], expr: o.expr || 'joy', blink: false });
+  text(g, o.s || 'RIO', x + w * 0.2, by - h * 0.5, { size: h * 0.32, color: '#1a1222', font: FONTS.title, weight: 700 });
+}
+function cerealbox(g, x, y, o) {   // 30 x 42 cm cereal box with a face on it, standing on a 0.9 m counter (o.on = height in m)
+  const by = y - M_(o.on ?? 0.9); rr(g, x - M_(0.15), by - M_(0.42), M_(0.3), M_(0.42), 4); g.fillStyle = '#e0443a'; g.fill();
+  text(g, 'RIO-OS', x, by - M_(0.37), { size: 15, color: '#fff', font: FONTS.ui, weight: 900 });
+  bigFace(g, x, by - M_(0.18), M_(0.08), { outfit: OUTFITS[o.who || 'rio'], expr: 'joy', blink: false });
+}
+function tvset(g, x, y, o, p, t) {   // 1.25 x 0.72 m TV on a 0.55 m stand; o.show = 'news' | 'globe' | 'movie' | 'off'; o.who = person on screen; o.s = ticker
+  const sw = M_(1.25), sh = M_(0.72), by = y - M_(0.55); g.fillStyle = '#3a2a2a'; g.fillRect(x - M_(0.7), by, M_(1.4), M_(0.55));
+  rr(g, x - sw / 2 - 8, by - sh - 14, sw + 16, sh + 16, 8); g.fillStyle = '#121218'; g.fill();
+  const on = p >= (o.on ?? 0); g.save(); g.beginPath(); g.rect(x - sw / 2, by - sh - 6, sw, sh); g.clip();
+  g.fillStyle = on ? (o.bg || '#2a4a8a') : '#08080c'; g.fillRect(x - sw / 2, by - sh - 6, sw, sh);
+  if (on) {
+    if (o.show === 'globe') drawProp(g, 'globe', x, by - sh / 2 - 6, sh * 0.32, t, { disc: false, bob: false });
+    else if (o.show === 'movie') { for (let k = 0; k < 3; k++) circle(g, x - 80 + k * 80, by - sh / 2, 26 + 8 * Math.sin(t * 2 + k), ['#e0443a', '#f2c21a', '#3a8ad0'][k]); }
+    else bigFace(g, x - sw * 0.18, by - sh * 0.42, sh * 0.32, { outfit: OUTFITS[o.who || 'crowd2'], expr: stepVal(o.expr, p, 'neutral'), talk: 0.5 + 0.5 * Math.sin(t * 20), blink: (t % 3) > 2.9 });
+    if (o.s) { g.fillStyle = '#c0302a'; g.fillRect(x - sw / 2, by - 6 - 46, sw, 46); const fs = Math.min(30, (sw - 30) / Math.max(1, measure(g, o.s, 30, FONTS.ui, 900)) * 30); text(g, o.s, x, by - 6 - 23, { size: fs, color: '#fff', font: FONTS.ui, weight: 900 }); }
+  }
+  g.restore();
+}
+function mannequin(g, x, y) { /* CPR training dummy torso on the floor, 0.6 m */ rr(g, x - M_(0.3), y - M_(0.2), M_(0.6), M_(0.2), 18); g.fillStyle = '#d8c8b8'; g.fill(); circle(g, x + M_(0.38), y - M_(0.11), M_(0.11), '#d8c8b8'); }
+function housedoor(g, x, y, o, p) {   // ordinary apartment door 0.9 x 2.03 m in a frame, knob at 1 m; o.open 0..1 swings it
+  const w = M_(0.9), h = M_(2.03), L = x - w / 2, op = track(o.open, p, 0);
+  g.fillStyle = '#3a2a24'; g.fillRect(L - 12, y - h - 12, w + 24, h + 12); g.fillStyle = '#1a1418'; g.fillRect(L, y - h, w, h);
+  const dw = w * (1 - 0.8 * op); rr(g, L, y - h, dw, h, 3); g.fillStyle = o.color || '#8a5a3a'; g.fill();
+  if (op < 0.5) { for (const yy of [0.12, 0.55]) { rr(g, L + dw * 0.14, y - h + h * yy, dw * 0.72, h * 0.32, 4); g.strokeStyle = 'rgba(0,0,0,.22)'; g.lineWidth = 3; g.stroke(); } circle(g, L + dw * 0.85, y - M_(1.0), 7, '#e0c070'); }
+}
+const ITEMS = { housedoor, hoop, bball, stove, cereal, billboard, cerealbox, tvset, mannequin, fence, bank: bankDesk, jet, puddle, stall, shop: shopFront, stairs, ship, cards, door: pinkDoor, alarm, bed, blanket, sink, counter, desk, sign, prop: propItem, house, chime, water, car, booth, table, dish, kite, float, sea, robot, glass: glassWall, stage, fridge, paper };
 
 // held objects, drawn in pose units (1 m = 134) right at the hand --------------------
 function heldItem(g, k, h, p, o = {}) {
@@ -272,6 +344,10 @@ function heldItem(g, k, h, p, o = {}) {
   else if (k === 'shovel') { seg(g, [[0, 20], [0, -30]], 2.4, '#8a5a3a'); rr(g, -6, 20, 12, 14, 2); g.fillStyle = '#6a6a72'; g.fill(); }
   else if (k === 'pepper') { g.fillStyle = '#e0302a'; g.beginPath(); g.ellipse(6, -4, 6, 3, 0.3, 0, 7); g.fill(); }
   else if (k === 'suitcase') { rr(g, -6, 2, 26, 30, 3); g.fillStyle = '#3a4a6a'; g.fill(); seg(g, [[2, 2], [2, -2], [12, -2], [12, 2]], 1.6, '#2a2a30'); }
+  else if (k === 'spoon') { seg(g, [[0, 0], [6, 30]], 2, '#c8ccd4'); g.fillStyle = '#c8ccd4'; g.beginPath(); g.ellipse(7, 33, 3.5, 2.4, 0, 0, 7); g.fill(); }
+  else if (k === 'remote') { rr(g, -2, -4, 14, 5, 1.5); g.fillStyle = '#22222e'; g.fill(); circle(g, 9, -1.5, 1.2, '#e0443a'); }
+  else if (k === 'camera') { rr(g, -8, -16, 22, 15, 2); g.fillStyle = '#1a1a22'; g.fill(); circle(g, 9, -8, 5, '#3a3a48'); circle(g, 9, -8, 2.6, '#6fa8ff'); if (o.flash) { g.save(); g.globalCompositeOperation = 'lighter'; circle(g, -4, -20, 18 * o.flash, 'rgba(255,255,240,.9)'); g.restore(); } }
+  else if (k === 'bowl') { g.fillStyle = '#f2efe8'; g.beginPath(); g.ellipse(6, -4, 9, 5, 0, 0, Math.PI); g.fill(); }
   else if (k === 'phone') { rr(g, 0, -12, 7, 13, 1.5); g.fillStyle = '#22222e'; g.fill(); g.fillStyle = '#6fc3ff'; g.fillRect(1, -11, 5, 10); }
   g.restore();
 }
@@ -286,7 +362,7 @@ function drawHeld(g, a, pz, p) {
       const sx = pz.hF[0] + 34, sy = pz.hF[1] - 2;          // spout tip after the 0.9 rad tilt
       if (fill < 1) seg(g, [[sx, sy], [sx, pz.hB[1] - 9]], 1.8, '#6a3a20');
     } else if (hd.k === 'cup' && hd.sip) heldItem(g, 'cup', [pz.hF[0] - 6, pz.hF[1] + 2], p, { tilt: -0.55 });
-    else heldItem(g, hd.k, pz.hF, p);
+    else heldItem(g, hd.k, pz.hF, p, { flash: hd.flash ? Math.max(0, Math.sin(p * hd.flash) - 0.85) * 6 : 0 });
   }
   g.restore();
 }
@@ -297,7 +373,7 @@ function dropFall(g, a, pz, p, info) {
   const g0 = 9.8 * PX_PER_M, fallT = Math.sqrt(2 * (a.Y - 12 - y0) / g0);
   let y, rot = t * 9 * a.facing; const x = x0 + a.facing * 60 * Math.min(t, fallT + 0.6);
   if (t < fallT) y = y0 + 0.5 * g0 * t * t; else { const tb = t - fallT, v = g0 * fallT * 0.3; y = a.Y - 12 - Math.max(0, v * tb - 0.5 * g0 * tb * tb); }
-  g.save(); g.translate(x, y); g.rotate(rot); circle(g, 0, 0, 7 * a.s, '#d8a060'); circle(g, 0, 0, 2.4 * a.s, 'rgba(20,14,20,.9)'); g.restore();
+  g.save(); g.translate(x, y); g.rotate(rot); if (hd.k === 'bagel' || !hd.k) { circle(g, 0, 0, 7 * a.s, '#d8a060'); circle(g, 0, 0, 2.4 * a.s, 'rgba(20,14,20,.9)'); } else { g.scale(a.s, a.s); heldItem(g, hd.k, [0, 0], p); } g.restore();
 }
 
 // scenery --------------------------------------------------------------------
@@ -362,6 +438,7 @@ export function directed(g, t, info) {
   else drawSet(d.set || 'home', g, t, cam, { mood: d.smood });
   // items behind actors
   layer(g, cam, 1, (g) => {
+    for (const it of (d.items || [])) it._dur = info.dur;
     for (const it of (d.items || [])) if (!it.front) ITEMS[it.k]?.(g, it.x * E.W, it.y ? it.y * E.H : Y, it, p, t);
     for (const a of (d.actors || [])) {
       const of = OUTFITS[a.who || a.id] || a.outfit || OUTFITS.rio, s = a.s || 1.6;
@@ -378,7 +455,8 @@ export function directed(g, t, info) {
       const up = track(a.up, p, 0), fly = up > 0.05 || a.fly;
       const X = xf * E.W, Yy = Y + (a.dy || 0) + track(a.yk, p, 0) * E.H - M_(up) + (fly ? Math.sin(t * 2.4 + (a.seed || 0)) * 6 : 0);
       const bounce = (!moving && !fly && /^(cheer|jump)$/.test(stepVal(a.pose, p, ''))) ? Math.abs(Math.sin(t * 6 + (a.seed || 0))) * 16 : 0;
-      let pz = moving ? walkPose(info.globalT * 9, {}) : poseOf(stepVal(a.pose, p, 'relaxed'), p);
+      let pz = moving && !fly ? walkPose(info.globalT * 9, {}) : poseOf(stepVal(a.pose, p, 'relaxed'), p);
+      if (moving && !fly && a.walkArms) { const ar = poseOf(stepVal(a.pose, p, 'relaxed'), p), dx = pz.sh[0] - ar.sh[0], dy = pz.sh[1] - ar.sh[1]; pz = { ...pz, eF: [ar.eF[0] + dx, ar.eF[1] + dy], hF: [ar.hF[0] + dx, ar.hF[1] + dy], eB: [ar.eB[0] + dx, ar.eB[1] + dy], hB: [ar.hB[0] + dx, ar.hB[1] + dy] }; }   // walk while dribbling / carrying
       if (moving && a.hold && a.hold.k !== 'pour') { const hc = EXTRA_POSES.holdCup(), dx = pz.sh[0] - hc.sh[0], dy = pz.sh[1] - hc.sh[1]; pz = { ...pz, eF: [hc.eF[0] + dx, hc.eF[1] + dy], hF: [hc.hF[0] + dx, hc.hF[1] + dy] }; }
       // talking people gesture: cycle through natural talk poses while their line plays
       const pn0 = stepVal(a.pose, p, 'relaxed'), talkNow = a.talk && p >= a.talk[0] && p <= a.talk[1];
@@ -391,7 +469,7 @@ export function directed(g, t, info) {
       if (a.shadowAt != null && fly) { g.fillStyle = 'rgba(0,0,0,.18)'; g.beginPath(); g.ellipse(X, Y, 30 * s, 5 * s, 0, 0, 7); g.fill(); }
       if (a.trail) FX.speedLines(g, t, { cx: X, cy: Yy - 120, count: 14, a: 0.12, inner: 120 });
       const pn = stepVal(a.pose, p, 'relaxed');
-      if (!moving && !fly && a.chair !== false && a.clip == null && /^(sit|sitTable|eat|type|sitPhone|sitBack)$/.test(pn)) FX.chair(g, X - facing * 6 * s, Y, s * 0.62, '#3a2a2a');   // something to sit on
+      if (!moving && !fly && a.chair !== false && a.clip == null && /^(sit|sitTable|eat|type|sitPhone|sitBack|remote)$/.test(pn)) FX.chair(g, X - facing * 6 * s, Y, s * 0.62, '#3a2a2a');   // something to sit on
       if (a.clip != null) { g.save(); g.beginPath(); g.rect(-E.W, -E.H * 2, E.W * 3, Y - M_(a.clip) + E.H * 2); g.clip(); }   // e.g. seated in a car: hide legs below the door line
       drawFigure(g, { x: X, y: Yy - bounce, s, facing, outfit: of, pose: pz, expr, rot: track(a.rot, p, 0) || 0, shadow: !fly, alpha: al, talk: talking ? 0.5 + 0.5 * Math.sin(t * 22) : 0, look: [facing * 0.6, 0], rim: { color: M.rim || '#ffc68a', dir: [0, -1], w: 4 } });
       if (a.clip != null) g.restore();
@@ -403,7 +481,7 @@ export function directed(g, t, info) {
     for (const it of (d.items || [])) if (it.front) ITEMS[it.k]?.(g, it.x * E.W, it.y ? it.y * E.H : Y, it, p, t);
     for (const it of (d.extra || [])) ITEMS[it.k]?.(g, it.x * E.W, it.y ? it.y * E.H : Y, it, p, t);
   });
-  for (const tx of (d.text || [])) { const a = ease.outBack(prog(p, tx.at ?? 0.1, (tx.at ?? 0.1) + 0.15)); if (a <= 0) continue; g.save(); g.translate(tx.x * E.W, tx.y * E.H); g.scale(a, a); text(g, tx.s, 0, 0, { size: tx.size || 70, color: tx.color || S().ui.gold, font: FONTS.title, weight: 700, stroke: 10, strokeColor: 'rgba(0,0,0,.55)' }); g.restore(); }
+  for (const tx of (d.text || [])) { const a = ease.outBack(prog(p, tx.at ?? 0.1, (tx.at ?? 0.1) + 0.15)); if (a <= 0) continue; const fs = fitSize(g, tx.s, tx.size || 70, FONTS.title, 700, E.W - 2 * SAFE - 20), hw = measure(g, tx.s, fs, FONTS.title, 700) / 2 + 10; g.save(); g.translate(clamp(tx.x * E.W, SAFE + hw, E.W - SAFE - hw), clamp(tx.y * E.H, SAFE + fs / 2, E.H * 0.86)); g.scale(a, a); text(g, tx.s, 0, 0, { size: fs, color: tx.color || S().ui.gold, font: FONTS.title, weight: 700, stroke: 10, strokeColor: 'rgba(0,0,0,.55)' }); g.restore(); }
   for (const pr of (d.props || [])) drawProp(g, pr.k, pr.x * E.W, pr.y * E.H, pr.r || 70, t, { start: (pr.at || 0) * info.dur, disc: pr.disc ?? false });
   const fx = [].concat(d.fx || []);
   if (fx.includes('rain')) FX.rain(g, t, { count: 260, a: 0.5 });
@@ -425,7 +503,9 @@ export function directed(g, t, info) {
       if (ins.icon) drawProp(g, ins.icon, -r * 0.75, -r * 0.75, 34, t, { disc: true });
       g.restore(); }
   }
-  if (d.thought) { const th = d.thought, a = ease.outBack(prog(p, th.at ?? 0.1, (th.at ?? 0.1) + 0.12)); if (a > 0) { const cx = E.W * (th.x ?? 0.3), cy = E.H * (th.y ?? 0.25); g.save(); g.translate(cx, cy); g.scale(a, a); for (const [dx, dy, r] of [[-130, 120, 14], [-100, 90, 22]]) circle(g, dx, dy, r, '#f4efe6'); g.fillStyle = '#f4efe6'; g.beginPath(); g.ellipse(0, 0, 220, 130, 0, 0, 7); g.fill(); if (th.s) text(g, th.s, 0, 70, { size: 34, color: '#2a2230', font: FONTS.ui, weight: 900 }); (th.props || []).forEach((k, i, arr) => drawProp(g, k, (i - (arr.length - 1) / 2) * 140, 0, 54, t, { disc: false })); if (th.cross) { seg(g, [[-160, -90], [160, 90]], 14, '#e0443a'); } g.restore(); } }
+  if (d.thought) { const th = d.thought, a = ease.outBack(prog(p, th.at ?? 0.1, (th.at ?? 0.1) + 0.12)); if (a > 0) { const cx = E.W * (th.x ?? 0.3), cy = E.H * (th.y ?? 0.25); g.save(); g.translate(cx, cy); g.scale(a, a); for (const [dx, dy, r] of [[-130, 120, 14], [-100, 90, 22]]) circle(g, dx, dy, r, '#f4efe6'); g.fillStyle = '#f4efe6'; g.beginPath(); g.ellipse(0, 0, 220, 130, 0, 0, 7); g.fill(); if (th.s) text(g, th.s, 0, 70, { size: fitSize(g, th.s, 34, FONTS.ui, 900, 360), color: '#2a2230', font: FONTS.ui, weight: 900 }); (th.props || []).forEach((k, i, arr) => drawProp(g, k, (i - (arr.length - 1) / 2) * 140, 0, 54, t, { disc: false })); if (th.cross) { seg(g, [[-160, -90], [160, 90]], 14, '#e0443a'); } g.restore(); } }
   if (d.card) {   // fact card: a big number / short label over a dimmed frame, used for real figures in the narration
-    const c = d.card, a = ease.outBack(prog(p, c.at ?? 0.15, (c.at ?? 0.15) + 0.15)); if (a > 0) { g.save(); g.translate(E.W * (c.x ?? 0.5), E.H * (c.y ?? 0.22)); g.scale(a, a); const w = c.w || 560; rr(g, -w / 2, -90, w, 180, 26); g.fillStyle = 'rgba(16,12,24,.82)'; g.fill(); g.strokeStyle = S().ui.gold; g.lineWidth = 4; g.stroke(); text(g, c.big, 0, -18, { size: c.size || 88, color: S().ui.gold, font: FONTS.ui, weight: 900 }); if (c.small) text(g, c.small, 0, 52, { size: 32, color: '#f2ecdf', font: FONTS.ui, weight: 800 }); g.restore(); } }
+    const c = d.card, a = ease.outBack(prog(p, c.at ?? 0.15, (c.at ?? 0.15) + 0.15)); if (a > 0) { const maxW = E.W - 2 * SAFE, bs = fitSize(g, c.big, c.size || 88, FONTS.ui, 900, maxW - 90), ss = c.small ? fitSize(g, c.small, 32, FONTS.ui, 800, maxW - 70) : 32;
+      const w = Math.min(maxW, Math.max(c.w || 560, measure(g, c.big, bs, FONTS.ui, 900) + 90, c.small ? measure(g, c.small, ss, FONTS.ui, 800) + 70 : 0));
+      g.save(); g.translate(clamp(E.W * (c.x ?? 0.5), SAFE + w / 2, E.W - SAFE - w / 2), clamp(E.H * (c.y ?? 0.22), SAFE + 90, E.H - 200)); g.scale(a, a); rr(g, -w / 2, -90, w, 180, 26); g.fillStyle = 'rgba(16,12,24,.82)'; g.fill(); g.strokeStyle = S().ui.gold; g.lineWidth = 4; g.stroke(); text(g, c.big, 0, -18, { size: bs, color: S().ui.gold, font: FONTS.ui, weight: 900 }); if (c.small) text(g, c.small, 0, 52, { size: ss, color: '#f2ecdf', font: FONTS.ui, weight: 800 }); g.restore(); } }
 }

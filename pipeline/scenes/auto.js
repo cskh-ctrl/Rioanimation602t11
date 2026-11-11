@@ -134,8 +134,9 @@ function science(g, t, info) {
     icon(g, info.icon, ix, iy, r, t, col);
     ring(g, ix, iy, r * 1.35, 2, alpha(col, 0.35));
     const lx = E.W * V(0.66, 0.5), ly = E.H * V(0.42, 0.5);
-    text(g, info.sci || '', lx, ly, { size: V(96, 96), color: ui.gold, font: FONTS.ui, weight: 900, spacing: 6, glow: 24, glowColor: alpha(ui.gold, 0.5), alpha: ease.out(prog(t, 0.3, 0.7)) });
-    UI.callout(g, t, { at: [ix + r * 0.6, iy - r * 0.6], to: [lx - V(160, 0), ly - V(60, 120)], str: '', start: 0.4 });
+    const room = E.vertical ? E.W - 120 : E.W - (ix + r * 1.4) - 80, fsz = Math.min(V(96, 96), V(96, 96) * room / Math.max(1, measure(g, info.sci || '', V(96, 96), FONTS.ui, 900) + 12 * (info.sci || '').length)); const lxx = E.vertical ? lx : Math.max(lx, ix + r * 1.4 + 40 + room / 2 - 40);
+    text(g, info.sci || '', lxx, ly, { size: fsz, color: ui.gold, font: FONTS.ui, weight: 900, spacing: 6, glow: 24, glowColor: alpha(ui.gold, 0.5), alpha: ease.out(prog(t, 0.3, 0.7)) });
+    UI.callout(g, t, { at: [ix + r * 0.6, iy - r * 0.6], to: [lxx - V(160, 0), ly - V(60, 120)], str: '', start: 0.4 });
     UI.lineFigure(g, { x: E.W * V(0.66, 0.82), y: E.H * V(0.82, 0.72), s: V(1.1, 0.9), pose: [POSES.think, POSES.point, POSES.explain][info.seed % 3], color: alpha('#e8f0ff', 0.9) });
     if (info.numAny) text(g, info.numAny[0] + (info.numAny[1] === '%' ? '%' : ' ' + (info.numAny[1] || '')), lx, ly + V(110, 110), { size: V(56, 60), color: ui.cream, font: FONTS.ui, weight: 900, alpha: ease.out(prog(t, 0.6, 1.0)) });
   });
@@ -176,7 +177,7 @@ function title(g, t, info) {
   const m = tt.match(/^(What If)\s+(.*)$/i);
   const rest = m ? m[2] : tt;
   const words = rest.split(' '); const half = Math.ceil(words.length / 2);
-  const lines = E.vertical ? [m ? 'WHAT IF' : '', words.slice(0, half).join(' ').toUpperCase(), words.slice(half).join(' ').toUpperCase() + '?'].filter(Boolean) : [m ? 'WHAT IF' : '', rest.toUpperCase() + '?'].filter(Boolean);
+  const lines = (E.vertical || rest.length > 22) ? [m ? 'WHAT IF' : '', words.slice(0, half).join(' ').toUpperCase(), words.slice(half).join(' ').toUpperCase() + '?'].filter(Boolean) : [m ? 'WHAT IF' : '', rest.toUpperCase() + '?'].filter(Boolean);
   UI.titleCard(g, t, { lines, dur: info.dur + 0.6, y: E.H * V(0.32, 0.3) });
 }
 
